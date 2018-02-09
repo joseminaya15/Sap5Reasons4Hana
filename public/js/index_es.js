@@ -13,7 +13,7 @@ function solicitarEstimacion() {
 	var term_cond		= null;
 	var contacto		= null;
 	if(nombre_completo == '' && empresa == '' && email == '' && pais == '' && cargo == '' && telefono == '' && c_email == false && terminos == false) {
-		validarCampos();
+		//validarCampos();
 	}
 	if(terminos == false) {
 		return;
