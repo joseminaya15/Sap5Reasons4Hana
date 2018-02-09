@@ -16,4 +16,8 @@ class Es extends CI_Controller {
 	{
 		$this->load->view('v_es');
 	}
+
+    function solicitarEstimacion() {
+        
+    }
 }

@@ -16,4 +16,8 @@ class Pt extends CI_Controller {
 	{
 		$this->load->view('v_pt');
 	}
+
+    function solicitarEstimacion() {
+        
+    }
 }
