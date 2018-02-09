@@ -15,7 +15,18 @@ class En extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('v_en');
+        $client_id     = "864xp2wdu9eghe";
+        $client_secret = "M6NxoP4EWlaADF2U";
+        $redirect_uri  = "http://www.sap-latam.com/sap_5reasons_4hana/callback";
+        $csrf_token    = random_int(1111111, 9999999);
+        $scopes        = "r_basicprofile%20r_emailaddress";
+        $data['client_id']     = $client_id;
+        $data['client_secret'] = $client_secret;
+        $data['redirect_uri']  = $redirect_uri;
+        $data['csrf_token']    = $csrf_token;
+        $data['scopes']        = $scopes;
+        $data['nombre']        = '';
+		$this->load->view('v_en', $data);
 	}
 
     function solicitarEstimacion() {
