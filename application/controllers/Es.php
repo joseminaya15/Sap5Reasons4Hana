@@ -29,6 +29,12 @@ class Es extends CI_Controller {
 	}
 
     function solicitarEstimacion() {
-        
+        $data['error'] = EXIT_ERROR;
+        $data['msj']   = null;
+        try {
+            $data['error'] = EXIT_ERROR;
+        }catch(Exception $e) {
+            $data['msj'] = $e->getMessage();
+        }
     }
 }

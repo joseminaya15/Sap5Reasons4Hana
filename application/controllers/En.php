@@ -12,7 +12,6 @@ class En extends CI_Controller {
         $this->output->set_header('Pragma: no-cache');
     }
 
-
 	public function index()
 	{
         $client_id     = "864xp2wdu9eghe";
@@ -30,6 +29,12 @@ class En extends CI_Controller {
 	}
 
     function solicitarEstimacion() {
-        
+        $data['error'] = EXIT_ERROR;
+        $data['msj'] = null;
+        try {
+            $data['error'] = EXIT_SUCCESS;
+        }catch(Exception $e) {
+            $data['msj'] = $e->getMessage();
+        }
     }
 }
