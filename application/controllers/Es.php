@@ -14,7 +14,6 @@ class Es extends CI_Controller {
 
 	public function index()
 	{
-		_log('entra');
 		$this->load->view('v_es');
 	}
 }
