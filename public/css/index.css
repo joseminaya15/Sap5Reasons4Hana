@@ -59,6 +59,39 @@ h2{
  	max-width: 60px;
     height: 35px;
 }
+/*CHAT*/
+.chat{
+    max-width: 105px;
+    background-color: #1D8ACB;
+    color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    bottom: 10px;
+    right: 50px;
+    padding: 5px;
+    z-index: 10;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.chat a{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'RobotoRegular';
+}
+.chat img{
+	max-width: 40px;
+    width: 100%;
+}
+.chat label{
+    margin: 0;
+    font-family: 'RobotoRegular';
+    font-weight: 100;
+    width: 100%;
+}
 /*BOOTSTRAP-SELECT*/
 .mdl-idioma .bootstrap-select .dropdown-menu>li>a{
 	-webkit-transition: background-color .25s linear;
