@@ -19,12 +19,34 @@
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>font-awesome.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>material-icons.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>roboto.css?v=<?php echo time();?>">
-	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>animate.css?v=<?php echo time();?>">
+	<!-- <link rel="stylesheet"    href="<?php echo RUTA_CSS?>animate.css?v=<?php echo time();?>"> -->
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
 </head>
 <body>
-
+	<section id="principal">
+		<div class="header">
+			<div class="header-left">
+				<img class="logo-header" src="<?php echo RUTA_IMG?>logo/logo_favicon.png">
+				<h2>SAP S/4 HANA</h2>
+			</div>
+			<div class="header-right">
+				<div class="mdl-idioma">
+					<select class="selectpicker" id="Idioma"  name="Idioma" onchange="cambiarIdioma()">
+						<option value="Español">Espa&ntilde;ol</option>
+						<option value="Inglés">Ingl&eacute;s</option>
+						<option value="Portugués">Portugu&eacute;s</option>
+					</select>
+				</div>
+				<div class="background3"></div>
+				<div class="background2"></div>
+				<div class="background1"></div>
+			</div>
+		</div>
+		<div class="chat">
+			
+		</div>	
+	</section>
 	<script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_JS?>jquery-1.11.2.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_PLUGINS?>bootstrap/bootstrap.min.js?v=<?php echo time();?>"></script>
@@ -33,6 +55,13 @@
 	<script src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>toaster/toastr.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
-    <script src="<?php echo RUTA_JS?>index.js?v=<?php echo time();?>"></script>
+    <script src="<?php echo RUTA_JS?>index_es.js?v=<?php echo time();?>"></script>
+    <script type="text/javascript">
+    	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+        	$('select').selectpicker('mobile');
+        } else {
+            $('select').selectpicker();
+        }
+    </script>
 </body>
 </html>
