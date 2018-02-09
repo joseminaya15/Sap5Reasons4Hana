@@ -91,7 +91,8 @@ defined('RUTA_IMG')     OR define('RUTA_IMG'    , 'http://'.(isset($_SERVER['HTT
 defined('RUTA_JS')      OR define('RUTA_JS'     , 'http://'.(isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : null).'/Sap5Reasons4Hana/public/js/');
 defined('RUTA_PLUGINS') OR define('RUTA_PLUGINS', 'http://'.(isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : null).'/Sap5Reasons4Hana/public/plugins/');
 
-defined('PROYECTO_NAME')      OR define('PROYECTO_NAME','Sap5Reasons4Hana');
+//NOMBRE DEL PROYECTO
+defined('PROYECTO_NAME') OR define('PROYECTO_NAME','Sap5Reasons4Hana');
 
 //MENSAJES DE ERROR,CONFIRMACION Y EDICION
 defined('MSJ_INS') OR define('MSJ_INS', 'Se Registr&oacute; Correctamente');
