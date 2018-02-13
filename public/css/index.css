@@ -6,6 +6,30 @@ body{
 }
 h2{
 	font-family: 'RobotoBold';
+    color: #FFFFFF;
+}
+p{
+    margin: 0;
+    color: #FFFFFF;
+}
+/*GENERAL*/
+.height{
+    height: 100vh;
+}
+.inline{
+    display: inline-block;
+}
+.mdl-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+}
+.center-container{
+    margin: auto;
+    width: 100%;
+    max-width: 1150px;
+    text-align: center;
 }
 .header{
     position: fixed;
@@ -91,6 +115,58 @@ h2{
     font-family: 'RobotoRegular';
     font-weight: 100;
     width: 100%;
+}
+/*HOME*/
+.mdl-imagenes,
+.mdl-title{
+    vertical-align: middle;
+}
+.mdl-title strong{
+    color: #F0AB00;
+    font-size: 150px;
+    line-height: 125px;
+    vertical-align: top;
+}
+.mdl-letras{
+    max-width: 450px;
+    width: 100%;
+    text-align: left;
+    padding: 0 10px;
+}
+.mdl-letras p{
+    line-height: 50px;
+}
+.mdl-letras h2{
+    line-height: 60px;
+    margin: 0;
+    color: #F0AB00;
+}
+.mdl-letras p,
+.mdl-letras h2{
+    font-size: 60px;
+}
+.mdl-imagenes img{
+    max-width: 120px;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+.mdl-home-next{
+    width: 100%;
+    max-width: 120px;
+    text-align: right;
+}
+.mdl-home-next button{
+    min-width: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    box-shadow: none;
+}
+.mdl-home-next button i{
+    font-size: 100px;
+    line-height: 1;
+    color: #F0AB00;
 }
 /*BOOTSTRAP-SELECT*/
 .mdl-idioma .bootstrap-select .dropdown-menu>li>a{

@@ -45,7 +45,30 @@
 		</div>
 		<div class="chat">
 			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Cont&aacute;ctenos</label></a>
-		</div>	
+		</div>
+		<div id="home" class="height">
+			<div class="mdl-container">
+				<div class="center-container">
+					<div class="mdl-title inline">
+						<strong class="inline">5</strong>
+						<div class="mdl-letras inline">
+							<p>razones principales</p>
+							<h2>por qu&eacute; elegir SAP S/4 HANA</h2>
+						</div>	
+					</div>
+					<div class="mdl-imagenes inline">
+						<img src="<?php echo RUTA_IMG?>logo/retail.png">
+						<img src="<?php echo RUTA_IMG?>logo/retail.png">
+						<img src="<?php echo RUTA_IMG?>logo/retail.png">
+						<img src="<?php echo RUTA_IMG?>logo/retail.png">
+						<img src="<?php echo RUTA_IMG?>logo/retail.png">
+					</div>
+					<div class="mdl-home-next inline">
+						<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect"><i class="mdi mdi-keyboard_arrow_right"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 	<script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_JS?>jquery-1.11.2.min.js?v=<?php echo time();?>"></script>
