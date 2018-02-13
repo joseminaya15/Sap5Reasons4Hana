@@ -19,7 +19,7 @@
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>font-awesome.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>material-icons.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>roboto.css?v=<?php echo time();?>">
-	<!-- <link rel="stylesheet"    href="<?php echo RUTA_CSS?>animate.css?v=<?php echo time();?>"> -->
+	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>animate.css?v=<?php echo time();?>">
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
 </head>
@@ -47,7 +47,7 @@
 			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Cont&aacute;ctenos</label></a>
 		</div>
 		<div id="home" class="height">
-			<div class="mdl-container">
+			<div id="window1" class="mdl-container">
 				<div class="center-container">
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>
@@ -64,7 +64,25 @@
 						<img src="<?php echo RUTA_IMG?>logo/retail.png">
 					</div>
 					<div class="mdl-home-next inline">
-						<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect"><i class="mdi mdi-keyboard_arrow_right"></i></button>
+						<button id="" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="buttonNext()"><i class="mdi mdi-keyboard_arrow_right"></i></button>
+					</div>
+				</div>
+			</div>
+			<div id="window2" class="mdl-container opacity-done">
+				<div class="center-container">
+					<div class="mdl-title inline">
+						<strong class="inline">5</strong>
+						<div class="mdl-letras inline">
+							<p>razones principales</p>
+							<h2>por qu&eacute; elegir SAP S/4 HANA</h2>
+						</div>	
+					</div>
+					<div class="mdl-imagenes inline">
+						<img src="<?php echo RUTA_IMG?>logo/retail.png">
+						<img src="<?php echo RUTA_IMG?>logo/retail.png">
+						<img src="<?php echo RUTA_IMG?>logo/retail.png">
+						<img src="<?php echo RUTA_IMG?>logo/retail.png">
+						<img src="<?php echo RUTA_IMG?>logo/retail.png">
 					</div>
 				</div>
 			</div>

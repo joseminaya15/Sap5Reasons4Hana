@@ -1,3 +1,9 @@
+function buttonNext(){
+	$('.mdl-container').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
+	$('#window1').addClass('animated fadeOutLeft');
+	$('#window2').addClass('animated fadeInRight');
+}
+
 function solicitarEstimacion() {
 	var nombre_completo = $('#nombre_completo').val(); 
 	var empresa  		= $('#empresa').val();
