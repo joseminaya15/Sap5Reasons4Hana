@@ -104,6 +104,7 @@ p{
     vertical-align: middle;
     font-size: 20px;
     color: #FFFFFF;
+    line-height: 32px;
 }
 .logo-header{
  	max-width: 60px;
@@ -234,6 +235,18 @@ p{
 }
 .mdl-industrias img{
     max-width: 80px;
+}
+/*CARDS INDUSTRIA*/
+.contenido-industria{
+    max-width: 260px;
+    text-align: left;
+}
+.contenido-industria h2{
+    font-size: 24px;
+    line-height: 32px;
+}
+.contenido-industria strong{
+    color: #F0AB00
 }
 /*BOOTSTRAP-SELECT*/
 .mdl-idioma .bootstrap-select .dropdown-menu>li>a{

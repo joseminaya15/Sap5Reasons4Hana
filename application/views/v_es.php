@@ -125,6 +125,56 @@
 					</div>
 				</div>
 			</div>
+			<div id="window3" class="">
+				<div id="industriaServicio-contenido" class="mdl-container opacity-done">
+					<div class="center-container">
+						<div class="contenido-industria inline">
+							<h2>Para la industria de <strong>Servicios Profesionales</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
+							 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						</div>
+						<div class="card-industria inline">
+							<div class="mdl-card-question mdl-card-3">
+			            		<div class="flip-card">
+			            			<div class="card-front">
+			            				<img src="<?php echo RUTA_IMG?>cards/card-cloud.png">
+			            				<p>Cloud</p> 
+										<i class="mdi mdi-add"></i>
+			            			</div>
+			            			<div class="card-back">
+			            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+										<i class="mdi mdi-remove"></i>
+			            			</div>
+			            		</div>
+			            	</div>
+						</div>
+					</div>
+				</div>
+				<div id="industriaRetail-contenido" class="mdl-container opacity-done">
+					<div class="center-container">
+						<h2>Retail</h2>
+					</div>
+				</div>
+				<div id="industriaProducto-contenido" class="mdl-container opacity-done">
+					<div class="center-container">
+						<h2>Producto</h2>
+					</div>
+				</div>
+				<div id="industriaProceso-contenido" class="mdl-container opacity-done">
+					<div class="center-container">
+						<h2>Proceso</h2>
+					</div>
+				</div>
+				<div id="industriaDistribucion-contenido" class="mdl-container opacity-done">
+					<div class="center-container">
+						<h2>Distribucion</h2>
+					</div>
+				</div>
+				<div id="industriaBanking-contenido" class="mdl-container opacity-done">
+					<div class="center-container">
+						<h2>Banking</h2>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<!--MODAL-->
@@ -144,8 +194,8 @@
                         </ul>
 					</div> 
     				<div class="mdl-card__actions text-right">       				    
-                        <button id="closeModal" class="mdl-button mdl-js-button mdl-js-ripple-effect" data-dismiss="modal">Cerrar</button>        				    
-                        <button id="selectIndustria"class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised">Seleccionar</button>
+                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect" onclick="closeModal()">Cerrar</button>        				    
+                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised" onclick="selectIndustria()">Seleccionar</button>
                     </div>
                 </div>
             </div>
