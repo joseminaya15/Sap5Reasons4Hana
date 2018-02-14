@@ -12,7 +12,7 @@ class En extends CI_Controller {
         $this->output->set_header('Pragma: no-cache');
     }
 
-	public function index() {
+	public function index(){
         $client_id     = "864xp2wdu9eghe";
         $client_secret = "M6NxoP4EWlaADF2U";
         $redirect_uri  = "http://www.sap-latam.com/sap_5reasons_4hana/callback";
@@ -26,7 +26,7 @@ class En extends CI_Controller {
 		$this->load->view('v_en', $data);
 	}
 
-    function solicitarEstimacion() {
+    function solicitarEstimacion(){
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
         try {
@@ -68,7 +68,7 @@ class En extends CI_Controller {
         echo json_encode($data);
     }
 
-    function sendEmail() {
+    function sendEmail(){
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
         try {

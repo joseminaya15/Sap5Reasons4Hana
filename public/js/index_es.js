@@ -1,10 +1,10 @@
-/*FRONT*/
 function buttonNext(){
-	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
+	$('.mdl-container').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
 	$('#window1').addClass('animated fadeOutLeft');
 	$('#window2').addClass('animated fadeInRight');
 	$('#window1').addClass('opacity-done');
 }
+
 var modal       = $('#ModalIndustria');
 var idIndustria = null;
 function modalIndustria(id){
@@ -32,29 +32,9 @@ function closeModal(){
 }
 function selectIndustria(){
 	modal.modal('hide');
-	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
-	$('#window2').addClass('animated fadeOutLeft');
+	$('.mdl-container').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
 	$('#'+idIndustria+'-contenido').addClass('animated fadeInRight');
-	$('.button-industria').css("display","block");
 }
-function Prev(){
-	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
-	$('#'+idIndustria+'-contenido').addClass('animated fadeOutRight')
-	$('#window2').addClass('animated fadeInLeft');
-	$('.button-industria').css("display","none");
-}
-function Next(){
-	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
-	$('#'+idIndustria+'-contenido').addClass('animated fadeOutLeft')
-	$('#formulario').addClass('animated fadeInRight');
-	$('.button-industria').css("display","none");
-}
-
-
-
-
-
-/*BACK*/
 function solicitarEstimacion() {
 	var nombre_completo = $('#nombre_completo').val(); 
 	var empresa  		= $('#empresa').val();
@@ -202,7 +182,7 @@ function isEmpty(val){
     	return false;
 		return true;
 }
-function limpiarCampos(){
+function limpiarCampos() {
 	var nombre_completo = $('#nombre_completo').val("");
 	var empresa  		= $('#empresa').val("");
 	var email 	 		= $('#email').val("");
@@ -215,6 +195,7 @@ function limpiarCampos(){
 	var c_telefono    	= $('#c-telefono').is(':checked');
 	var c_ambos    		= $('#c-ambos').is(':checked');
 	var terminos		= $('#checkbox-1').is(':checked');
+
 	if(c_email == true) {
 		$('#c-email').parent().removeClass('is-checked');
 	}else if(c_telefono == true) {
