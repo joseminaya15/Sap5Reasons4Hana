@@ -23,7 +23,6 @@ class Pt extends CI_Controller {
         $data['redirect_uri']  = $redirect_uri;
         $data['csrf_token']    = $csrf_token;
         $data['scopes']        = $scopes;
-        $data['nombre']        = '';
 		$this->load->view('v_pt', $data);
 	}
 

@@ -87,7 +87,6 @@ function solicitarEstimacion() {
         	if(data.error == 0){
 				if(confirmar == 1) {
 					limpiarCampos();
-					enviarGracias();
 				}
         	}else {
         		return;
@@ -146,4 +145,27 @@ function isEmpty(val){
 	if(jQuery.trim(val).length != 0)
     	return false;
 		return true;
+}
+
+function limpiarCampos() {
+	var nombre_completo = $('#nombre_completo').val("");
+	var empresa  		= $('#empresa').val("");
+	var email 	 		= $('#email').val("");
+	var pais 	 		= $('#pais').val("");
+	var cargo 	 		= $('#cargo').val("");
+	var telefono 		= $('#telefono').val("");
+	var relacion		= $('#relacion').val("0");
+	$('.selectpicker').selectpicker('refresh');
+	var c_email    		= $('#c-email').is(':checked');
+	var c_telefono    	= $('#c-telefono').is(':checked');
+	var c_ambos    		= $('#c-ambos').is(':checked');
+	var terminos		= $('#checkbox-1').is(':checked');
+
+	if(c_email == true) {
+		$('#c-email').parent().removeClass('is-checked');
+	}else if(c_telefono == true) {
+		$('#c-telefono').parent().removeClass('is-checked');
+	}else if(c_ambos == true) {
+		$('#c-ambos').parent().removeClass('is-checked');
+	}
 }
