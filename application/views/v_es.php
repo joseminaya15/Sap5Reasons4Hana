@@ -13,9 +13,9 @@
 	<title>SAP Top 5 Reasons S/4 HANA</title>
 	<link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/logo_favicon.ico">
 	<link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.min.css?v=<?php echo time();?>">
-    <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>mdl/material.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap-select/css/bootstrap-select.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap/bootstrap.min.css?v=<?php echo time();?>">
+    <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>mdl/material.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>font-awesome.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>material-icons.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>roboto.css?v=<?php echo time();?>">
@@ -57,11 +57,12 @@
 						</div>	
 					</div>
 					<div class="mdl-imagenes inline">
-						<img src="<?php echo RUTA_IMG?>logo/retail.png">
-						<img src="<?php echo RUTA_IMG?>logo/retail.png">
-						<img src="<?php echo RUTA_IMG?>logo/retail.png">
-						<img src="<?php echo RUTA_IMG?>logo/retail.png">
-						<img src="<?php echo RUTA_IMG?>logo/retail.png">
+						<img src="<?php echo RUTA_IMG?>industrias/servicios.png">
+						<img src="<?php echo RUTA_IMG?>industrias/retail.png">
+						<img src="<?php echo RUTA_IMG?>industrias/productos.png">
+						<img src="<?php echo RUTA_IMG?>industrias/procesos.png">
+						<img src="<?php echo RUTA_IMG?>industrias/distribucion.png">
+						<img src="<?php echo RUTA_IMG?>industrias/banking.png">
 					</div>
 					<div class="mdl-home-next inline">
 						<button id="" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="buttonNext()"><i class="mdi mdi-keyboard_arrow_right"></i></button>
@@ -77,17 +78,79 @@
 							<h2>por qu&eacute; elegir SAP S/4 HANA</h2>
 						</div>	
 					</div>
-					<div class="mdl-imagenes inline">
-						<img src="<?php echo RUTA_IMG?>logo/retail.png">
-						<img src="<?php echo RUTA_IMG?>logo/retail.png">
-						<img src="<?php echo RUTA_IMG?>logo/retail.png">
-						<img src="<?php echo RUTA_IMG?>logo/retail.png">
-						<img src="<?php echo RUTA_IMG?>logo/retail.png">
+					<div class="industrias inline">
+						<h2>Seleccione su industria</h2>
+						<div id="industriaServicio" class="mdl-industrias" onclick="modalIndustria(this.id)">
+							<p class="inline">Servicios Profesionales</p>
+							<img class="inline" src="<?php echo RUTA_IMG?>industrias/servicios.png">
+							<div class="one none">Ejecutar los procesos en tiempo real</div>
+							<div class="two none">Mejorar el conocimiento y la visibilidad financiera</div>
+							<div class="three none">Aumentar el riesgo de sus proyectos</div>
+						</div>
+						<div id="industriaRetail" class="mdl-industrias"  onclick="modalIndustria(this.id)">
+							<p class="inline">Retail</p>
+							<img class="inline" src="<?php echo RUTA_IMG?>industrias/retail.png">
+							<div class="one none">Ejecutar los procesos en tiempo real</div>
+							<div class="two none">Mejorar el conocimiento y la visibilidad financiera</div>
+							<div class="three none">Aumentar el riesgo de sus proyectos</div>
+						</div>
+						<div id="industriaProducto" class="mdl-industrias"  onclick="modalIndustria(this.id)">
+							<p class="inline">Productos de Consumo</p>
+							<img class="inline" src="<?php echo RUTA_IMG?>industrias/productos.png">
+							<div class="one none">Ejecutar los procesos en tiempo real</div>
+							<div class="two none">Mejorar el conocimiento y la visibilidad financiera</div>
+							<div class="three none">Aumentar el riesgo de sus proyectos</div>
+						</div>
+						<div id="industriaProceso" class="mdl-industrias"  onclick="modalIndustria(this.id)">
+							<p class="inline">Proceso y Manufactura</p>
+							<img class="inline" src="<?php echo RUTA_IMG?>industrias/procesos.png">
+							<div class="one none">Ejecutar los procesos en tiempo real</div>
+							<div class="two none">Mejorar el conocimiento y la visibilidad financiera</div>
+							<div class="three none">Aumentar el riesgo de sus proyectos</div>
+						</div>
+						<div id="industriaDistribucion" class="mdl-industrias"  onclick="modalIndustria(this.id)">
+							<p class="inline">Distribuci&oacute;n</p>
+							<img class="inline" src="<?php echo RUTA_IMG?>industrias/distribucion.png">
+							<div class="one none">Ejecutar los procesos en tiempo real</div>
+							<div class="two none">Mejorar el conocimiento y la visibilidad financiera</div>
+							<div class="three none">Aumentar el riesgo de sus proyectos</div>
+						</div>
+						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
+							<p class="inline">Banking</p>
+							<img class="inline" src="<?php echo RUTA_IMG?>industrias/banking.png">
+							<div class="one none">Ejecutar los procesos en tiempo real</div>
+							<div class="two none">Mejorar el conocimiento y la visibilidad financiera</div>
+							<div class="three none">Aumentar el riesgo de sus proyectos</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!--MODAL-->
+	<div class="modal fade" id="ModalIndustria" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-sm text-center">
+            <div class="modal-content">
+                <div class="mdl-card" >
+                    <div class="mdl-card__title p-0">
+						<img alt="" src="">
+					</div>
+				    <div class="mdl-card__supporting-text text-left">
+                        <p></p>
+                        <ul>
+                        	<li class="one"></li>
+                        	<li class="two"></li>
+                        	<li class="three"></li>
+                        </ul>
+					</div> 
+    				<div class="mdl-card__actions text-right">       				    
+                        <button id="closeModal" class="mdl-button mdl-js-button mdl-js-ripple-effect" data-dismiss="modal">Cerrar</button>        				    
+                        <button id="selectIndustria"class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised">Seleccionar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 	<script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_JS?>jquery-1.11.2.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_PLUGINS?>bootstrap/bootstrap.min.js?v=<?php echo time();?>"></script>
