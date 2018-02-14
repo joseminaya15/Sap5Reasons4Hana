@@ -17,6 +17,9 @@ p{
 .height{
     height: 100vh;
 }
+.none{
+    display: none;
+}
 .inline{
     display: inline-block;
 }
@@ -191,6 +194,47 @@ p{
     line-height: 1;
     color: #F0AB00;
 }
+.industrias{
+    vertical-align: middle;
+    cursor: pointer;
+    max-width: 360px;
+    width: 100%;
+}
+.industrias h2{
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: left;
+}
+.mdl-industrias{
+    margin: 10px 0;
+    background-color: #D6D6D6;
+    text-align: left;
+    -webkit-transition: transform .1s linear;
+    -moz-transition: transform .1s linear;
+    -ms-transition: transform .1s linear;
+    -o-transition: transform .1s linear;
+    transition: transform .1s linear;
+}
+.mdl-industrias:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.mdl-industrias p{
+    color: #000000;
+    font-size: 18px;
+    padding: 11px 20px;
+    vertical-align: middle;
+    max-width: 230px;
+    width: 100%;
+    max-width: calc(100% - 84px);
+}
+.mdl-industrias img{
+    max-width: 80px;
+}
 /*BOOTSTRAP-SELECT*/
 .mdl-idioma .bootstrap-select .dropdown-menu>li>a{
 	-webkit-transition: background-color .25s linear;
@@ -235,4 +279,72 @@ p{
 .opacity-done.fadeInLeft, 
 .opacity-done.fadeInRight{
     z-index: 5;
+}
+/*MODAL*/
+.modal.fade .modal-dialog{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: -webkit-fit-content;
+    height: fit-content;
+    margin: auto;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    max-width: 300px;
+    width: 100%;
+}
+.modal.fade.in .modal-dialog{
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/*ModalQuestion*/
+#ModalIndustria .modal-content{
+    background-color: #000000;
+}
+#ModalIndustria .mdl-card{
+    display: inline-block;
+    background-color: #1C1C1C;
+    max-width: 300px;
+}
+#ModalIndustria .mdl-card .mdl-card__supporting-text,
+#ModalIndustria .mdl-card .mdl-card__title img{
+    width: 100%;
+}
+#ModalIndustria .mdl-card .mdl-card__supporting-text p{
+    font-size: 20px;
+}
+#ModalIndustria .mdl-card .mdl-card__supporting-text ul{
+    color: #FFF;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+#ModalIndustria .mdl-card .mdl-card__actions .mdl-button{
+    color: #EFAA00;
+    border-radius: 25px;
+    text-transform: initial;
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'RobotoMedium'
+}
+#ModalIndustria .mdl-card .mdl-card__actions .mdl-button--raised{
+    background-color: #EFAA00;
+    color: #FFFFFF;
 }
