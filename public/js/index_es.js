@@ -120,7 +120,7 @@ function solicitarEstimacion() {
 		msj('error', 'Acepte los términos y condiciones');
 		return;
 	}
-	//$('.button-confirmar').prop("disabled", true);
+	$('.button-confirmar').prop("disabled", true);
 	$.ajax({
 		data  : { nombre_completo : nombre_completo,
 				  empresa 	      : empresa,
