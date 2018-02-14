@@ -46,8 +46,8 @@
 		<div class="chat">
 			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Cont&aacute;ctenos</label></a>
 		</div>
-		<div id="home" class="height">
-			<div id="window1" class="mdl-container">
+		<div id="home" class="window-center">
+			<div id="window1" class="window-center">
 				<div class="center-container">
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>
@@ -65,11 +65,11 @@
 						<img src="<?php echo RUTA_IMG?>industrias/banking.png">
 					</div>
 					<div class="mdl-home-next inline">
-						<button id="" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="buttonNext()"><i class="mdi mdi-keyboard_arrow_right"></i></button>
+						<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-next" onclick="buttonNext()"><i class="mdi mdi-keyboard_arrow_right"></i></button>
 					</div>
 				</div>
 			</div>
-			<div id="window2" class="mdl-container opacity-done">
+			<div id="window2" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>
@@ -125,54 +125,504 @@
 					</div>
 				</div>
 			</div>
-			<div id="window3" class="">
-				<div id="industriaServicio-contenido" class="mdl-container opacity-done">
-					<div class="center-container">
-						<div class="contenido-industria inline">
-							<h2>Para la industria de <strong>Servicios Profesionales</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-							 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
-						</div>
-						<div class="card-industria inline">
-							<div class="mdl-card-question mdl-card-3">
-			            		<div class="flip-card">
-			            			<div class="card-front">
-			            				<img src="<?php echo RUTA_IMG?>cards/card-cloud.png">
-			            				<p>Cloud</p> 
-										<i class="mdi mdi-add"></i>
-			            			</div>
-			            			<div class="card-back">
-			            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-										<i class="mdi mdi-remove"></i>
-			            			</div>
-			            		</div>
-			            	</div>
-						</div>
+		</div>
+		<div id="window3" class="mdl-container-industria">
+			<div id="industriaServicio-contenido" class="window-center opacity-done">
+				<div class="center-container">
+					<div class="contenido-industria inline">
+						<h2>Para la industria de <strong>Servicios Profesionales</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
+						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+					</div>
+					<div class="card-industria inline">
+						<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>1</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>2</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>3</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>4</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>5</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
 					</div>
 				</div>
-				<div id="industriaRetail-contenido" class="mdl-container opacity-done">
-					<div class="center-container">
-						<h2>Retail</h2>
+			</div>
+			<div id="industriaRetail-contenido" class="window-center opacity-done">
+				<div class="center-container">
+					<div class="contenido-industria inline">
+						<h2>Para la industria de <strong>Retail</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
+						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+					</div>
+					<div class="card-industria inline">
+						<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>1</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>2</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>3</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>4</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>5</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
 					</div>
 				</div>
-				<div id="industriaProducto-contenido" class="mdl-container opacity-done">
-					<div class="center-container">
-						<h2>Producto</h2>
+			</div>
+			<div id="industriaProducto-contenido" class="window-center opacity-done">
+				<div class="center-container">
+					<div class="contenido-industria inline">
+						<h2>Para la industria de <strong>Productos de consumo</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
+						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+					</div>
+					<div class="card-industria inline">
+						<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>1</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>2</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>3</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>4</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>5</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
 					</div>
 				</div>
-				<div id="industriaProceso-contenido" class="mdl-container opacity-done">
-					<div class="center-container">
-						<h2>Proceso</h2>
+			</div>
+			<div id="industriaProceso-contenido" class="window-center opacity-done">
+				<div class="center-container">
+					<div class="contenido-industria inline">
+						<h2>Para la industria de <strong>Proceso y Manufactura</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
+						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+					</div>
+					<div class="card-industria inline">
+						<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>1</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>2</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>3</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>4</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>5</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
 					</div>
 				</div>
-				<div id="industriaDistribucion-contenido" class="mdl-container opacity-done">
-					<div class="center-container">
-						<h2>Distribucion</h2>
+			</div>
+			<div id="industriaDistribucion-contenido" class="window-center opacity-done">
+				<div class="center-container">
+					<div class="contenido-industria inline">
+						<h2>Para la industria de <strong>Distribuci&oacute;n</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
+						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+					</div>
+					<div class="card-industria inline">
+						<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>1</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>2</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>3</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>4</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>5</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
 					</div>
 				</div>
-				<div id="industriaBanking-contenido" class="mdl-container opacity-done">
-					<div class="center-container">
-						<h2>Banking</h2>
+			</div>
+			<div id="industriaBanking-contenido" class="window-center opacity-done">
+				<div class="center-container">
+					<div class="contenido-industria inline">
+						<h2>Para la industria de <strong>Banking</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
+						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
 					</div>
+					<div class="card-industria inline">
+						<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>1</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>2</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>3</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>4</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>5</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+									<i class="mdi mdi-remove"></i>
+		            			</div>
+		            		</div>
+		            	</div>
+					</div>
+				</div>
+			</div>
+			<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-next button-industria button-left" onclick="Prev()"><i class="mdi-keyboard_arrow_left"></i></button>
+			<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-next button-industria button-right" onclick="Next()"><i class="mdi-keyboard_arrow_right"></i></button>
+		</div>
+		<div id="window4">
+			<div id="formulario" class="window-center opacity-done">
+				<div class="center-container">
+					<div class="mdl-title inline">
+						<strong class="inline">5</strong>
+						<div class="mdl-letras inline">
+							<p>razones principales</p>
+							<h2>por qu&eacute; elegir SAP S/4 HANA</h2>
+						</div>	
+					</div>
+				</div>
+				<div class="">
+					
 				</div>
 			</div>
 		</div>
