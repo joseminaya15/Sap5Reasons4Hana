@@ -494,6 +494,7 @@ button.button-left{
     -o-transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
     transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
     margin: 5px;
+    vertical-align: middle;
 }
 .formulario h2{
     text-align: left;
