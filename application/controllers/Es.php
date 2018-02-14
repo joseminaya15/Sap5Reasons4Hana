@@ -6,6 +6,7 @@ class Es extends CI_Controller {
 	function __construct() {
         parent::__construct();
         $this->load->helper("url");//BORRAR CACHÉ DE LA PÁGINA
+        $this->load->model('M_solicitud');
         $this->output->set_header('Last-Modified:'.gmdate('D, d M Y H:i:s').'GMT');
         $this->output->set_header('Cache-Control: no-store, no-cache, must-revalidate');
         $this->output->set_header('Cache-Control: post-check=0, pre-check=0',false);
@@ -37,9 +38,10 @@ class Es extends CI_Controller {
             $cargo           = $this->input->post('cargo');
             $telefono        = $this->input->post('telefono');
             $relacion        = $this->input->post('relacion');
-            $terminos        = $this->input->post('terminos');
+            $terminos        = $this->input->post('term_cond');
             $contacto        = $this->input->post('contacto');
-            $id_lenguaje     = $this->input->post('id_lenguaje');
+            $lenguaje        = $this->input->post('idioma');
+            $id_lenguaje     = $this->M_solicitud->getIdioma($lenguaje );
             $arrayInsert     = array('nombre_completo' => $nombre_completo,
                                      'Empresa'         => $empresa,
                                      'Email'           => $email,
@@ -49,7 +51,7 @@ class Es extends CI_Controller {
                                      'Terminos'        => $terminos,
                                      'Relacion'        => $relacion,
                                      'Contactado'      => $contacto,
-                                     'id_lenguaje'     => $id_lenguaje);
+                                     'id_lenguaje'     => $id_lenguaje[0]->Id_lenguaje);
             $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
             $session = array('nombre_completo' => $nombre_completo,
                              'Empresa'         => $empresa,
@@ -59,7 +61,7 @@ class Es extends CI_Controller {
                              'Telefono'        => $telefono,
                              'Relacion'        => $relacion,
                              'Contacto'        => $contacto);
-            $this->session->ser_userdata($session);
+            $this->session->set_userdata($session);
             $data['msj']   = $datoInsert['msj'];
             $data['error'] = $datoInsert['error'];
         }catch(Exception $e) {

@@ -24,13 +24,13 @@ class M_solicitud extends  CI_Model{
         return array('error' => EXIT_SUCCESS,'msj' => MSJ_UPT);
     }
 
-    /*function getDatosSolicitud($id) {
-        $sql = "SELECT *
-                  FROM solicitud
-                 WHERE Id = ?";
-        $result = $this->db->query($sql, array($id));
+    function getIdioma($lenguaje) {
+        $sql = "SELECT * 
+                  FROM `lenguaje` 
+                 WHERE Nombre LIKE ?";
+        $result = $this->db->query($sql, array($lenguaje));
         return $result->result();
-    }
+    }/*
 
     function getDatosPais($Nombre) {
     	$sql = "SELECT Id_lenguaje

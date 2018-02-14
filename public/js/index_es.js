@@ -62,6 +62,7 @@ function solicitarEstimacion() {
 	var c_telefono    	= $('#c-telefono').is(':checked');
 	var c_ambos    		= $('#c-ambos').is(':checked');
 	var terminos		= $('#checkbox-1').is(':checked');
+	var idioma 			= $('#Idioma').val();
 	var term_cond		= null;
 	var contacto		= null;
 	if(nombre_completo == '' && empresa == '' && email == '' && pais == '' && cargo == '' && telefono == '' && c_email == false && terminos == false) {
@@ -119,7 +120,7 @@ function solicitarEstimacion() {
 		msj('error', 'Acepte los términos y condiciones');
 		return;
 	}
-	$('.button-confirmar').prop("disabled", true);
+	//$('.button-confirmar').prop("disabled", true);
 	$.ajax({
 		data  : { nombre_completo : nombre_completo,
 				  empresa 	      : empresa,
@@ -129,16 +130,15 @@ function solicitarEstimacion() {
 				  telefono 		  : telefono,
 				  relacion 		  : relacion,
 				  contacto 		  : contacto,
-				  term_cond       : term_cond},
+				  term_cond       : term_cond,
+				  idioma 		  : idioma},
 		url   : 'es/solicitarEstimacion',
 		type  : 'POST'
 	}).done(function(data){
 		try{
         	data = JSON.parse(data);
         	if(data.error == 0){
-				if(confirmar == 1) {
-					limpiarCampos();
-				}
+				limpiarCampos();
         	}else {
         		return;
         	}
