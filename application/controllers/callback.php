@@ -26,12 +26,7 @@ class callback extends CI_Controller {
 				 		 'pais_linke' 	=> $user->location->name,
 				 		 'pantalla'     => 5);
 		$this->session->set_userdata($session);
-		if($_SESSION['idioma'] == 'Español') {
-			header("location: es");
-		}else if($_SESSION['idioma'] == 'Inglés') {
-			header("location: en");
-		}else if($_SESSION['idioma'] == 'Portugués') {
-			header("location: pt");
-		}
+
+		header("location: es");
     } 
 }

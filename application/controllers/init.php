@@ -1,9 +1,12 @@
 <?php
 
-session_start();
+if(!isset($_SESSION)) 
+{ 
+    session_start(); 
+}
 
-$client_id = "864xp2wdu9eghe";
-$client_secret = "M6NxoP4EWlaADF2U";
+$client_id = "789et516nyl9vy";
+$client_secret = "uN8FzWMngIBxxssc";
 $redirect_uri = "http://test.brainblue.com/sap_5reasons_4hana/callback";
 $csrf_token = random_int(1111111, 9999999);
 $scopes = "r_basicprofile%20r_emailaddress";
@@ -25,8 +28,8 @@ function curl($url, $parameters)
 
 function getCallback()
 {
-    $client_id = "864xp2wdu9eghe";
-    $client_secret = "M6NxoP4EWlaADF2U";
+    $client_id = "789et516nyl9vy";
+    $client_secret = "uN8FzWMngIBxxssc";
     $redirect_uri = "http://test.brainblue.com/sap_5reasons_4hana/callback";
     $csrf_token = random_int(1111111, 9999999);
     $scopes = "r_basicprofile%20r_emailaddress";
@@ -50,8 +53,5 @@ function getCallback()
         /*var_dump(json_decode($user));
         die();*/
         return (json_decode($user));
-
-
-
     }
 }

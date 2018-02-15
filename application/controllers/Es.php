@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Es extends CI_Controller {
 
-	function __construct() {
+    function __construct() {
         parent::__construct();
         $this->load->helper("url");//BORRAR CACHÉ DE LA PÁGINA
         $this->load->model('M_solicitud');
@@ -13,19 +13,21 @@ class Es extends CI_Controller {
         $this->output->set_header('Pragma: no-cache');
     }
 
-	public function index(){
-        $client_id     = "864xp2wdu9eghe";
-        $client_secret = "M6NxoP4EWlaADF2U";
+    public function index(){
+        $client_id     = "789et516nyl9vy";
+        $client_secret = "uN8FzWMngIBxxssc";
         $redirect_uri  = "http://test.brainblue.com/sap_5reasons_4hana/callback";
-        $csrf_token    = random_int(1111111, 9999999);
+        $csrf_token    = random_int(22222222, 99999999);
         $scopes        = "r_basicprofile%20r_emailaddress";
         $data['client_id']     = $client_id;
         $data['client_secret'] = $client_secret;
         $data['redirect_uri']  = $redirect_uri;
         $data['csrf_token']    = $csrf_token;
         $data['scopes']        = $scopes;
-		$this->load->view('v_es', $data);
-	}
+        $session = array('idioma' => 'Español');
+        $this->session->set_userdata($session);
+        $this->load->view('v_es', $data);
+    }
 
     function solicitarEstimacion(){
         $data['error'] = EXIT_ERROR;
