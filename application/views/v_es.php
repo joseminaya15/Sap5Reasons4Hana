@@ -753,6 +753,7 @@
         } else {
             $('select').selectpicker();
         }
+        
     </script>
 </body>
 </html>

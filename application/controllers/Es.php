@@ -16,7 +16,7 @@ class Es extends CI_Controller {
 	public function index(){
         $client_id     = "864xp2wdu9eghe";
         $client_secret = "M6NxoP4EWlaADF2U";
-        $redirect_uri  = "http://www.sap-latam.com/sap_5reasons_4hana/callback";
+        $redirect_uri  = "http://test.brainblue.com/sap_5reasons_4hana/callback";
         $csrf_token    = random_int(1111111, 9999999);
         $scopes        = "r_basicprofile%20r_emailaddress";
         $data['client_id']     = $client_id;
