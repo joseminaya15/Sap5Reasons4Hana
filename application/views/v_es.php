@@ -47,7 +47,7 @@
 			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Cont&aacute;ctenos</label></a>
 		</div>
 		<div id="home" class="window-center">
-			<div id="window1" class="window-center">
+			<!-- <div id="window1" class="window-center">
 				<div class="center-container">
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>
@@ -68,8 +68,8 @@
 						<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-next" onclick="buttonNext()"><i class="mdi mdi-keyboard_arrow_right"></i></button>
 					</div>
 				</div>
-			</div>
-			<div id="window2" class="window-center opacity-done">
+			</div> -->
+			<div id="window2" class="window-center">
 				<div class="center-container">
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>
@@ -114,6 +114,13 @@
 							<div class="one none">Mejorar la capacidad y puntualidad de despacho de pedidos.</div>
 							<div class="two none">Reducir los niveles y tiempo en los inventarios.</div>
 							<div class="three none">Aumentar la satisfacci&oacute;n del cliente.</div>
+						</div>
+						<div id="industriaHighTech" class="mdl-industrias"  onclick="modalIndustria(this.id)">
+							<p class="inline">High Tech</p>
+							<img class="inline" src="<?php echo RUTA_IMG?>industrias/tech.png">
+							<div class="one none">Reducir la p&eacute;rdida de ingresos por falta de stock y d&iacute;as de inventario.</div>
+							<div class="two none">Mejorar el proceso de quote – to – order, y reducir las quejas de clientes.</div>
+							<div class="three none">Aumentar la l&iacute;nea de negocio con productos e innovaci&oacute;n.</div>
 						</div>
 						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Banking</p>
@@ -621,7 +628,8 @@
 						</div>	
 					</div>
 					<div class="formulario inline">
-						<h2>Conozca un <strong>Caso de &Eacute;xito</strong> en sus industria. Complete el formulario para descargarlo.</h2>
+						<h2>Tenemos m&aacute;s informaci&oacute;n para compartir con usted.</h2>
+						<p>Complete el formulario para descargarlo</p>
 						<form class="mdl-formulario text-left">
 		        			<div class="content-datos">
 		        				<div class="content-personal">

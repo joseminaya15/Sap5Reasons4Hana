@@ -417,6 +417,9 @@ button.button-left{
     z-index: 6;
 }
 /*MODAL*/
+.modal-backdrop.in {
+    opacity: .8;
+}
 .modal.fade .modal-dialog{
     position: absolute;
     top: 50%;
@@ -471,6 +474,10 @@ button.button-left{
     color: #FFF;
     margin-top: 15px;
     padding-left: 20px;
+}
+#ModalIndustria .mdl-card .mdl-card__supporting-text ul li{
+    margin: 15px 0;
+    line-height: 18px;
 }
 #ModalIndustria .mdl-card .mdl-card__actions .mdl-button{
     color: #EFAA00;

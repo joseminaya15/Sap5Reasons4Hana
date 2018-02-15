@@ -1,10 +1,4 @@
 /*FRONT*/
-function buttonNext(){
-	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
-	$('#window1').addClass('animated fadeOutLeft');
-	$('#window2').addClass('animated fadeInRight');
-	$('#window1').addClass('opacity-done');
-}
 var modal       = $('#ModalIndustria');
 var idIndustria = null;
 function modalIndustria(id){
@@ -36,6 +30,7 @@ function selectIndustria(){
 	$('#window2').addClass('animated fadeOutLeft');
 	$('#'+idIndustria+'-contenido').addClass('animated fadeInRight');
 	$('.button-industria').css("display","block");
+	$('#window2').addClass('opacity-done');
 }
 function Prev(){
 	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
