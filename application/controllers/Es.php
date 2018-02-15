@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Es extends CI_Controller {
 
-    function __construct() {
+	function __construct() {
         parent::__construct();
         $this->load->helper("url");//BORRAR CACHÉ DE LA PÁGINA
         $this->load->model('M_solicitud');
@@ -13,7 +13,7 @@ class Es extends CI_Controller {
         $this->output->set_header('Pragma: no-cache');
     }
 
-    public function index(){
+	public function index(){
         $client_id     = "789et516nyl9vy";
         $client_secret = "uN8FzWMngIBxxssc";
         $redirect_uri  = "http://test.brainblue.com/sap_5reasons_4hana/callback";
@@ -26,8 +26,8 @@ class Es extends CI_Controller {
         $data['scopes']        = $scopes;
         $session = array('idioma' => 'Español');
         $this->session->set_userdata($session);
-        $this->load->view('v_es', $data);
-    }
+		$this->load->view('v_es', $data);
+	}
 
     function solicitarEstimacion(){
         $data['error'] = EXIT_ERROR;
@@ -44,7 +44,7 @@ class Es extends CI_Controller {
             $contacto        = $this->input->post('contacto');
             $lenguaje        = $this->input->post('idioma');
             $id_lenguaje     = $this->M_solicitud->getIdioma($lenguaje );
-            $arrayInsert     = array('nombre_completo' => $nombre_completo,
+            /*$arrayInsert     = array('nombre_completo' => $nombre_completo,
                                      'Empresa'         => $empresa,
                                      'Email'           => $email,
                                      'Pais'            => $pais,
@@ -54,7 +54,7 @@ class Es extends CI_Controller {
                                      'Relacion'        => $relacion,
                                      'Contactado'      => $contacto,
                                      'id_lenguaje'     => $id_lenguaje[0]->Id_lenguaje);
-            $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
+            $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');*/
             $session = array('nombre_completo' => $nombre_completo,
                              'Empresa'         => $empresa,
                              'Email'           => $email,
@@ -64,6 +64,9 @@ class Es extends CI_Controller {
                              'Relacion'        => $relacion,
                              'Contacto'        => $contacto);
             $this->session->set_userdata($session);
+
+            print_r($this->session->all_userdata());
+            exit;
             $data['msj']   = $datoInsert['msj'];
             $data['error'] = $datoInsert['error'];
         }catch(Exception $e) {

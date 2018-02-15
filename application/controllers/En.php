@@ -1,30 +1,33 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class En extends CI_Controller {
+class Es extends CI_Controller {
 
-	function __construct() {
+    function __construct() {
         parent::__construct();
         $this->load->helper("url");//BORRAR CACHÉ DE LA PÁGINA
+        $this->load->model('M_solicitud');
         $this->output->set_header('Last-Modified:'.gmdate('D, d M Y H:i:s').'GMT');
         $this->output->set_header('Cache-Control: no-store, no-cache, must-revalidate');
         $this->output->set_header('Cache-Control: post-check=0, pre-check=0',false);
         $this->output->set_header('Pragma: no-cache');
     }
 
-	public function index(){
-        $client_id     = "864xp2wdu9eghe";
-        $client_secret = "M6NxoP4EWlaADF2U";
-        $redirect_uri  = "http://www.sap-latam.com/sap_5reasons_4hana/callback";
-        $csrf_token    = random_int(1111111, 9999999);
+    public function index(){
+        $client_id     = "789et516nyl9vy";
+        $client_secret = "uN8FzWMngIBxxssc";
+        $redirect_uri  = "http://test.brainblue.com/sap_5reasons_4hana/callback";
+        $csrf_token    = random_int(22222222, 99999999);
         $scopes        = "r_basicprofile%20r_emailaddress";
         $data['client_id']     = $client_id;
         $data['client_secret'] = $client_secret;
         $data['redirect_uri']  = $redirect_uri;
         $data['csrf_token']    = $csrf_token;
         $data['scopes']        = $scopes;
-		$this->load->view('v_en', $data);
-	}
+        $session = array('idioma' => 'Inglés');
+        $this->session->set_userdata($session);
+        $this->load->view('v_en', $data);
+    }
 
     function solicitarEstimacion(){
         $data['error'] = EXIT_ERROR;
@@ -37,9 +40,10 @@ class En extends CI_Controller {
             $cargo           = $this->input->post('cargo');
             $telefono        = $this->input->post('telefono');
             $relacion        = $this->input->post('relacion');
-            $terminos        = $this->input->post('terminos');
+            $terminos        = $this->input->post('term_cond');
             $contacto        = $this->input->post('contacto');
-            $id_lenguaje     = $this->input->post('id_lenguaje');
+            $lenguaje        = $this->input->post('idioma');
+            $id_lenguaje     = $this->M_solicitud->getIdioma($lenguaje );
             $arrayInsert     = array('nombre_completo' => $nombre_completo,
                                      'Empresa'         => $empresa,
                                      'Email'           => $email,
@@ -49,7 +53,7 @@ class En extends CI_Controller {
                                      'Terminos'        => $terminos,
                                      'Relacion'        => $relacion,
                                      'Contactado'      => $contacto,
-                                     'id_lenguaje'     => $id_lenguaje);
+                                     'id_lenguaje'     => $id_lenguaje[0]->Id_lenguaje);
             $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
             $session = array('nombre_completo' => $nombre_completo,
                              'Empresa'         => $empresa,
@@ -59,7 +63,7 @@ class En extends CI_Controller {
                              'Telefono'        => $telefono,
                              'Relacion'        => $relacion,
                              'Contacto'        => $contacto);
-            $this->session->ser_userdata($session);
+            $this->session->set_userdata($session);
             $data['msj']   = $datoInsert['msj'];
             $data['error'] = $datoInsert['error'];
         }catch(Exception $e) {
