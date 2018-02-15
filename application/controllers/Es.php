@@ -14,6 +14,7 @@ class Es extends CI_Controller {
     }
 
 	public function index(){
+        $data['pantalla'] = $this->session->userdata('pantalla') == '' ? 0 : $this->session->userdata('pantalla');
         $client_id     = "789et516nyl9vy";
         $client_secret = "uN8FzWMngIBxxssc";
         $redirect_uri  = "http://test.brainblue.com/sap_5reasons_4hana/callback";
@@ -44,7 +45,7 @@ class Es extends CI_Controller {
             $contacto        = $this->input->post('contacto');
             $lenguaje        = $this->input->post('idioma');
             $id_lenguaje     = $this->M_solicitud->getIdioma($lenguaje );
-            /*$arrayInsert     = array('nombre_completo' => $nombre_completo,
+            $arrayInsert     = array('nombre_completo' => $nombre_completo,
                                      'Empresa'         => $empresa,
                                      'Email'           => $email,
                                      'Pais'            => $pais,
@@ -54,7 +55,7 @@ class Es extends CI_Controller {
                                      'Relacion'        => $relacion,
                                      'Contactado'      => $contacto,
                                      'id_lenguaje'     => $id_lenguaje[0]->Id_lenguaje);
-            $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');*/
+            $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
             $session = array('nombre_completo' => $nombre_completo,
                              'Empresa'         => $empresa,
                              'Email'           => $email,
@@ -64,9 +65,7 @@ class Es extends CI_Controller {
                              'Relacion'        => $relacion,
                              'Contacto'        => $contacto);
             $this->session->set_userdata($session);
-
-            print_r($this->session->all_userdata());
-            exit;
+            $this->session->unset_userdata('pantalla');
             $data['msj']   = $datoInsert['msj'];
             $data['error'] = $datoInsert['error'];
         }catch(Exception $e) {

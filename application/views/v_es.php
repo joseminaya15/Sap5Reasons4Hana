@@ -761,7 +761,11 @@
         } else {
             $('select').selectpicker();
         }
-        
+        $(window).load(function() {
+        	if(<?php echo $pantalla ?> == 5) {
+        		alert('hola');
+        	}
+        });
     </script>
 </body>
 </html>
