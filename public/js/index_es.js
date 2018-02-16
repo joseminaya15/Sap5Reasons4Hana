@@ -126,7 +126,7 @@ function solicitarEstimacion(){
 				  relacion 		  : relacion,
 				  contacto 		  : contacto,
 				  term_cond       : term_cond,
-				  idioma 		  : idioma},
+				  idioma 		  : idioma },
 		url   : 'es/solicitarEstimacion',
 		type  : 'POST'
 	}).done(function(data){
