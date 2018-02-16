@@ -70,6 +70,12 @@ class Es extends CI_Controller {
                              'Relacion'        => $relacion,
                              'Contacto'        => $contacto);
             $this->session->set_userdata($session);
+            $this->session->unset_userdata('pantalla');
+            $this->session->unset_userdata('nombre_linke');
+            $this->session->unset_userdata('email_linke');
+            $this->session->unset_userdata('compania');
+            $this->session->unset_userdata('titulo');
+            $this->session->unset_userdata('pais_linke');
             $data['msj']   = $datoInsert['msj'];
             $data['error'] = $datoInsert['error'];
         }catch(Exception $e) {
