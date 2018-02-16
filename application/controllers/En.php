@@ -65,6 +65,7 @@ class Es extends CI_Controller {
                              'Relacion'        => $relacion,
                              'Contacto'        => $contacto);
             $this->session->set_userdata($session);
+            $this->session->unset_userdata('pantalla');
             $data['msj']   = $datoInsert['msj'];
             $data['error'] = $datoInsert['error'];
         }catch(Exception $e) {

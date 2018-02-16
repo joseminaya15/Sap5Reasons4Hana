@@ -4,8 +4,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class callback extends CI_Controller {
     
     function __construct() {
-        parent::__construct();
-	$this->load->library('session');
+    	parent::__construct();
+		$this->load->library('session');
     }
 
     public function index()
