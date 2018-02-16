@@ -198,7 +198,6 @@ function isEmpty(val){
     	return false;
 		return true;
 }
-
 function limpiarCampos(){
 	$('#nombre_completo').val("");
 	$('#empresa').val("");
