@@ -699,6 +699,10 @@
 				</div>
 			</div>
 		</div>
+		<div class="mdl-agradecimiento">
+			<h2>Gracias por su interés</h2>
+			<p>Un representante de SAP se pondrá en contacto con Usted para ayudarlo a dar el primer paso.</p>
+		</div>
 	</section>
 	<!--MODAL-->
 	<div class="modal fade" id="ModalIndustria" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
