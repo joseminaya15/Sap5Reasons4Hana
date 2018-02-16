@@ -73,7 +73,7 @@ class Es extends CI_Controller {
         echo json_encode($data);
     }
 
-    /*function sendEmail(){
+    function sendEmail(){
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
         try {
@@ -98,5 +98,5 @@ class Es extends CI_Controller {
             $data['msj'] = $e->getMessage();
         }
         return json_encode(array_map('utf8_encode', $data));
-    }*/
+    }
 }
