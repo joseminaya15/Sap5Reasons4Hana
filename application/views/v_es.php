@@ -698,10 +698,10 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="mdl-agradecimiento">
-			<h2>Gracias por su interés</h2>
-			<p>Un representante de SAP se pondrá en contacto con Usted para ayudarlo a dar el primer paso.</p>
+			<div class="mdl-agradecimiento window-center opacity-done">
+				<h2>Gracias por su interés</h2>
+				<p>Un representante de SAP se pondrá en contacto con Usted para ayudarlo a dar el primer paso.</p>
+			</div>
 		</div>
 	</section>
 	<!--MODAL-->

@@ -533,7 +533,7 @@ button.button-left{
     padding: 25px;
     display: inline-block;
 }
-/*.mdl-agradecimiento{
+.mdl-agradecimiento{
     opacity: 0;
     display: none;
     max-width: 850px;
@@ -552,7 +552,7 @@ button.button-left{
 .mdl-agradecimiento p{
     font-size: 28px;
     line-height: 32px;
-}*/
+}
 .title-formulario{
     font-size: 20px;
     margin: 0;
