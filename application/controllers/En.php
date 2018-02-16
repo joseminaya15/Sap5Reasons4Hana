@@ -61,14 +61,14 @@ class En extends CI_Controller {
                                      'Contactado'      => $contacto,
                                      'id_lenguaje'     => $id_lenguaje[0]->Id_lenguaje);
             $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
-            $session = array('nombre_completo' => $nombre_completo,
-                             'Empresa'         => $empresa,
-                             'Email'           => $email,
-                             'Pais'            => $pais,
-                             'Cargo'           => $cargo,
-                             'Telefono'        => $telefono,
-                             'Relacion'        => $relacion,
-                             'Contacto'        => $contacto);
+            $session    = array('nombre_completo' => $nombre_completo,
+                                'Empresa'         => $empresa,
+                                'Email'           => $email,
+                                'Pais'            => $pais,
+                                'Cargo'           => $cargo,
+                                'Telefono'        => $telefono,
+                                'Relacion'        => $relacion,
+                                'Contacto'        => $contacto);
             $this->session->set_userdata($session);
             $this->session->unset_userdata('pantalla');
             $this->session->unset_userdata('nombre_linke');
@@ -84,7 +84,7 @@ class En extends CI_Controller {
         echo json_encode($data);
     }
 
-    /*function sendEmail(){
+    function sendEmail(){
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
         try {
@@ -109,13 +109,13 @@ class En extends CI_Controller {
             $data['msj'] = $e->getMessage();
         }
         return json_encode(array_map('utf8_encode', $data));
-    }*/
+    }
 
     function cambiarIdioma() {
-        $data['error'] = EXIT_ERROR;
+      $data['error'] = EXIT_ERROR;
       $data['msj']   = null;
       try {
-        $idioma = $this->input->post('idioma');
+        $idioma  = $this->input->post('idioma');
         $session = array('idioma' => $idioma);
         $this->session->set_userdata($session);
         $data['error'] = EXIT_SUCCESS;
