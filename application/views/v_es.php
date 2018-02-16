@@ -47,28 +47,6 @@
 			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Cont&aacute;ctenos</label></a>
 		</div>
 		<div id="home" class="window-center">
-			<!-- <div id="window1" class="window-center">
-				<div class="center-container">
-					<div class="mdl-title inline">
-						<strong class="inline">5</strong>
-						<div class="mdl-letras inline">
-							<p>razones principales</p>
-							<h2>por qu&eacute; elegir SAP S/4 HANA</h2>
-						</div>	
-					</div>
-					<div class="mdl-imagenes inline">
-						<img src="<?php echo RUTA_IMG?>industrias/servicios.png">
-						<img src="<?php echo RUTA_IMG?>industrias/retail.png">
-						<img src="<?php echo RUTA_IMG?>industrias/productos.png">
-						<img src="<?php echo RUTA_IMG?>industrias/procesos.png">
-						<img src="<?php echo RUTA_IMG?>industrias/distribucion.png">
-						<img src="<?php echo RUTA_IMG?>industrias/banking.png">
-					</div>
-					<div class="mdl-home-next inline">
-						<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-next" onclick="buttonNext()"><i class="mdi mdi-keyboard_arrow_right"></i></button>
-					</div>
-				</div>
-			</div> -->
 			<div id="window2" class="window-center">
 				<div class="center-container">
 					<div class="mdl-title inline">
@@ -728,10 +706,11 @@
             <div class="modal-content">
                 <div class="mdl-card" >
                     <div class="mdl-card__title p-0">
+                    	<h2>Los retos que enfrentan son</h2>
 						<img alt="" src="">
 					</div>
 				    <div class="mdl-card__supporting-text text-left">
-                        <p></p>
+                        <p>Los retos que enfrentan son</p>
                         <ul>
                         	<li class="one"></li>
                         	<li class="two"></li>

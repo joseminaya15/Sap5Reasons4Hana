@@ -463,6 +463,16 @@ button.button-left{
     background-color: #1C1C1C;
     max-width: 300px;
 }
+#ModalIndustria .mdl-card .mdl-card__title{
+    display: block;
+}
+#ModalIndustria .mdl-card .mdl-card__title h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 20px;
+    line-height: 24px;
+    color: #EFAA00;
+}
 #ModalIndustria .mdl-card .mdl-card__supporting-text,
 #ModalIndustria .mdl-card .mdl-card__title img{
     width: 100%;

@@ -12,7 +12,7 @@ function modalIndustria(id){
         "alt"   : img_modal.attr('alt'),
         "src"   : img_modal.attr('src')
     });
-    modal.find('.mdl-card__supporting-text').find('p').text(content_modal[0].innerText);
+    modal.find('.mdl-card__title').find('h2').text(content_modal[0].innerText);
     modal.find('.mdl-card__supporting-text').find('.one').text(oneConcepto[0].innerText);
     modal.find('.mdl-card__supporting-text').find('.two').text(twoConcepto[0].innerText);
     modal.find('.mdl-card__supporting-text').find('.three').text(threeConcepto[0].innerText);
