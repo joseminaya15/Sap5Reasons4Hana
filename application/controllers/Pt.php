@@ -14,6 +14,7 @@ class Es extends CI_Controller {
     }
 
     public function index(){
+        $data['pantalla'] = $this->session->userdata('pantalla') == '' ? 0 : $this->session->userdata('pantalla');
         $client_id     = "789et516nyl9vy";
         $client_secret = "uN8FzWMngIBxxssc";
         $redirect_uri  = "http://test.brainblue.com/sap_5reasons_4hana/callback";

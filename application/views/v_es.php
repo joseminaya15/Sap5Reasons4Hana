@@ -763,7 +763,7 @@
         }
         $(window).load(function() {
         	if(<?php echo $pantalla ?> == 5) {
-        		alert('hola');
+        		//alert('hola');
         	}
         });
     </script>
