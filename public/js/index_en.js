@@ -1,4 +1,4 @@
-function solicitarEstimacion() {
+function solicitarEstimacion(){
 	var nombre_completo = $('#nombre_completo').val(); 
 	var empresa  		= $('#empresa').val();
 	var email 	 		= $('#email').val();
@@ -12,58 +12,58 @@ function solicitarEstimacion() {
 	var terminos		= $('#checkbox-1').is(':checked');
 	var term_cond		= null;
 	var contacto		= null;
-	if(nombre_completo == '' && empresa == '' && email == '' && pais == '' && cargo == '' && telefono == '' && c_email == false && terminos == false) {
+	if(nombre_completo == '' && empresa == '' && email == '' && pais == '' && cargo == '' && telefono == '' && c_email == false && terminos == false){
 		validarCampos();
 	}
-	if(nombre_completo == null || nombre_completo == '') {
+	if(nombre_completo == null || nombre_completo == ''){
 		msj('error', 'Enter your full name');
 		return;
 	}
-	if(empresa == null || empresa == '') {
+	if(empresa == null || empresa == ''){
 		msj('error', 'Enter your company');
 		return;
 	}
-	if(email == null || email == '') {
+	if(email == null || email == ''){
 		msj('error', 'Enter your email');
 		return;
 	}
-	if (!validateEmail(email)) {
+	if (!validateEmail(email)){
 		$('#email').css('border-color','red');
 		return;
 	}
-	if(pais == null || pais == '') {
+	if(pais == null || pais == ''){
 		msj('error', 'Enter your country');
 		return;
 	}
-	if(cargo == null || cargo == '') {
+	if(cargo == null || cargo == ''){
 		msj('error', 'Enter your position');
 		return;
 	}
-	if(telefono == null || telefono == '') {
+	if(telefono == null || telefono == ''){
 		msj('error', 'Enter your phone');
 		return;
 	}
-	if(relacion == null || relacion == '') {
+	if(relacion == null || relacion == ''){
 		msj('error', 'Enter your relationship with SAP');
 		return;
 	}
-	if(c_email == true) {
+	if(c_email == true){
 		contacto = 1;
-	}else if(c_telefono == true) {
+	}else if(c_telefono == true){
 		contacto = 2;
-	}else if(c_ambos == true) {
+	}else if(c_ambos == true){
 		contacto = 3;
 	}
-	if(contacto == null || contacto == '') {
+	if(contacto == null || contacto == ''){
 		msj('error', 'Select the means by which you want to be contacted');
 		  return;
 	}
-	if(terminos == true) {
+	if(terminos == true){
 		term_cond = 1
 	}else {
 		term_cond = 0;
 	}
-	if(terminos == false) {
+	if(terminos == false){
 		
 		msj('error', 'Accept the terms and conditions');
 		return;
@@ -85,9 +85,7 @@ function solicitarEstimacion() {
 		try{
         	data = JSON.parse(data);
         	if(data.error == 0){
-				if(confirmar == 1) {
-					limpiarCampos();
-				}
+				limpiarCampos();
         	}else {
         		return;
         	}
@@ -157,11 +155,11 @@ function limpiarCampos(){
 	var c_telefono    	= $('#c-telefono').is(':checked');
 	var c_ambos    		= $('#c-ambos').is(':checked');
 	var terminos		= $('#checkbox-1').is(':checked');
-	if(c_email == true) {
+	if(c_email == true){
 		$('#c-email').parent().removeClass('is-checked');
-	}else if(c_telefono == true) {
+	}else if(c_telefono == true){
 		$('#c-telefono').parent().removeClass('is-checked');
-	}else if(c_ambos == true) {
+	}else if(c_ambos == true){
 		$('#c-ambos').parent().removeClass('is-checked');
 	}
 }

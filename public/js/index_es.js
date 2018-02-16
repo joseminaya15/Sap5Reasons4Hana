@@ -45,7 +45,7 @@ function Next(){
 	$('.button-industria').css("display","none");
 }
 /*BACK*/
-function solicitarEstimacion() {
+function solicitarEstimacion(){
 	var nombre_completo = $('#nombre_completo').val(); 
 	var empresa  		= $('#empresa').val();
 	var email 	 		= $('#email').val();
@@ -60,58 +60,58 @@ function solicitarEstimacion() {
 	var idioma 			= $('#Idioma').val();
 	var term_cond		= null;
 	var contacto		= null;
-	if(nombre_completo == '' && empresa == '' && email == '' && pais == '' && cargo == '' && telefono == '' && c_email == false && terminos == false) {
+	if(nombre_completo == '' && empresa == '' && email == '' && pais == '' && cargo == '' && telefono == '' && c_email == false && terminos == false){
 		validarCampos();
 	}
-	if(nombre_completo == null || nombre_completo == '') {
+	if(nombre_completo == null || nombre_completo == ''){
 		msj('error', 'Ingrese su nombre completo');
 		return;
 	}
-	if(empresa == null || empresa == '') {
+	if(empresa == null || empresa == ''){
 		msj('error', 'Ingrese su empresa');
 		return;
 	}
-	if(email == null || email == '') {
+	if(email == null || email == ''){
 		msj('error', 'Ingrese su email');
 		return;
 	}
-	if (!validateEmail(email)) {
+	if (!validateEmail(email)){
 		$('#email').css('border-color','red');
 		return;
 	}
-	if(pais == null || pais == '') {
+	if(pais == null || pais == ''){
 		msj('error', 'Ingrese su país');
 		return;
 	}
-	if(cargo == null || cargo == '') {
+	if(cargo == null || cargo == ''){
 		msj('error', 'Ingrese su cargo');
 		return;
 	}
-	if(telefono == null || telefono == '') {
+	if(telefono == null || telefono == ''){
 		msj('error', 'Ingrese su teléfono');
 		return;
 	}
-	if(relacion == null || relacion == '') {
+	if(relacion == null || relacion == ''){
 		msj('error', 'Seleccione cuál es su relación con SAP');
 		return;
 	}
-	if(c_email == true) {
+	if(c_email == true){
 		contacto = 1;
-	}else if(c_telefono == true) {
+	}else if(c_telefono == true){
 		contacto = 2;
-	}else if(c_ambos == true) {
+	}else if(c_ambos == true){
 		contacto = 3;
 	}
-	if(contacto == null || contacto == '') {
+	if(contacto == null || contacto == ''){
 		msj('error', 'Seleccione el medio por el que quiere ser contactado');
 		  return;
 	}
-	if(terminos == true) {
+	if(terminos == true){
 		term_cond = 1
 	}else {
 		term_cond = 0;
 	}
-	if(terminos == false) {
+	if(terminos == false){
 		msj('error', 'Acepte los términos y condiciones');
 		return;
 	}
@@ -191,7 +191,7 @@ function isEmpty(val){
 		return true;
 }
 
-function limpiarCampos() {
+function limpiarCampos(){
 	var nombre_completo = $('#nombre_completo').val("");
 	var empresa  		= $('#empresa').val("");
 	var email 	 		= $('#email').val("");
@@ -204,11 +204,11 @@ function limpiarCampos() {
 	var c_telefono    	= $('#c-telefono').is(':checked');
 	var c_ambos    		= $('#c-ambos').is(':checked');
 	var terminos		= $('#checkbox-1').is(':checked');
-	if(c_email == true) {
+	if(c_email == true){
 		$('#c-email').parent().removeClass('is-checked');
-	}else if(c_telefono == true) {
+	}else if(c_telefono == true){
 		$('#c-telefono').parent().removeClass('is-checked');
-	}else if(c_ambos == true) {
+	}else if(c_ambos == true){
 		$('#c-ambos').parent().removeClass('is-checked');
 	}
 }
