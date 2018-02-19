@@ -1,3 +1,50 @@
+/*FRONT*/
+var modal       = $('#ModalIndustria');
+var idIndustria = null;
+function modalIndustria(id){
+	var cardIndustria  = $('#'+id);
+	var img_modal      = cardIndustria.find('img');
+	var content_modal  = cardIndustria.find('p');
+	var oneConcepto    = cardIndustria.find('.one');
+	var twoConcepto    = cardIndustria.find('.two');
+	var threeConcepto  = cardIndustria.find('.three');
+	modal.find('.mdl-card__title').find('img').attr({
+        "alt"   : img_modal.attr('alt'),
+        "src"   : img_modal.attr('src')
+    });
+    modal.find('.mdl-card__title').find('h2').text(content_modal[0].innerText);
+    modal.find('.mdl-card__supporting-text').find('.one').text(oneConcepto[0].innerText);
+    modal.find('.mdl-card__supporting-text').find('.two').text(twoConcepto[0].innerText);
+    modal.find('.mdl-card__supporting-text').find('.three').text(threeConcepto[0].innerText);
+    modal.modal('toggle');
+    modal.addClass(id);
+    idIndustria = id;
+}
+function closeModal(){
+	modal.removeClass(idIndustria);
+	modal.modal('hide');	
+}
+function selectIndustria(){
+	modal.modal('hide');
+	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
+	$('#window2').addClass('animated fadeOutLeft');
+	$('#'+idIndustria+'-contenido').addClass('animated fadeInRight');
+	$('.button-industria').css("display","block");
+	$('#window2').addClass('opacity-done');
+}
+function Prev(){
+	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
+	$('#'+idIndustria+'-contenido').addClass('animated fadeOutRight')
+	$('#window2').addClass('animated fadeInLeft');
+	$('.button-industria').css("display","none");
+}
+function Next(){
+	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
+	$('#'+idIndustria+'-contenido').addClass('animated fadeOutLeft')
+	$('#formulario').addClass('animated fadeInRight');
+	$('.button-industria').css("display","none");
+}
+/*BACK*/
 function solicitarEstimacion() {
 	var nombre_completo = $('#nombre_completo').val(); 
 	var empresa  		= $('#empresa').val();
