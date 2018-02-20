@@ -20,16 +20,11 @@ class Es extends CI_Controller {
         $data['comp']          = $this->session->userdata('compania') == null ? '' : $this->session->userdata('compania');
         $data['tit']           = $this->session->userdata('titulo') == null ? '' : $this->session->userdata('titulo');
         $data['pais_link']     = $this->session->userdata('pais_linke') == null ? '' : $this->session->userdata('pais_linke');
-        $client_id     = "789et516nyl9vy";
-        $client_secret = "uN8FzWMngIBxxssc";
-        $redirect_uri  = "http://test.brainblue.com/sap_5reasons_4hana/callback";
-        $csrf_token    = random_int(22222222, 99999999);
-        $scopes        = "r_basicprofile%20r_emailaddress";
-        $data['client_id']     = $client_id;
-        $data['client_secret'] = $client_secret;
-        $data['redirect_uri']  = $redirect_uri;
-        $data['csrf_token']    = $csrf_token;
-        $data['scopes']        = $scopes;
+        $data['client_id']     = "789et516nyl9vy";
+        $data['client_secret'] = "uN8FzWMngIBxxssc";
+        $data['redirect_uri']  = "http://test.brainblue.com/sap_5reasons_4hana/callback";
+        $data['csrf_token']    = random_int(22222222, 99999999);
+        $data['scopes']        = "r_basicprofile%20r_emailaddress";
         $session = array('idioma' => 'Español');
         $this->session->set_userdata($session);
 		$this->load->view('v_es', $data);
@@ -61,14 +56,14 @@ class Es extends CI_Controller {
                                      'Contactado'      => $contacto,
                                      'id_lenguaje'     => $id_lenguaje[0]->Id_lenguaje);
             $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
-            $session = array('nombre_completo' => $nombre_completo,
-                             'Empresa'         => $empresa,
-                             'Email'           => $email,
-                             'Pais'            => $pais,
-                             'Cargo'           => $cargo,
-                             'Telefono'        => $telefono,
-                             'Relacion'        => $relacion,
-                             'Contacto'        => $contacto);
+            $session    = array('nombre_completo' => $nombre_completo,
+                                'Empresa'         => $empresa,
+                                'Email'           => $email,
+                                'Pais'            => $pais,
+                                'Cargo'           => $cargo,
+                                'Telefono'        => $telefono,
+                                'Relacion'        => $relacion,
+                                'Contacto'        => $contacto);
             $this->session->set_userdata($session);
             $this->session->unset_userdata('pantalla');
             $this->session->unset_userdata('nombre_linke');
