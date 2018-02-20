@@ -103,7 +103,7 @@ function solicitarEstimacion(){
 	}
 	if(contacto == null || contacto == ''){
 		msj('error', 'Select the means by which you want to be contacted');
-		  return;
+		return;
 	}
 	if(terminos == true){
 		term_cond = 1
@@ -111,7 +111,6 @@ function solicitarEstimacion(){
 		term_cond = 0;
 	}
 	if(terminos == false){
-		
 		msj('error', 'Accept the terms and conditions');
 		return;
 	}
@@ -133,6 +132,7 @@ function solicitarEstimacion(){
         	data = JSON.parse(data);
         	if(data.error == 0){
 				limpiarCampos();
+				enviarGracias();
         	}else {
         		return;
         	}
@@ -140,6 +140,13 @@ function solicitarEstimacion(){
         msj('error',err.message);
       }
 	});
+}
+function enviarGracias(){
+	$('#formulario').addClass('animated fadeOutLeft');
+	$('.mdl-agradecimiento').addClass('animated fadeInRight');
+	setTimeout(function(){ 
+		location.reload();
+	}, 40000);
 }
 function soloLetras(e) {
     key 	   = e.keyCode || e.which;

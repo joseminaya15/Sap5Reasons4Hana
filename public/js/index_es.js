@@ -104,7 +104,7 @@ function solicitarEstimacion(){
 	}
 	if(contacto == null || contacto == ''){
 		msj('error', 'Seleccione el medio por el que quiere ser contactado');
-		  return;
+		return;
 	}
 	if(terminos == true){
 		term_cond = 1
