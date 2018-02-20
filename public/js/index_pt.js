@@ -125,7 +125,7 @@ function solicitarEstimacion(){
 				  relacion 		  : relacion,
 				  contacto 		  : contacto,
 				  term_cond       : term_cond },
-		url   : 'es/solicitarEstimacion',
+		url   : 'pt/solicitarEstimacion',
 		type  : 'POST'
 	}).done(function(data){
 		try{
@@ -228,7 +228,7 @@ function cambiarIdioma(){
 	}
 	$.ajax({
 		data  : {idioma : idioma},
-		url   : 'es/cambiarIdioma',
+		url   : 'pt/cambiarIdioma',
 		type  : 'POST'
 	}).done(function(data){
 		try{

@@ -8,7 +8,7 @@
     <meta name="keywords"               content="SAP Top 5 Reasons S/4 HANA,SAP, S/4 HANA">
     <meta name="robots"                 content="Index,Follow">
     <meta name="date"                   content="Febrero 15, 2018"/>
-    <meta name="language"               content="es">
+    <meta name="language"               content="pt-br">
     <meta name="theme-color"            content="#000000">
 	<title>SAP Top 5 Reasons S/4 HANA</title>
 	<link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/logo_favicon.ico">
