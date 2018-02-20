@@ -121,72 +121,38 @@
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>1</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>1</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>2</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>2</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+		            			<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>3</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>3</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>4</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
-		            		</div>
-		            	</div>
-		            	<div class="mdl-card-industria">
-		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>5</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>4</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
 		            		</div>
 		            	</div>
 					</div>

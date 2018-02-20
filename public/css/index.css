@@ -279,88 +279,37 @@ button.button-left{
 }
 .flip-card{
     position: relative;
-    background-color: transparent;
+    background-color: #000000;
     cursor: pointer;
     transform-style: preserve-3d;
     text-align: center;
-    border-radius: 10px;
     width: 210px;
     height: 215px;
 }
-.flip-card .card-front,
-.flip-card .card-back {
-    -moz-backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-transition: -moz-transform 500ms;
-    -o-transition: -o-transform 500ms;
-    -webkit-transition: -webkit-transform 500ms;
-    transition: transform 500ms;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    height: 100%;
-    position: absolute;
-    width: 100%;
-}
-.flip-card .card-front {
-    -moz-transform: perspective(600) rotateY(0);
-    -webkit-transform: perspective(600) rotateY(0);
-    transform: perspective(600) rotateY(0);
-    z-index: 900;
-    background-color: #000000;
-}
-.flip-card .card-back {
-    -moz-transform: rotateY(-180deg);
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-    z-index: 800;
-    background-color: #F8B22C;
-}
-.flip-card:hover .card-front {
-    -moz-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    -moz-transform: perspective(600) rotateY(180deg);
-    -webkit-transform: perspective(600) rotateY(180deg);
-    transform: perspective(600) rotateY(180deg);
-}
-.flip-card:hover .card-back {
-    z-index: 950;
-    -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-    -moz-transform: perspective(600) rotateY(0deg);
-    -webkit-transform: perspective(600) rotateY(0deg);
-    transform: perspective(600) rotateY(0deg);
-}
-.flip-card .card-front img{
+.flip-card img{
     width: 100%;
     max-width: 130px;
     margin: 40px 10px 10px 10px;
 }
-.flip-card .card-front i{
+.flip-card i{
     position: absolute;
     top: 10px;
     left: 10px;
     color: #F0AB00;
 }
-.flip-card .card-front p{
+.flip-card p{
     font-size: 18px;
 }
-.flip-card .card-front strong{
+.flip-card strong{
     font-size: 60px;
     color: #F0AB00;
     position: absolute;
     top: 10px;
     right: 10px;
     line-height: 1;
+}
+.flip-card label{
+    display: none;
 }
 .card-industria{
     max-width: calc(100% - 680px);
