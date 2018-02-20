@@ -176,10 +176,10 @@ function validarCampos(){
 	var formvalido = true;
 	$inputs.each(function() {
 		if(isEmpty($(this).val())){
-				$(this).css('border-color','red');
-				formvalido = false;
+			$(this).css('border-color','red');
+			formvalido = false;
 		}else{
-				$(this).css('border-color','');
+			$(this).css('border-color','');
 		}
 	});
 	return formvalido;
@@ -198,9 +198,9 @@ function limpiarCampos(){
 	$('#telefono').val("");
 	$('#relacion').val("0");
 	$('.selectpicker').selectpicker('refresh');
-	var c_email    		= $('#c-email').is(':checked');
-	var c_telefono    	= $('#c-telefono').is(':checked');
-	var c_ambos    		= $('#c-ambos').is(':checked');
+	var c_email    = $('#c-email').is(':checked');
+	var c_telefono = $('#c-telefono').is(':checked');
+	var c_ambos    = $('#c-ambos').is(':checked');
 	$('#checkbox-1').is(':checked');
 	if(c_email == true){
 		$('#c-email').parent().removeClass('is-checked');

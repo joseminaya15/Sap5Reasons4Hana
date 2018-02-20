@@ -143,14 +143,14 @@ function solicitarEstimacion(){
       }
 	});
 }
-function enviarGracias() {
+function enviarGracias(){
 	$('#formulario').addClass('animated fadeOutLeft');
 	$('.mdl-agradecimiento').addClass('animated fadeInRight');
 	setTimeout(function(){ 
 		location.reload();
 	}, 40000);
 }
-function soloLetras(e) {
+function soloLetras(e){
     key 	   = e.keyCode || e.which;
     tecla 	   = String.fromCharCode(key).toLowerCase();
     letras     = " áéíóúabcdefghijklmnñopqrstuvwxyz";
@@ -167,7 +167,7 @@ function soloLetras(e) {
          return false;
      }
  }
- function valida(e) {
+ function valida(e){
     tecla = (document.all) ? e.keyCode : e.which;
     if (tecla==8){
         return true;
@@ -176,7 +176,7 @@ function soloLetras(e) {
     tecla_final = String.fromCharCode(tecla);
     return patron.test(tecla_final);
 }
-function validateEmail(email) {
+function validateEmail(email){
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
 }
@@ -185,10 +185,10 @@ function validarCampos(){
 	var formvalido = true;
 	$inputs.each(function() {
 		if(isEmpty($(this).val())){
-				$(this).css('border-color','red');
-				formvalido = false;
+			$(this).css('border-color','red');
+			formvalido = false;
 		}else{
-				$(this).css('border-color','');
+			$(this).css('border-color','');
 		}
 	});
 	return formvalido;
@@ -207,9 +207,9 @@ function limpiarCampos(){
 	$('#telefono').val("");
 	$('#relacion').val("0");
 	$('.selectpicker').selectpicker('refresh');
-	var c_email    		= $('#c-email').is(':checked');
-	var c_telefono    	= $('#c-telefono').is(':checked');
-	var c_ambos    		= $('#c-ambos').is(':checked');
+	var c_email    = $('#c-email').is(':checked');
+	var c_telefono = $('#c-telefono').is(':checked');
+	var c_ambos    = $('#c-ambos').is(':checked');
 	$('#checkbox-1').is(':checked');
 	if(c_email == true){
 		$('#c-email').parent().removeClass('is-checked');
@@ -219,7 +219,7 @@ function limpiarCampos(){
 		$('#c-ambos').parent().removeClass('is-checked');
 	}
 }
-function cambiarIdioma() {
+function cambiarIdioma(){
 	var idioma = $('#Idioma').val();
 	if(idioma == 'Español') {
 		location.href = 'Es';
@@ -229,7 +229,7 @@ function cambiarIdioma() {
 		location.href = 'Pt';
 	}
 	$.ajax({
-		data  : {idioma   : idioma},
+		data  : {idioma : idioma},
 		url   : 'es/cambiarIdioma',
 		type  : 'POST'
 	}).done(function(data){
