@@ -153,7 +153,6 @@ function soloLetras(e) {
     tecla 	   = String.fromCharCode(key).toLowerCase();
     letras     = " áéíóúabcdefghijklmnñopqrstuvwxyz";
     especiales = "8-37-39-46";
-
     tecla_especial = false
     for(var i in especiales){
          if(key == especiales[i]){
@@ -227,7 +226,7 @@ function cambiarIdioma() {
 		location.href = 'Pt';
 	}
 	$.ajax({
-		data  : {idioma   : idioma},
+		data  : {idioma : idioma},
 		url   : 'en/cambiarIdioma',
 		type  : 'POST'
 	}).done(function(data){
