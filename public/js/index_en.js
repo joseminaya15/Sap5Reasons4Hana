@@ -133,9 +133,7 @@ function solicitarEstimacion(){
         	if(data.error == 0){
 				limpiarCampos();
 				enviarGracias();
-        	}else {
-        		return;
-        	}
+        	}else {return;}
       } catch (err){
         msj('error',err.message);
       }
@@ -148,7 +146,7 @@ function enviarGracias(){
 		location.reload();
 	}, 40000);
 }
-function soloLetras(e) {
+function soloLetras(e){
     key 	   = e.keyCode || e.which;
     tecla 	   = String.fromCharCode(key).toLowerCase();
     letras     = " áéíóúabcdefghijklmnñopqrstuvwxyz";
@@ -164,7 +162,7 @@ function soloLetras(e) {
          return false;
      }
  }
- function valida(e) {
+ function valida(e){
     tecla = (document.all) ? e.keyCode : e.which;
     if (tecla==8){
         return true;
@@ -218,11 +216,11 @@ function limpiarCampos(){
 }
 function cambiarIdioma() {
 	var idioma = $('#Idioma').val();
-	if(idioma == 'Español') {
+	if(idioma == 'Español'){
 		location.href = 'Es';
-	}else if(idioma == 'Inglés') {
+	}else if(idioma == 'Inglés'){
 		location.href = 'En';
-	}else if(idioma == 'Portugués') {
+	}else if(idioma == 'Portugués'){
 		location.href = 'Pt';
 	}
 	$.ajax({
@@ -233,9 +231,7 @@ function cambiarIdioma() {
 		try{
         data = JSON.parse(data);
         if(data.error == 0){
-        }else {
-        	return;
-        }
+        }else {return;}
       } catch (err){
         msj('error',err.message);
       }
