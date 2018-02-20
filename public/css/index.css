@@ -308,6 +308,7 @@ button.button-left{
     right: 10px;
     line-height: 1;
 }
+.flip-card strong#title,
 .flip-card label{
     display: none;
 }

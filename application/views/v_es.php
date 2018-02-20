@@ -125,7 +125,8 @@
 	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
-								<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+								<strong id="title">20% de contenido empresarial creado por máquinas para 2018</strong>
+								<label>La experiencia, talento, presentaci&oacute;n de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
@@ -134,7 +135,8 @@
 	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
-		            			<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+								<strong id="title">Solo el 38% de las empresas tiene la visibilidad en tiempo real requerida</strong>
+		            			<label>Proporciona una fuente consolidada de toda la información minuciosa relacionada con el proyecto, mejorando el compromiso y productividad de los empleados.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
@@ -143,7 +145,8 @@
 	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
-								<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+								<strong id="title">Mejore la tasa de ganancia de la oferta en un 10%</strong>
+								<label>Aumenta la productividad del usuario, con un an&aacute;lisis sencillo de ofertas versus presupuestos, basado en los proyectos exitosos como base para nuevas ofertas.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
@@ -152,7 +155,8 @@
 	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
-								<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+								<strong id="title">Aumenta la rentabilidad en 0.5pp</strong>
+								<label>Proporciona procesos comerciales simplificados y redise&ntilde;ados, manejando informaci&oacute;n procesable, acelerando el flujo de efectivo y protegiendo la rentabilidad el proyecto.</label>
 		            		</div>
 		            	</div>
 					</div>
@@ -167,72 +171,52 @@
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>1</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>1</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">100% nueva línea de productos para venta al por menor</strong>
+								<label>La soluci&oacute;n redise&ntilde;ada ejecuta un modelo de datos simplificado y permite a los empleados minoristas una experiencia de usuario avanzada y constante desde las sedes hasta la tienda.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>2</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>2</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Reducir los requisitos de capital en un 35%</strong>
+								<label>Obt&eacute;n una &uacute;nica fuente de verdad y logra eliminar en el &aacute;rea de finanzas los errores de previsi&oacute;n, reduciendo el capital un 35%, y mejorando la productividad del procedimiento de las facturas en un 40%.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>3</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>3</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Aumenta la rentabilidad en 0.5pp</strong>
+								<label>Proporciona procesos comerciales simplificados y redise&ntilde;ados, manejando informaci&oacute;n procesable, acelerando el flujo de efectivo y protegiendo la rentabilidad el proyecto.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>4</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>4</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Reducir el tiempo de toma de decisiones en un 30%</strong>
+								<label>Muestra la informaci&oacute;n en diversos formatos, adicional brinda una gu&iacute;a basada en los elementos de acci&oacute;n que requiere inmediata atenci&oacute;n, reducido el tiempo de toma de decisiones.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>5</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>5</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Reduce las rebajas en un 20%</strong>
+								<label>Nuevo concepto de estacionalidad es impulsar todos los procesos de ciclo de vida del producto desde la creaci&oacute;n, adquisici&oacute;n, venta, calculo de precios y administraci&oacute;n de existencias.</label>
 		            		</div>
 		            	</div>
 					</div>
@@ -247,72 +231,12 @@
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>1</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
-		            		</div>
-		            	</div>
-		            	<div class="mdl-card-industria">
-		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>2</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
-		            		</div>
-		            	</div>
-		            	<div class="mdl-card-industria">
-		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>3</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
-		            		</div>
-		            	</div>
-		            	<div class="mdl-card-industria">
-		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>4</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
-		            		</div>
-		            	</div>
-		            	<div class="mdl-card-industria">
-		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>5</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>1</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Aumenta la satisfacción del cliente en un 20%</strong>
+								<label>La soluci&oacute;n redise&ntilde;ada ejecuta un modelo de datos simplificado y permite a los empleados minoristas una experiencia de usuario avanzada y constante desde las sedes hasta la tienda.</label>
 		            		</div>
 		            	</div>
 					</div>
