@@ -235,8 +235,48 @@
 	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
-								<strong id="title">Aumenta la satisfacción del cliente en un 20%</strong>
-								<label>La soluci&oacute;n redise&ntilde;ada ejecuta un modelo de datos simplificado y permite a los empleados minoristas una experiencia de usuario avanzada y constante desde las sedes hasta la tienda.</label>
+								<strong id="title">Aumenta la satisfacci&oacute;n del cliente en un 20%</strong>
+								<label>Gesti&oacute;n de inventario real y flujo de materiales, significa menos desabastecimientos y mejor rendimiento de tiempo en las entregas.</label>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<strong>2</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Reducir el inventario en el sitio en un 30%</strong>
+								<label>Planificar los requerimientos de material, ejecutada en tiempo real y ofrecer resultados de planificaci&oacute;n actualizados y completos.</label>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<strong>3</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Reduzca la p&eacute;rdida de ingresos debido a desabastecimientos en un 15%</strong>
+								<label>Confirma y permite verificar la disponibilidad de abastecimiento en tiempo real, teniendo mayor satisfacci&oacute;n del cliente reflejando crecimiento del negocio.</label>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<strong>4</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Reduce los costos totales de fabricaci&oacute;n en un 10%</strong>
+								<label>Planifica los requisitos de materiales, teniendo un menor tiempo de ciclo de fabricaci&oacute;n, menor costo y mayor eficiencia.</label>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<strong>5</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Aumenta las entregas a tiempo en un 30%</strong>
+								<label>Informa en tiempo real los estados de las &oacute;rdenes de venta, teniendo una soluci&oacute;n r&aacute;pida para cumplir los pedidos y aumentar las entregas a tiempo.</label>
 		            		</div>
 		            	</div>
 					</div>
@@ -251,72 +291,52 @@
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>1</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>1</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Expandir el pipeline de ventas en un 15-20%</strong>
+								<label>Intercambio de datos a tiempo real entre las ventas, el servicio al cliente y los l&iacute;deres empresariales, evitando datos duplicados y un an&aacute;lisis simple que lleva a ventas efectivas y espec&iacute;ficas.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>2</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>2</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Reduce el tiempo para cerrar en un 60%</strong>
+								<label>Ejecutar en vivo, con informaci&oacute;n en tiempo real basada en una &uacute;nica fuente de verdad. Tome las mejores decisiones y mejore los negocios.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>3</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>3</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Aumente la eficiencia de la operaci&oacute;n hasta en un 60%</strong>
+								<label>Gesti&oacute;n de inventarios en tiempo real y valoraci&oacute;n de materiales, mejorando la satisfacci&oacute;n, compromiso y productividad del empleado.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>4</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>4</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Reducir los costos de adquisici&oacute;n en un 15%</strong>
+								<label>Aprovechar los descuentos en pago anticipado, reduciendo el tiempo de adquisici&oacute;n de trabajadores en un tercio, maximizando el orden de inventario y seguimiento de materias primas en tiempo real.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>5</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>5</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Ahorre 38% en hardware y costos de operaci&oacute;n</strong>
+								<label>La eliminaci&oacute;n de &iacute;ndices de datos, agregados y redundancias reduce la huella de datos y el costo total de propiedad.</label>
 		            		</div>
 		            	</div>
 					</div>
@@ -331,72 +351,42 @@
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>1</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>1</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">$ 50 mil millones en ingresos incrementales</strong>
+								<label>Necesitan tecnolog&iacute;a digital para crear, entregar y sostener nuevas experiencias. Es necesario que empleen toda la tecnolog&iacute;a posible como aplicaciones para clientes en su estrategia o quedarse atr&aacute;s.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>2</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>2</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">&#60; 20% puede predecir el comportamiento del cliente</strong>
+								<label>SAP S/4 HANA proporciona una experiencia de usuario simplificada, basada en una &uacute;nica fuente de verdad consolidada para proporcionar informaci&oacute;n detallada.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>3</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>3</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">30% de reducci&oacute;n en los niveles de inventario</strong>
+								<label>Inventarios con una &uacute;nica fuente de verdad que, consolidada para analizar la rotaci&oacute;n del inventario, realizar seguimientos de flujo de materiales y transferencias de stock, y tomar las medidas apropiadas.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>4</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
-		            		</div>
-		            	</div>
-		            	<div class="mdl-card-industria">
-		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>5</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>4</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">50% de reducci&oacute;n en problemas de cumplimiento de pedidos</strong>
+								<label>Permite identificar f&aacute;cilmente un problema de pedidos y alertas en tiempo real para excepciones. Adem&aacute;s de aprovechar las capacidades de verificaci&oacute;n y liberaci&oacute;n de productos, priorizando a los clientes claves.</label>
 		            		</div>
 		            	</div>
 					</div>
@@ -411,72 +401,52 @@
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>1</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>1</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Proceso de cotizaci&oacute;n 95% m&aacute;s r&aacute;pido</strong>
+								<label>Facilitar a los ejecutivos crear una cotizaci&oacute;n para entregar resultados comerciales, no solo productos.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>2</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>2</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Reduzca el trabajo del proceso en un 50%</strong>
+								<label>Tenga ahorros incre&iacute;bles con un solo sistema para procesos que van desde la compra hasta las finanzas y contabilidad, desde la f&aacute;brica y la administraci&oacute;n de contactos.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>3</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>3</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Mant&eacute;ngase en conformidad con IFRS15</strong>
+								<label>Prep&aacute;rese para las nuevas regulaciones de reconocimiento de ingresos IFRS15 para 2018 y tenga una de la soluci&oacute;n m&aacute;s moderna de reconcomiendo de ingresos.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>4</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>4</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">30% de disminuci&oacute;n en los niveles de inventario</strong>
+								<label>Visualizar y optimizar los procesos de ventas desde el prospecto de pago con informaci&oacute;n detallada sobre el ciclo de ventas de principio a fin.</label>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<div class="card-front">
-		            				<strong>5</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
-									<i class="mdi mdi-add"></i>
-		            			</div>
-		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
-		            			</div>
+		            			<strong>5</strong>
+	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<p>Rentabilidad</p> 
+								<i class="mdi mdi-add"></i>
+								<strong id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</strong>
+								<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
 		            		</div>
 		            	</div>
 					</div>
