@@ -44,7 +44,7 @@
 			</div>
 		</div>
 		<div class="chat">
-			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Cont&aacute;ctenos</label></a>
+			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Contact Us</label></a>
 		</div>
 		<div id="home" class="window-center">
 			<div id="window2" class="window-center">
@@ -52,60 +52,60 @@
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>
 						<div class="mdl-letras inline">
-							<p>razones principales</p>
-							<h2>por qu&eacute; elegir SAP S/4 HANA</h2>
+							<p>main reasons</p>
+							<h2>why choose SAP S/4 HANA</h2>
 						</div>	
 					</div>
 					<div class="industrias inline">
-						<h2>Seleccione su industria</h2>
+						<h2>Select your industry</h2>
 						<div id="industriaServicio" class="mdl-industrias" onclick="modalIndustria(this.id)">
-							<p class="inline">Servicios Profesionales</p>
+							<p class="inline">Professional services</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/servicios.png">
-							<div class="one none">Estar actualizado y poder reducir con los procesos financieros en tiempo real.</div>
-							<div class="two none">Minimizar el riesgo de sus proyectos.</div>
-							<div class="three none">Aumentar la precisi&oacute;n de sus licitaciones.</div>
+							<div class="one none">Be updated and be able to reduce with real-time financial processes.</div>
+							<div class="two none">Minimize the risk of your projects.</div>
+							<div class="three none">Increase the accuracy of your bids.</div>
 						</div>
 						<div id="industriaRetail" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Retail</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/retail.png">
-							<div class="one none">Reducir falta de stock y obtener un mayor ingreso por empleado.</div>
-							<div class="two none">Mejorar la rotaci&oacute;n de inventario y aumentar la rentabilidad.</div>
-							<div class="three none">Mayor disponibilidad de tiempo para atender al cliente.</div>
+							<div class="one none">Reduce lack of stock and obtain a higher income per employee.</div>
+							<div class="two none">Improve inventory turnover and increase profitability.</div>
+							<div class="three none">Greater availability of time to serve the customer.</div>
 						</div>
 						<div id="industriaProducto" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline">Productos de Consumo</p>
+							<p class="inline">Consumer products</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/productos.png">
-							<div class="one none">Optimizar la planificaci&oacute;n de requerimiento de materiales.</div>
-							<div class="two none">Digitalizar las ventas mejorando la productividad con un menor costo de propiedad.</div>
-							<div class="three none">Aumente la flexibilidad con las extensiones de la l&iacute;nea de negocio.</div>
+							<div class="one none">Optimize material requirements planning.</div>
+							<div class="two none">Digitalize sales improving productivity with lower cost of ownership.</div>
+							<div class="three none">Increase flexibility with business line extensions.</div>
 						</div>
 						<div id="industriaProceso" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline">Proceso y Manufactura</p>
+							<p class="inline">Process and Manufacturing</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/procesos.png">
-							<div class="one none">Reducir perdida de ingresos por falta de stock.</div>
-							<div class="two none">Mejorar la experiencia del pedido y entrega.</div>
-							<div class="three none">Reducir los niveles de inventarios.</div>
+							<div class="one none">Reduce loss of income due to lack of stock.</div>
+							<div class="two none">Improve the order and delivery experience.</div>
+							<div class="three none">Reduce inventory levels.</div>
 						</div>
 						<div id="industriaDistribucion" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline">Distribuci&oacute;n</p>
+							<p class="inline">Distribution</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/distribucion.png">
-							<div class="one none">Mejorar la capacidad y puntualidad de despacho de pedidos.</div>
-							<div class="two none">Reducir los niveles y tiempo en los inventarios.</div>
-							<div class="three none">Aumentar la satisfacci&oacute;n del cliente.</div>
+							<div class="one none">Improve the capacity and timeliness of order fulfillment.</div>
+							<div class="two none">Reduce levels and time in inventories.</div>
+							<div class="three none">Increase customer satisfaction.</div>
 						</div>
 						<div id="industriaHighTech" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">High Tech</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/tech.png">
-							<div class="one none">Reducir la p&eacute;rdida de ingresos por falta de stock y d&iacute;as de inventario.</div>
-							<div class="two none">Mejorar el proceso de quote – to – order, y reducir las quejas de clientes.</div>
-							<div class="three none">Aumentar la l&iacute;nea de negocio con productos e innovaci&oacute;n.</div>
+							<div class="one none">Reduce the loss of income due to lack of stock and days of inventory.</div>
+							<div class="two none">Improve the quote-to-order process, and reduce customer complaints.</div>
+							<div class="three none">Increase the line of business with products and innovation.</div>
 						</div>
 						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Banking</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/banking.png">
-							<div class="one none">Ejecutar los procesos en tiempo real.</div>
-							<div class="two none">Mejorar el conocimiento y la visibilidad financiera.</div>
-							<div class="three none">Aumentar el riesgo de sus proyectos.</div>
+							<div class="one none">Run the processes in real time.</div>
+							<div class="two none">Improve knowledge and financial visibility.</div>
+							<div class="three none">Increase the risk of your projects.</div>
 						</div>
 					</div>
 				</div>
@@ -115,8 +115,7 @@
 			<div id="industriaServicio-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>Servicios Profesionales</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>For the industry of <strong>Professional services</strong> in which you work, consider these 5 powerful reasons why choose SAP S / 4 HANA to transform your business.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -124,11 +123,11 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Cost effectiveness</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+		            				<label>20% of business content created by machines by 2018. The experience, talent, presentation of services and commitment force companies in this area to rethink their business models, promoting non-linear growth and change the industry as we know it.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -138,11 +137,11 @@
 		            			<div class="card-front">
 		            				<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Cost effectiveness</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Take advantage of the cloud to focus on growing, and not on implementing and managing your IT.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -152,11 +151,11 @@
 		            			<div class="card-front">
 		            				<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Cost effectiveness</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Take advantage of the cloud to focus on growing, and not on implementing and managing your IT.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -166,11 +165,11 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Cost effectiveness</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Take advantage of the cloud to focus on growing, and not on implementing and managing your IT.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -180,11 +179,11 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Cost effectiveness</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Take advantage of the cloud to focus on growing, and not on implementing and managing your IT.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
