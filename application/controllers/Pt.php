@@ -75,6 +75,7 @@ class Pt extends CI_Controller {
         try {
             //cargamos la librería de email
             $this->load->library('email');
+            //configuración del envío del email
             $configGmail = array('protocol'  => 'smtp',
                                  'smtp_host' => 'smtpout.secureserver.net',
                                  'smtp_port' => 3535,
