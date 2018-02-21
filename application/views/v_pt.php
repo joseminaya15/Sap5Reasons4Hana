@@ -202,8 +202,8 @@
 			<div id="industriaRetail-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para a indústria de <strong>Retail</strong> em que você executa, considere estes 5 poderosos
-						razões pelas quais escolher SAP S / 4 HANA para transformar sua empresa.</h2>
+						<h2>Para a ind&uacute;stria de <strong>Retail</strong> em que voc&ecirc; executa, considere estes 5 poderosos
+						razões pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -282,7 +282,7 @@
 			<div id="industriaProducto-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para a indústria de <strong>Produtos de consumo</strong> em que voc&ecirc; executa, considere estes 5 poderosos
+						<h2>Para a ind&uacute;stria de <strong>Produtos de consumo</strong> em que voc&ecirc; executa, considere estes 5 poderosos
 						raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
@@ -362,7 +362,7 @@
 			<div id="industriaProceso-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para a indústria de <strong>Processo e fabrica&ccedil;&atilde;o</strong> em que voc&ecirc; executa, considere estes 5 poderosos
+						<h2>Para a ind&uacute;stria de <strong>Processo e fabrica&ccedil;&atilde;o</strong> em que voc&ecirc; executa, considere estes 5 poderosos
 						raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
@@ -442,7 +442,7 @@
 			<div id="industriaDistribucion-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para a indústria de <strong>Distribui&ccedil;&atilde;o</strong> em que voc&ecirc; executa, considere estes 5 poderosos
+						<h2>Para a ind&uacute;stria de <strong>Distribui&ccedil;&atilde;o</strong> em que voc&ecirc; executa, considere estes 5 poderosos
 						raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
@@ -522,7 +522,7 @@
 			<div id="industriaHighTech-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para a indústria de <strong>High Tech</strong> em que voc&ecirc; executa, considere estes 5 poderosos
+						<h2>Para a ind&uacute;stria de <strong>High Tech</strong> em que voc&ecirc; executa, considere estes 5 poderosos
 						raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
@@ -602,7 +602,7 @@
 			<div id="industriaBanking-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para a indústria de <strong>Banking</strong> em que voc&ecirc; executa, considere estes 5 poderosos
+						<h2>Para a ind&uacute;stria de <strong>Banking</strong> em que voc&ecirc; executa, considere estes 5 poderosos
 						raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
