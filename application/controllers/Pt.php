@@ -54,7 +54,7 @@ class Pt extends CI_Controller {
                                      'Contactado'      => $contacto,
                                      'id_lenguaje'     => 3);
             $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
-            $session    = array('nombre_completo' => $nombre_completo,
+            /*$session    = array('nombre_completo' => $nombre_completo,
                                 'Empresa'         => $empresa,
                                 'Email'           => $email,
                                 'Pais'            => $pais,
@@ -62,7 +62,7 @@ class Pt extends CI_Controller {
                                 'Telefono'        => $telefono,
                                 'Relacion'        => $relacion,
                                 'Contacto'        => $contacto);
-            $this->session->set_userdata($session);
+            $this->session->set_userdata($session);*/
             //$this->sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
             $this->session->unset_userdata('pantalla');
             $this->session->unset_userdata('nombre_linke');
