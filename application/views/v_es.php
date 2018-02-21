@@ -122,7 +122,7 @@
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>1</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/maquina.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">20% de contenido empresarial creado por máquinas para 2018</strong>
@@ -132,7 +132,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>2</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Solo el 38% de las empresas tiene la visibilidad en tiempo real requerida</strong>
@@ -142,7 +142,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>3</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/ganancia.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Mejore la tasa de ganancia de la oferta en un 10%</strong>
