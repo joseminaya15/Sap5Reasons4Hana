@@ -81,9 +81,7 @@ class Es extends CI_Controller {
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
         try {
-            // cargamos la libreria email de ci
             $this->load->library('email');
-            //configuracion para gmail
             $configGmail = array('protocol'  => 'smtp',
                                  'smtp_host' => 'smtpout.secureserver.net',
                                  'smtp_port' => 3535,
@@ -96,9 +94,8 @@ class Es extends CI_Controller {
             $this->email->from('info@sap-latam.com');
             $this->email->to('jhonatanibericom@gmail.com');
             $this->email->subject('Estoy interesado en SAP 5 Reasons 4 Hana');
-            //CONSTRUIMOS EL HTML
             $texto = 'html';
-            $this->email->message($texto);//AQUI SE INSERTA EL HTML
+            $this->email->message($texto);
             $this->email->send();
             $data['error'] = EXIT_SUCCESS;
         }catch(Exception $e){
