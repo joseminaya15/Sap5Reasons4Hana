@@ -144,9 +144,6 @@ function solicitarEstimacion(){
 function enviarGracias(){
 	$('#formulario').addClass('animated fadeOutLeft');
 	$('.mdl-agradecimiento').addClass('animated fadeInRight');
-	setTimeout(function(){ 
-		location.reload();
-	}, 40000);
 }
 function soloLetras(e){
     key 	   = e.keyCode || e.which;
@@ -250,4 +247,9 @@ function openIndustria(id){
         "src"   : imgModal.attr('src')
     });
     modalMas.modal('toggle');
+}
+function returnCaso(){
+	setTimeout(function(){ 
+		location.reload();
+	}, 4000);
 }

@@ -617,6 +617,18 @@ button.button-left{
     font-size: 28px;
     line-height: 32px;
 }
+.mdl-agradecimiento small{
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.mdl-agradecimiento a{
+    margin-top: 20px;
+    background-color: #F7B12C !important;
+    color: #000000;
+    font-family: 'RobotoBold';
+    text-decoration: none;
+}
 .title-formulario{
     font-size: 20px;
     margin: 0;

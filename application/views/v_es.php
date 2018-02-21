@@ -792,8 +792,12 @@
 				</div>
 			</div>
 			<div class="mdl-agradecimiento window-center opacity-done">
-				<h2>Gracias por su interés</h2>
-				<p>Un representante de SAP se pondrá en contacto con Usted para ayudarlo a dar el primer paso.</p>
+				<div class="center-container">
+					<h2>Gracias por su interés</h2>
+					<p>Un representante de SAP se pondrá en contacto con Usted para ayudarlo a dar el primer paso.</p>
+					<small>Mientras tanto le compartimos un caso de &eacute;xito sobre servicios profesionales en su regi&oacute;n</small>
+					<a href="#" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="returnCaso()">Ver caso de &eacute;xito</a>
+				</div>
 			</div>
 		</div>
 	</section>
