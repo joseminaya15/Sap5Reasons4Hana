@@ -125,8 +125,7 @@ function solicitarEstimacion(){
 				telefono 		: telefono,
 				relacion 		: relacion,
 				contacto 		: contacto,
-				term_cond       : term_cond,
-				idioma 		  	: idioma},
+				term_cond       : term_cond},
 		url  : 'es/solicitarEstimacion',
 		type : 'POST'
 	}).done(function(data){
@@ -232,8 +231,7 @@ function cambiarIdioma(){
 	}).done(function(data){
 		try{
         data = JSON.parse(data);
-        if(data.error == 0){
-        }else {return;}
+        if(data.error != 0){return;}
       } catch (err){
         msj('error',err.message);
       }

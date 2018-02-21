@@ -216,11 +216,11 @@ function limpiarCampos(){
 }
 function cambiarIdioma(){
 	var idioma = $('#Idioma').val();
-	if(idioma == 'Español') {
+	if(idioma == 'Español'){
 		location.href = 'Es';
-	}else if(idioma == 'Inglés') {
+	}else if(idioma == 'Inglés'){
 		location.href = 'En';
-	}else if(idioma == 'Portugués') {
+	}else if(idioma == 'Portugués'){
 		location.href = 'Pt';
 	}
 	$.ajax({
@@ -230,8 +230,7 @@ function cambiarIdioma(){
 	}).done(function(data){
 		try{
         data = JSON.parse(data);
-        if(data.error == 0){
-        }else {return;}
+        if(data.error != 0){return;}
       } catch (err){
         msj('error',err.message);
       }

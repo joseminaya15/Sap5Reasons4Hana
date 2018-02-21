@@ -230,8 +230,7 @@ function cambiarIdioma(){
 	}).done(function(data){
 		try{
         data = JSON.parse(data);
-        if(data.error == 0){
-        }else {return;}
+        if(data.error != 0){return;}
       } catch (err){
         msj('error',err.message);
       }
