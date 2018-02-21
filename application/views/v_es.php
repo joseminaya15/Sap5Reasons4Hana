@@ -180,7 +180,7 @@
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>1</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/venta.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">100% nueva línea de productos para venta al por menor</strong>
@@ -190,7 +190,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>2</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/capital.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Reducir los requisitos de capital en un 35%</strong>
@@ -210,7 +210,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>4</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/decision.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Reducir el tiempo de toma de decisiones en un 30%</strong>
