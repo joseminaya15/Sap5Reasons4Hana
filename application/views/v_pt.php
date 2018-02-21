@@ -694,7 +694,7 @@
 					</div>
 					<div class="formulario inline">
 						<h2>Temos mais informa&ccedil;&otilde;es para compartilhar com voc&ecirc;.</h2>
-						<p>Complete el formulario para descargarlo</p>
+						<p>Complete o formul&aacute;rio para baix&aacute;-lo</p>
 						<form class="mdl-formulario text-left">
 		        			<div class="content-datos">
 		        				<div class="content-personal">

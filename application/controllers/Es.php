@@ -44,7 +44,7 @@ class Es extends CI_Controller {
             $terminos        = $this->input->post('term_cond');
             $contacto        = $this->input->post('contacto');
             $lenguaje        = $this->input->post('idioma');
-            $id_lenguaje     = $this->M_solicitud->getIdioma($lenguaje );
+            //$id_lenguaje     = $this->M_solicitud->getIdioma($lenguaje );
             $arrayInsert     = array('nombre_completo' => $nombre_completo,
                                      'Empresa'         => $empresa,
                                      'Email'           => $email,
@@ -54,7 +54,7 @@ class Es extends CI_Controller {
                                      'Terminos'        => $terminos,
                                      'Relacion'        => $relacion,
                                      'Contactado'      => $contacto,
-                                     'id_lenguaje'     => $id_lenguaje[0]->Id_lenguaje);
+                                     'id_lenguaje'     => 1);
             $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
             $session    = array('nombre_completo' => $nombre_completo,
                                 'Empresa'         => $empresa,
