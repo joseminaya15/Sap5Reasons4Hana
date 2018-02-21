@@ -63,6 +63,7 @@ class Es extends CI_Controller {
                                 'Relacion'        => $relacion,
                                 'Contacto'        => $contacto);
             $this->session->set_userdata($session);
+            //$this->sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
             $this->session->unset_userdata('pantalla');
             $this->session->unset_userdata('nombre_linke');
             $this->session->unset_userdata('email_linke');
@@ -77,7 +78,7 @@ class Es extends CI_Controller {
         echo json_encode($data);
     }
 
-    function sendEmail(){
+    /*function sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto){
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
         try {
@@ -102,7 +103,7 @@ class Es extends CI_Controller {
             $data['msj'] = $e->getMessage();
         }
         return json_encode(array_map('utf8_encode', $data));
-    }
+    }*/
 
     function cambiarIdioma() {
       $data['error'] = EXIT_ERROR;
