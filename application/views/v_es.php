@@ -138,6 +138,7 @@
 		            			<div class="card-back">
 		            				<p id="title">20% de contenido empresarial creado por máquinas para 2018</p>
 									<label>La experiencia, talento, presentaci&oacute;n de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+									<button id="verServicio1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -152,6 +153,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Solo el 38% de las empresas tiene la visibilidad en tiempo real requerida</p>
 		            				<label>Proporciona una fuente consolidada de toda la información minuciosa relacionada con el proyecto, mejorando el compromiso y productividad de los empleados.</label>
+		            				<button id="verServicio2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -166,6 +168,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Mejore la tasa de ganancia de la oferta en un 10%</p>
 									<label>Aumenta la productividad del usuario, con un an&aacute;lisis sencillo de ofertas versus presupuestos, basado en los proyectos exitosos como base para nuevas ofertas.</label>
+									<button id="verServicio3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -180,6 +183,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Aumenta la rentabilidad en 0.5pp</p>
 									<label>Proporciona procesos comerciales simplificados y redise&ntilde;ados, manejando informaci&oacute;n procesable, acelerando el flujo de efectivo y protegiendo la rentabilidad el proyecto.</label>
+									<button id="verServicio4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -204,6 +208,7 @@
 		            			<div class="card-back">
 		            				<p id="title">100% nueva línea de productos para venta al por menor</p>
 									<label>La soluci&oacute;n redise&ntilde;ada ejecuta un modelo de datos simplificado y permite a los empleados minoristas una experiencia de usuario avanzada y constante desde las sedes hasta la tienda.</label>
+									<button id="verRetail1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -218,6 +223,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reducir los requisitos de capital en un 35%</p>
 									<label>Obt&eacute;n una &uacute;nica fuente de verdad y logra eliminar en el &aacute;rea de finanzas los errores de previsi&oacute;n, reduciendo el capital un 35%, y mejorando la productividad del procedimiento de las facturas en un 40%.</label>
+									<button id="verRetail2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -232,6 +238,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Aumenta la rentabilidad en 0.5pp</p>
 									<label>Proporciona procesos comerciales simplificados y redise&ntilde;ados, manejando informaci&oacute;n procesable, acelerando el flujo de efectivo y protegiendo la rentabilidad el proyecto.</label>
+									<button id="verRetail3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -246,6 +253,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reducir el tiempo de toma de decisiones en un 30%</p>
 									<label>Muestra la informaci&oacute;n en diversos formatos, adicional brinda una gu&iacute;a basada en los elementos de acci&oacute;n que requiere inmediata atenci&oacute;n, reducido el tiempo de toma de decisiones.</label>
+									<button id="verRetail4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -260,6 +268,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reduce las rebajas en un 20%</p>
 									<label>Nuevo concepto de estacionalidad es impulsar todos los procesos de ciclo de vida del producto desde la creaci&oacute;n, adquisici&oacute;n, venta, calculo de precios y administraci&oacute;n de existencias.</label>
+									<button id="verRetail5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -284,6 +293,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Aumenta la satisfacci&oacute;n del cliente en un 20%</p>
 									<label>Gesti&oacute;n de inventario real y flujo de materiales, significa menos desabastecimientos y mejor rendimiento de tiempo en las entregas.</label>
+									<button id="verProducto1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>								
 		            		</div>
 		            	</div>
@@ -298,6 +308,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reducir el inventario en el sitio en un 30%</p>
 									<label>Planificar los requerimientos de material, ejecutada en tiempo real y ofrecer resultados de planificaci&oacute;n actualizados y completos.</label>
+									<button id="verProducto2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -312,6 +323,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reduzca la p&eacute;rdida de ingresos debido a desabastecimientos en un 15%</p>
 									<label>Confirma y permite verificar la disponibilidad de abastecimiento en tiempo real, teniendo mayor satisfacci&oacute;n del cliente reflejando crecimiento del negocio.</label>
+									<button id="verProducto3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>								
 		            		</div>
 		            	</div>
@@ -326,6 +338,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reduce los costos totales de fabricaci&oacute;n en un 10%</p>
 									<label>Planifica los requisitos de materiales, teniendo un menor tiempo de ciclo de fabricaci&oacute;n, menor costo y mayor eficiencia.</label>
+									<button id="verProducto4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -340,6 +353,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Aumenta las entregas a tiempo en un 30%</p>
 									<label>Informa en tiempo real los estados de las &oacute;rdenes de venta, teniendo una soluci&oacute;n r&aacute;pida para cumplir los pedidos y aumentar las entregas a tiempo.</label>
+									<button id="verProducto5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -364,6 +378,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Expandir el pipeline de ventas en un 15-20%</p>
 									<label>Intercambio de datos a tiempo real entre las ventas, el servicio al cliente y los l&iacute;deres empresariales, evitando datos duplicados y un an&aacute;lisis simple que lleva a ventas efectivas y espec&iacute;ficas.</label>
+									<button id="verProceso1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -378,6 +393,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reduce el tiempo para cerrar en un 60%</p>
 									<label>Ejecutar en vivo, con informaci&oacute;n en tiempo real basada en una &uacute;nica fuente de verdad. Tome las mejores decisiones y mejore los negocios.</label>
+									<button id="verProceso2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -392,6 +408,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Aumente la eficiencia de la operaci&oacute;n hasta en un 60%</p>
 									<label>Gesti&oacute;n de inventarios en tiempo real y valoraci&oacute;n de materiales, mejorando la satisfacci&oacute;n, compromiso y productividad del empleado.</label>
+									<button id="verProceso3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -406,6 +423,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reducir los costos de adquisici&oacute;n en un 15%</p>
 									<label>Aprovechar los descuentos en pago anticipado, reduciendo el tiempo de adquisici&oacute;n de trabajadores en un tercio, maximizando el orden de inventario y seguimiento de materias primas en tiempo real.</label>
+									<button id="verProceso4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -420,6 +438,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Ahorre 38% en hardware y costos de operaci&oacute;n</p>
 									<label>La eliminaci&oacute;n de &iacute;ndices de datos, agregados y redundancias reduce la huella de datos y el costo total de propiedad.</label>
+									<button id="verProceso5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -444,6 +463,7 @@
 		            			<div class="card-back">
 		            				<p id="title">$ 50 mil millones en ingresos incrementales</p>
 									<label>Necesitan tecnolog&iacute;a digital para crear, entregar y sostener nuevas experiencias. Es necesario que empleen toda la tecnolog&iacute;a posible como aplicaciones para clientes en su estrategia o quedarse atr&aacute;s.</label>
+									<button id="verDistribucion1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -458,6 +478,7 @@
 		            			<div class="card-back">
 		            				<p id="title">&#60; 20% puede predecir el comportamiento del cliente</p>
 									<label>SAP S/4 HANA proporciona una experiencia de usuario simplificada, basada en una &uacute;nica fuente de verdad consolidada para proporcionar informaci&oacute;n detallada.</label>
+									<button id="verDistribucion2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -472,6 +493,7 @@
 		            			<div class="card-back">
 		            				<p id="title">30% de reducci&oacute;n en los niveles de inventario</p>
 									<label>Inventarios con una &uacute;nica fuente de verdad que, consolidada para analizar la rotaci&oacute;n del inventario, realizar seguimientos de flujo de materiales y transferencias de stock, y tomar las medidas apropiadas.</label>
+									<button id="verDistribucion3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -486,6 +508,7 @@
 		            			<div class="card-back">
 		            				<p id="title">50% de reducci&oacute;n en problemas de cumplimiento de pedidos</p>
 									<label>Permite identificar f&aacute;cilmente un problema de pedidos y alertas en tiempo real para excepciones. Adem&aacute;s de aprovechar las capacidades de verificaci&oacute;n y liberaci&oacute;n de productos, priorizando a los clientes claves.</label>
+									<button id="verDistribucion4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -510,6 +533,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Proceso de cotizaci&oacute;n 95% m&aacute;s r&aacute;pido</p>
 									<label>Facilitar a los ejecutivos crear una cotizaci&oacute;n para entregar resultados comerciales, no solo productos.</label>
+									<button id="verTech1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -524,6 +548,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reduzca el trabajo del proceso en un 50%</p>
 									<label>Tenga ahorros incre&iacute;bles con un solo sistema para procesos que van desde la compra hasta las finanzas y contabilidad, desde la f&aacute;brica y la administraci&oacute;n de contactos.</label>
+									<button id="verTech2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>								
 		            		</div>
 		            	</div>
@@ -538,6 +563,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Mant&eacute;ngase en conformidad con IFRS15</p>
 									<label>Prep&aacute;rese para las nuevas regulaciones de reconocimiento de ingresos IFRS15 para 2018 y tenga una de la soluci&oacute;n m&aacute;s moderna de reconcomiendo de ingresos.</label>
+									<button id="verTech3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -552,6 +578,7 @@
 		            			<div class="card-back">
 		            				<p id="title">30% de disminuci&oacute;n en los niveles de inventario</p>
 									<label>Visualizar y optimizar los procesos de ventas desde el prospecto de pago con informaci&oacute;n detallada sobre el ciclo de ventas de principio a fin.</label>
+									<button id="verTech4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -566,6 +593,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
 									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+									<button id="verTech5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -590,6 +618,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
 									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+									<button id="verBancking1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -604,6 +633,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
 									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+									<button id="verBancking2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -618,6 +648,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
 									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+									<button id="verBancking3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -632,6 +663,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
 									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+									<button id="verBancking4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -646,6 +678,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
 									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+									<button id="verBancking5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -784,6 +817,24 @@
     				<div class="mdl-card__actions text-right">       				    
                         <button class="mdl-button mdl-js-button mdl-js-ripple-effect" onclick="closeModal()">Cerrar</button>        				    
                         <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised" onclick="selectIndustria()">Seleccionar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="ModalMasIndustria" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-sm text-center">
+            <div class="modal-content">
+                <div class="mdl-card" >
+                    <div class="mdl-card__title">
+						<img alt="" src="">
+					</div>
+				    <div class="mdl-card__supporting-text">
+                        <p></p>
+                        <label></label>
+					</div> 
+    				<div class="mdl-card__menu">       				    
+                        <button class="mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" data-dismiss="modal"><i class="mdi mdi-close"></i></button>
                     </div>
                 </div>
             </div>

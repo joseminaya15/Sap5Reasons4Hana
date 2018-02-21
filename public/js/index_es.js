@@ -1,5 +1,6 @@
 /*FRONT*/
 var modal       = $('#ModalIndustria');
+var modalMas    = $('#ModalMasIndustria');
 var idIndustria = null;
 function modalIndustria(id){
 	var cardIndustria  = $('#'+id);
@@ -236,4 +237,17 @@ function cambiarIdioma(){
         msj('error',err.message);
       }
 	});
+}
+function openIndustria(id){
+	var buttonMas  = $("#"+id);
+	var imgModal   = buttonMas.parent().parent().find('.card-front').find('img');
+	var titleModal = buttonMas.parent().find('p');
+	var labelModal = buttonMas.parent().find('label');
+	modalMas.find('.mdl-card__supporting-text').find('p').text(titleModal[0].innerText);
+    modalMas.find('.mdl-card__supporting-text').find('label').text(labelModal[0].innerText);
+    modalMas.find('.mdl-card__title').find('img').attr({
+        "alt"   : imgModal.attr('alt'),
+        "src"   : imgModal.attr('src')
+    });
+    modalMas.modal('toggle');
 }

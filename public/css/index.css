@@ -382,6 +382,16 @@ button.button-left{
     -webkit-box-orient: vertical;
     font-family: 'RobotoLight';
 }
+.flip-card .card-back button{
+    box-shadow: none;
+    background-color: transparent;
+    font-family: 'RobotoBold';
+    text-transform: initial;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-decoration: underline;
+}
 .card-industria{
     max-width: calc(100% - 680px);
     vertical-align: middle;
@@ -499,6 +509,7 @@ button.button-left{
     line-height: 24px;
     color: #EFAA00;
 }
+#ModalMasIndustria .mdl-card .mdl-card__supporting-text,
 #ModalIndustria .mdl-card .mdl-card__supporting-text,
 #ModalIndustria .mdl-card .mdl-card__title img{
     width: 100%;
@@ -525,6 +536,33 @@ button.button-left{
 }
 #ModalIndustria .mdl-card .mdl-card__actions .mdl-button--raised{
     background-color: #EFAA00;
+    color: #FFFFFF;
+}
+#ModalMasIndustria .mdl-card{
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    max-width: 300px;
+}
+#ModalMasIndustria .mdl-card .mdl-card__title img{
+    margin: auto;
+    max-width: 150px;
+}
+#ModalMasIndustria .mdl-card .mdl-card__supporting-text{
+    text-align: left;
+    padding: 5px 30px 20px 30px;
+}
+#ModalMasIndustria .mdl-card .mdl-card__supporting-text p{
+    font-family: 'RobotoBold';
+    font-size: 22px;
+}
+#ModalMasIndustria .mdl-card .mdl-card__supporting-text label{
+    color: #fff;
+    font-family: 'RobotoRegular';
+    margin-top: 20px;
+    font-weight: 100;
+}
+#ModalMasIndustria .mdl-card .mdl-card__menu i{
     color: #FFFFFF;
 }
 /*FORMULARIO*/
