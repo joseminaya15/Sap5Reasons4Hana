@@ -116,17 +116,17 @@ function solicitarEstimacion(){
 	}
 	$('.button-confirmar').prop("disabled", true);
 	$.ajax({
-		data  : { nombre_completo : nombre_completo,
-				  empresa 	      : empresa,
-				  email 		  : email,
-				  pais 			  : pais,
-				  cargo 		  : cargo,
-				  telefono 		  : telefono,
-				  relacion 		  : relacion,
-				  contacto 		  : contacto,
-				  term_cond       : term_cond },
-		url   : 'en/solicitarEstimacion',
-		type  : 'POST'
+		data : { nombre_completo : nombre_completo,
+				 empresa 	     : empresa,
+				 email 		     : email,
+				 pais 			 : pais,
+				 cargo 		  	 : cargo,
+				 telefono 		 : telefono,
+				 relacion 		 : relacion,
+				 contacto 		 : contacto,
+				 term_cond       : term_cond },
+		url  : 'en/solicitarEstimacion',
+		type : 'POST'
 	}).done(function(data){
 		try{
         	data = JSON.parse(data);
@@ -214,7 +214,7 @@ function limpiarCampos(){
 		$('#c-ambos').parent().removeClass('is-checked');
 	}
 }
-function cambiarIdioma() {
+function cambiarIdioma(){
 	var idioma = $('#Idioma').val();
 	if(idioma == 'Español'){
 		location.href = 'Es';

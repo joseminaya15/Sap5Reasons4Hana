@@ -43,8 +43,6 @@ class Es extends CI_Controller {
             $relacion        = $this->input->post('relacion');
             $terminos        = $this->input->post('term_cond');
             $contacto        = $this->input->post('contacto');
-            $lenguaje        = $this->input->post('idioma');
-            //$id_lenguaje     = $this->M_solicitud->getIdioma($lenguaje );
             $arrayInsert     = array('nombre_completo' => $nombre_completo,
                                      'Empresa'         => $empresa,
                                      'Email'           => $email,
