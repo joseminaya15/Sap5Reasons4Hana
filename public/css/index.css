@@ -364,12 +364,12 @@ button.button-left{
     color: #000000;
     font-size: 16px;
     line-height: 20px;
-    height: 85px;
     overflow: hidden;
     font-family: 'RobotoBold';
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
+    margin-bottom: 10px;
 }
 .flip-card .card-back label{
     color: #000000;
