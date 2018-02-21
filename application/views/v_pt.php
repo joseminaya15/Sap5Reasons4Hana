@@ -44,7 +44,7 @@
 			</div>
 		</div>
 		<div class="chat">
-			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Cont&aacute;ctenos</label></a>
+			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Entre em contato conosco</label></a>
 		</div>
 		<div id="home" class="window-center">
 			<div id="window2" class="window-center">
@@ -52,60 +52,60 @@
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>
 						<div class="mdl-letras inline">
-							<p>razones principales</p>
-							<h2>por qu&eacute; elegir SAP S/4 HANA</h2>
+							<p>principais motivos</p>
+							<h2>por que escolher SAP S/4 HANA</h2>
 						</div>	
 					</div>
 					<div class="industrias inline">
 						<h2>Seleccione su industria</h2>
 						<div id="industriaServicio" class="mdl-industrias" onclick="modalIndustria(this.id)">
-							<p class="inline">Servicios Profesionales</p>
+							<p class="inline">Servi&ccedil;os profissionais</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/servicios.png">
-							<div class="one none">Estar actualizado y poder reducir con los procesos financieros en tiempo real.</div>
-							<div class="two none">Minimizar el riesgo de sus proyectos.</div>
-							<div class="three none">Aumentar la precisi&oacute;n de sus licitaciones.</div>
+							<div class="one none">Seja atualizado e seja capaz de reduzir com os processos financeiros em tempo real.</div>
+							<div class="two none">Minimize o risco de seus projetos.</div>
+							<div class="three none">Aumente a precisão das suas propostas.</div>
 						</div>
 						<div id="industriaRetail" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Retail</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/retail.png">
-							<div class="one none">Reducir falta de stock y obtener un mayor ingreso por empleado.</div>
-							<div class="two none">Mejorar la rotaci&oacute;n de inventario y aumentar la rentabilidad.</div>
-							<div class="three none">Mayor disponibilidad de tiempo para atender al cliente.</div>
+							<div class="one none">Reduzir a falta de estoque e obter uma maior renda por empregado.</div>
+							<div class="two none">Melhorar o volume de negócios e aumentar a lucratividade.</div>
+							<div class="three none">Maior disponibilidade de tempo para atender o cliente.</div>
 						</div>
 						<div id="industriaProducto" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline">Productos de Consumo</p>
+							<p class="inline">Produtos de consumo</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/productos.png">
-							<div class="one none">Optimizar la planificaci&oacute;n de requerimiento de materiales.</div>
-							<div class="two none">Digitalizar las ventas mejorando la productividad con un menor costo de propiedad.</div>
-							<div class="three none">Aumente la flexibilidad con las extensiones de la l&iacute;nea de negocio.</div>
+							<div class="one none">Otimizar planejamento de requisitos de material.</div>
+							<div class="two none">Digitalizar as vendas melhorando a produtividade com menor custo de propriedade.</div>
+							<div class="three none">Aumente a flexibilidade com as extensões de linha de neg&oacute;cio.</div>
 						</div>
 						<div id="industriaProceso" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline">Proceso y Manufactura</p>
+							<p class="inline">Processo e fabrica&ccedil;&atilde;o</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/procesos.png">
-							<div class="one none">Reducir perdida de ingresos por falta de stock.</div>
+							<div class="one none">Reduza a perda de renda por falta de estoque.</div>
 							<div class="two none">Mejorar la experiencia del pedido y entrega.</div>
-							<div class="three none">Reducir los niveles de inventarios.</div>
+							<div class="three none">Reduzir os níveis de invent&aacute;rio.</div>
 						</div>
 						<div id="industriaDistribucion" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline">Distribuci&oacute;n</p>
+							<p class="inline">Distribui&ccedil;&aacute;o</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/distribucion.png">
-							<div class="one none">Mejorar la capacidad y puntualidad de despacho de pedidos.</div>
-							<div class="two none">Reducir los niveles y tiempo en los inventarios.</div>
-							<div class="three none">Aumentar la satisfacci&oacute;n del cliente.</div>
+							<div class="one none">Melhore a capacidade e a pontualidade do cumprimento das ordens.</div>
+							<div class="two none">Reduza os níveis e o tempo nos estoques.</div>
+							<div class="three none">Aumenta a satisfa&ccedil;&atilde;o do cliente.</div>
 						</div>
 						<div id="industriaHighTech" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">High Tech</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/tech.png">
-							<div class="one none">Reducir la p&eacute;rdida de ingresos por falta de stock y d&iacute;as de inventario.</div>
-							<div class="two none">Mejorar el proceso de quote – to – order, y reducir las quejas de clientes.</div>
-							<div class="three none">Aumentar la l&iacute;nea de negocio con productos e innovaci&oacute;n.</div>
+							<div class="one none">Reduzir a perda de renda por falta de estoque e dias de inventário.</div>
+							<div class="two none">Melhore o processo de cita&ccedil;&atilde;o por encomenda e reduza as reclama&ccedil;&otilde;es dos clientes.</div>
+							<div class="three none">Aumentar a linha de neg&oacute;cios com produtos e inova&ccedil;&atilde;o.</div>
 						</div>
 						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Banking</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/banking.png">
-							<div class="one none">Ejecutar los procesos en tiempo real.</div>
-							<div class="two none">Mejorar el conocimiento y la visibilidad financiera.</div>
-							<div class="three none">Aumentar el riesgo de sus proyectos.</div>
+							<div class="one none">Execute os processos em tempo real.</div>
+							<div class="two none">Melhorar conhecimento e visibilidade financeira.</div>
+							<div class="three none">Aumente o risco de seus projetos.</div>
 						</div>
 					</div>
 				</div>
@@ -115,8 +115,7 @@
 			<div id="industriaServicio-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>Servicios Profesionales</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Para a ind&uacute;stria de <strong>Servi&ccedil;os profissionais</strong> em que você executa, considere estes 5 poderosos raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -124,11 +123,11 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+		            				<label>20% de conte&uacute;do comercial criado por m&uacute;quinas at&uacute; 2018. A experiência, o talento, a apresenta&ccedil;&atilde;o de servi&ccedil;os e o compromisso for&ccedil;a as empresas nesta &aacute;rea a repensar seus modelos de neg&oacute;cios, promovendo o crescimento n&atilde;o-linear e alterando a ind&uacute;stria conforme a conhecemos.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -138,11 +137,11 @@
 		            			<div class="card-front">
 		            				<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no crescimento e n&atilde;o na implementação e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -152,11 +151,11 @@
 		            			<div class="card-front">
 		            				<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no crescimento e não na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -166,11 +165,11 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no crescimento e ñao implementa&ccedil;&atilde; e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -180,11 +179,11 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem paa se concentrar no crescimento e ñao implementa&ccdil;&atilde; e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -195,8 +194,8 @@
 			<div id="industriaRetail-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>Retail</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Para a indústria de <strong>Retail</strong> em que você executa, considere estes 5 poderosos
+						razões pelas quais escolher SAP S / 4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -204,11 +203,11 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+		            				<label>20% de conte&uacute;do comercial criado por m&aacute;quinas at&uacute; 2018. A experi&ecirc;ncia, o talento, a apresenta&ccedil;&ntilde;o de servi&ccdil;os e o compromisso for&ccdil;a as empresas nesta &aacute;rea a repensar seus modelos de neg&oacute;cios, promovendo o crescimento n&ntilde;o-linear e alterando a ind&uacute;stria conforme a conhecemos.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -218,11 +217,11 @@
 		            			<div class="card-front">
 		            				<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no crescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -232,11 +231,11 @@
 		            			<div class="card-front">
 		            				<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -246,11 +245,11 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -260,11 +259,11 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -275,8 +274,8 @@
 			<div id="industriaProducto-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>Productos de consumo</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Para a indústria de <strong>Produtos de consumo</strong> em que voc&ecirc; executa, considere estes 5 poderosos
+						raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -284,11 +283,11 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+		            				<label>20% de conte&uacute;do comercial criado por m&aacute;quinas at&eacute; 2018. A experi&ecirc;ncia, o talento, a apresenta&ccedil;&atilde;o de serviços e o compromisso for&ccedil;a as empresas nesta &aacute;rea a repensar seus modelos de neg&oacute;cios, promovendo o crescimento n&atilde;o-linear e alterando a ind&uacute;stria conforme a conhecemos.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -298,11 +297,11 @@
 		            			<div class="card-front">
 		            				<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -312,11 +311,11 @@
 		            			<div class="card-front">
 		            				<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no cescimento e n&atilde;o na implenta&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -326,11 +325,11 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -340,11 +339,11 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -355,8 +354,8 @@
 			<div id="industriaProceso-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>Proceso y Manufactura</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Para a indústria de <strong>Processo e fabrica&ccedil;&atilde;o</strong> em que voc&ecirc; executa, considere estes 5 poderosos
+						raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -364,11 +363,11 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+		            				<label>20% de conte&uacute;do comercial criado por m&aacute;quinas at&eacute; 2018. A experi&ecirc;ncia, o talento, a apresenta&ccedil;&atilde;o de serviços e o compromisso for&ccedil;a as empresas nesta &aacute;rea a repensar seus modelos de neg&oacute;cios, promovendo o crescimento n&atilde;o-linear e alterando a ind&uacute;stria conforme a conhecemos.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -378,11 +377,11 @@
 		            			<div class="card-front">
 		            				<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -392,11 +391,11 @@
 		            			<div class="card-front">
 		            				<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -406,11 +405,11 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -420,11 +419,11 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -435,8 +434,8 @@
 			<div id="industriaDistribucion-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>Distribuci&oacute;n</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Para a indústria de <strong>Distribui&ccedil;&atilde;o</strong> em que voc&ecirc; executa, considere estes 5 poderosos
+						raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -444,11 +443,11 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+		            				<label>20% de conte&uacute;do comercial criado por m&aacute;quinas at&eacute; 2018. A experi&ecirc;ncia, o talento, a apresenta&ccedil;&atile;o de servi&ccedil;os e o compromisso for&ccedil;a as empresas nesta &aacute;rea a repensar seus modelos de neg&oacute;cios, promovendo o crescimento n&ntilde;o-linear e alterando a ind&uacute;stria conforme a conhecemos.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -458,11 +457,11 @@
 		            			<div class="card-front">
 		            				<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -472,11 +471,11 @@
 		            			<div class="card-front">
 		            				<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -490,7 +489,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -500,11 +499,11 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -515,8 +514,8 @@
 			<div id="industriaHighTech-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>High Tech</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Para a indústria de <strong>High Tech</strong> em que voc&ecirc; executa, considere estes 5 poderosos
+						raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -524,11 +523,11 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+		            				<label>20% de conte&uacute;do comercial criado por m&aacute;quinas at&etilde; 2018. A experi&ecirc;ncia, o talento, a apresenta&ccedil;&atilde;o de servi&ccedil;os e o compromisso for&ccedil;a as empresas nesta &aacute;rea a repensar seus modelos de neg&oacute;cios, promovendo o crescimento n&atilde;o-linear e alterando a ind&uacute;stria conforme a conhecemos.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -538,11 +537,11 @@
 		            			<div class="card-front">
 		            				<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -552,11 +551,11 @@
 		            			<div class="card-front">
 		            				<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -566,11 +565,11 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -580,11 +579,11 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -595,8 +594,8 @@
 			<div id="industriaBanking-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>Banking</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Para a indústria de <strong>Banking</strong> em que voc&ecirc; executa, considere estes 5 poderosos
+						raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -604,11 +603,11 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+		            				<label>20% de conte&uacute;do comercial criado por m&aacute;quinas at&eacute; 2018. A experi&ecirc;ncia, o talento, a apresenta&ccedil;&atilde;o de servi&ccedil;os e o compromisso for&ccedil;a as empresas nesta &aacute;rea a repensar seus modelos de neg&oacute;cios, promovendo o crescimento n&atilde;o-linear e alterando a ind&uacute;stria conforme a conhecemos.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -618,11 +617,11 @@
 		            			<div class="card-front">
 		            				<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -632,11 +631,11 @@
 		            			<div class="card-front">
 		            				<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -646,11 +645,11 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -660,11 +659,11 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
+		            				<label>Aproveite a nuvem para se no cescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -681,28 +680,28 @@
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>
 						<div class="mdl-letras inline">
-							<p>razones principales</p>
-							<h2>por qu&eacute; elegir SAP S/4 HANA</h2>
+							<p>principais motivos</p>
+							<h2>por que escolher SAP S/4 HANA</h2>
 						</div>	
 					</div>
 					<div class="formulario inline">
-						<h2>Tenemos m&aacute;s informaci&oacute;n para compartir con usted.</h2>
+						<h2>Temos mais informa&ccedil;&otilde;es para compartilhar com voc&ecirc;.</h2>
 						<p>Complete el formulario para descargarlo</p>
 						<form class="mdl-formulario text-left">
 		        			<div class="content-datos">
 		        				<div class="content-personal">
-		        					<p><i class="mdi mdi-arrow_downward"></i>Introduzca aqu&iacute; sus datos</p>
+		        					<p><i class="mdi mdi-arrow_downward"></i>Insira seus dados aqui</p>
 		        				</div>
 		        				<div class="content-separacion">
 		        					<p>o</p>
 		        				</div>
 		        				<div class="content-linkedin">
-		        					<a class="button-linkedin" href="<?php  echo "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id={$client_id}&redirect_uri={$redirect_uri}&state={$csrf_token}&scope={$scopes}"; ?>"><i class="fa fa-linkedin" aria-hidden="true"></i>Conéctese v&iacute;a LinkedIn</a>
+		        					<a class="button-linkedin" href="<?php  echo "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id={$client_id}&redirect_uri={$redirect_uri}&state={$csrf_token}&scope={$scopes}"; ?>"><i class="fa fa-linkedin" aria-hidden="true"></i>Conectar via LinkedIn</a>
 		        				</div>
 		        			</div>
 		    				<div class="col-sm-6">
 		    					<div class="mdl-input">
-								    <input type="text" class="form-control" id="nombre_completo" maxlength="50" onkeypress="return soloLetras(event);" onchange="validarCampos()" placeholder="Nombre Completo">
+								    <input type="text" class="form-control" id="nombre_completo" maxlength="50" onkeypress="return soloLetras(event);" onchange="validarCampos()" placeholder="Nome completo">
 								</div>
 		    				</div>
 		    				<div class="col-sm-6">
@@ -717,25 +716,25 @@
 		    				</div>
 		    				<div class="col-sm-6">
 		    					<div class="mdl-input">
-									<input type="text" class="form-control" id="telefono" onchange="validarCampos()" placeholder="Teléfono">
+									<input type="text" class="form-control" id="telefono" onchange="validarCampos()" placeholder="Telefone">
 								</div>
 		    				</div>
 		    				<div class="col-sm-6">
 		    					<div class="mdl-input">
-									<input type="email" class="form-control" id="email" maxlength="50" aria-describedby="emailHelp" placeholder="Email">
+									<input type="email" class="form-control" id="email" maxlength="50" aria-describedby="emailHelp" placeholder="E-mail">
 								</div>
 		    				</div>
 		    				<div class="col-sm-6">
 		    					<div class="mdl-select mdl-standar">
 									<select class="selectpicker" id="relacion" name="relacion" title="Relación con SAP">
 										<option value="Cliente">Cliente</option>
-										<option value="Cliente potencial">Cliente potencial</option>
+										<option value="Cliente em potencial">Cliente em potencial</option>
 										<option value="Consultor">Consultor</option>
-										<option value="Empleado SAP">Empleado SAP</option>
-										<option value="Estudiante">Estudiante</option>
-										<option value="Partner">Partner</option>
-										<option value="Partner potencial">Partner potencial</option>
-										<option value="Prensa/Analista">Prensa/Analista</option>
+										<option value="Funcionário da SAP">Funcion&aacute;rio da SAP</option>
+										<option value="Estudante">Estudante</option>
+										<option value="Parceiro">Parceiro</option>
+										<option value="Parceiro em potencial">Parceiro em potencial</option>
+										<option value="Imprensa/Analista">Imprensa/Analista</option>
 									</select>
 								</div>
 		    				</div>
@@ -745,17 +744,17 @@
 								</div>
 		    				</div>
 		    				<div class="col-sm-6">
-		    					<p class="text-contacto">Quiero ser contactado por representante de ventas:</p>
+		    					<p class="text-contacto">Quero ser contatado por um representante de vendas:</p>
 		    					<div class="mdl-input-label">
 		    						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c-email">
 										<input type="radio" id="c-email" class="mdl-radio__button" name="options" value="1">
-										<span class="mdl-radio__label">Por Email</span>
+										<span class="mdl-radio__label">Por e-mail</span>
 									</label>
 		    					</div>
 		    					<div class="mdl-input-label">
 		    						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c-telefono">
 										<input type="radio" id="c-telefono" class="mdl-radio__button" name="options" value="2">
-										<span class="mdl-radio__label">Por tel&eacute;fono</span>
+										<span class="mdl-radio__label">Por telefone</span>
 									</label>
 		    					</div>
 		    					<div class="mdl-input-label">
@@ -768,19 +767,19 @@
 		    				<div class="col-xs-12 mdl-label m-t-10">
 								<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
 									<input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-									<span class="mdl-checkbox__label f-s-14" style="">He le&iacute;do y acepto los <a class="FONDO_TERMINOS" href="https://www.sap.com/corporate/en/legal/terms-of-use.html" target="_blank" style="">Términos y condiciones de SAP</a></span>
+									<span class="mdl-checkbox__label f-s-14" style="">Li e aceito os <a class="FONDO_TERMINOS" href="https://www.sap.com/corporate/en/legal/terms-of-use.html" target="_blank" style="">termos e condi&ccedil;&otilde;es da SAP</a></span>
 								</label>
 		    				</div>
 		    				<div class="col-xs-12 text-right m-t-25">
-								<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-confirmar" onclick="solicitarEstimacion();">Enviar informaci&oacute;n</button>
+								<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-confirmar" onclick="solicitarEstimacion();">Enviar informa&ccedil;&otilde;es</button>
 		    				</div>
 		        		</form>
 					</div>
 				</div>
 			</div>
 			<div class="mdl-agradecimiento window-center opacity-done">
-				<h2>Gracias por su interés</h2>
-				<p>Un representante de SAP se pondrá en contacto con Usted para ayudarlo a dar el primer paso.</p>
+				<h2>Obrigado por seu interesse</h2>
+				<p>Um representante da SAP entrar&aacute; em contato com voc&ecirc; para ajud&aacute;-lo a dar o primeiro passo.</p>
 			</div>
 		</div>
 	</section>
@@ -790,11 +789,11 @@
             <div class="modal-content">
                 <div class="mdl-card" >
                     <div class="mdl-card__title p-0">
-                    	<h2>Los retos que enfrentan son</h2>
+                    	<h2>Os desafios que enfrentam s&atilde;o</h2>
 						<img alt="" src="">
 					</div>
 				    <div class="mdl-card__supporting-text text-left">
-                        <p>Los retos que enfrentan son</p>
+                        <p>Os desafios que enfrentam s&atilde;o</p>
                         <ul>
                         	<li class="one"></li>
                         	<li class="two"></li>
@@ -802,8 +801,8 @@
                         </ul>
 					</div> 
     				<div class="mdl-card__actions text-right">       				    
-                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect" onclick="closeModal()">Cerrar</button>        				    
-                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised" onclick="selectIndustria()">Seleccionar</button>
+                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect" onclick="closeModal()">Fechar</button>        				    
+                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised" onclick="selectIndustria()">Selecione</button>
                     </div>
                 </div>
             </div>
@@ -824,7 +823,7 @@
         } else {
             $('select').selectpicker();
         }
-        /*$(window).load(function() {
+        $(window).load(function() {
         	if(<?php echo $pantalla ?> == 5) {
         		var formulario   = $('#formulario');
 	        	var homePage      = $('#home');
@@ -844,7 +843,7 @@
 				$('#pais').val("<?php echo $pais_link ?>");
 				$('#telefono').css('border-color','red');
         	}
-        });*/
+        });
     </script>
 </body>
 </html>
