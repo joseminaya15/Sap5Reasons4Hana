@@ -11,8 +11,7 @@ $redirect_uri = "http://test.brainblue.com/sap_5reasons_4hana/callback";
 $csrf_token = random_int(1111111, 9999999);
 $scopes = "r_basicprofile%20r_emailaddress";
 
-function curl($url, $parameters)
-{
+function curl($url, $parameters){
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
@@ -37,11 +36,11 @@ function getCallback(){
         $code = $_REQUEST['code'];
         $url = "https://www.linkedin.com/oauth/v2/accessToken";
         $params = [
-            'client_id' => $client_id,
+            'client_id'     => $client_id,
             'client_secret' => $client_secret,
-            'redirect_uri' => $redirect_uri,
-            'code' => $code,
-            'grant_type' => 'authorization_code',
+            'redirect_uri'  => $redirect_uri,
+            'code'          => $code,
+            'grant_type'    => 'authorization_code',
         ];
         $accessToken = curl($url,http_build_query($params));
         $accessToken = json_decode($accessToken)->access_token;
