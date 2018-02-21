@@ -116,17 +116,17 @@ function solicitarEstimacion(){
 	}
 	$('.button-confirmar').prop("disabled", true);
 	$.ajax({
-		data  : { nombre_completo : nombre_completo,
-				  empresa 	      : empresa,
-				  email 		  : email,
-				  pais 			  : pais,
-				  cargo 		  : cargo,
-				  telefono 		  : telefono,
-				  relacion 		  : relacion,
-				  contacto 		  : contacto,
-				  term_cond       : term_cond },
-		url   : 'pt/solicitarEstimacion',
-		type  : 'POST'
+		data : {nombre_completo : nombre_completo,
+				empresa 	    : empresa,
+				email 		  	: email,
+				pais 			: pais,
+				cargo 		  	: cargo,
+				telefono 		: telefono,
+				relacion 		: relacion,
+				contacto 		: contacto,
+				term_cond       : term_cond},
+		url  : 'pt/solicitarEstimacion',
+		type : 'POST'
 	}).done(function(data){
 		try{
         	data = JSON.parse(data);
@@ -224,9 +224,9 @@ function cambiarIdioma(){
 		location.href = 'Pt';
 	}
 	$.ajax({
-		data  : {idioma : idioma},
-		url   : 'pt/cambiarIdioma',
-		type  : 'POST'
+		data : {idioma : idioma},
+		url  : 'pt/cambiarIdioma',
+		type : 'POST'
 	}).done(function(data){
 		try{
         data = JSON.parse(data);
