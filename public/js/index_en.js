@@ -224,9 +224,9 @@ function cambiarIdioma(){
 		location.href = 'Pt';
 	}
 	$.ajax({
-		data  : {idioma : idioma},
-		url   : 'en/cambiarIdioma',
-		type  : 'POST'
+		data : {idioma : idioma},
+		url  : 'en/cambiarIdioma',
+		type : 'POST'
 	}).done(function(data){
 		try{
         data = JSON.parse(data);
