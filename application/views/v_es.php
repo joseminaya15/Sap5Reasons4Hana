@@ -240,7 +240,7 @@
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>1</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/ganancia.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Aumenta la satisfacci&oacute;n del cliente en un 20%</strong>
@@ -250,7 +250,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>2</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/inventario.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Reducir el inventario en el sitio en un 30%</strong>
@@ -260,7 +260,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>3</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Reduzca la p&eacute;rdida de ingresos debido a desabastecimientos en un 15%</strong>
@@ -270,7 +270,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>4</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Reduce los costos totales de fabricaci&oacute;n en un 10%</strong>
@@ -280,7 +280,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>5</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/entrega.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Aumenta las entregas a tiempo en un 30%</strong>
@@ -300,7 +300,7 @@
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>1</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/expandir.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Expandir el pipeline de ventas en un 15-20%</strong>
@@ -310,7 +310,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>2</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Reduce el tiempo para cerrar en un 60%</strong>
@@ -320,7 +320,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>3</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/eficiencia.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Aumente la eficiencia de la operaci&oacute;n hasta en un 60%</strong>
@@ -330,7 +330,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>4</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/adquisicion.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Reducir los costos de adquisici&oacute;n en un 15%</strong>
@@ -340,7 +340,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>5</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Ahorre 38% en hardware y costos de operaci&oacute;n</strong>
@@ -360,7 +360,7 @@
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>1</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/ingresos.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">$ 50 mil millones en ingresos incrementales</strong>
@@ -370,7 +370,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>2</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/comportamiento.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">&#60; 20% puede predecir el comportamiento del cliente</strong>
@@ -380,7 +380,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>3</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/reduccion.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">30% de reducci&oacute;n en los niveles de inventario</strong>
@@ -390,7 +390,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>4</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/cumplimiento.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">50% de reducci&oacute;n en problemas de cumplimiento de pedidos</strong>
@@ -410,7 +410,7 @@
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>1</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/cotizacion.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Proceso de cotizaci&oacute;n 95% m&aacute;s r&aacute;pido</strong>
@@ -420,7 +420,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>2</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/trabajo.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Reduzca el trabajo del proceso en un 50%</strong>
@@ -430,7 +430,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>3</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">Mant&eacute;ngase en conformidad con IFRS15</strong>
@@ -440,7 +440,7 @@
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
 		            			<strong>4</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+	            				<img src="<?php echo RUTA_IMG?>cards/inventario.png">
 	            				<p>Rentabilidad</p> 
 								<i class="mdi mdi-add"></i>
 								<strong id="title">30% de disminuci&oacute;n en los niveles de inventario</strong>
