@@ -110,8 +110,7 @@ class Pt extends CI_Controller {
       $data['msj']   = null;
       try {
         $idioma  = $this->input->post('idioma');
-        $session = array('idioma' => $idioma);
-        $this->session->set_userdata($session);
+        $this->session->set_userdata(array('idioma' => $idioma));
         $data['error'] = EXIT_SUCCESS;
       }catch(Exception $e){
         $data['msj'] = $e->getMessage();
