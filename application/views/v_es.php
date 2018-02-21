@@ -129,42 +129,58 @@
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>1</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/maquina.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">20% de contenido empresarial creado por máquinas para 2018</strong>
-								<label>La experiencia, talento, presentaci&oacute;n de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+		            			<div class="card-front">
+		            				<strong>1</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/maquina.png">
+		            				<p>Rentabilidad</p> 
+		            				<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">20% de contenido empresarial creado por máquinas para 2018</p>
+									<label>La experiencia, talento, presentaci&oacute;n de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>2</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Solo el 38% de las empresas tiene la visibilidad en tiempo real requerida</strong>
-		            			<label>Proporciona una fuente consolidada de toda la información minuciosa relacionada con el proyecto, mejorando el compromiso y productividad de los empleados.</label>
+		            			<div class="card-front">
+									<strong>2</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Solo el 38% de las empresas tiene la visibilidad en tiempo real requerida</p>
+		            				<label>Proporciona una fuente consolidada de toda la información minuciosa relacionada con el proyecto, mejorando el compromiso y productividad de los empleados.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>3</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/ganancia.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Mejore la tasa de ganancia de la oferta en un 10%</strong>
-								<label>Aumenta la productividad del usuario, con un an&aacute;lisis sencillo de ofertas versus presupuestos, basado en los proyectos exitosos como base para nuevas ofertas.</label>
+		            			<div class="card-front">
+									<strong>3</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/ganancia.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Mejore la tasa de ganancia de la oferta en un 10%</p>
+									<label>Aumenta la productividad del usuario, con un an&aacute;lisis sencillo de ofertas versus presupuestos, basado en los proyectos exitosos como base para nuevas ofertas.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>4</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Aumenta la rentabilidad en 0.5pp</strong>
-								<label>Proporciona procesos comerciales simplificados y redise&ntilde;ados, manejando informaci&oacute;n procesable, acelerando el flujo de efectivo y protegiendo la rentabilidad el proyecto.</label>
+		            			<div class="card-front">
+									<strong>4</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Aumenta la rentabilidad en 0.5pp</p>
+									<label>Proporciona procesos comerciales simplificados y redise&ntilde;ados, manejando informaci&oacute;n procesable, acelerando el flujo de efectivo y protegiendo la rentabilidad el proyecto.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 					</div>
@@ -179,52 +195,72 @@
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>1</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/venta.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">100% nueva línea de productos para venta al por menor</strong>
-								<label>La soluci&oacute;n redise&ntilde;ada ejecuta un modelo de datos simplificado y permite a los empleados minoristas una experiencia de usuario avanzada y constante desde las sedes hasta la tienda.</label>
+		            			<div class="card-front">
+									<strong>1</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/venta.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">100% nueva línea de productos para venta al por menor</p>
+									<label>La soluci&oacute;n redise&ntilde;ada ejecuta un modelo de datos simplificado y permite a los empleados minoristas una experiencia de usuario avanzada y constante desde las sedes hasta la tienda.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>2</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/capital.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Reducir los requisitos de capital en un 35%</strong>
-								<label>Obt&eacute;n una &uacute;nica fuente de verdad y logra eliminar en el &aacute;rea de finanzas los errores de previsi&oacute;n, reduciendo el capital un 35%, y mejorando la productividad del procedimiento de las facturas en un 40%.</label>
+		            			<div class="card-front">
+									<strong>2</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/capital.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Reducir los requisitos de capital en un 35%</p>
+									<label>Obt&eacute;n una &uacute;nica fuente de verdad y logra eliminar en el &aacute;rea de finanzas los errores de previsi&oacute;n, reduciendo el capital un 35%, y mejorando la productividad del procedimiento de las facturas en un 40%.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>3</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Aumenta la rentabilidad en 0.5pp</strong>
-								<label>Proporciona procesos comerciales simplificados y redise&ntilde;ados, manejando informaci&oacute;n procesable, acelerando el flujo de efectivo y protegiendo la rentabilidad el proyecto.</label>
+		            			<div class="card-front">
+									<strong>3</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Aumenta la rentabilidad en 0.5pp</p>
+									<label>Proporciona procesos comerciales simplificados y redise&ntilde;ados, manejando informaci&oacute;n procesable, acelerando el flujo de efectivo y protegiendo la rentabilidad el proyecto.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>4</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/decision.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Reducir el tiempo de toma de decisiones en un 30%</strong>
-								<label>Muestra la informaci&oacute;n en diversos formatos, adicional brinda una gu&iacute;a basada en los elementos de acci&oacute;n que requiere inmediata atenci&oacute;n, reducido el tiempo de toma de decisiones.</label>
+		            			<div class="card-front">
+									<strong>4</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/decision.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Reducir el tiempo de toma de decisiones en un 30%</p>
+									<label>Muestra la informaci&oacute;n en diversos formatos, adicional brinda una gu&iacute;a basada en los elementos de acci&oacute;n que requiere inmediata atenci&oacute;n, reducido el tiempo de toma de decisiones.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>5</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Reduce las rebajas en un 20%</strong>
-								<label>Nuevo concepto de estacionalidad es impulsar todos los procesos de ciclo de vida del producto desde la creaci&oacute;n, adquisici&oacute;n, venta, calculo de precios y administraci&oacute;n de existencias.</label>
+		            			<div class="card-front">
+									<strong>5</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Reduce las rebajas en un 20%</p>
+									<label>Nuevo concepto de estacionalidad es impulsar todos los procesos de ciclo de vida del producto desde la creaci&oacute;n, adquisici&oacute;n, venta, calculo de precios y administraci&oacute;n de existencias.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 					</div>
@@ -239,52 +275,72 @@
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>1</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/ganancia.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Aumenta la satisfacci&oacute;n del cliente en un 20%</strong>
-								<label>Gesti&oacute;n de inventario real y flujo de materiales, significa menos desabastecimientos y mejor rendimiento de tiempo en las entregas.</label>
+		            			<div class="card-front">
+									<strong>1</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/ganancia.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Aumenta la satisfacci&oacute;n del cliente en un 20%</p>
+									<label>Gesti&oacute;n de inventario real y flujo de materiales, significa menos desabastecimientos y mejor rendimiento de tiempo en las entregas.</label>
+		            			</div>								
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>2</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/inventario.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Reducir el inventario en el sitio en un 30%</strong>
-								<label>Planificar los requerimientos de material, ejecutada en tiempo real y ofrecer resultados de planificaci&oacute;n actualizados y completos.</label>
+		            			<div class="card-front">
+									<strong>2</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/inventario.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Reducir el inventario en el sitio en un 30%</p>
+									<label>Planificar los requerimientos de material, ejecutada en tiempo real y ofrecer resultados de planificaci&oacute;n actualizados y completos.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>3</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Reduzca la p&eacute;rdida de ingresos debido a desabastecimientos en un 15%</strong>
-								<label>Confirma y permite verificar la disponibilidad de abastecimiento en tiempo real, teniendo mayor satisfacci&oacute;n del cliente reflejando crecimiento del negocio.</label>
+		            			<div class="card-front">
+									<strong>3</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Reduzca la p&eacute;rdida de ingresos debido a desabastecimientos en un 15%</p>
+									<label>Confirma y permite verificar la disponibilidad de abastecimiento en tiempo real, teniendo mayor satisfacci&oacute;n del cliente reflejando crecimiento del negocio.</label>
+		            			</div>								
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>4</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Reduce los costos totales de fabricaci&oacute;n en un 10%</strong>
-								<label>Planifica los requisitos de materiales, teniendo un menor tiempo de ciclo de fabricaci&oacute;n, menor costo y mayor eficiencia.</label>
+		            			<div class="card-front">
+									<strong>4</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Reduce los costos totales de fabricaci&oacute;n en un 10%</p>
+									<label>Planifica los requisitos de materiales, teniendo un menor tiempo de ciclo de fabricaci&oacute;n, menor costo y mayor eficiencia.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>5</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/entrega.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Aumenta las entregas a tiempo en un 30%</strong>
-								<label>Informa en tiempo real los estados de las &oacute;rdenes de venta, teniendo una soluci&oacute;n r&aacute;pida para cumplir los pedidos y aumentar las entregas a tiempo.</label>
+		            			<div class="card-front">
+									<strong>5</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/entrega.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Aumenta las entregas a tiempo en un 30%</p>
+									<label>Informa en tiempo real los estados de las &oacute;rdenes de venta, teniendo una soluci&oacute;n r&aacute;pida para cumplir los pedidos y aumentar las entregas a tiempo.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 					</div>
@@ -299,52 +355,72 @@
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>1</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/expandir.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Expandir el pipeline de ventas en un 15-20%</strong>
-								<label>Intercambio de datos a tiempo real entre las ventas, el servicio al cliente y los l&iacute;deres empresariales, evitando datos duplicados y un an&aacute;lisis simple que lleva a ventas efectivas y espec&iacute;ficas.</label>
+		            			<div class="card-front">
+									<strong>1</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/expandir.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Expandir el pipeline de ventas en un 15-20%</p>
+									<label>Intercambio de datos a tiempo real entre las ventas, el servicio al cliente y los l&iacute;deres empresariales, evitando datos duplicados y un an&aacute;lisis simple que lleva a ventas efectivas y espec&iacute;ficas.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>2</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Reduce el tiempo para cerrar en un 60%</strong>
-								<label>Ejecutar en vivo, con informaci&oacute;n en tiempo real basada en una &uacute;nica fuente de verdad. Tome las mejores decisiones y mejore los negocios.</label>
+		            			<div class="card-front">
+									<strong>2</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Reduce el tiempo para cerrar en un 60%</p>
+									<label>Ejecutar en vivo, con informaci&oacute;n en tiempo real basada en una &uacute;nica fuente de verdad. Tome las mejores decisiones y mejore los negocios.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>3</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/eficiencia.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Aumente la eficiencia de la operaci&oacute;n hasta en un 60%</strong>
-								<label>Gesti&oacute;n de inventarios en tiempo real y valoraci&oacute;n de materiales, mejorando la satisfacci&oacute;n, compromiso y productividad del empleado.</label>
+		            			<div class="card-front">
+									<strong>3</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/eficiencia.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Aumente la eficiencia de la operaci&oacute;n hasta en un 60%</p>
+									<label>Gesti&oacute;n de inventarios en tiempo real y valoraci&oacute;n de materiales, mejorando la satisfacci&oacute;n, compromiso y productividad del empleado.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>4</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/adquisicion.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Reducir los costos de adquisici&oacute;n en un 15%</strong>
-								<label>Aprovechar los descuentos en pago anticipado, reduciendo el tiempo de adquisici&oacute;n de trabajadores en un tercio, maximizando el orden de inventario y seguimiento de materias primas en tiempo real.</label>
+		            			<div class="card-front">
+									<strong>4</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/adquisicion.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Reducir los costos de adquisici&oacute;n en un 15%</p>
+									<label>Aprovechar los descuentos en pago anticipado, reduciendo el tiempo de adquisici&oacute;n de trabajadores en un tercio, maximizando el orden de inventario y seguimiento de materias primas en tiempo real.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>5</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Ahorre 38% en hardware y costos de operaci&oacute;n</strong>
-								<label>La eliminaci&oacute;n de &iacute;ndices de datos, agregados y redundancias reduce la huella de datos y el costo total de propiedad.</label>
+		            			<div class="card-front">
+									<strong>5</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Ahorre 38% en hardware y costos de operaci&oacute;n</p>
+									<label>La eliminaci&oacute;n de &iacute;ndices de datos, agregados y redundancias reduce la huella de datos y el costo total de propiedad.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 					</div>
@@ -359,42 +435,58 @@
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>1</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/ingresos.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">$ 50 mil millones en ingresos incrementales</strong>
-								<label>Necesitan tecnolog&iacute;a digital para crear, entregar y sostener nuevas experiencias. Es necesario que empleen toda la tecnolog&iacute;a posible como aplicaciones para clientes en su estrategia o quedarse atr&aacute;s.</label>
+		            			<div class="card-front">
+									<strong>1</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/ingresos.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">$ 50 mil millones en ingresos incrementales</p>
+									<label>Necesitan tecnolog&iacute;a digital para crear, entregar y sostener nuevas experiencias. Es necesario que empleen toda la tecnolog&iacute;a posible como aplicaciones para clientes en su estrategia o quedarse atr&aacute;s.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>2</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/comportamiento.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">&#60; 20% puede predecir el comportamiento del cliente</strong>
-								<label>SAP S/4 HANA proporciona una experiencia de usuario simplificada, basada en una &uacute;nica fuente de verdad consolidada para proporcionar informaci&oacute;n detallada.</label>
+		            			<div class="card-front">
+									<strong>2</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/comportamiento.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">&#60; 20% puede predecir el comportamiento del cliente</p>
+									<label>SAP S/4 HANA proporciona una experiencia de usuario simplificada, basada en una &uacute;nica fuente de verdad consolidada para proporcionar informaci&oacute;n detallada.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>3</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/reduccion.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">30% de reducci&oacute;n en los niveles de inventario</strong>
-								<label>Inventarios con una &uacute;nica fuente de verdad que, consolidada para analizar la rotaci&oacute;n del inventario, realizar seguimientos de flujo de materiales y transferencias de stock, y tomar las medidas apropiadas.</label>
+		            			<div class="card-front">
+									<strong>3</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/reduccion.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">30% de reducci&oacute;n en los niveles de inventario</p>
+									<label>Inventarios con una &uacute;nica fuente de verdad que, consolidada para analizar la rotaci&oacute;n del inventario, realizar seguimientos de flujo de materiales y transferencias de stock, y tomar las medidas apropiadas.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>4</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cumplimiento.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">50% de reducci&oacute;n en problemas de cumplimiento de pedidos</strong>
-								<label>Permite identificar f&aacute;cilmente un problema de pedidos y alertas en tiempo real para excepciones. Adem&aacute;s de aprovechar las capacidades de verificaci&oacute;n y liberaci&oacute;n de productos, priorizando a los clientes claves.</label>
+		            			<div class="card-front">
+									<strong>4</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cumplimiento.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">50% de reducci&oacute;n en problemas de cumplimiento de pedidos</p>
+									<label>Permite identificar f&aacute;cilmente un problema de pedidos y alertas en tiempo real para excepciones. Adem&aacute;s de aprovechar las capacidades de verificaci&oacute;n y liberaci&oacute;n de productos, priorizando a los clientes claves.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 					</div>
@@ -409,52 +501,72 @@
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>1</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cotizacion.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Proceso de cotizaci&oacute;n 95% m&aacute;s r&aacute;pido</strong>
-								<label>Facilitar a los ejecutivos crear una cotizaci&oacute;n para entregar resultados comerciales, no solo productos.</label>
+		            			<div class="card-front">
+									<strong>1</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cotizacion.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Proceso de cotizaci&oacute;n 95% m&aacute;s r&aacute;pido</p>
+									<label>Facilitar a los ejecutivos crear una cotizaci&oacute;n para entregar resultados comerciales, no solo productos.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>2</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/trabajo.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Reduzca el trabajo del proceso en un 50%</strong>
-								<label>Tenga ahorros incre&iacute;bles con un solo sistema para procesos que van desde la compra hasta las finanzas y contabilidad, desde la f&aacute;brica y la administraci&oacute;n de contactos.</label>
+		            			<div class="card-front">
+									<strong>2</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/trabajo.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Reduzca el trabajo del proceso en un 50%</p>
+									<label>Tenga ahorros incre&iacute;bles con un solo sistema para procesos que van desde la compra hasta las finanzas y contabilidad, desde la f&aacute;brica y la administraci&oacute;n de contactos.</label>
+		            			</div>								
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>3</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Mant&eacute;ngase en conformidad con IFRS15</strong>
-								<label>Prep&aacute;rese para las nuevas regulaciones de reconocimiento de ingresos IFRS15 para 2018 y tenga una de la soluci&oacute;n m&aacute;s moderna de reconcomiendo de ingresos.</label>
+		            			<div class="card-front">
+									<strong>3</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Mant&eacute;ngase en conformidad con IFRS15</p>
+									<label>Prep&aacute;rese para las nuevas regulaciones de reconocimiento de ingresos IFRS15 para 2018 y tenga una de la soluci&oacute;n m&aacute;s moderna de reconcomiendo de ingresos.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>4</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/inventario.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">30% de disminuci&oacute;n en los niveles de inventario</strong>
-								<label>Visualizar y optimizar los procesos de ventas desde el prospecto de pago con informaci&oacute;n detallada sobre el ciclo de ventas de principio a fin.</label>
+		            			<div class="card-front">
+									<strong>4</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/inventario.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">30% de disminuci&oacute;n en los niveles de inventario</p>
+									<label>Visualizar y optimizar los procesos de ventas desde el prospecto de pago con informaci&oacute;n detallada sobre el ciclo de ventas de principio a fin.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 		            	<div class="mdl-card-industria">
 		            		<div class="flip-card">
-		            			<strong>5</strong>
-	            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-	            				<p>Rentabilidad</p> 
-								<i class="mdi mdi-add"></i>
-								<strong id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</strong>
-								<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+		            			<div class="card-front">
+									<strong>5</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<p>Rentabilidad</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
+									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+		            			</div>
 		            		</div>
 		            	</div>
 					</div>
@@ -476,8 +588,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>20% de contenido empresarial creado por máquinas para 2018. La experiencia, talento, presentación de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
-									<i class="mdi mdi-remove"></i>
+		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
+									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -490,8 +602,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
+		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
+									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -504,8 +616,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
+		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
+									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -518,8 +630,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
+		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
+									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -532,8 +644,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aprovechar la nube para concentrarse en crecer, y no en implementar y gestionar su TI.</label>
-									<i class="mdi mdi-remove"></i>
+		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
+									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
 		            			</div>
 		            		</div>
 		            	</div>

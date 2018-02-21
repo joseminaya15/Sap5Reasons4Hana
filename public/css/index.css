@@ -279,38 +279,108 @@ button.button-left{
 }
 .flip-card{
     position: relative;
-    background-color: #000000;
+    background-color: transparent;
     cursor: pointer;
     transform-style: preserve-3d;
     text-align: center;
     width: 210px;
     height: 215px;
 }
-.flip-card img{
+.flip-card .card-front img{
     width: 100%;
     max-width: 130px;
     margin: 40px 10px 10px 10px;
 }
-.flip-card i{
+.flip-card .card-front i{
     position: absolute;
     top: 10px;
     left: 10px;
     color: #F0AB00;
 }
-.flip-card p{
+.flip-card .card-front p{
     font-size: 18px;
 }
-.flip-card strong{
-    font-size: 60px;
+.flip-card .card-front strong{
+    font-size: 50px;
     color: #F0AB00;
     position: absolute;
     top: 10px;
     right: 10px;
     line-height: 1;
 }
-.flip-card strong#title,
-.flip-card label{
-    display: none;
+.flip-card .card-front,
+.flip-card .card-back {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transition: -moz-transform 500ms;
+    -o-transition: -o-transform 500ms;
+    -webkit-transition: -webkit-transform 500ms;
+    transition: transform 500ms;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.flip-card .card-front {
+    -moz-transform: perspective(600) rotateY(0);
+    -webkit-transform: perspective(600) rotateY(0);
+    transform: perspective(600) rotateY(0);
+    z-index: 900;
+    background-color: #000000;
+}
+.flip-card .card-back {
+    -moz-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    z-index: 800;
+    background-color: #F8B22C;
+    padding: 20px;
+    text-align: left;
+}
+.flip-card:hover .card-front {
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -moz-transform: perspective(600) rotateY(180deg);
+    -webkit-transform: perspective(600) rotateY(180deg);
+    transform: perspective(600) rotateY(180deg);
+}
+.flip-card:hover .card-back {
+    z-index: 950;
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -moz-transform: perspective(600) rotateY(0deg);
+    -webkit-transform: perspective(600) rotateY(0deg);
+    transform: perspective(600) rotateY(0deg);
+}
+.flip-card .card-back p{
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+    height: 85px;
+    overflow: hidden;
+    font-family: 'RobotoBold';
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.flip-card .card-back label{
+    color: #000000;
+    font-weight: 100;
+    line-height: 18px;
+    font-size: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-family: 'RobotoLight';
 }
 .card-industria{
     max-width: calc(100% - 680px);
@@ -319,7 +389,13 @@ button.button-left{
 }
 .mdl-card-industria{
     display: inline-block;
+    max-width: 210px;
     margin: 5px;
+    -webkit-transition: max-width .3s linear;
+    -moz-transition: max-width .3s linear;
+    -ms-transition: max-width .3s linear;
+    -o-transition: max-width .3s linear;
+    transition: max-width .3s linear;
 }
 /*BOOTSTRAP-SELECT*/
 .mdl-idioma .bootstrap-select .dropdown-menu>li>a{
