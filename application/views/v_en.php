@@ -829,7 +829,7 @@
         } else {
             $('select').selectpicker();
         }
-        /*$(window).load(function() {
+        $(window).load(function() {
         	if(<?php echo $pantalla ?> == 5) {
         		var formulario   = $('#formulario');
 	        	var homePage      = $('#home');
@@ -849,7 +849,7 @@
 				$('#pais').val("<?php echo $pais_link ?>");
 				$('#telefono').css('border-color','red');
         	}
-        });*/
+        });
     </script>
 </body>
 </html>
