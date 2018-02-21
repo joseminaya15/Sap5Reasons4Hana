@@ -26,8 +26,7 @@ function curl($url, $parameters)
     return $result;
 }
 
-function getCallback()
-{
+function getCallback(){
     $client_id = "789et516nyl9vy";
     $client_secret = "uN8FzWMngIBxxssc";
     $redirect_uri = "http://test.brainblue.com/sap_5reasons_4hana/callback";
@@ -49,9 +48,6 @@ function getCallback()
 
         $url = "https://api.linkedin.com/v1/people/~:(id,firstName,lastName,pictureUrls::(original),headline,publicProfileUrl,location,industry,positions,email-address)?format=json&oauth2_access_token=" . $accessToken;
         $user = file_get_contents($url, false);
-
-        /*var_dump(json_decode($user));
-        die();*/
         return (json_decode($user));
     }
 }
