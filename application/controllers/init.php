@@ -1,7 +1,6 @@
 <?php
 
-if(!isset($_SESSION)) 
-{ 
+if(!isset($_SESSION)){ 
     session_start(); 
 }
 
@@ -36,12 +35,12 @@ function getCallback(){
         $code = $_REQUEST['code'];
         $url = "https://www.linkedin.com/oauth/v2/accessToken";
         $params = [
-            'client_id'     => $client_id,
-            'client_secret' => $client_secret,
-            'redirect_uri'  => $redirect_uri,
-            'code'          => $code,
-            'grant_type'    => 'authorization_code',
-        ];
+                    'client_id'     => $client_id,
+                    'client_secret' => $client_secret,
+                    'redirect_uri'  => $redirect_uri,
+                    'code'          => $code,
+                    'grant_type'    => 'authorization_code',
+                  ];
         $accessToken = curl($url,http_build_query($params));
         $accessToken = json_decode($accessToken)->access_token;
 
