@@ -69,10 +69,11 @@ class Pt extends CI_Controller {
         echo json_encode($data);
     }
 
-    /*function sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto){
+    function sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto){
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
         try {
+            //cargamos la librería de email
             $this->load->library('email');
             $configGmail = array('protocol'  => 'smtp',
                                  'smtp_host' => 'smtpout.secureserver.net',
@@ -84,8 +85,10 @@ class Pt extends CI_Controller {
                                  'newline'   => "\r\n");
             $this->email->initialice($configGmail);
             $this->email->from('info@sap-latam.com');
+            //correo al que irá dirigido el email
             $this->email->to('jhonatanibericom@gmail.com');
             $this->email->subject('Estoy interesado en SAP 5 Reasons 4 Hana');
+            //html del correo
             $texto = 'html';
             $this->email->message($texto);
             $this->email->send();
@@ -94,7 +97,7 @@ class Pt extends CI_Controller {
             $data['msj'] = $e->getMessage();
         }
         return json_encode(array_map('utf8_encode', $data));
-    }*/
+    }
 
     function cambiarIdioma(){
       $data['error'] = EXIT_ERROR;

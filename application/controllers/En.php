@@ -73,7 +73,9 @@ class En extends CI_Controller {
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
         try {
+            //cargamos la librería del email
             $this->load->library('email');
+            //configuración del correo
             $configGmail = array('protocol'  => 'smtp',
                                  'smtp_host' => 'smtpout.secureserver.net',
                                  'smtp_port' => 3535,
