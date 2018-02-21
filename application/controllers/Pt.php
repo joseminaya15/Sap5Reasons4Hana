@@ -71,7 +71,7 @@ class Pt extends CI_Controller {
             $this->session->unset_userdata('pais_linke');
             $data['msj']   = $datoInsert['msj'];
             $data['error'] = $datoInsert['error'];
-        }catch(Exception $e) {
+        }catch(Exception $e){
             $data['msj'] = $e->getMessage();
         }
         echo json_encode($data);
@@ -101,7 +101,7 @@ class Pt extends CI_Controller {
             $this->email->message($texto);//AQUI SE INSERTA EL HTML
             $this->email->send();
             $data['error'] = EXIT_SUCCESS;
-        }catch(Exception $e) {
+        }catch(Exception $e){
             $data['msj'] = $e->getMessage();
         }
         return json_encode(array_map('utf8_encode', $data));
@@ -115,7 +115,7 @@ class Pt extends CI_Controller {
         $session = array('idioma' => $idioma);
         $this->session->set_userdata($session);
         $data['error'] = EXIT_SUCCESS;
-      }catch(Exception $e) {
+      }catch(Exception $e){
         $data['msj'] = $e->getMessage();
       }
       echo json_encode($data);
