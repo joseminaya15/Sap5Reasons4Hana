@@ -69,7 +69,7 @@ class En extends CI_Controller {
         echo json_encode($data);
     }
 
-    /*function sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto){
+    function sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto){
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
         try {
@@ -94,13 +94,13 @@ class En extends CI_Controller {
             $data['msj'] = $e->getMessage();
         }
         return json_encode(array_map('utf8_encode', $data));
-    }*/
+    }
 
     function cambiarIdioma(){
       $data['error'] = EXIT_ERROR;
       $data['msj']   = null;
       try {
-        $idioma  = $this->input->post('idioma');
+        $idioma = $this->input->post('idioma');
         $this->session->set_userdata(array('idioma' => $idioma));
         $data['error'] = EXIT_SUCCESS;
       }catch(Exception $e){
