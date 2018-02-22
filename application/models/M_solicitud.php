@@ -30,32 +30,5 @@ class M_solicitud extends  CI_Model{
                  WHERE Nombre LIKE ?";
         $result = $this->db->query($sql, array($lenguaje));
         return $result->result();
-    }/*
-
-    function getDatosPais($Nombre) {
-    	$sql = "SELECT Id_lenguaje
-                  FROM lenguaje
-                 WHERE Nombre LIKE ?";
-        $result = $this->db->query($sql, array($Nombre));
-        return $result->row()->Id_lenguaje;
     }
-
-    function getDatosUsuario($Id_usuario) {
-        $sql = "SELECT *
-                  FROM usuario
-                 WHERE Id_persona = ?";
-        $result = $this->db->query($sql, array($Id_usuario));
-        return $result->result();
-    }
-
-    function getRespUsuario($id_persona) {
-        $sql = "SELECT s.* 
-                  FROM usuario u,
-                       solicitud s
-                WHERE s.Id = u.Id_solicitud
-                 AND u.Id_persona = ?;";
-        $result = $this->db->query($sql, array($id_persona));
-        return $result->result();
-    }*/
-
 }
