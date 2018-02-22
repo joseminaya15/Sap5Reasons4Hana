@@ -854,7 +854,7 @@
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>index_es.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
-    	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+    	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
         	$('select').selectpicker('mobile');
         } else {
             $('select').selectpicker();
