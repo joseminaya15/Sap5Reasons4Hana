@@ -111,8 +111,8 @@
 						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Banking</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/banking.png">
-							<div class="one none">Ejecutar los procesos en tiempo real.</div>
-							<div class="two none">Mejorar el conocimiento y la visibilidad financiera.</div>
+							<div class="one none">La transformación digital es importante o críticamente importante para su supervivencia .</div>
+							<div class="two none">La industria de servicios financieros se centran cada vez más en blockchain.</div>
 							<div class="three none">Aumentar el riesgo de sus proyectos.</div>
 						</div>
 					</div>
@@ -132,7 +132,7 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/maquina.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Máquinas</p> 
 		            				<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -147,7 +147,7 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Visibilidad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -162,7 +162,7 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/ganancia.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Productividad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -202,7 +202,7 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/venta.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Productos</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -217,7 +217,7 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/capital.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Capital</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -231,7 +231,7 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 									<strong>3</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad_2.png">
 		            				<p>Rentabilidad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
@@ -247,7 +247,7 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/decision.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Decisiones</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -262,7 +262,7 @@
 		            			<div class="card-front">
 									<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rebajas</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -287,7 +287,7 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/ganancia.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Satisfacción</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -302,7 +302,7 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/inventario.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Inventario</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -317,7 +317,7 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Ingresos</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -332,7 +332,7 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Costos</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -347,7 +347,7 @@
 		            			<div class="card-front">
 									<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/entrega.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Entregas</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -372,7 +372,7 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/expandir.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Pipeline</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -387,7 +387,7 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Tiempo</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -402,7 +402,7 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/eficiencia.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Eficiencia</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -417,7 +417,7 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/adquisicion.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Adquisici&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -432,7 +432,7 @@
 		            			<div class="card-front">
 									<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Ahorro</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -457,7 +457,7 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/ingresos.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Ingresos</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -472,7 +472,7 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/comportamiento.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Comportamiento</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -487,7 +487,7 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/reduccion.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Inventario</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -502,7 +502,7 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cumplimiento.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Pedidos</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -527,7 +527,7 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cotizacion.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Cotizaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -542,7 +542,7 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/trabajo.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Procesos</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -557,7 +557,7 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Conformidad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -572,7 +572,7 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/inventario.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Inventario</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -586,8 +586,8 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 									<strong>5</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<img src="<?php echo RUTA_IMG?>cards/fabricacion.png">
+		            				<p>Fabricaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -612,7 +612,7 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Fabricaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -627,7 +627,7 @@
 		            			<div class="card-front">
 		            				<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Fabricaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -642,7 +642,7 @@
 		            			<div class="card-front">
 		            				<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Fabricaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -657,7 +657,7 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Fabricaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -672,7 +672,7 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Fabricaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">

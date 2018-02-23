@@ -101,6 +101,9 @@ class Es extends CI_Controller {
       $data['msj']   = null;
       try {
         $idioma = $this->input->post('idioma');
+        if($idioma == null || $idioma == ''){
+            throw new Exception("Error Processing Request", 1);
+        }
         $this->session->set_userdata(array('idioma' => $idioma));
         $data['error'] = EXIT_SUCCESS;
       }catch(Exception $e){
