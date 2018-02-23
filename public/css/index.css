@@ -811,7 +811,23 @@ button.button-left{
     font-size: 18px;
     vertical-align: middle;
 }
-@media ( max-width: 420px ){
+@media ( max-width: 1200px ){
+    .center-container{
+        overflow-y: scroll;
+        height: 100%;
+        padding: 80px 20px 50px 20px;
+    }
+}
+@media ( max-width: 768px ){
+    .chat{
+        max-width: 45px;
+        right: 10px;
+    }
+    .chat label{
+        display: none;
+    }
+}
+@media ( max-width: 640px ){
     .header h2{
         font-size: 16px;
     }
@@ -823,5 +839,16 @@ button.button-left{
     }
     .mdl-idioma .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
         margin-top: 18px;
+    }
+    .mdl-title strong{
+        font-size: 85px;
+        line-height: 80px;
+    }
+    .mdl-letras{
+        max-width: 225px;
+    }
+    .mdl-letras p, .mdl-letras h2{
+        font-size: 30px;
+        line-height: 34px;
     }
 }
