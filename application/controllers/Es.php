@@ -13,7 +13,7 @@ class Es extends CI_Controller {
         $this->output->set_header('Pragma: no-cache');
     }
 
-	public function index(){
+	public function index() {
         $data['pantalla']      = $this->session->userdata('pantalla') == '' ? 0 : $this->session->userdata('pantalla');
         $data['nombre_comple'] = $this->session->userdata('nombre_linke') == null ? '' : $this->session->userdata('nombre_linke');
         $data['email_link']    = $this->session->userdata('email_linke') == '' ? '' : $this->session->userdata('email_linke');
@@ -100,7 +100,7 @@ class Es extends CI_Controller {
       $data['error'] = EXIT_ERROR;
       $data['msj']   = null;
       try {
-        $idioma  = $this->input->post('idioma');
+        $idioma = $this->input->post('idioma');
         $this->session->set_userdata(array('idioma' => $idioma));
         $data['error'] = EXIT_SUCCESS;
       }catch(Exception $e){
