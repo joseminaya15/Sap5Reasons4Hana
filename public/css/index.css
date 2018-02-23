@@ -854,14 +854,29 @@ button.button-left{
         margin-top: 18px;
     }
     .mdl-title strong{
-        font-size: 85px;
-        line-height: 80px;
+        font-size: 60px;
+        line-height: 56px;
     }
     .mdl-letras{
         max-width: 225px;
     }
     .mdl-letras p, .mdl-letras h2{
-        font-size: 30px;
-        line-height: 34px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .industrias h2{
+        line-height: 24px;
+        text-align: center;
+        font-size: 22px;
+        margin: 15px 0;
+    }
+    .mdl-industrias p{
+        font-size: 16px;
+    }
+    .contenido-industria h2{
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        font-family: 'RobotoMedium';
     }
 }
