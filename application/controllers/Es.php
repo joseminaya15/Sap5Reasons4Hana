@@ -13,7 +13,7 @@ class Es extends CI_Controller {
         $this->output->set_header('Pragma: no-cache');
     }
 
-	public function index() {
+	public function index(){
         $data['pantalla']      = $this->session->userdata('pantalla') == '' ? 0 : $this->session->userdata('pantalla');
         $data['nombre_comple'] = $this->session->userdata('nombre_linke') == null ? '' : $this->session->userdata('nombre_linke');
         $data['email_link']    = $this->session->userdata('email_linke') == '' ? '' : $this->session->userdata('email_linke');
