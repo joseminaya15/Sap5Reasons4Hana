@@ -611,8 +611,8 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 		            				<strong>1</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Fabricaci&oacute;n</p> 
+		            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
+		            				<p>Costo</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -626,7 +626,7 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 		            				<strong>2</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
+		            				<img src="<?php echo RUTA_IMG?>cards/fabricacion.png">
 		            				<p>Fabricaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
@@ -641,8 +641,8 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 		            				<strong>3</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Fabricaci&oacute;n</p> 
+		            				<img src="<?php echo RUTA_IMG?>cards/reduccion.png">
+		            				<p>Reducci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -656,8 +656,8 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 		            				<strong>4</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Fabricaci&oacute;n</p> 
+		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad_2.png">
+		            				<p>Rentabilidad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -671,8 +671,8 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 		            				<strong>5</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Fabricaci&oacute;n</p> 
+		            				<img src="<?php echo RUTA_IMG?>cards/cumplimiento.png">
+		            				<p>Cumplimiento</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
