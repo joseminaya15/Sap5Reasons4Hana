@@ -811,3 +811,17 @@ button.button-left{
     font-size: 18px;
     vertical-align: middle;
 }
+@media ( max-width: 420px ){
+    .header h2{
+        font-size: 16px;
+    }
+    .header-right{
+        max-width: 120px;
+    }
+    .header-right .background1, .header-right .background2, .header-right .background3{
+        max-width: 5px;
+    }
+    .mdl-idioma .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+        margin-top: 18px;
+    }
+}
