@@ -495,6 +495,9 @@ button.button-left{
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+.modal.fade .modal-dialog.modal-md{
+    max-width: 600px;
+}
 /*ModalQuestion*/
 #ModalIndustria .modal-content{
     background-color: #000000;
@@ -541,13 +544,19 @@ button.button-left{
 }
 #ModalIndustria .mdl-card .mdl-card__actions .mdl-button--raised{
     background-color: #EFAA00;
-    color: #FFFFFF;
+    color: #000000;
 }
 #ModalMasIndustria .mdl-card{
     background-color: #000000;
     border: 1px solid #FFFFFF;
     width: 100%;
-    max-width: 300px;
+    max-width: 600px;
+    display: block;
+}
+#ModalMasIndustria .mdl-card .mdl-card__title{
+    float: left;
+    max-width: 200px;
+    padding: 30px;
 }
 #ModalMasIndustria .mdl-card .mdl-card__title img{
     margin: auto;
@@ -555,11 +564,14 @@ button.button-left{
 }
 #ModalMasIndustria .mdl-card .mdl-card__supporting-text{
     text-align: left;
-    padding: 5px 30px 20px 30px;
+    padding: 30px 30px 30px 10px;
+    float: right;
+    max-width: calc(100% - 200px);
 }
 #ModalMasIndustria .mdl-card .mdl-card__supporting-text p{
     font-family: 'RobotoBold';
     font-size: 22px;
+    color: #F0AB00;
 }
 #ModalMasIndustria .mdl-card .mdl-card__supporting-text label{
     color: #fff;
@@ -569,6 +581,10 @@ button.button-left{
 }
 #ModalMasIndustria .mdl-card .mdl-card__menu i{
     color: #FFFFFF;
+}
+.mdl-card__menu{
+    top: 5px;
+    right: 5px;
 }
 /*FORMULARIO*/
 .formulario{
