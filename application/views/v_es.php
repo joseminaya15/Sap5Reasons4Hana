@@ -722,8 +722,8 @@
 						</div>	
 					</div>
 					<div class="formulario inline">
-						<h2>Tenemos m&aacute;s informaci&oacute;n para compartir con usted.</h2>
-						<p>Complete el formulario para descargarlo</p>
+						<h2>Conozca un Caso de &Eacute;xito en <strong id="nameIndustria"></strong></h2>
+						<p class="descarga">Complete el formulario para descargarlo</p>
 						<form class="mdl-formulario text-left">
 		        			<div class="content-datos">
 		        				<div class="content-personal">

@@ -44,6 +44,20 @@ function Next(){
 	$('#'+idIndustria+'-contenido').addClass('animated fadeOutLeft')
 	$('#formulario').addClass('animated fadeInRight');
 	$('.button-industria').css("display","none");
+	if(idIndustria == 'industriaServicio')
+		$('#nameIndustria').text('Servicios Profesionales');
+	else if(idIndustria == 'industriaRetail')
+		$('#nameIndustria').text('Retail');
+	else if(idIndustria == 'industriaProducto')
+		$('#nameIndustria').text('Productos de Consumo');
+	else if(idIndustria == 'industriaProceso')
+		$('#nameIndustria').text('Proceso y Manufactura');
+	else if(idIndustria == 'industriaDistribucion')
+		$('#nameIndustria').text('Distribución');
+	else if(idIndustria == 'industriaHighTech')
+		$('#nameIndustria').text('High Tech');
+	else
+		$('#nameIndustria').text('Banking');
 }
 /*BACK*/
 function solicitarEstimacion(){

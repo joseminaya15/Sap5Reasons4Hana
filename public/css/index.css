@@ -609,9 +609,8 @@ button.button-left{
     line-height: 24px;
     margin: 10px 0;
 }
-.formulario p{
-    color: #EFAA00;
-    font-size: 16px;
+.formulario p.descarga{
+    font-size: 18px;
     margin: 10px 0;
 }
 .formulario strong{
