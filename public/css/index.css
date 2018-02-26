@@ -55,7 +55,7 @@ p{
     margin-right: auto;
     margin-left: auto;
     position: absolute;
-    padding: 100px;
+    padding: 100px 20px;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%,-50%);
@@ -167,7 +167,7 @@ p{
     vertical-align: top;
 }
 .mdl-letras{
-    max-width: 450px;
+    max-width: 425px;
     width: 100%;
     text-align: left;
     padding: 0 10px;
@@ -232,6 +232,8 @@ button.button-left{
     font-size: 24px;
     margin: 10px 0;
     text-align: left;
+    font-family: 'RobotoRegular';
+    line-height: 26px;
 }
 .mdl-industrias{
     margin: 10px 0;
@@ -394,7 +396,7 @@ button.button-left{
     text-decoration: underline;
 }
 .card-industria{
-    max-width: calc(100% - 680px);
+    max-width: calc(100% - 625px);
     vertical-align: middle;
     text-align: left;
 }
