@@ -543,7 +543,7 @@
 			<div id="industriaHighTech-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>High Tech.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>HIGH TECH.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
