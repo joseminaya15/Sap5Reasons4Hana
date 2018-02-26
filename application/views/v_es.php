@@ -635,7 +635,7 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
-		            				<p>Inversiones</p> 
+		            				<p>Seguridad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
