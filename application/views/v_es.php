@@ -123,8 +123,7 @@
 			<div id="industriaServicio-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>Servicios Profesionales</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>Servicios Profesionales.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -193,8 +192,7 @@
 			<div id="industriaRetail-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>Retail</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>Retail.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -278,8 +276,7 @@
 			<div id="industriaProducto-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>Productos de consumo</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>Productos de consumo.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -363,8 +360,7 @@
 			<div id="industriaProceso-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>Proceso y Manufactura</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>Proceso y Manufactura.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -448,8 +444,7 @@
 			<div id="industriaDistribucion-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>Distribuci&oacute;n</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>Distribuci&oacute;n.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -518,8 +513,7 @@
 			<div id="industriaHighTech-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>High Tech</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>High Tech.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -603,8 +597,7 @@
 			<div id="industriaBanking-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para la industria de <strong>Banking</strong> en la que usted se desempe&ntilde;a, considere estas 5 poderosas
-						 razones por qu&eacute; elegir SAP S/4 HANA para transformar su negocio.</h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>Banking.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">

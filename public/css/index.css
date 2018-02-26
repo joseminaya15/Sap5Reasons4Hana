@@ -269,16 +269,18 @@ button.button-left{
 .contenido-industria{
     max-width: 400px;
     text-align: left;
-    vertical-align: top;
+    vertical-align: middle;
     width: 100%;
 }
 .contenido-industria h2{
     font-size: 30px;
     line-height: 32px;
     max-width: 320px;
+    font-family: 'RobotoRegular';
 }
 .contenido-industria strong{
-    color: #F0AB00
+    color: #F0AB00;
+    font-family: 'RobotoBold';
 }
 .flip-card{
     position: relative;
