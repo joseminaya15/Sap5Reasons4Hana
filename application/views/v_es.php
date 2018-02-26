@@ -850,7 +850,7 @@
         </div>
     </div>
     <div class="modal fade" id="ModalMasIndustria" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
-        <div class="modal-dialog modal-sm text-center">
+        <div class="modal-dialog modal-md text-center">
             <div class="modal-content">
                 <div class="mdl-card" >
                     <div class="mdl-card__title">
