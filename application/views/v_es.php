@@ -111,9 +111,9 @@
 						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Banking</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/banking.png">
-							<div class="one none">La transformación digital es importante o críticamente importante para su supervivencia .</div>
+							<div class="one none">La transformación digital es importante o críticamente importante para su supervivencia.</div>
 							<div class="two none">La industria de servicios financieros se centran cada vez más en blockchain.</div>
-							<div class="three none">Aumentar el riesgo de sus proyectos.</div>
+							<div class="three none">La tecnología permitirá innovar rápidamente y enfrentar mejor los desafíos de seguridad.</div>
 						</div>
 					</div>
 				</div>
@@ -183,6 +183,21 @@
 		            				<p id="title">Aumenta la rentabilidad en 0.5pp</p>
 									<label>Proporciona procesos comerciales simplificados y redise&ntilde;ados, manejando informaci&oacute;n procesable, acelerando el flujo de efectivo y protegiendo la rentabilidad el proyecto.</label>
 									<button id="verServicio4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>5</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cumplimiento.png">
+		            				<p>Tiempo</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Reduce el tiempo para cerrar en un 60%</p>
+									<label>Ejecutar en vivo, con informaci&oacute;n en tiempo real basada en una &uacute;nica fuente de verdad. Tome las mejores decisiones y mejore los negocios.</label>
+									<button id="verBancking5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -507,6 +522,21 @@
 		            			</div>
 		            		</div>
 		            	</div>
+		            	<div class="mdl-card-industria">
+		            		<div class="flip-card">
+		            			<div class="card-front">
+		            				<strong>5</strong>
+		            				<img src="<?php echo RUTA_IMG?>cards/cumplimiento.png">
+		            				<p>Tiempo</p> 
+									<i class="mdi mdi-add"></i>
+		            			</div>
+		            			<div class="card-back">
+		            				<p id="title">Reduce el tiempo para cerrar en un 60%</p>
+									<label>Ejecutar en vivo, con informaci&oacute;n en tiempo real basada en una &uacute;nica fuente de verdad. Tome las mejores decisiones y mejore los negocios.</label>
+									<button id="verBancking5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            			</div>
+		            		</div>
+		            	</div>
 					</div>
 				</div>
 			</div>
@@ -605,12 +635,12 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
-		            				<p>Costo</p> 
+		            				<p>Inversiones</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
-									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+		            				<p id="title">El 63% de los bancos y aseguradoras realizan inversiones fuertes en plataformas de seguridad</p>
+									<label>Est&aacute;n dirigiendo sus presupuestos de TI hacia herramientas fundacionales como tecnolog&iacute;a m&oacute;vil, nube y Big Data; cambiado drásticamente los procesos de negocio desde operaciones de back-office hasta interacciones con el cliente.</label>
 									<button id="verBancking1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -620,12 +650,12 @@
 		            			<div class="card-front">
 		            				<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/fabricacion.png">
-		            				<p>Fabricaci&oacute;n</p> 
+		            				<p>Digital</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
-									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+		            				<p id="title">El 54% de los bancos y aseguradoras pequeñas y medianas est&aacute;n pasando a lo digital</p>
+									<label>La entidad financiera afirma que la transformaci&oacute;n digital es cr&iacute;tica para la supervivencia de su organizaci&oacute;n hoy, y 84% dice que lo será en un plazo de cinco a&ntilde;os.</label>
 									<button id="verBancking2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -635,12 +665,12 @@
 		            			<div class="card-front">
 		            				<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/reduccion.png">
-		            				<p>Reducci&oacute;n</p> 
+		            				<p>Clientes</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
-									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+		            				<p id="title">El 67% de los servicios financieros anticipan un mayor valor de satisfacci&oacute;n y compromiso del cliente</p>
+									<label>Los cuales son factores cr&iacute;ticos para una industria que enfrenta una competencia potencialmente desestabilizadora desde las start-ups hasta los comercios minoristas y los gigantes de la tecnolog&iacute;a.</label>
 									<button id="verBancking3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -650,12 +680,12 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad_2.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Inversiones</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
-									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+		            				<p id="title">El 23% de las entidades financieras invertir&aacute;n en libros de contabilidad digital</p>
+									<label>El rango de innovaciones desde la banca abierta hasta las criptomonedas amenaza con ser disruptivos frente a los modelos de negocio existentes.</label>
 									<button id="verBancking4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -665,12 +695,12 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cumplimiento.png">
-		            				<p>Cumplimiento</p> 
+		            				<p>Tiempo</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
-									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+		            				<p id="title">Reduce el tiempo para cerrar en un 60%</p>
+									<label>Ejecutar en vivo, con informaci&oacute;n en tiempo real basada en una &uacute;nica fuente de verdad. Tome las mejores decisiones y mejore los negocios.</label>
 									<button id="verBancking5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
