@@ -156,6 +156,10 @@ p{
     width: 100%;
 }
 /*HOME*/
+.mdl-title{
+    max-width: 560px;
+    width: 100%;
+}
 .mdl-imagenes,
 .mdl-title{
     vertical-align: middle;
@@ -173,16 +177,16 @@ p{
     padding: 0 10px;
 }
 .mdl-letras p{
-    line-height: 50px;
+    line-height: 46px;
 }
 .mdl-letras h2{
-    line-height: 60px;
+    line-height: 52px;
     margin: 0;
     color: #F0AB00;
 }
 .mdl-letras p,
 .mdl-letras h2{
-    font-size: 60px;
+    font-size: 50px;
 }
 .mdl-imagenes img{
     max-width: 120px;
@@ -274,7 +278,7 @@ button.button-left{
 }
 .contenido-industria h2{
     font-size: 30px;
-    line-height: 32px;
+    line-height: 34px;
     max-width: 320px;
     font-family: 'RobotoRegular';
 }
@@ -545,6 +549,7 @@ button.button-left{
 #ModalIndustria .mdl-card .mdl-card__actions .mdl-button--raised{
     background-color: #EFAA00;
     color: #000000;
+    font-family: 'RobotoBold';
 }
 #ModalMasIndustria .mdl-card{
     background-color: #000000;
