@@ -904,4 +904,17 @@ button.button-left{
         text-align: center;
         font-family: 'RobotoMedium';
     }
+    .modal.fade .modal-dialog.modal-md{
+        max-width: 300px;
+    }
+    #ModalMasIndustria .mdl-card .mdl-card__supporting-text,
+    #ModalMasIndustria .mdl-card .mdl-card__title{
+        max-width: 100%;
+        float: none;
+    }
+    #ModalMasIndustria .mdl-card .mdl-card__title,
+    #ModalMasIndustria .mdl-card .mdl-card__supporting-text{
+        text-align: center;
+        padding: 15px;
+    }
 }
