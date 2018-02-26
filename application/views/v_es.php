@@ -634,7 +634,7 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 		            				<strong>1</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
+		            				<img src="<?php echo RUTA_IMG?>cards/maquina.png">
 		            				<p>Seguridad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
@@ -649,7 +649,7 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 		            				<strong>2</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/fabricacion.png">
+		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad_2.png">
 		            				<p>Digital</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
@@ -664,7 +664,7 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 		            				<strong>3</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/reduccion.png">
+		            				<img src="<?php echo RUTA_IMG?>cards/expandir.png">
 		            				<p>Clientes</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
@@ -679,7 +679,7 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 		            				<strong>4</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad_2.png">
+		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
 		            				<p>Inversiones</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
