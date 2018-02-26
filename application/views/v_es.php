@@ -190,7 +190,7 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 		            				<strong>5</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/tiempo1.png">
+		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
 		            				<p>Tiempo</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
@@ -397,7 +397,7 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 									<strong>2</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/tiempo1.png">
+		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
 		            				<p>Tiempo</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
@@ -526,7 +526,7 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 		            				<strong>5</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/tiempo1.png">
+		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
 		            				<p>Tiempo</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
@@ -694,7 +694,7 @@
 		            		<div class="flip-card">
 		            			<div class="card-front">
 		            				<strong>5</strong>
-		            				<img src="<?php echo RUTA_IMG?>cards/tiempo1.png">
+		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
 		            				<p>Tiempo</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
