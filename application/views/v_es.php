@@ -123,7 +123,7 @@
 			<div id="industriaServicio-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>Servicios Profesionales.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>SERVICIOS PROFESIONALES.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -192,7 +192,7 @@
 			<div id="industriaRetail-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>Retail.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>RETAIL.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -276,7 +276,7 @@
 			<div id="industriaProducto-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>Productos de consumo.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>PRODUCTOS DE CONSUMO.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -360,7 +360,7 @@
 			<div id="industriaProceso-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>Proceso y Manufactura.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>PROCESO Y MANUFACTURA.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -444,7 +444,7 @@
 			<div id="industriaDistribucion-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>Distribuci&oacute;n.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>DISTRIBUCI&Oacute;N.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
