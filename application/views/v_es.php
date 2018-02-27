@@ -299,7 +299,7 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/ganancia.png">
-		            				<p>Satisfacción</p> 
+		            				<p>Satisfacci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -640,7 +640,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">El 63% de los bancos y aseguradoras realizan inversiones fuertes en plataformas de seguridad</p>
-									<label>Est&aacute;n dirigiendo sus presupuestos de TI hacia herramientas fundacionales como tecnolog&iacute;a m&oacute;vil, nube y Big Data; cambiando drásticamente los procesos de negocio desde operaciones de back-office hasta interacciones con el cliente.</label>
+									<label>Est&aacute;n dirigiendo sus presupuestos de TI hacia herramientas fundacionales como tecnolog&iacute;a m&oacute;vil, nube y Big Data; cambiando dr&aacute;sticamente los procesos de negocio desde operaciones de back-office hasta interacciones con el cliente.</label>
 									<button id="verBancking1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -733,7 +733,7 @@
 		        					<p>o</p>
 		        				</div>
 		        				<div class="content-linkedin">
-		        					<a class="button-linkedin" href="<?php  echo "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id={$client_id}&redirect_uri={$redirect_uri}&state={$csrf_token}&scope={$scopes}"; ?>"><i class="fa fa-linkedin" aria-hidden="true"></i>Conéctese v&iacute;a LinkedIn</a>
+		        					<a class="button-linkedin" href="<?php  echo "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id={$client_id}&redirect_uri={$redirect_uri}&state={$csrf_token}&scope={$scopes}"; ?>"><i class="fa fa-linkedin" aria-hidden="true"></i>Con&eacute;ctese v&iacute;a LinkedIn</a>
 		        				</div>
 		        			</div>
 		    				<div class="col-sm-6">
