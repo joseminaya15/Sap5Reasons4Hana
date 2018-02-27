@@ -44,20 +44,7 @@ function Next(){
 	$('#'+idIndustria+'-contenido').addClass('animated fadeOutLeft')
 	$('#formulario').addClass('animated fadeInRight');
 	$('.button-industria').css("display","none");
-	if(idIndustria == 'industriaServicio')
-		$('#nameIndustria').text('Servicios Profesionales');
-	else if(idIndustria == 'industriaRetail')
-		$('#nameIndustria').text('Retail');
-	else if(idIndustria == 'industriaProducto')
-		$('#nameIndustria').text('Productos de Consumo');
-	else if(idIndustria == 'industriaProceso')
-		$('#nameIndustria').text('Proceso y Manufactura');
-	else if(idIndustria == 'industriaDistribucion')
-		$('#nameIndustria').text('Distribución');
-	else if(idIndustria == 'industriaHighTech')
-		$('#nameIndustria').text('High Tech');
-	else
-		$('#nameIndustria').text('Banking');
+	nameIndustria();
 }
 /*BACK*/
 function solicitarEstimacion(){
@@ -149,6 +136,7 @@ function solicitarEstimacion(){
         	if(data.error == 0){
 				limpiarCampos();
 				enviarGracias();
+				nameIndustria();
         	}else {return;}
       } catch (err){
         msj('error',err.message);
@@ -266,4 +254,20 @@ function returnCaso(){
 	setTimeout(function(){ 
 		location.reload();
 	}, 4000);
+}
+function nameIndustria(){
+	if(idIndustria == 'industriaServicio')
+		$('.nameIndustria').text('Servicios Profesionales');
+	else if(idIndustria == 'industriaRetail')
+		$('.nameIndustria').text('Retail');
+	else if(idIndustria == 'industriaProducto')
+		$('.nameIndustria').text('Productos de Consumo');
+	else if(idIndustria == 'industriaProceso')
+		$('.nameIndustria').text('Proceso y Manufactura');
+	else if(idIndustria == 'industriaDistribucion')
+		$('.nameIndustria').text('Distribución');
+	else if(idIndustria == 'industriaHighTech')
+		$('.nameIndustria').text('High Tech');
+	else
+		$('.nameIndustria').text('Banking');
 }

@@ -722,7 +722,7 @@
 						</div>	
 					</div>
 					<div class="formulario inline">
-						<h2>Conozca un caso de &eacute;xito en <strong id="nameIndustria"></strong></h2>
+						<h2>Conozca un caso de &eacute;xito en <label class="nameIndustria"></label></h2>
 						<p class="descarga">Complete el formulario para descargarlo</p>
 						<form class="mdl-formulario text-left">
 		        			<div class="content-datos">
@@ -818,7 +818,7 @@
 				<div class="center-container">
 					<h2>Gracias por su inter&eacute;s</h2>
 					<p>Un especialista de SAP lo contactar&aacute; para escuchar su caso y orientarlo a dar el primer paso.</p>
-					<small>Mientras tanto vea como los clientes de servicios profesionales est&aacute;n teniendo &eacute;xito con SAP.</small>
+					<small>Mientras tanto vea como los clientes de <strong class="nameIndustria"></strong> est&aacute;n teniendo &eacute;xito con SAP.</small>
 					<a href="#" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="returnCaso()">Ver caso de &eacute;xito</a>
 				</div>
 			</div>
