@@ -124,7 +124,7 @@
 			<div id="industriaServicio-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>servicios profesionales.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 HANA tiene para la industria de <strong>Servicios Profesionales.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -208,7 +208,7 @@
 			<div id="industriaRetail-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>retail.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 HANA tiene para la industria de <strong>Retail.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -292,7 +292,7 @@
 			<div id="industriaProducto-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>productos de consumo.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 HANA tiene para la industria de <strong>Productos de Consumo.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -376,7 +376,7 @@
 			<div id="industriaProceso-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>proceso y manufactura.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 HANA tiene para la industria de <strong>Proceso y Manufactura.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -460,7 +460,7 @@
 			<div id="industriaDistribucion-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>distribuci&Oacute;n.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 HANA tiene para la industria de <strong>Distribuci&Oacute;n.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -544,7 +544,7 @@
 			<div id="industriaHighTech-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>high tech.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 HANA tiene para la industria de <strong>High Tech.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -628,7 +628,7 @@
 			<div id="industriaBanking-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>banking.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 HANA tiene para la industria de <strong>Banking.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -818,9 +818,8 @@
 			<div class="mdl-agradecimiento window-center opacity-done">
 				<div class="center-container">
 					<h2>Gracias por su inter&eacute;s</h2>
-					<p>Un especialista de SAP lo contactar&aacute; de inmediato</p>
-					<small>Mientras tanto vea como los clientes de <strong class="nameIndustria"></strong> est&aacute;n teniendo &eacute;xito con SAP.</small>
-					<a href="#" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="returnCaso()">Ver caso de &eacute;xito</a>
+					<p>Un especialista de SAP lo contactar&aacute; a la brevedad</p>
+					<small>Mientras tanto <a href="#" onclick="returnCaso()">vea como</a> empresas del sector de <strong class="nameIndustria"></strong> est&aacute;n teniendo &eacute;xito con SAP.</small>
 				</div>
 			</div>
 		</div>

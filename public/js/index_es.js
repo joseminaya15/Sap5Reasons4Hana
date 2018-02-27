@@ -257,17 +257,17 @@ function returnCaso(){
 }
 function nameIndustria(){
 	if(idIndustria == 'industriaServicio')
-		$('.nameIndustria').text('servicios profesionales');
+		$('.nameIndustria').text('Servicios Profesionales');
 	else if(idIndustria == 'industriaRetail')
-		$('.nameIndustria').text('retail');
+		$('.nameIndustria').text('Retail');
 	else if(idIndustria == 'industriaProducto')
-		$('.nameIndustria').text('productos de consumo');
+		$('.nameIndustria').text('Productos de Consumo');
 	else if(idIndustria == 'industriaProceso')
-		$('.nameIndustria').text('proceso y manufactura');
+		$('.nameIndustria').text('Proceso y Manufactura');
 	else if(idIndustria == 'industriaDistribucion')
-		$('.nameIndustria').text('distribución');
+		$('.nameIndustria').text('Distribución');
 	else if(idIndustria == 'industriaHighTech')
-		$('.nameIndustria').text('high tech');
+		$('.nameIndustria').text('High Tech');
 	else
 		$('.nameIndustria').text('Banking');
 }

@@ -656,15 +656,15 @@ button.button-left{
 }
 .mdl-agradecimiento small{
     display: block;
-    margin-top: 10px;
+    margin: 10px auto;
     font-size: 18px;
+    max-width: 600px;
 }
 .mdl-agradecimiento a{
-    margin-top: 20px;
-    background-color: #F7B12C !important;
-    color: #000000;
+    color: #F7B12C;
     font-family: 'RobotoBold';
-    text-decoration: none;
+    text-decoration: underline;
+    line-height: 26px;
 }
 .title-formulario{
     font-size: 20px;
