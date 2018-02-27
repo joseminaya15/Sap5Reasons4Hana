@@ -716,10 +716,13 @@ button.button-left{
     vertical-align: middle;
     padding: 7px 10px;
 }
-.mdl-formulario .content-datos .content-separacion p,
 .mdl-formulario .content-datos .content-personal p{
     margin: 0;
     color: #000000;
+}
+.mdl-formulario .content-datos .content-separacion p{
+    color: #FFFFFF;
+    margin: 0;
 }
 .mdl-formulario .content-datos .content-personal p i{
     vertical-align: middle;
