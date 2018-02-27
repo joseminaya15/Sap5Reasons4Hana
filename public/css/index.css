@@ -908,13 +908,10 @@ button.button-left{
         font-size: 16px;
     }
     .header-right{
-        max-width: 120px;
+        max-width: 142px;
     }
     .header-right .background1, .header-right .background2, .header-right .background3{
         max-width: 5px;
-    }
-    .mdl-idioma .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
-        margin-top: 18px;
     }
     .mdl-title strong{
         font-size: 60px;
