@@ -778,8 +778,9 @@ button.button-left{
     max-width: 235px;
 }
 .mdl-label .mdl-checkbox__label{
-    font-size: 13px;
+    font-size: 14px;
     line-height: 18px;
+    font-weight: 100;
 }
 .mdl-label .mdl-checkbox__label a{
     font-size: 14px;
