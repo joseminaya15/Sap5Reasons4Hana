@@ -123,7 +123,7 @@
 			<div id="industriaServicio-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>SERVICIOS PROFESIONALES.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>servicios profesionales.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -207,7 +207,7 @@
 			<div id="industriaRetail-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>RETAIL.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>retail.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -291,7 +291,7 @@
 			<div id="industriaProducto-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>PRODUCTOS DE CONSUMO.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>productos de consumo.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -375,7 +375,7 @@
 			<div id="industriaProceso-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>PROCESO Y MANUFACTURA.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>proceso y manufactura.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -459,7 +459,7 @@
 			<div id="industriaDistribucion-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>DISTRIBUCI&Oacute;N.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>distribuci&Oacute;n.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -543,7 +543,7 @@
 			<div id="industriaHighTech-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>HIGH TECH.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>high tech.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -627,7 +627,7 @@
 			<div id="industriaBanking-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para tu industria de <strong>Banking.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 Hana tiene para la industria de <strong>banking.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -830,11 +830,11 @@
             <div class="modal-content">
                 <div class="mdl-card" >
                     <div class="mdl-card__title p-0">
-                    	<h2>Los retos que enfrentan son</h2>
+                    	<h2></h2>
 						<img alt="" src="">
 					</div>
 				    <div class="mdl-card__supporting-text text-left">
-                        <p>Los retos que enfrentan son</p>
+                        <p>Los retos que enfrentan son:</p>
                         <ul>
                         	<li class="one"></li>
                         	<li class="two"></li>

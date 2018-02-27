@@ -157,7 +157,7 @@ p{
 }
 /*HOME*/
 .mdl-title{
-    max-width: 560px;
+    max-width: 515px;
     width: 100%;
 }
 .mdl-imagenes,
@@ -262,9 +262,8 @@ button.button-left{
     font-size: 18px;
     padding: 11px 20px;
     vertical-align: middle;
-    max-width: 230px;
     width: 100%;
-    max-width: calc(100% - 84px);
+    max-width: calc(100% - 83.5px);
 }
 .mdl-industrias img{
     max-width: 80px;
@@ -527,7 +526,7 @@ button.button-left{
     width: 100%;
 }
 #ModalIndustria .mdl-card .mdl-card__supporting-text p{
-    font-size: 20px;
+    font-size: 18px;
 }
 #ModalIndustria .mdl-card .mdl-card__supporting-text ul{
     color: #FFF;
@@ -594,7 +593,7 @@ button.button-left{
 /*FORMULARIO*/
 .formulario{
     width: 100%;
-    max-width: calc(100% - 580px);
+    max-width: calc(100% - 530px);
     -webkit-transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
     -moz-transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
     -ms-transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
@@ -921,6 +920,7 @@ button.button-left{
     }
     .mdl-industrias p{
         font-size: 16px;
+        padding: 10px 15px;
     }
     .contenido-industria h2{
         font-size: 22px;
