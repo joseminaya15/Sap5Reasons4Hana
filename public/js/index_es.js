@@ -271,3 +271,6 @@ function nameIndustria(){
 	else
 		$('.nameIndustria').text('Banking');
 }
+function returnHome(){
+	location.href = 'es';
+}

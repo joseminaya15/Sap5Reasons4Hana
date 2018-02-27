@@ -87,6 +87,9 @@ p{
     height: 68px;
     max-width: 175px;
     width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
 }
 .header-right .mdl-idioma{
 	float: left;
@@ -107,6 +110,16 @@ p{
 }
 .header-right .background3{
 	background-color: #E29D2E;
+}
+.header-right .button-home{
+    height: 24px;
+    min-width: 24px;
+    width: 24px;
+    font-size: 20px;
+}
+.header-right .button-home i{
+    color: #FFFFFF;
+    font-size: 18px;
 }
 .header h2{
     margin: 0;
@@ -157,7 +170,7 @@ p{
 }
 /*HOME*/
 .mdl-title{
-    max-width: 515px;
+    max-width: 500px;
     width: 100%;
 }
 .mdl-imagenes,
@@ -166,27 +179,27 @@ p{
 }
 .mdl-title strong{
     color: #F0AB00;
-    font-size: 150px;
-    line-height: 125px;
+    font-size: 110px;
+    line-height: 100px;
     vertical-align: top;
 }
 .mdl-letras{
-    max-width: 425px;
+    max-width: 325px;
     width: 100%;
     text-align: left;
     padding: 0 10px;
 }
 .mdl-letras p{
-    line-height: 46px;
+    line-height: 42px;
 }
 .mdl-letras h2{
-    line-height: 52px;
+    line-height: 48px;
     margin: 0;
     color: #F0AB00;
 }
 .mdl-letras p,
 .mdl-letras h2{
-    font-size: 50px;
+    font-size: 45px;
 }
 .mdl-imagenes img{
     max-width: 120px;
@@ -370,8 +383,8 @@ button.button-left{
 }
 .flip-card .card-back p{
     color: #000000;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 18px;
     overflow: hidden;
     font-family: 'RobotoBold';
     display: -webkit-box;
@@ -449,7 +462,6 @@ button.button-left{
 }
 .mdl-idioma .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
 	width: 105px;
-	margin-top: 20px;
 }
 /*ANIMATE*/
 .opacity-done{
@@ -526,7 +538,7 @@ button.button-left{
     width: 100%;
 }
 #ModalIndustria .mdl-card .mdl-card__supporting-text p{
-    font-size: 18px;
+    font-size: 16px;
 }
 #ModalIndustria .mdl-card .mdl-card__supporting-text ul{
     color: #FFF;
@@ -539,11 +551,11 @@ button.button-left{
 }
 #ModalIndustria .mdl-card .mdl-card__actions .mdl-button{
     color: #EFAA00;
-    /*border-radius: 25px;*/
     text-transform: initial;
     margin: 10px;
-    font-size: 16px;
-    font-family: 'RobotoMedium'
+    font-family: 'RobotoMedium';
+    max-width: 120px;
+    width: 100%;
 }
 #ModalIndustria .mdl-card .mdl-card__actions .mdl-button--raised{
     background-color: #EFAA00;
@@ -593,7 +605,7 @@ button.button-left{
 /*FORMULARIO*/
 .formulario{
     width: 100%;
-    max-width: calc(100% - 530px);
+    max-width: calc(100% - 520px);
     -webkit-transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
     -moz-transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
     -ms-transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
