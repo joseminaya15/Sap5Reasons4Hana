@@ -131,11 +131,11 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/maquina.png">
-		            				<p>Máquinas</p> 
+		            				<p>M&aacute;quinas</p> 
 		            				<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">20% de contenido empresarial creado por máquinas para 2018</p>
+		            				<p id="title">20% de contenido empresarial creado por m&aacute;quinas para 2018</p>
 									<label>La experiencia, talento, presentaci&oacute;n de servicios y compromiso obligan a las empresas de este rubro a repensar sus modelos comerciales, impulsando el crecimiento no lineal y poder cambiar la industria tal como la conocemos.</label>
 									<button id="verServicio1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
@@ -219,7 +219,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">100% nueva línea de productos para venta al por menor</p>
+		            				<p id="title">100% nueva l&iacute;nea de productos para venta al por menor</p>
 									<label>La soluci&oacute;n redise&ntilde;ada ejecuta un modelo de datos simplificado y permite a los empleados minoristas una experiencia de usuario avanzada y constante desde las sedes hasta la tienda.</label>
 									<button id="verRetail1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
