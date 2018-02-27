@@ -722,7 +722,7 @@
 						</div>	
 					</div>
 					<div class="formulario inline">
-						<h2>Conozca un Caso de &Eacute;xito en <strong id="nameIndustria"></strong></h2>
+						<h2>Conozca un caso de &eacute;xito en <strong id="nameIndustria"></strong></h2>
 						<p class="descarga">Complete el formulario para descargarlo</p>
 						<form class="mdl-formulario text-left">
 		        			<div class="content-datos">
