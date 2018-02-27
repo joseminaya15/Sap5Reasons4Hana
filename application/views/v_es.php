@@ -69,7 +69,7 @@
 						<div id="industriaServicio" class="mdl-industrias" onclick="modalIndustria(this.id)">
 							<p class="inline">Servicios Profesionales</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/servicios.png">
-							<div class="one none">Estar actualizado y poder reducir con los procesos financieros en tiempo real.</div>
+							<div class="one none">Estar actualizado y poder reducir los procesos financieros en tiempo real.</div>
 							<div class="two none">Minimizar el riesgo de sus proyectos.</div>
 							<div class="three none">Aumentar la precisi&oacute;n de sus licitaciones.</div>
 						</div>
@@ -90,9 +90,9 @@
 						<div id="industriaProceso" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Proceso y Manufactura</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/procesos.png">
-							<div class="one none">Reducir perdida de ingresos por falta de stock.</div>
+							<div class="one none">Reducir p&eacute;rdida de ingresos por falta de stock.</div>
 							<div class="two none">Mejorar la experiencia del pedido y entrega.</div>
-							<div class="three none">Reducir los niveles de inventarios.</div>
+							<div class="three none">Reducir los niveles de inventario.</div>
 						</div>
 						<div id="industriaDistribucion" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Distribuci&oacute;n</p>
@@ -105,15 +105,15 @@
 							<p class="inline">High Tech</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/tech.png">
 							<div class="one none">Reducir la p&eacute;rdida de ingresos por falta de stock y d&iacute;as de inventario.</div>
-							<div class="two none">Mejorar el proceso de quote – to – order, y reducir las quejas de clientes.</div>
+							<div class="two none">Mejorar el proceso de quote – to – order y reducir las quejas de clientes.</div>
 							<div class="three none">Aumentar la l&iacute;nea de negocio con productos e innovaci&oacute;n.</div>
 						</div>
 						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Banking</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/banking.png">
-							<div class="one none">La transformación digital es importante o críticamente importante para su supervivencia.</div>
-							<div class="two none">La industria de servicios financieros se centran cada vez más en blockchain.</div>
-							<div class="three none">La tecnología permitirá innovar rápidamente y enfrentar mejor los desafíos de seguridad.</div>
+							<div class="one none">La transformaci&oacute;n digital es importante o cr&iacute;ticamente importante para su supervivencia.</div>
+							<div class="two none">La industria de servicios financieros se centra cada vez m&aacute;s en blockchain.</div>
+							<div class="three none">La tecnolog&iacute;a permitir&aacute; innovar r&aacute;pidamente y enfrentar mejor los desaf&iacute;os de seguridad.</div>
 						</div>
 					</div>
 				</div>
@@ -150,8 +150,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Solo el 38% de las empresas tiene la visibilidad en tiempo real requerida</p>
-		            				<label>Proporciona una fuente consolidada de toda la información minuciosa relacionada con el proyecto, mejorando el compromiso y productividad de los empleados.</label>
+		            				<p id="title">Solo el 38% de las empresas tienen la visibilidad en tiempo real requerida</p>
+		            				<label>Proporciona una fuente consolidada de toda la informaci&oacute;n minuciosa relacionada con el proyecto, mejorando el compromiso y productividad de los empleados.</label>
 		            				<button id="verServicio2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -235,7 +235,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reducir los requisitos de capital en un 35%</p>
-									<label>Obt&eacute;n una &uacute;nica fuente de verdad y logra eliminar en el &aacute;rea de finanzas los errores de previsi&oacute;n, reduciendo el capital un 35%, y mejorando la productividad del procedimiento de las facturas en un 40%.</label>
+									<label>Obt&eacute;n una &uacute;nica fuente de verdad y logra eliminar en el &aacute;rea de finanzas los errores de previsi&oacute;n, reduciendo el capital un 35% y mejorando la productividad del procedimiento de las facturas en un 40%.</label>
 									<button id="verRetail2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -250,7 +250,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Aumenta la rentabilidad en 0.5pp</p>
-									<label>Proporciona procesos comerciales simplificados y redise&ntilde;ados, manejando informaci&oacute;n procesable, acelerando el flujo de efectivo y protegiendo la rentabilidad el proyecto.</label>
+									<label>Proporciona procesos comerciales simplificados y redise&ntilde;ados, manejando informaci&oacute;n procesable, acelerando el flujo de efectivo y protegiendo la rentabilidad del proyecto.</label>
 									<button id="verRetail3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -265,7 +265,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reducir el tiempo de toma de decisiones en un 30%</p>
-									<label>Muestra la informaci&oacute;n en diversos formatos, adicional brinda una gu&iacute;a basada en los elementos de acci&oacute;n que requiere inmediata atenci&oacute;n, reducido el tiempo de toma de decisiones.</label>
+									<label>Muestra la informaci&oacute;n en diversos formatos, adicional brinda una gu&iacute;a basada en los elementos de acci&oacute;n que requiere inmediata atenci&oacute;n, reduciendo el tiempo de toma de decisiones.</label>
 									<button id="verRetail4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -280,7 +280,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduce las rebajas en un 20%</p>
-									<label>Nuevo concepto de estacionalidad es impulsar todos los procesos de ciclo de vida del producto desde la creaci&oacute;n, adquisici&oacute;n, venta, calculo de precios y administraci&oacute;n de existencias.</label>
+									<label>Nuevo concepto de estacionalidad es impulsar todos los procesos del ciclo de vida del producto desde la creaci&oacute;n, adquisici&oacute;n, venta, c&aacute;lculo de precios y administraci&oacute;n de existencias.</label>
 									<button id="verRetail5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -556,7 +556,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Proceso de cotizaci&oacute;n 95% m&aacute;s r&aacute;pido</p>
-									<label>Facilitar a los ejecutivos crear una cotizaci&oacute;n para entregar resultados comerciales, no solo productos.</label>
+									<label>Facilitar a los ejecutivos crear una cotizaci&oacute;n para entregar resultados comerciales y no s&oacute;lo productos.</label>
 									<button id="verTech1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -640,7 +640,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">El 63% de los bancos y aseguradoras realizan inversiones fuertes en plataformas de seguridad</p>
-									<label>Est&aacute;n dirigiendo sus presupuestos de TI hacia herramientas fundacionales como tecnolog&iacute;a m&oacute;vil, nube y Big Data; cambiado drásticamente los procesos de negocio desde operaciones de back-office hasta interacciones con el cliente.</label>
+									<label>Est&aacute;n dirigiendo sus presupuestos de TI hacia herramientas fundacionales como tecnolog&iacute;a m&oacute;vil, nube y Big Data; cambiando drásticamente los procesos de negocio desde operaciones de back-office hasta interacciones con el cliente.</label>
 									<button id="verBancking1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -655,7 +655,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">El 54% de los bancos y aseguradoras pequeñas y medianas est&aacute;n pasando a lo digital</p>
-									<label>La entidad financiera afirma que la transformaci&oacute;n digital es cr&iacute;tica para la supervivencia de su organizaci&oacute;n hoy, y 84% dice que lo será en un plazo de cinco a&ntilde;os.</label>
+									<label>La entidad financiera afirma que la transformaci&oacute;n digital es cr&iacute;tica para la supervivencia de su organizaci&oacute;n hoy y 84% dice que lo será en un plazo de cinco a&ntilde;os.</label>
 									<button id="verBancking2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
