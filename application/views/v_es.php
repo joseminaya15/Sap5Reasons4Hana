@@ -654,7 +654,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">El 54% de los bancos y aseguradoras pequeñas y medianas est&aacute;n pasando a lo digital</p>
+		            				<p id="title">El 54% de los bancos y aseguradoras peque&ntilde;as y medianas est&aacute;n pasando a lo digital</p>
 									<label>La entidad financiera afirma que la transformaci&oacute;n digital es cr&iacute;tica para la supervivencia de su organizaci&oacute;n hoy y 84% dice que lo ser&aacute; en un plazo de cinco a&ntilde;os.</label>
 									<button id="verBancking2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
