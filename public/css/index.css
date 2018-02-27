@@ -608,6 +608,7 @@ button.button-left{
     font-size: 26px;
     line-height: 24px;
     margin: 10px 0 0 0;
+    font-family: 'RobotoRegular';
 }
 .formulario p.descarga{
     font-size: 18px;
@@ -855,8 +856,25 @@ button.button-left{
         padding: 80px 50px 50px 50px;
     }
     .formulario,
-    .mdl-title{
+    #formulario .mdl-title{
         max-width: 100%;
+        text-align: left;
+    }
+    #formulario .mdl-letras{
+        max-width: 550px;
+    }
+    #formulario .mdl-title strong{
+        font-size: 100px;
+        line-height: 85px;
+    }
+    #formulario .mdl-letras p, #formulario .mdl-letras h2{
+        font-size: 40px;
+    }
+    #formulario .mdl-letras p{
+        line-height: 32px;  
+    }
+    #formulario .mdl-letras h2{
+        line-height: 50px;
     }
     .chat{
         max-width: 45px;
