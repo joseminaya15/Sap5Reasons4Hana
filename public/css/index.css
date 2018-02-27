@@ -607,11 +607,11 @@ button.button-left{
 .formulario h2{
     font-size: 26px;
     line-height: 24px;
-    margin: 10px 0;
+    margin: 10px 0 0 0;
 }
 .formulario p.descarga{
     font-size: 18px;
-    margin: 10px 0;
+    margin: 0 0 10px 0;
 }
 .nameIndustria{
     color: #EFAA00;
@@ -853,6 +853,10 @@ button.button-left{
 @media ( max-width: 768px ){
     .center-container{
         padding: 80px 50px 50px 50px;
+    }
+    .formulario,
+    .mdl-title{
+        max-width: 100%;
     }
     .chat{
         max-width: 45px;
