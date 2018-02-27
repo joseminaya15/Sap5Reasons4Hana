@@ -852,9 +852,7 @@ button.button-left{
 }
 @media ( max-width: 768px ){
     .center-container{
-        overflow-y: scroll;
-        height: 100%;
-        padding: 80px 20px 50px 20px;
+        padding: 80px 50px 50px 50px;
     }
     .chat{
         max-width: 45px;
@@ -865,6 +863,11 @@ button.button-left{
     }
 }
 @media ( max-width: 640px ){
+    .center-container{
+        overflow-y: scroll;
+        height: 100%;
+        padding: 80px 35px 50px 35px;
+    }
     .header h2{
         font-size: 16px;
     }
