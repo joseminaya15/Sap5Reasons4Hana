@@ -804,7 +804,7 @@
 		    				<div class="col-xs-12 mdl-label m-t-10">
 								<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
 									<input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-									<span class="mdl-checkbox__label f-s-14" style="">He le&iacute;do y acepto los <a class="FONDO_TERMINOS" href="https://www.sap.com/corporate/en/legal/terms-of-use.html" target="_blank" style="">Términos y condiciones de SAP</a></span>
+									<span class="mdl-checkbox__label f-s-14" style="">He le&iacute;do y acepto los <a class="FONDO_TERMINOS" href="https://www.sap.com/corporate/en/legal/terms-of-use.html" target="_blank" style="">T&eacute;rminos y condiciones de SAP</a></span>
 								</label>
 		    				</div>
 		    				<div class="col-xs-12 text-right m-t-25">
@@ -816,9 +816,9 @@
 			</div>
 			<div class="mdl-agradecimiento window-center opacity-done">
 				<div class="center-container">
-					<h2>Gracias por su interés</h2>
+					<h2>Gracias por su inter&eacute;s</h2>
 					<p>Un especialista de SAP lo contactar&aacute; para escuchar su caso y orientarlo a dar el primer paso.</p>
-					<small>Mientras tanto vea como los clientes de servicios profesionales est&aacute;n teniendo éxito con SAP.</small>
+					<small>Mientras tanto vea como los clientes de servicios profesionales est&aacute;n teniendo &eacute;xito con SAP.</small>
 					<a href="#" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="returnCaso()">Ver caso de &eacute;xito</a>
 				</div>
 			</div>
