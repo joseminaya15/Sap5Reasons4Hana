@@ -831,6 +831,12 @@
 				<div class="center-container">
 					<h2>Gracias por su inter&eacute;s</h2>
 					<p>Un especialista de SAP lo contactar&aacute; a la brevedad</p>
+					<div class="subrayado-title">
+						<div class="subrayado one"></div>
+						<div class="subrayado two"></div>
+						<div class="subrayado three"></div>
+						<div class="subrayado four"></div>
+					</div>
 					<small>Mientras tanto <a href="#" onclick="returnCaso()">vea c&oacute;mo</a> empresas del sector de <strong class="nameIndustria"></strong> est&aacute;n teniendo &eacute;xito con SAP.</small>
 				</div>
 			</div>

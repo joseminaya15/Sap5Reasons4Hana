@@ -190,6 +190,7 @@ p{
     width: 100%;
     text-align: left;
     padding: 0 10px;
+    margin-bottom: 35px;
 }
 .mdl-letras p{
     line-height: 42px;
@@ -205,7 +206,11 @@ p{
 }
 .subrayado-title{
     font-size: 0;
-    margin-top: 15px;
+    line-height: 0;
+}
+.mdl-agradecimiento .subrayado-title{
+    max-width: 650px;
+    margin: auto;
 }
 .subrayado{
     width: 100%;
@@ -682,10 +687,11 @@ button.button-left{
 .mdl-agradecimiento p{
     font-size: 28px;
     line-height: 32px;
+    margin-bottom: 35px;
 }
 .mdl-agradecimiento small{
     display: block;
-    margin: 10px auto;
+    margin: 32px auto;
     font-size: 18px;
     max-width: 600px;
 }
