@@ -170,17 +170,19 @@ p{
 }
 /*HOME*/
 .mdl-title{
-    max-width: 500px;
+    max-width: 520px;
     width: 100%;
 }
 .mdl-imagenes,
 .mdl-title{
     vertical-align: middle;
+    text-align: left;
+    padding-right: 64px;
 }
 .mdl-title strong{
     color: #F0AB00;
-    font-size: 110px;
-    line-height: 100px;
+    font-size: 215px;
+    line-height: 180px;
     vertical-align: top;
 }
 .mdl-letras{
@@ -200,6 +202,33 @@ p{
 .mdl-letras p,
 .mdl-letras h2{
     font-size: 45px;
+}
+.subrayado-title{
+    font-size: 0;
+    margin-top: 15px;
+}
+.subrayado{
+    width: 100%;
+    max-width: 25%;
+    height: 15px;
+    -webkit-transition: max-width .2s linear;
+    -moz-transition: max-width .2s linear;
+    -ms-transition: max-width .2s linear;
+    -o-transition: max-width .2s linear;
+    transition: max-width .2s linear;
+    display: inline-block;
+}
+.subrayado.one{
+    background-color: #008FD5;
+}
+.subrayado.two{
+    background-color: #609C80;
+}
+.subrayado.three{
+    background-color: #A9A341;
+}
+.subrayado.four{
+    background-color: #EFAB02;
 }
 .mdl-imagenes img{
     max-width: 120px;
@@ -605,7 +634,7 @@ button.button-left{
 /*FORMULARIO*/
 .formulario{
     width: 100%;
-    max-width: calc(100% - 520px);
+    max-width: calc(100% - 535px);
     -webkit-transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
     -moz-transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
     -ms-transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
@@ -866,6 +895,9 @@ button.button-left{
     border-radius: 10px;
 }
 @media ( max-width: 1200px ){
+    .center-container{
+        padding: 100px 75px;
+    }
     .card-industria,
     .contenido-industria{
         max-width: 100%;
@@ -878,15 +910,28 @@ button.button-left{
         max-width: 100%;
         text-align: left;
     }
-}
-@media ( max-width: 768px ){
-    .center-container{
-        padding: 80px 50px 50px 50px;
-    }
     .formulario,
     #formulario .mdl-title{
         max-width: 100%;
         text-align: left;
+    }
+     #formulario .mdl-letras{
+        max-width: 750px;
+    }
+}
+@media ( max-width: 768px ){
+    .center-container{
+        padding: 80px 55px 50px 55px;
+    }
+    .mdl-card-industria{
+        max-width: 190px;
+    }
+    .flip-card{
+        width: 190px;
+        height: 195px;
+    }
+    .flip-card .card-front img{
+        max-width: 100px;
     }
     #formulario .mdl-letras{
         max-width: 550px;
@@ -904,12 +949,23 @@ button.button-left{
     #formulario .mdl-letras h2{
         line-height: 50px;
     }
+    .mdl-input-label{
+        max-width: 95px;
+    }
     .chat{
         max-width: 45px;
         right: 10px;
     }
     .chat label{
         display: none;
+    }
+    button.button-next i{
+        font-size: 80px;
+    }
+    button.button-next{
+        min-width: 80px;
+        width: 80px;
+        height: 80px;
     }
 }
 @media ( max-width: 640px ){

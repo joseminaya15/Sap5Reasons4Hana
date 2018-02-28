@@ -63,6 +63,12 @@
 						<div class="mdl-letras inline">
 							<p>razones principales</p>
 							<h2>por qu&eacute; elegir SAP S/4 HANA</h2>
+						</div>
+						<div class="subrayado-title">
+							<div class="subrayado one"></div>
+							<div class="subrayado two"></div>
+							<div class="subrayado three"></div>
+							<div class="subrayado four"></div>
 						</div>	
 					</div>
 					<div class="industrias inline">
@@ -721,6 +727,12 @@
 							<p>razones principales</p>
 							<h2>por qu&eacute; elegir SAP S/4 HANA</h2>
 						</div>	
+						<div class="subrayado-title">
+							<div class="subrayado one"></div>
+							<div class="subrayado two"></div>
+							<div class="subrayado three"></div>
+							<div class="subrayado four"></div>
+						</div>
 					</div>
 					<div class="formulario inline">
 						<h2>Conozca un caso de &eacute;xito en <label class="nameIndustria"></label></h2>
