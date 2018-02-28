@@ -51,6 +51,7 @@ p{
 .center-container{
     max-width: 1350px;
     text-align: center;
+    overflow: hidden;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -170,14 +171,14 @@ p{
 }
 /*HOME*/
 .mdl-title{
-    max-width: 520px;
+    max-width: 450px;
     width: 100%;
+    margin-right: 50px;
 }
 .mdl-imagenes,
 .mdl-title{
     vertical-align: middle;
     text-align: left;
-    padding-right: 64px;
 }
 .mdl-title strong{
     color: #F0AB00;
@@ -190,7 +191,6 @@ p{
     width: 100%;
     text-align: left;
     padding: 0 10px;
-    margin-bottom: 35px;
 }
 .mdl-letras p{
     line-height: 42px;
@@ -207,6 +207,7 @@ p{
 .subrayado-title{
     font-size: 0;
     line-height: 0;
+    margin: 35px 0;
 }
 .mdl-agradecimiento .subrayado-title{
     max-width: 650px;
@@ -921,8 +922,12 @@ button.button-left{
         max-width: 100%;
         text-align: left;
     }
-     #formulario .mdl-letras{
-        max-width: 750px;
+    #formulario .mdl-title strong{
+        font-size: 110px;
+        line-height: 100px;
+    }
+    #formulario .mdl-letras{
+        max-width: 620px;
     }
 }
 @media ( max-width: 768px ){
@@ -978,7 +983,7 @@ button.button-left{
     .center-container{
         overflow-y: scroll;
         height: 100%;
-        padding: 80px 35px 50px 35px;
+        padding: 80px 25px 50px 25px;
     }
     .header h2{
         font-size: 16px;
@@ -990,15 +995,19 @@ button.button-left{
         max-width: 5px;
     }
     .mdl-title strong{
-        font-size: 60px;
-        line-height: 56px;
+        font-size: 45px;
+        line-height: 45px;
     }
     .mdl-letras{
-        max-width: 225px;
+        max-width: 275px;
+        padding: 0px 5px;
     }
     .mdl-letras p, .mdl-letras h2{
-        font-size: 24px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .subrayado-title{
+        margin: 20px 0;
     }
     .industrias h2{
         line-height: 24px;
