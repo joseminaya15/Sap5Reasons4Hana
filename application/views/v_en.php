@@ -442,7 +442,7 @@
 				<div class="center-container">
 					<div class="contenido-industria inline">
 						<h2>For the industry of <strong>Distribution</strong> in which you perform, consider these 5 powerful
-						reasons why; choose SAP S/4 HANA to transform your business...</h2>
+						reasons why; choose SAP S/4 HANA to transform your business.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -601,7 +601,7 @@
 			<div id="industriaBanking-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>For the industry of <strong>Banking</strong> in which you perform, consider these 5 powerful reasons why choose SAP S / 4 HANA to transform your business.</h2>
+						<h2>For the industry of <strong>Banking</strong> in which you perform, consider these 5 powerful reasons why choose SAP S/4 HANA to transform your business.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -830,18 +830,18 @@
             $('select').selectpicker();
         }
         $(window).load(function() {
-        	if(<?php echo $pantalla ?> == 5) {
-        		var formulario   = $('#formulario');
-	        	var homePage      = $('#home');
+        	if(<?php echo $pantalla ?> == 5){
+        		var formulario = $('#formulario');
+	        	var homePage   = $('#home');
 			    $('.opacity-done').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
 			    homePage.css("display","none");
 				formulario.addClass('animated fadeInLeft');
 				$('#email').val("<?php echo $email_link ?>");
 				$('#nombre_completo').val("<?php echo $nombre_comple ?>");
-				if("<?php echo $comp ?>" == '') {
+				if("<?php echo $comp ?>" == ''){
 					$('#empresa').css('border-color','red');
 				}
-				if("<?php echo $tit ?>" == '') {
+				if("<?php echo $tit ?>" == ''){
 					$('#cargo').css('border-color','red');
 				}
 				$('#cargo').val("<?php echo $tit ?>");

@@ -71,13 +71,13 @@
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/servicios.png">
 							<div class="one none">Seja atualizado e seja capaz de reduzir com os processos financeiros em tempo real.</div>
 							<div class="two none">Minimize o risco de seus projetos.</div>
-							<div class="three none">Aumente a precisão das suas propostas.</div>
+							<div class="three none">Aumente a precis&atilde;o das suas propostas.</div>
 						</div>
 						<div id="industriaRetail" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Retail</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/retail.png">
 							<div class="one none">Reduzir a falta de estoque e obter uma maior renda por empregado.</div>
-							<div class="two none">Melhorar o volume de negócios e aumentar a lucratividade.</div>
+							<div class="two none">Melhorar o volume de neg&oacute;cios e aumentar a lucratividade.</div>
 							<div class="three none">Maior disponibilidade de tempo para atender o cliente.</div>
 						</div>
 						<div id="industriaProducto" class="mdl-industrias"  onclick="modalIndustria(this.id)">
@@ -85,26 +85,26 @@
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/productos.png">
 							<div class="one none">Otimizar planejamento de requisitos de material.</div>
 							<div class="two none">Digitalizar as vendas melhorando a produtividade com menor custo de propriedade.</div>
-							<div class="three none">Aumente a flexibilidade com as extensões de linha de neg&oacute;cio.</div>
+							<div class="three none">Aumente a flexibilidade com as extens&otilde;es de linha de neg&oacute;cio.</div>
 						</div>
 						<div id="industriaProceso" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Processo e fabrica&ccedil;&atilde;o</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/procesos.png">
 							<div class="one none">Reduza a perda de renda por falta de estoque.</div>
 							<div class="two none">Mejorar la experiencia del pedido y entrega.</div>
-							<div class="three none">Reduzir os níveis de invent&aacute;rio.</div>
+							<div class="three none">Reduzir os n&iacute;veis de invent&aacute;rio.</div>
 						</div>
 						<div id="industriaDistribucion" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Distribui&ccedil;&aacute;o</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/distribucion.png">
 							<div class="one none">Melhore a capacidade e a pontualidade do cumprimento das ordens.</div>
-							<div class="two none">Reduza os níveis e o tempo nos estoques.</div>
+							<div class="two none">Reduza os n&iacute;veis e o tempo nos estoques.</div>
 							<div class="three none">Aumenta a satisfa&ccedil;&atilde;o do cliente.</div>
 						</div>
 						<div id="industriaHighTech" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">High Tech</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/tech.png">
-							<div class="one none">Reduzir a perda de renda por falta de estoque e dias de inventário.</div>
+							<div class="one none">Reduzir a perda de renda por falta de estoque e dias de invent&aacute;rio.</div>
 							<div class="two none">Melhore o processo de cita&ccedil;&atilde;o por encomenda e reduza as reclama&ccedil;&otilde;es dos clientes.</div>
 							<div class="three none">Aumentar a linha de neg&oacute;cios com produtos e inova&ccedil;&atilde;o.</div>
 						</div>
@@ -123,7 +123,7 @@
 			<div id="industriaServicio-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Para a ind&uacute;stria de <strong>Servi&ccedil;os profissionais</strong> em que você executa, considere estes 5 poderosos raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
+						<h2>Para a ind&uacute;stria de <strong>Servi&ccedil;os profissionais</strong> em que voc&ecirc; executa, considere estes 5 poderosos raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -135,7 +135,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>20% de conte&uacute;do comercial criado por m&uacute;quinas at&uacute; 2018. A experiência, o talento, a apresenta&ccedil;&atilde;o de servi&ccedil;os e o compromisso for&ccedil;a as empresas nesta &aacute;rea a repensar seus modelos de neg&oacute;cios, promovendo o crescimento n&atilde;o-linear e alterando a ind&uacute;stria conforme a conhecemos.</label>
+		            				<label>20% de conte&uacute;do comercial criado por m&uacute;quinas at&uacute; 2018. A experi&ecirc;ncia, o talento, a apresenta&ccedil;&atilde;o de servi&ccedil;os e o compromisso for&ccedil;a as empresas nesta &aacute;rea a repensar seus modelos de neg&oacute;cios, promovendo o crescimento n&atilde;o-linear e alterando a ind&uacute;stria conforme a conhecemos.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -149,7 +149,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aproveite a nuvem para se concentrar no crescimento e n&atilde;o na implementação e gerenciamento de sua TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no crescimento e n&atilde;o na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -163,7 +163,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aproveite a nuvem para se concentrar no crescimento e não na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no crescimento e &ntilde;ao na implementa&ccedil;&atilde;o e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -177,7 +177,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aproveite a nuvem para se concentrar no crescimento e ñao implementa&ccedil;&atilde; e gerenciamento de sua TI.</label>
+		            				<label>Aproveite a nuvem para se concentrar no crescimento e &ntilde;ao implementa&ccedil;&atilde; e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -191,7 +191,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>Aproveite a nuvem paa se concentrar no crescimento e ñao implementa&ccdil;&atilde; e gerenciamento de sua TI.</label>
+		            				<label>Aproveite a nuvem paa se concentrar no crescimento e &ntilde;ao implementa&ccdil;&atilde; e gerenciamento de sua TI.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -203,7 +203,7 @@
 				<div class="center-container">
 					<div class="contenido-industria inline">
 						<h2>Para a ind&uacute;stria de <strong>Retail</strong> em que voc&ecirc; executa, considere estes 5 poderosos
-						razões pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
+						raz&otilde;es pelas quais escolher SAP S/4 HANA para transformar sua empresa.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -295,7 +295,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<label>20% de conte&uacute;do comercial criado por m&aacute;quinas at&eacute; 2018. A experi&ecirc;ncia, o talento, a apresenta&ccedil;&atilde;o de serviços e o compromisso for&ccedil;a as empresas nesta &aacute;rea a repensar seus modelos de neg&oacute;cios, promovendo o crescimento n&atilde;o-linear e alterando a ind&uacute;stria conforme a conhecemos.</label>
+		            				<label>20% de conte&uacute;do comercial criado por m&aacute;quinas at&eacute; 2018. A experi&ecirc;ncia, o talento, a apresenta&ccedil;&atilde;o de servi&ccedil;os e o compromisso for&ccedil;a as empresas nesta &aacute;rea a repensar seus modelos de neg&oacute;cios, promovendo o crescimento n&atilde;o-linear e alterando a ind&uacute;stria conforme a conhecemos.</label>
 									<i class="mdi mdi-remove"></i>
 		            			</div>
 		            		</div>
@@ -832,18 +832,18 @@
             $('select').selectpicker();
         }
         $(window).load(function() {
-        	if(<?php echo $pantalla ?> == 5) {
-        		var formulario   = $('#formulario');
-	        	var homePage      = $('#home');
+        	if(<?php echo $pantalla ?> == 5){
+        		var formulario = $('#formulario');
+	        	var homePage   = $('#home');
 			    $('.opacity-done').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
 			    homePage.css("display","none");
 				formulario.addClass('animated fadeInLeft');
 				$('#email').val("<?php echo $email_link ?>");
 				$('#nombre_completo').val("<?php echo $nombre_comple ?>");
-				if("<?php echo $comp ?>" == '') {
+				if("<?php echo $comp ?>" == ''){
 					$('#empresa').css('border-color','red');
 				}
-				if("<?php echo $tit ?>" == '') {
+				if("<?php echo $tit ?>" == ''){
 					$('#cargo').css('border-color','red');
 				}
 				$('#cargo').val("<?php echo $tit ?>");

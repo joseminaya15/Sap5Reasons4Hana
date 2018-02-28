@@ -20,6 +20,7 @@ class Es extends CI_Controller {
         $data['comp']          = $this->session->userdata('compania') == null ? '' : $this->session->userdata('compania');
         $data['tit']           = $this->session->userdata('titulo') == null ? '' : $this->session->userdata('titulo');
         $data['pais_link']     = $this->session->userdata('pais_linke') == null ? '' : $this->session->userdata('pais_linke');
+        $data['idIndustria']   = $this->session->userdata('idIndustria');
         $data['client_id']     = "789et516nyl9vy";
         $data['client_secret'] = "uN8FzWMngIBxxssc";
         $data['redirect_uri']  = "http://test.brainblue.com/sap_5reasons_4hana/callback";
@@ -108,6 +109,22 @@ class Es extends CI_Controller {
             throw new Exception("Error Processing Request", 1);
         }
         $this->session->set_userdata(array('idioma' => $idioma));
+        $data['error'] = EXIT_SUCCESS;
+      }catch(Exception $e){
+        $data['msj'] = $e->getMessage();
+      }
+      echo json_encode($data);
+  }
+
+  function selectIndustria(){
+    $data['error'] = EXIT_ERROR;
+    $data['msj']   = null;
+      try {
+        $idIndustria = $this->input->post('idIndustria');
+        if($idIndustria == null || $idIndustria == ''){
+            throw new Exception("Error Processing Request", 1);
+        }
+        $this->session->set_userdata(array('idIndustria' => $idIndustria));
         $data['error'] = EXIT_SUCCESS;
       }catch(Exception $e){
         $data['msj'] = $e->getMessage();

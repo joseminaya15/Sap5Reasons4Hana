@@ -32,6 +32,19 @@ function selectIndustria(){
 	$('#'+idIndustria+'-contenido').addClass('animated fadeInRight');
 	$('.button-industria').css("display","block");
 	$('#window2').addClass('opacity-done');
+	$.ajax({
+		data : {idIndustria : idIndustria},
+		url  : 'es/selectIndustria',
+		type : 'POST'
+	}).done(function(data){
+		try{
+        	data = JSON.parse(data);
+        	if(data.error == 0){
+        	}else {return;}
+      } catch (err){
+        msj('error',err.message);
+      }
+	});
 }
 function Prev(){
 	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');

@@ -28,9 +28,6 @@ var CONFIG = (function() {
 function modal(idModal) {
 	$('#'+idModal).modal('toggle');
 }
-function abrirCerrarModal(idModal) {
-	$('#'+idModal).modal('toggle');
-}
 function msj(tipo, msj, cabecera) {
 	if (tipo == 'error') {
 		toastr.error(msj, cabecera, {
