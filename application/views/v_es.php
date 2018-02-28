@@ -819,7 +819,7 @@
 				<div class="center-container">
 					<h2>Gracias por su inter&eacute;s</h2>
 					<p>Un especialista de SAP lo contactar&aacute; a la brevedad</p>
-					<small>Mientras tanto <a href="#" onclick="returnCaso()">vea como</a> empresas del sector de <strong class="nameIndustria"></strong> est&aacute;n teniendo &eacute;xito con SAP.</small>
+					<small>Mientras tanto <a href="#" onclick="returnCaso()">vea c&oacute;mo</a> empresas del sector de <strong class="nameIndustria"></strong> est&aacute;n teniendo &eacute;xito con SAP.</small>
 				</div>
 			</div>
 		</div>
