@@ -983,7 +983,7 @@ button.button-left{
     .center-container{
         overflow-y: scroll;
         height: 100%;
-        padding: 80px 25px 50px 25px;
+        padding: 90px 25px 50px 25px;
     }
     .header h2{
         font-size: 16px;
@@ -994,26 +994,37 @@ button.button-left{
     .header-right .background1, .header-right .background2, .header-right .background3{
         max-width: 5px;
     }
+    #formulario .mdl-title strong,
     .mdl-title strong{
         font-size: 45px;
         line-height: 45px;
     }
+    #formulario .mdl-letras,
     .mdl-letras{
         max-width: 275px;
         padding: 0px 5px;
     }
+    #formulario .mdl-letras p, #formulario .mdl-letras h2,
     .mdl-letras p, .mdl-letras h2{
         font-size: 20px;
         line-height: 22px;
+    }
+    .formulario h2{
+        font-size: 20px;
+        line-height: 22px;
+        margin: 0;
+    }
+    .formulario p.descarga{
+        font-size: 16px;
     }
     .subrayado-title{
         margin: 20px 0;
     }
     .industrias h2{
         line-height: 24px;
-        text-align: center;
-        font-size: 22px;
-        margin: 15px 0;
+        text-align: left;
+        font-size: 20px;
+        margin: 0 0 15px 0;
     }
     .mdl-industrias p{
         font-size: 16px;
