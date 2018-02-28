@@ -211,7 +211,7 @@ p{
 }
 .mdl-agradecimiento .subrayado-title{
     max-width: 650px;
-    margin: auto;
+    margin: 30px auto;
 }
 .subrayado{
     width: 100%;
@@ -688,11 +688,10 @@ button.button-left{
 .mdl-agradecimiento p{
     font-size: 28px;
     line-height: 32px;
-    margin-bottom: 35px;
 }
 .mdl-agradecimiento small{
     display: block;
-    margin: 32px auto;
+    margin: auto;
     font-size: 18px;
     max-width: 600px;
 }
@@ -937,6 +936,9 @@ button.button-left{
     .mdl-card-industria{
         max-width: 190px;
     }
+    .mdl-title{
+        margin: 0;
+    }
     .flip-card{
         width: 190px;
         height: 195px;
@@ -985,19 +987,29 @@ button.button-left{
         height: 100%;
         padding: 90px 25px 50px 25px;
     }
+    .mdl-agradecimiento .center-container{
+        height: initial;
+        padding: 25px;
+    }
+    .logo-header{
+        max-width: 50px;
+        height: 30px;
+    }
     .header h2{
-        font-size: 16px;
+        font-size: 15px;
+        padding: 0;
     }
     .header-right{
         max-width: 142px;
+        height: 62px;
     }
     .header-right .background1, .header-right .background2, .header-right .background3{
         max-width: 5px;
     }
     #formulario .mdl-title strong,
     .mdl-title strong{
-        font-size: 45px;
-        line-height: 45px;
+        font-size: 48px;
+        line-height: 54px;
     }
     #formulario .mdl-letras,
     .mdl-letras{
@@ -1007,7 +1019,7 @@ button.button-left{
     #formulario .mdl-letras p, #formulario .mdl-letras h2,
     .mdl-letras p, .mdl-letras h2{
         font-size: 20px;
-        line-height: 22px;
+        line-height: 24px;
     }
     .formulario h2{
         font-size: 20px;
@@ -1017,13 +1029,24 @@ button.button-left{
     .formulario p.descarga{
         font-size: 16px;
     }
+    .mdl-formulario .content-datos .content-separacion, 
+    .mdl-formulario .content-datos .content-personal{
+        margin-bottom: 10px;
+    }
+    .content-linkedin,
+    .button-linkedin{
+        width: 100%;
+    }
+    .button-linkedin{
+        display: inline-block;
+    }
     .subrayado-title{
         margin: 20px 0;
     }
     .industrias h2{
         line-height: 24px;
         text-align: left;
-        font-size: 20px;
+        font-size: 18px;
         margin: 0 0 15px 0;
     }
     .mdl-industrias p{
@@ -1035,6 +1058,15 @@ button.button-left{
         line-height: 26px;
         text-align: center;
         font-family: 'RobotoMedium';
+    }
+    .mdl-agradecimiento h2{
+        font-size: 30px;
+        margin: 10px 0;
+        line-height: 36px;
+    }
+    .mdl-agradecimiento p{
+        font-size: 22px;
+        line-height: 26px;
     }
     .modal.fade .modal-dialog.modal-md{
         max-width: 300px;

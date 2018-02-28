@@ -24,6 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost/Sap5Reasons4Hana';
+// $config['base_url'] = 'http://192.168.200.157/Sap5Reasons4Hana';
 
 /*
 |--------------------------------------------------------------------------
