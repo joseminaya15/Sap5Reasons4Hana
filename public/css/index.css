@@ -173,7 +173,7 @@ p{
 .mdl-title{
     max-width: 450px;
     width: 100%;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 .mdl-imagenes,
 .mdl-title{
@@ -640,7 +640,7 @@ button.button-left{
 /*FORMULARIO*/
 .formulario{
     width: 100%;
-    max-width: calc(100% - 535px);
+    max-width: calc(100% - 505px);
     -webkit-transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
     -moz-transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
     -ms-transition: max-width .3s ease-in-out, opacity .5s ease-in-out;
