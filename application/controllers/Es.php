@@ -43,16 +43,19 @@ class Es extends CI_Controller {
             $relacion        = $this->input->post('relacion');
             $terminos        = $this->input->post('term_cond');
             $contacto        = $this->input->post('contacto');
-            $arrayInsert     = array('nombre_completo' => $nombre_completo,
-                                     'Empresa'         => $empresa,
-                                     'Email'           => $email,
-                                     'Pais'            => $pais,
-                                     'Cargo'           => $cargo,
-                                     'Telefono'        => $telefono,
-                                     'Terminos'        => $terminos,
-                                     'Relacion'        => $relacion,
-                                     'Contactado'      => $contacto,
-                                     'id_lenguaje'     => 1);
+            if($nombre_completo == null || $empresa == null || $email == null || $pais == null || $cargo == null || $telefono == null || $relacion == null || $terminos == null || $contacto == null){
+                throw new Exception("Error Processing Request", 1);
+            }
+            $arrayInsert = array('nombre_completo' => $nombre_completo,
+                                 'Empresa'         => $empresa,
+                                 'Email'           => $email,
+                                 'Pais'            => $pais,
+                                 'Cargo'           => $cargo,
+                                 'Telefono'        => $telefono,
+                                 'Terminos'        => $terminos,
+                                 'Relacion'        => $relacion,
+                                 'Contactado'      => $contacto,
+                                 'id_lenguaje'     => 1);
             $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
             //$this->sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
             $this->session->unset_userdata('pantalla');
