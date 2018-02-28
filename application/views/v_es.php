@@ -460,7 +460,7 @@
 			<div id="industriaDistribucion-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 soluciones que SAP S/4 HANA tiene para la industria de <strong>Distribuci&Oacute;n.</strong></h2>
+						<h2>Estas son las 5 soluciones que SAP S/4 HANA tiene para la industria de <strong>Distribuci&oacute;n.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
