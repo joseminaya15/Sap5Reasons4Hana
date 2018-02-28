@@ -138,7 +138,7 @@ p{
 /*CHAT*/
 .chat{
     max-width: 105px;
-    background-color: #1D8ACB;
+    background-color: #008FCC;
     color: #FFFFFF;
     position: fixed;
     width: 100%;
@@ -707,10 +707,10 @@ button.button-left{
     line-height: 24px;
 }
 .button-confirmar:hover{
-    background-color: #4983B6;
+    background-color: #008FCC;
 }
 .button-confirmar{
-    background-color: #4983B6;
+    background-color: #008FCC;
     color: #FFFFFF;
     text-transform: initial;
     font-family: 'RobotoBold';
