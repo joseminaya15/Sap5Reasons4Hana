@@ -182,7 +182,7 @@ p{
 }
 .mdl-title strong{
     color: #F0AB00;
-    font-size: 215px;
+    font-size: 214px;
     line-height: 180px;
     vertical-align: top;
 }
@@ -437,6 +437,7 @@ button.button-left{
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     font-family: 'RobotoLight';
+    height: 55px;
 }
 .flip-card .card-back button{
     box-shadow: none;
@@ -502,10 +503,14 @@ button.button-left{
 .opacity-done{
     opacity: 0;
     z-index: -5;
+    display: none;
 }
 .opacity-done.fadeInLeft, 
 .opacity-done.fadeInRight{
     z-index: 6;
+}
+.opacity-done.animated{
+    display: block;
 }
 /*MODAL*/
 .modal-backdrop.in {
