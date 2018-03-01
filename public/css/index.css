@@ -685,6 +685,7 @@ button.button-left{
 }
 .formulario p.descarga{
     font-size: 18px;
+    line-height: 18px;
     margin: 0 0 10px 0;
 }
 .nameIndustria{
@@ -1012,7 +1013,10 @@ button.button-left{
     .center-container{
         overflow-y: scroll;
         height: 100%;
-        padding: 90px 25px 50px 25px;
+        padding: 90px 35px 50px 35px;
+    }
+    .mdl-formulario{
+        padding: 15px;
     }
     .mdl-agradecimiento .center-container{
         height: initial;
@@ -1040,12 +1044,11 @@ button.button-left{
     }
     #formulario .mdl-letras,
     .mdl-letras{
-        max-width: 275px;
-        padding: 0px 5px;
+        max-width: 255px;
     }
     #formulario .mdl-letras p, #formulario .mdl-letras h2,
     .mdl-letras p, .mdl-letras h2{
-        font-size: 20px;
+        font-size: 19px;
         line-height: 24px;
     }
     .formulario h2{
