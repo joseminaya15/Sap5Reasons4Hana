@@ -96,7 +96,7 @@ class Es extends CI_Controller {
                                  'newline'   => "\r\n");
             $this->email->initialize($configGmail);
             $this->email->from('info@sap-latam.com');
-            $this->email->to('jhonatanibericom@gmail.com');
+            $this->email->to('jose.minayac15@gmail.com');
             $this->email->subject('Estoy interesado en SAP 5 Reasons S/4 Hana');
             //CONSTRUIMOS EL HTML
         $texto = '<!DOCTYPE html>
@@ -259,7 +259,7 @@ class Es extends CI_Controller {
                                           <tbody>
                                             <tr style="text-align: left;">
                                               <th style="text-align: left;"><img width="150" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
-                                              <h2>SAP S/4 HANA</h2>
+                                              <h2>SAP S/4 HANA</h2>   
                                             </tr>
                                           </tbody>
                                         </table>
