@@ -31,7 +31,7 @@ class Es extends CI_Controller {
 		$this->load->view('v_es', $data);
 	}
 
-    function solicitarEstimacion(){
+    function solicitarEstimacion() {
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
         try {
