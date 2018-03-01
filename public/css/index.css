@@ -812,7 +812,7 @@ button.button-left{
 .mdl-input-label{
     display: inline-block;
     width: 100%;
-    max-width: 112px;
+    max-width: 100px;
 }
 .mdl-label .mdl-checkbox{
     max-width: 235px;

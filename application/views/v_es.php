@@ -861,7 +861,7 @@
 					</div> 
     				<div class="mdl-card__actions text-right">       				    
                         <button class="mdl-button mdl-js-button mdl-js-ripple-effect" onclick="closeModal()">Cerrar</button>        				    
-                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised" onclick="selectIndustria()">Seleccionar</button>
+                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised" onclick="selectIndustria()">Avanzar</button>
                     </div>
                 </div>
             </div>
