@@ -102,9 +102,6 @@ class Es extends CI_Controller {
             //CONSTRUIMOS EL HTML
         $texto = '<!DOCTYPE html>
                   <html>
-                  <head>
-                    <title></title>
-                  </head>
                   <body style="font-family: "Open Sans",Arial,Helvetica,sans-serif;">
                     <table align="center" cellspacing="0" cellpadding="0" border="0" style="max-width: 500px; width: 100%; margin: auto;border: 1px solid #757575;">
                       <tr>
@@ -233,17 +230,6 @@ class Es extends CI_Controller {
        //CONSTRUIMOS EL HTML
         $texto = '<!DOCTYPE html>
                 <html>
-                <head>
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                    <meta name="viewport" content="width=device-width">
-                  <title></title>
-                  <style type="text/css">
-                    table,tbody,tr,td,th{padding: 0;margin: 0;border-spacing: 0;border-collapse: inherit;}
-                    body{margin: 0;padding: 0; height: 100vh;}
-                    table.body{background-color: #F3F3F3;width: 100%;height: 100%;border:0;}
-                    h2,p{font-family: "Open Sans",Arial,Helvetica,sans-serif;margin: 0;}
-                  </style>
-                </head>
                 <body>
                   <table class="body" cellspacing="0" cellpadding="0" border="0">
                     <tr>
@@ -283,7 +269,7 @@ class Es extends CI_Controller {
                             </tr>
                           </tbody>
                         </table>
-                        <table align="center" cellspacing="0" cellpadding="0" style="width: 100%;border:1px solid #000000;max-width: 600px;margin: 5px auto;;text-align: center;float: none;background-color: #FFFFFF;">
+                        <table align="center" style="width: 100%;border:1px solid #000000;max-width: 600px;margin: 5px auto;;text-align: center;float: none;background-color: #FFFFFF;">
                           <tbody>
                             <tr>
                               <td>
@@ -291,12 +277,12 @@ class Es extends CI_Controller {
                                   <tbody>
                                     <tr>
                                       <td style="padding: 20px 40px 10px 40px;">
-                                        <h2 style="color: #000000;">Gracias por su interés</h2>
+                                        <font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">Gracias por su interés</font>
                                       </td>
                                     </tr>
                                     <tr>
                                       <td style="padding:10px 40px 20px 40px;">
-                                        <p style="color: #000000;">Un representante de SAP se pondrá en contacto con Usted a la brevedad.</p>
+                                        <font style="color: #000000;font-size:14px;font-family: arial;">Un representante de SAP se pondrá en contacto con Usted a la brevedad.</font>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -305,13 +291,13 @@ class Es extends CI_Controller {
                             </tr>
                             <tr>
                               <td>
-                                <table style="width: 100%;padding: 20px;">
+                                <table style="width: 100%;">
                                   <tbody>
                                     <tr style="padding: 25px;margin: 30px;">
-                                      <td style="text-align: center;"><h2 style="font-family: arial">Datos del Cliente</h2></td>
+                                      <td style="text-align: center;"><font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">Datos del Cliente</h2></font>
                                     </tr>
                                     <tr>
-                                      <table style="padding: 20px;" cellspacing="0" cellpadding="0" border="0">
+                                      <table style="padding: 20px;">
                                         <tbody>
                                           <tr style="padding: 0 20px;">
                                             <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Cliente:</font></td>
