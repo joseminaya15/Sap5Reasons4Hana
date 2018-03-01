@@ -109,14 +109,14 @@
 							<div class="three none">Aumentar la satisfacci&oacute;n del cliente.</div>
 						</div>
 						<div id="industriaHighTech" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline">High Tech</p>
+							<p class="inline">Alta Tecnología</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/tech.png">
 							<div class="one none">Reducir la p&eacute;rdida de ingresos por falta de stock y d&iacute;as de inventario.</div>
 							<div class="two none">Mejorar el proceso de quote – to – order y reducir las quejas de clientes.</div>
 							<div class="three none">Aumentar la l&iacute;nea de negocio con productos e innovaci&oacute;n.</div>
 						</div>
 						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline">Banking</p>
+							<p class="inline">Servicios Financieros</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/banking.png">
 							<div class="one none">La transformaci&oacute;n digital es importante o cr&iacute;ticamente importante para su supervivencia.</div>
 							<div class="two none">La industria de servicios financieros se centra cada vez m&aacute;s en blockchain.</div>

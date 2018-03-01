@@ -281,9 +281,9 @@ function nameIndustria(idIndustria){
 	else if(idIndustria == 'industriaDistribucion')
 		$('.nameIndustria').text('Distribución');
 	else if(idIndustria == 'industriaHighTech')
-		$('.nameIndustria').text('High Tech');
+		$('.nameIndustria').text('Alta tecnología');
 	else
-		$('.nameIndustria').text('Banking');
+		$('.nameIndustria').text('Servicios Financieros');
 }
 function returnHome(){
 	location.href = 'es';
