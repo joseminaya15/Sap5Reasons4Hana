@@ -32,7 +32,6 @@ function selectIndustria(){
 	$('#'+idIndustria+'-contenido').addClass('animated fadeInRight');
 	$('.button-industria').css("display","block");
 	$('#window2').addClass('opacity-done');
-	console.log(idIndustria);
 	$.ajax({
 		data : {idIndustria : idIndustria},
 		url  : 'es/selectIndustria',
@@ -58,7 +57,6 @@ function Next(){
 	$('#'+idIndustria+'-contenido').addClass('animated fadeOutLeft')
 	$('#formulario').addClass('animated fadeInRight');
 	$('.button-industria').css("display","none");
-	//console.log(idIndustria);
 	nameIndustria(idIndustria);
 }
 /*BACK*/

@@ -386,7 +386,6 @@ class Es extends CI_Controller {
     $data['msj']   = null;
       try {
         $idIndustria = $this->input->post('idIndustria');
-        print_r($idIndustria);
         if($idIndustria == null || $idIndustria == ''){
             throw new Exception("Error Processing Request", 1);
         }
