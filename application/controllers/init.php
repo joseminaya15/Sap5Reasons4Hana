@@ -6,7 +6,7 @@ if(!isset($_SESSION)){
 
 $client_id = "789et516nyl9vy";
 $client_secret = "uN8FzWMngIBxxssc";
-$redirect_uri = "http://test.brainblue.com/sap_5reasons_4hana/callback";
+$redirect_uri = "http://www.sap-latam.com/5reasons_hana/callback";
 $csrf_token = random_int(1111111, 9999999);
 $scopes = "r_basicprofile%20r_emailaddress";
 
@@ -27,7 +27,7 @@ function curl($url, $parameters){
 function getCallback(){
     $client_id = "789et516nyl9vy";
     $client_secret = "uN8FzWMngIBxxssc";
-    $redirect_uri = "http://test.brainblue.com/sap_5reasons_4hana/callback";
+    $redirect_uri = "http://www.sap-latam.com/5reasons_hana/callback";
     $csrf_token = random_int(1111111, 9999999);
     $scopes = "r_basicprofile%20r_emailaddress";
 

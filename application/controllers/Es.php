@@ -23,7 +23,7 @@ class Es extends CI_Controller {
         $data['idIndustria']   = $this->session->userdata('idIndustria');
         $data['client_id']     = "789et516nyl9vy";
         $data['client_secret'] = "uN8FzWMngIBxxssc";
-        $data['redirect_uri']  = "http://test.brainblue.com/sap_5reasons_4hana/callback";
+        $data['redirect_uri']  = "http://www.sap-latam.com/5reasons_hana/callback";
         $data['csrf_token']    = random_int(22222222, 99999999);
         $data['scopes']        = "r_basicprofile%20r_emailaddress";
         $session = array('idioma' => 'Español');
