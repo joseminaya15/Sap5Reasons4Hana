@@ -57,7 +57,7 @@ function Next(){
 	$('#'+idIndustria+'-contenido').addClass('animated fadeOutLeft')
 	$('#formulario').addClass('animated fadeInRight');
 	$('.button-industria').css("display","none");
-	nameIndustria();
+	nameIndustria(idIndustria);
 }
 /*BACK*/
 function solicitarEstimacion(){
@@ -149,7 +149,8 @@ function solicitarEstimacion(){
         	if(data.error == 0){
 				limpiarCampos();
 				enviarGracias();
-				nameIndustria();
+				nameIndustria(idIndustria);
+				nameIndustria(data.idIndustria);
         	}else {return;}
       } catch (err){
         msj('error',err.message);
@@ -268,7 +269,7 @@ function returnCaso(){
 		location.reload();
 	}, 4000);
 }
-function nameIndustria(){
+function nameIndustria(idIndustria){
 	if(idIndustria == 'industriaServicio')
 		$('.nameIndustria').text('Servicios Profesionales');
 	else if(idIndustria == 'industriaRetail')

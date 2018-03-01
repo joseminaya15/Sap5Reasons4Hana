@@ -919,7 +919,7 @@
 				$('#empresa').val("<?php echo $comp ?>");
 				$('#pais').val("<?php echo $pais_link ?>");
 				$('#telefono').css('border-color','red');
-				$('.nameIndustria').text("<?php echo $idIndustria ?>");
+				nameIndustria("<?php echo $idIndustria ?>");
         	}
         });
     </script>
