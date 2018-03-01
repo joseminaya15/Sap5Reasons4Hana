@@ -149,7 +149,6 @@ function solicitarEstimacion(){
         	if(data.error == 0){
 				limpiarCampos();
 				enviarGracias();
-				nameIndustria(idIndustria);
 				nameIndustria(data.idIndustria);
         	}else {return;}
       } catch (err){
