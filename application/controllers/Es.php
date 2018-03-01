@@ -259,7 +259,7 @@ class Es extends CI_Controller {
                                         <table cellspacing="0" cellpadding="0" border="0">
                                           <tbody>
                                             <tr style="text-align: left;">
-                                              <th style="text-align: left;"><img width="150" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
+                                              <th style="text-align: left;"><img width="100" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
                                               <h2 style="color: #FFFFFF;">SAP S/4 HANA</h2>   
                                             </tr>
                                           </tbody>
@@ -305,56 +305,56 @@ class Es extends CI_Controller {
                             </tr>
                             <tr>
                               <td>
-                                <table style="width: 100%;padding: 20px;" cellspacing="0" cellpadding="0">
+                                <table style="width: 100%;padding: 20px;">
                                   <tbody>
                                     <tr style="padding: 25px;margin: 30px;">
-                                <td style="text-align: center;"><h2 style="font-family: arial">Datos del Cliente</h2></td>
-                              </tr>
-                              <tr>
-                                <table style="padding: 20px;" cellspacing="0" cellpadding="0" border="0">
-                                  <tbody>
-                                    <tr style="padding: 0 20px;">
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Cliente:</font></td>
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$nombre_completo.'</font></td>
+                                      <td style="text-align: center;"><h2 style="font-family: arial">Datos del Cliente</h2></td>
                                     </tr>
-                                    <tr style="padding: 0 20px;">
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Cargo:</font></td>
-                                      <td style="text-align: left;"><font  style="margin: 3px 0;font-family: arial;">'.$cargo.'</font></td>
-                                    </tr>
-                                    <tr style="padding: 0 20px;">
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Empresa:</font></td>
-                                      <td style="text-align: left;"><font style="font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$empresa.'</font></td>
-                                    </tr>
-                                    <tr style="padding: 0 20px;">
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Teléfono:</font></td>
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$telefono.'</font></td>
-                                    </tr>
-                                    <tr style="padding: 0 20px;">
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Email:</font></td>
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$email.'</font></td>
-                                    </tr>
-                                    <tr style="padding: 0 20px;">
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Relación con SAP:</font></td>
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$relacion.'</font></td>
-                                    </tr>
-                                    <tr style="padding: 0 20px;">
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">País:</font></td>
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$pais.'</font></td>
-                                    </tr>
-                                    <tr style="padding: 0 20px;">
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Quiero que me contacten:</font></td>
-                                      <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$contact.'</font></td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </td>
-                            </tr>
-                          </tbody>
+                                    <tr>
+                                      <table style="padding: 20px;" cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                          <tr style="padding: 0 20px;">
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Cliente:</font></td>
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$nombre_completo.'</font></td>
+                                          </tr>
+                                          <tr style="padding: 0 20px;">
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Cargo:</font></td>
+                                            <td style="text-align: left;"><font  style="margin: 3px 0;font-family: arial;">'.$cargo.'</font></td>
+                                          </tr>
+                                          <tr style="padding: 0 20px;">
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Empresa:</font></td>
+                                            <td style="text-align: left;"><font style="font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$empresa.'</font></td>
+                                          </tr>
+                                          <tr style="padding: 0 20px;">
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Teléfono:</font></td>
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$telefono.'</font></td>
+                                          </tr>
+                                          <tr style="padding: 0 20px;">
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Email:</font></td>
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$email.'</font></td>
+                                          </tr>
+                                          <tr style="padding: 0 20px;">
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Relación con SAP:</font></td>
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$relacion.'</font></td>
+                                          </tr>
+                                          <tr style="padding: 0 20px;">
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">País:</font></td>
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$pais.'</font></td>
+                                          </tr>
+                                          <tr style="padding: 0 20px;">
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Quiero que me contacten:</font></td>
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$contact.'</font></td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
                         </table>
-                      </td>
-                    </tr>
-                  </table>
-                </body>
+                      </body>
                 </html>';
         $this->email->message($texto);//AQUI SE INSERTA EL HTML
         $this->email->send();
