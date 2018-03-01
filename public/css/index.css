@@ -175,6 +175,25 @@ p{
     width: 100%;
     margin-right: 40px;
 }
+#formulario .mdl-title{
+    max-width: 340px;
+}
+#formulario .mdl-title strong{
+    font-size: 157px;
+    line-height: 140px;
+}
+#formulario .mdl-letras{
+    max-width: 248px;
+}
+#formulario  .mdl-letras p, #formulario  .mdl-letras h2{
+    font-size: 36px;
+}
+#formulario .mdl-letras p{
+    line-height: 36px;
+}
+#formulario .mdl-letras h2{
+    line-height: 40px;
+}
 .mdl-imagenes,
 .mdl-title{
     vertical-align: middle;
@@ -190,7 +209,7 @@ p{
     max-width: 325px;
     width: 100%;
     text-align: left;
-    padding: 0 10px;
+    padding: 0 0 0 5px;
 }
 .mdl-letras p{
     line-height: 42px;
@@ -267,6 +286,9 @@ button.button-industria{
     box-shadow: none;
     z-index: 10;
     display: none;
+}
+button.button-industria.button-back{
+        display: block !important;
 }
 button.button-right{
     right: 0;
@@ -463,38 +485,6 @@ button.button-left{
     -ms-transition: max-width .3s linear;
     -o-transition: max-width .3s linear;
     transition: max-width .3s linear;
-}
-.button-back{
-    max-width: 1325px;
-    margin: auto;
-    margin-top: 100px;
-    z-index: 10;
-    position: relative;
-}
-.button-back button{
-    color: #FFFFFF;
-    text-transform: initial;
-    background-color: transparent ! important;
-    box-shadow: none !important;
-    -webkit-transition: color .2s linear;
-    -moz-transition: color .2s linear;
-    -ms-transition: color .2s linear;
-    -o-transition: color .2s linear;
-    transition: color .2s linear;
-}
-.button-back button i{
-    margin-right: 10px;
-    vertical-align: middle;
-    color: #FFFFFF;
-    -webkit-transition: color .2s linear;
-    -moz-transition: color .2s linear;
-    -ms-transition: color .2s linear;
-    -o-transition: color .2s linear;
-    transition: color .2s linear;
-}
-.button-back button:HOVER i,
-.button-back button:HOVER{
-    color: #EFAA00;
 }
 /*BOOTSTRAP-SELECT*/
 .mdl-idioma .bootstrap-select .dropdown-menu>li>a{
@@ -1010,12 +1000,12 @@ button.button-left{
         display: none;
     }
     button.button-next i{
-        font-size: 80px;
+        font-size: 50px;
     }
     button.button-next{
-        min-width: 80px;
-        width: 80px;
-        height: 80px;
+        min-width: 50px;
+        width: 50px;
+        height: 50px;
     }
 }
 @media ( max-width: 640px ){

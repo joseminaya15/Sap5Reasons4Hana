@@ -720,9 +720,7 @@
 		</div>
 		<div id="window4">
 			<div id="formulario" class="window-center opacity-done">
-				<div class="button-back">
-					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="buttonBack()"><i class="mdi mdi-arrow_back"></i>Retroceder</button>
-				</div>
+				<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-next button-industria button-left button-back" onclick="buttonBack()"><i class="mdi-keyboard_arrow_left"></i></button>
 				<div class="center-container">
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>
