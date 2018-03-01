@@ -307,42 +307,42 @@ class Es extends CI_Controller {
                                 <table style="width: 100%;padding: 20px;" cellspacing="0" cellpadding="0">
                                   <tbody>
                                     <tr style="padding: 25px;margin: 30px;">
-                                <td style="text-align: center;"><h2 style="font-family: "Open Sans",Arial,Helvetica,sans-serif;">Datos del Cliente</h2></td>
+                                <td style="text-align: center;"><h2 style="font-family: arial">Datos del Cliente</h2></td>
                               </tr>
                               <tr>
                                 <table style="padding: 20px;" cellspacing="0" cellpadding="0" border="0">
                                   <tbody>
                                     <tr style="padding: 0 20px;">
-                                      <td><h2 style="margin: 3px 0;font-size: 18px;font-family: "Open Sans",Arial,Helvetica,sans-serif;">Cliente:</h2></td>
-                                      <td><p style="margin: 3px 0;font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$nombre_completo.'</p></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Cliente:</font></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$nombre_completo.'</font></td>
                                     </tr>
                                     <tr style="padding: 0 20px;">
-                                      <td><h2 style="margin: 3px 0;font-size: 18px;font-family: "Open Sans",Arial,Helvetica,sans-serif;">Cargo:</h2></td>
-                                      <td><p  style="margin: 3px 0;font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$cargo.'</p></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Cargo:</font></td>
+                                      <td style="text-align: left;"><font  style="margin: 3px 0;font-family: arial;">'.$cargo.'</font></td>
                                     </tr>
                                     <tr style="padding: 0 20px;">
-                                      <td><h2 style="margin: 3px 0;font-size: 18px;font-family: "Open Sans",Arial,Helvetica,sans-serif;">Empresa:</td>
-                                      <td><p style="font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$empresa.'</p></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Empresa:</font></td>
+                                      <td style="text-align: left;"><font style="font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$empresa.'</font></td>
                                     </tr>
                                     <tr style="padding: 0 20px;">
-                                      <td><h2 style="margin: 3px 0;font-size: 18px;font-family: "Open Sans",Arial,Helvetica,sans-serif;">Teléfono:</h2></td>
-                                      <td><p style="margin: 3px 0;font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$telefono.'</p></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Teléfono:</font></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$telefono.'</font></td>
                                     </tr>
                                     <tr style="padding: 0 20px;">
-                                      <td><h2 style="margin: 3px 0;font-size: 18px;font-family: "Open Sans",Arial,Helvetica,sans-serif;">Email:</h2></td>
-                                      <td><p style="margin: 3px 0;font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$email.'</p></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Email:</font></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$email.'</font></td>
                                     </tr>
                                     <tr style="padding: 0 20px;">
-                                      <td><h2 style="margin: 3px 0;font-size: 18px;font-family: "Open Sans",Arial,Helvetica,sans-serif;">Relación con SAP:</h2></td>
-                                      <td><p style="margin: 3px 0;font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$relacion.'</p></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Relación con SAP:</font></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$relacion.'</font></td>
                                     </tr>
                                     <tr style="padding: 0 20px;">
-                                      <td><h2 style="margin: 3px 0;font-size: 18px;font-family: "Open Sans",Arial,Helvetica,sans-serif;">País:</h2></td>
-                                      <td><p style="margin: 3px 0;font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$pais.'</p></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">País:</font></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$pais.'</font></td>
                                     </tr>
                                     <tr style="padding: 0 20px;">
-                                      <td><h2 style="margin: 3px 0;font-size: 18px;font-family: "Open Sans",Arial,Helvetica,sans-serif;">Quiero que me contacten:</h2></td>
-                                      <td><p style="margin: 3px 0;font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$contact.'</p></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-size: 18px;font-family: arial;">Quiero que me contacten:</font></td>
+                                      <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$contact.'</font></td>
                                     </tr>
                                   </tbody>
                                 </table>

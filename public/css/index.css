@@ -450,7 +450,7 @@ button.button-left{
     text-decoration: underline;
 }
 .card-industria{
-    max-width: calc(100% - 625px);
+    max-width: calc(100% - 570px);
     vertical-align: middle;
     text-align: left;
 }
