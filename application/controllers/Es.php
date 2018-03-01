@@ -60,6 +60,7 @@ class Es extends CI_Controller {
             $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
             $this->sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
             $this->emailClienteSap($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
+            $data['idIndustria']   = $this->session->userdata('idIndustria');
             $this->session->unset_userdata('pantalla');
             $this->session->unset_userdata('nombre_linke');
             $this->session->unset_userdata('email_linke');
@@ -385,6 +386,7 @@ class Es extends CI_Controller {
     $data['msj']   = null;
       try {
         $idIndustria = $this->input->post('idIndustria');
+        print_r($idIndustria);
         if($idIndustria == null || $idIndustria == ''){
             throw new Exception("Error Processing Request", 1);
         }

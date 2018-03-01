@@ -32,6 +32,7 @@ function selectIndustria(){
 	$('#'+idIndustria+'-contenido').addClass('animated fadeInRight');
 	$('.button-industria').css("display","block");
 	$('#window2').addClass('opacity-done');
+	console.log(idIndustria);
 	$.ajax({
 		data : {idIndustria : idIndustria},
 		url  : 'es/selectIndustria',
@@ -57,6 +58,7 @@ function Next(){
 	$('#'+idIndustria+'-contenido').addClass('animated fadeOutLeft')
 	$('#formulario').addClass('animated fadeInRight');
 	$('.button-industria').css("display","none");
+	//console.log(idIndustria);
 	nameIndustria(idIndustria);
 }
 /*BACK*/
@@ -149,7 +151,11 @@ function solicitarEstimacion(){
         	if(data.error == 0){
 				limpiarCampos();
 				enviarGracias();
-				nameIndustria(data.idIndustria);
+				if(data.idIndustria == null || data.idIndustria == undefined) {
+					nameIndustria(idIndustria);
+				}else {
+					nameIndustria(data.idIndustria);
+				}
         	}else {return;}
       } catch (err){
         msj('error',err.message);
