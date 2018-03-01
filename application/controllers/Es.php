@@ -115,7 +115,7 @@ class Es extends CI_Controller {
                                   <table cellspacing="0" cellpadding="0" border="0">
                                     <tbody>
                                       <tr style="text-align: left;">
-                                        <th style="text-align: left;"><img width="150" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
+                                        <th style="text-align: left;"><img width="100" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
                                         <h2 style="color: #FFFFFF;">SAP S/4 HANA</h2>
                                       </tr>
                                     </tbody>
