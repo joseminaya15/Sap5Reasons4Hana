@@ -53,7 +53,7 @@
 			</div>
 		</div>
 		<div class="chat">
-			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Cont&aacute;ctenos</label></a>
+			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Chatea con nosotros</label></a>
 		</div>
 		<div id="home" class="window-center">
 			<div id="window2" class="window-center">
@@ -720,6 +720,9 @@
 		</div>
 		<div id="window4">
 			<div id="formulario" class="window-center opacity-done">
+				<div class="button-back">
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="buttonBack()"><i class="mdi mdi-arrow_back"></i>Retroceder</button>
+				</div>
 				<div class="center-container">
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>

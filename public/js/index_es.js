@@ -291,3 +291,9 @@ function nameIndustria(idIndustria){
 function returnHome(){
 	location.href = 'es';
 }
+function buttonBack(){
+	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
+	$('#'+idIndustria+'-contenido').addClass('animated fadeInLeft')
+	$('#formulario').addClass('animated fadeOutRight');
+	$('.button-industria').css("display","block");
+}
