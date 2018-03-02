@@ -14,20 +14,20 @@ class En extends CI_Controller {
     }
 
     public function index(){
-        $data['pantalla']      = $this->session->userdata('pantalla') == '' ? 0 : $this->session->userdata('pantalla');
-        $data['nombre_comple'] = $this->session->userdata('nombre_linke') == null ? '' : $this->session->userdata('nombre_linke');
-        $data['email_link']    = $this->session->userdata('email_linke') == '' ? '' : $this->session->userdata('email_linke');
-        $data['comp']          = $this->session->userdata('compania') == null ? '' : $this->session->userdata('compania');
-        $data['tit']           = $this->session->userdata('titulo') == null ? '' : $this->session->userdata('titulo');
-        $data['pais_link']     = $this->session->userdata('pais_linke') == null ? '' : $this->session->userdata('pais_linke');
-        $data['client_id']     = "789et516nyl9vy";
-        $data['client_secret'] = "uN8FzWMngIBxxssc";
-        $data['redirect_uri']  = "http://test.brainblue.com/sap_5reasons_4hana/callback";
-        $data['csrf_token']    = random_int(22222222, 99999999);
-        $data['scopes']        = "r_basicprofile%20r_emailaddress";
-        $session = array('idioma' => 'Inglés');
-        $this->session->set_userdata($session);
-        $this->load->view('v_en', $data);
+      $data['pantalla']      = $this->session->userdata('pantalla') == '' ? 0 : $this->session->userdata('pantalla');
+      $data['nombre_comple'] = $this->session->userdata('nombre_linke') == null ? '' : $this->session->userdata('nombre_linke');
+      $data['email_link']    = $this->session->userdata('email_linke') == '' ? '' : $this->session->userdata('email_linke');
+      $data['comp']          = $this->session->userdata('compania') == null ? '' : $this->session->userdata('compania');
+      $data['tit']           = $this->session->userdata('titulo') == null ? '' : $this->session->userdata('titulo');
+      $data['pais_link']     = $this->session->userdata('pais_linke') == null ? '' : $this->session->userdata('pais_linke');
+      $data['client_id']     = "789et516nyl9vy";
+      $data['client_secret'] = "uN8FzWMngIBxxssc";
+      $data['redirect_uri']  = "http://test.brainblue.com/sap_5reasons_4hana/callback";
+      $data['csrf_token']    = random_int(22222222, 99999999);
+      $data['scopes']        = "r_basicprofile%20r_emailaddress";
+      $session = array('idioma' => 'Inglés');
+      $this->session->set_userdata($session);
+      $this->load->view('v_en', $data);
     }
 
     function solicitarEstimacion(){
