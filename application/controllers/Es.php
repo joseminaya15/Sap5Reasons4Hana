@@ -14,20 +14,20 @@ class Es extends CI_Controller {
     }
 
 	public function index(){
-        $data['pantalla']      = $this->session->userdata('pantalla') == '' ? 0 : $this->session->userdata('pantalla');
-        $data['nombre_comple'] = $this->session->userdata('nombre_linke') == null ? '' : $this->session->userdata('nombre_linke');
-        $data['email_link']    = $this->session->userdata('email_linke') == '' ? '' : $this->session->userdata('email_linke');
-        $data['comp']          = $this->session->userdata('compania') == null ? '' : $this->session->userdata('compania');
-        $data['tit']           = $this->session->userdata('titulo') == null ? '' : $this->session->userdata('titulo');
-        $data['pais_link']     = $this->session->userdata('pais_linke') == null ? '' : $this->session->userdata('pais_linke');
-        $data['idIndustria']   = $this->session->userdata('idIndustria');
-        $data['client_id']     = "789et516nyl9vy";
-        $data['client_secret'] = "uN8FzWMngIBxxssc";
-        $data['redirect_uri']  = "http://www.sap-latam.com/5reasons_hana/callback";
-        $data['csrf_token']    = random_int(22222222, 99999999);
-        $data['scopes']        = "r_basicprofile%20r_emailaddress";
-        $session = array('idioma' => 'Español');
-        $this->session->set_userdata($session);
+    $data['pantalla']      = $this->session->userdata('pantalla') == '' ? 0 : $this->session->userdata('pantalla');
+    $data['nombre_comple'] = $this->session->userdata('nombre_linke') == null ? '' : $this->session->userdata('nombre_linke');
+    $data['email_link']    = $this->session->userdata('email_linke') == '' ? '' : $this->session->userdata('email_linke');
+    $data['comp']          = $this->session->userdata('compania') == null ? '' : $this->session->userdata('compania');
+    $data['tit']           = $this->session->userdata('titulo') == null ? '' : $this->session->userdata('titulo');
+    $data['pais_link']     = $this->session->userdata('pais_linke') == null ? '' : $this->session->userdata('pais_linke');
+    $data['idIndustria']   = $this->session->userdata('idIndustria');
+    $data['client_id']     = "789et516nyl9vy";
+    $data['client_secret'] = "uN8FzWMngIBxxssc";
+    $data['redirect_uri']  = "http://www.sap-latam.com/5reasons_hana/callback";
+    $data['csrf_token']    = random_int(22222222, 99999999);
+    $data['scopes']        = "r_basicprofile%20r_emailaddress";
+    $session = array('idioma' => 'Español');
+    $this->session->set_userdata($session);
 		$this->load->view('v_es', $data);
 	}
 
