@@ -9,6 +9,8 @@ function modalIndustria(id){
 	var oneConcepto    = cardIndustria.find('.one');
 	var twoConcepto    = cardIndustria.find('.two');
 	var threeConcepto  = cardIndustria.find('.three');
+	var fourConcepto   = cardIndustria.find('.four');
+	var fiveConcepto   = cardIndustria.find('.five');
 	modal.find('.mdl-card__title').find('img').attr({
         "alt"   : img_modal.attr('alt'),
         "src"   : img_modal.attr('src')
@@ -17,6 +19,8 @@ function modalIndustria(id){
     modal.find('.mdl-card__supporting-text').find('.one').text(oneConcepto[0].innerText);
     modal.find('.mdl-card__supporting-text').find('.two').text(twoConcepto[0].innerText);
     modal.find('.mdl-card__supporting-text').find('.three').text(threeConcepto[0].innerText);
+    modal.find('.mdl-card__supporting-text').find('.four').text(fourConcepto[0].innerText);
+    modal.find('.mdl-card__supporting-text').find('.five').text(fiveConcepto[0].innerText);
     modal.modal('toggle');
     modal.addClass(id);
     idIndustria = id;
