@@ -20,7 +20,12 @@ function modalIndustria(id){
     modal.find('.mdl-card__supporting-text').find('.two').text(twoConcepto[0].innerText);
     modal.find('.mdl-card__supporting-text').find('.three').text(threeConcepto[0].innerText);
     modal.find('.mdl-card__supporting-text').find('.four').text(fourConcepto[0].innerText);
-    modal.find('.mdl-card__supporting-text').find('.five').text(fiveConcepto[0].innerText);
+    if(fiveConcepto.attr('id') == 'dontHave'){
+    	modal.find('.mdl-card__supporting-text').find('.five').css('display','none');
+    }else{
+    	modal.find('.mdl-card__supporting-text').find('.five').css('display','list-item');
+    	modal.find('.mdl-card__supporting-text').find('.five').text(fiveConcepto[0].innerText);
+    }
     modal.modal('toggle');
     modal.addClass(id);
     idIndustria = id;

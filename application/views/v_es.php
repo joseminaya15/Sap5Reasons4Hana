@@ -46,9 +46,9 @@
 						<option value="Portugués" disabled="true">Portugu&ecirc;s</option>
 					</select>
 				</div>
-				<div class="background3"></div>
-				<div class="background2"></div>
 				<div class="background1"></div>
+				<div class="background2"></div>
+				<div class="background3"></div>
 			</div>
 		</div>
 		<div class="chat">
@@ -93,11 +93,11 @@
 						<div id="industriaProducto" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Productos de Consumo</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/productos.png">
-							<div class="one none">Optimizar la planificaci&oacute;n de requerimiento de materiales.</div>
-							<div class="two none">Digitalizar las ventas mejorando la productividad con un menor costo de propiedad.</div>
-							<div class="three none">Aumente la flexibilidad con las extensiones de la l&iacute;nea de negocio.</div>
-							<div class="four none"></div>
-							<div class="five none"></div>
+							<div class="one none">Trabajar con informaci&oacute;n a tiempo real de inventarios y del flujo de los materiales</div>
+							<div class="two none">Crear valor en un mundo digital donde el consumidor est&aacute; a cargo</div>
+							<div class="three none">Los consumidores esperan un nuevo tipo de experiencia de compra. Una que le simplifique la vida</div>
+							<div class="four none">Entrelazar las estrategias comerciales con las mega tendencias tecnol&oacute;gicas: IoT, Inteligencia artificial, realidad aumentada, movilidad empresarial, entre otros.</div>
+							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaProceso" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Proceso y Manufactura</p>
@@ -331,8 +331,10 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Aumenta la satisfacci&oacute;n del cliente en un 20%</p>
-									<label>Gesti&oacute;n de inventario real y flujo de materiales, significa menos desabastecimientos y mejor rendimiento de tiempo en las entregas.</label>
+		            				<p id="title">Aumentar en un 20% la satisfacci&oacute;n del cliente</p>
+									<label>Cuando los consumidores pueden obtener lo que quieren, cuando y donde quieren, la diferenciaci&oacute;n ya no solo resulta de 
+									la calidad, precio, valor o conveniencia, sino de experiencias subjetivas, matizadas e intangibles como alegr&iacute;a, confianza, 
+									control y protecci&oacute;n.</label>
 									<button id="verProducto1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>								
 		            		</div>
@@ -346,8 +348,9 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir el inventario en el sitio en un 30%</p>
-									<label>Planificar los requerimientos de material, ejecutada en tiempo real y ofrecer resultados de planificaci&oacute;n actualizados y completos.</label>
+		            				<p id="title">Reducir un 30% los niveles de inventario</p>
+									<label>La planificaci&oacute;n de requisitos de materiales, ejecutada en tiempo real, ofrece resultados de planificaci&oacute;n actualizados 
+									y completos. Se trata de hacer correcciones oportunas del curso y minimizar el inventario disponible.</label>
 									<button id="verProducto2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -361,8 +364,9 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduzca la p&eacute;rdida de ingresos debido a desabastecimientos en un 15%</p>
-									<label>Confirma y permite verificar la disponibilidad de abastecimiento en tiempo real, teniendo mayor satisfacci&oacute;n del cliente reflejando crecimiento del negocio.</label>
+		            				<p id="title">Reducir en un 15% la p&eacute;rdida de ingresos debido al desabastecimiento</p>
+									<label>Un proceso redise&ntilde;ado por SAP S/4 HANA proporciona visibilidad del inventario en tiempo real con lotes de stock disminuidos, 
+									entrega mejorada a tiempo y capacidad para innovar con servicios innovadores.</label>
 									<button id="verProducto3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>								
 		            		</div>
@@ -376,8 +380,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduce los costos totales de fabricaci&oacute;n en un 10%</p>
-									<label>Planifica los requisitos de materiales, teniendo un menor tiempo de ciclo de fabricaci&oacute;n, menor costo y mayor eficiencia.</label>
+		            				<p id="title">Un sistema en tiempo real con informes operativos en vivo</p>
+									<label>Con SAP S / 4HANA, los informes de an&aacute;lisis se pueden generar instant&aacute;neamente para obtener una visi&oacute;n inmediata de los niveles de stock de inventario, ventas de productos, marketing y finanzas. El resultado es una imagen de 360 grados de lo que sucede en su organizaci&oacute;n.</label>
 									<button id="verProducto4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -391,8 +395,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Aumenta las entregas a tiempo en un 30%</p>
-									<label>Informa en tiempo real los estados de las &oacute;rdenes de venta, teniendo una soluci&oacute;n r&aacute;pida para cumplir los pedidos y aumentar las entregas a tiempo.</label>
+		            				<p id="title">Mejorar su planificaci&oacute;n de producci&oacute;n y programaci&oacute;n</p>
+									<label>La planificaci&oacute;n de producci&oacute;n avanzada en SAP S / 4HANA proporciona anal&iacute;ticas potentes para un soporte de decisiones más s&oacute;lido, lo que permite una planificaci&oacute;n y ejecuci&oacute;n m&aacute;s r&aacute;pidas.</label>
 									<button id="verProducto5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
