@@ -75,38 +75,38 @@
 						<div id="industriaServicio" class="mdl-industrias" onclick="modalIndustria(this.id)">
 							<p class="inline">Servicios Profesionales</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/servicios.png">
-							<div class="one none">Actualizar y reducir los procesos financieros</div>
-							<div class="two none">Tomar decisiones basadas en datos en tiempo real</div>
-							<div class="three none">Minimizar el riesgo de sus proyectos</div>
-							<div class="four none">Aumentar la precisi&oacute;n de sus propuestas</div>
-							<div class="five none">Dar al cliente un servicio de excelencia</div>
+							<div class="one none">Actualizar y reducir los procesos financieros.</div>
+							<div class="two none">Tomar decisiones basadas en datos en tiempo real.</div>
+							<div class="three none">Minimizar el riesgo de sus proyectos.</div>
+							<div class="four none">Aumentar la precisi&oacute;n de sus propuestas.</div>
+							<div class="five none">Dar al cliente un servicio de excelencia.</div>
 						</div>
 						<div id="industriaRetail" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Retail</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/retail.png">
-							<div class="one none">Obtener mayores ingresos</div>
-							<div class="two none">Aumentar rentabilidad</div>
-							<div class="three none">Reducir la falta de stock</div>
-							<div class="four none">Mejorar la rotaci&oacute;n de inventario</div>
-							<div class="five none">Mejorar la experiencia del cliente</div>
+							<div class="one none">Obtener mayores ingresos.</div>
+							<div class="two none">Aumentar rentabilidad.</div>
+							<div class="three none">Reducir la falta de stock.</div>
+							<div class="four none">Mejorar la rotaci&oacute;n de inventario.</div>
+							<div class="five none">Mejorar la experiencia del cliente.</div>
 						</div>
 						<div id="industriaProducto" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Productos de Consumo</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/productos.png">
-							<div class="one none">Trabajar con informaci&oacute;n a tiempo real de inventarios y del flujo de los materiales</div>
-							<div class="two none">Crear valor en un mundo digital donde el consumidor est&aacute; a cargo</div>
-							<div class="three none">Los consumidores esperan un nuevo tipo de experiencia de compra. Una que le simplifique la vida</div>
+							<div class="one none">Trabajar con informaci&oacute;n a tiempo real de inventarios y del flujo de los materiales.</div>
+							<div class="two none">Crear valor en un mundo digital donde el consumidor est&aacute; a cargo.</div>
+							<div class="three none">Los consumidores esperan un nuevo tipo de experiencia de compra. Una que le simplifique la vida.</div>
 							<div class="four none">Entrelazar las estrategias comerciales con las mega tendencias tecnol&oacute;gicas: IoT, Inteligencia artificial, realidad aumentada, movilidad empresarial, entre otros.</div>
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaProceso" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Proceso y Manufactura</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/procesos.png">
-							<div class="one none">Reducir p&eacute;rdida de ingresos por falta de stock.</div>
-							<div class="two none">Mejorar la experiencia del pedido y entrega.</div>
-							<div class="three none">Reducir los niveles de inventario.</div>
-							<div class="four none"></div>
-							<div class="five none"></div>
+							<div class="one none">Mercado din&aacute;mico, variabilidad de la demanda, mayor configuraci&oacute;n de productos, ventas y marketing omnicanal y plazos de entrega ajustados.</div>
+							<div class="two none">Los clientes exigen una entrega r&aacute;pida y, sin embargo, exigen la m&aacute;s alta calidad a precios competitivos.</div>
+							<div class="three none">La necesidad de contar con resultados de negocio m&aacute;s r&aacute;pidos con un menor costo operativo, gracias a los entornos de sistemas simplificados.</div>
+							<div class="four none">La falta de flexibilidad para incluir demandas cambiantes en tiempo real en el proceso de planificaci&oacute;n lleva a una planificaci&oacute;n desactualizada e inexacta.</div>
+							<div class="five none">Entornos de sistemas complejos y costosos con m&uacute;ltiples sistemas de plantas distribuidas que dan como resultado un alto TCO.</div>
 						</div>
 						<div id="industriaDistribucion" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Distribuci&oacute;n</p>
