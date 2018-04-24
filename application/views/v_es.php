@@ -93,20 +93,20 @@
 						<div id="industriaProducto" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Productos de Consumo</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/productos.png">
-							<div class="one none">Trabajar con informaci&oacute;n a tiempo real de inventarios y del flujo de los materiales.</div>
+							<div class="one none">Trabajar con informaci&oacute;n en tiempo real de inventarios y del flujo de los materiales.</div>
 							<div class="two none">Crear valor en un mundo digital donde el consumidor est&aacute; a cargo.</div>
-							<div class="three none">Los consumidores esperan un nuevo tipo de experiencia de compra. Una que le simplifique la vida.</div>
-							<div class="four none">Entrelazar las estrategias comerciales con las mega tendencias tecnol&oacute;gicas: IoT, Inteligencia artificial, realidad aumentada, movilidad empresarial, entre otros.</div>
+							<div class="three none">Innovar la experiencia de compra.</div>
+							<div class="four none">Alinear las estrategias comerciales con las mega tendencias tecnol&oacute;gicas.</div>
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaProceso" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Proceso y Manufactura</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/procesos.png">
-							<div class="one none">Mercado din&aacute;mico, variabilidad de la demanda, mayor configuraci&oacute;n de productos, ventas y marketing omnicanal y plazos de entrega ajustados.</div>
-							<div class="two none">Los clientes exigen una entrega r&aacute;pida y, sin embargo, exigen la m&aacute;s alta calidad a precios competitivos.</div>
-							<div class="three none">La necesidad de contar con resultados de negocio m&aacute;s r&aacute;pidos con un menor costo operativo, gracias a los entornos de sistemas simplificados.</div>
-							<div class="four none">La falta de flexibilidad para incluir demandas cambiantes en tiempo real en el proceso de planificaci&oacute;n lleva a una planificaci&oacute;n desactualizada e inexacta.</div>
-							<div class="five none">Entornos de sistemas complejos y costosos con m&uacute;ltiples sistemas de plantas distribuidas que dan como resultado un alto TCO.</div>
+							<div class="one none">Mercado din&aacute;mico, variabilidad de la demanda y plazos de entrega ajustados.</div>
+							<div class="two none">Mantener la m&aacute;s alta calidad a precios competitivos.</div>
+							<div class="three none">Contar con resultados de negocio m&aacute;s r&aacute;pidos con un menor costo operativo.</div>
+							<div class="four none">Entornos de sistemas complejos y costosos con m&uacute;ltiples sistemas de plantas distribuidas que dan como resultado un alto TCO.</div>
+							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaDistribucion" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Distribuci&oacute;n</p>
@@ -114,7 +114,7 @@
 							<div class="one none">Mejorar la capacidad y puntualidad en el despacho de pedidos.</div>
 							<div class="two none">Reducir costos de abastecimiento, planificaci&oacute;n y precisi&oacute;n en el inventario.</div>
 							<div class="three none">Usar servicios de valor agregado para crear nuevas fuentes de ingresos.</div>
-							<div class="four none">Abordar la convergencia digital entre B2B y B2C</div>
+							<div id="dontHave4" class="four none"></div>
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaHighTech" class="mdl-industrias"  onclick="modalIndustria(this.id)">
@@ -143,7 +143,7 @@
 			<div id="industriaServicio-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Servicios Profesionales.</strong></h2>
+						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n preferida en la industria de <strong>Servicios Profesionales.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 		            	<div class="mdl-card-industria">
@@ -167,7 +167,7 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/ganancia.png">
-		            				<p>Productividad</p> 
+		            				<p>Eficiencia</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -199,12 +199,12 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
-		            				<p>Tiempo</p> 
+		            				<p>Automatizaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir en un 60% el tiempo de cierre de los servicios</p>
-									<label>Acelerar la toma de decisiones de negocios basadas en informaci&oacute;n en tiempo real y en una &uacute;nica fuente de verdad.</label>
+		            				<p id="title">Actualmente un 20% del contenido empresarial est&aacute; siendo generado por los sistemas</p>
+									<label>La digitalizaci&oacute;n de los cuatro elementos fundamentales de los servicios (experiencia, talento, prestaci&oacute;n de servicios y compromiso del cliente) obliga a las empresas de servicios profesionales a repensar sus modelos comerciales y centrarse en c&oacute;mo impulsar el crecimiento de los ingresos sin un crecimiento correspondiente en su base de empleados.</label>
 									<button id="verServicio4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -231,7 +231,7 @@
 			<div id="industriaRetail-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Retail.</strong></h2>
+						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n preferida en la industria de <strong>Retail.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -239,7 +239,7 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/venta.png">
-		            				<p>Productos</p> 
+		            				<p>Modernizaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -256,7 +256,7 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/capital.png">
-		            				<p>Capital</p> 
+		            				<p>Eficiencia</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -288,7 +288,7 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/decision.png">
-		            				<p>Decisiones</p> 
+		            				<p>Inteligencia</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -321,7 +321,7 @@
 			<div id="industriaProducto-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Productos de Consumo.</strong></h2>
+						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n preferida en la industria de <strong>Productos de Consumo.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -329,7 +329,7 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/ganancia.png">
-		            				<p>Satisfacci&oacute;n</p> 
+		            				<p>Fidelizaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -346,7 +346,7 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/inventario.png">
-		            				<p>Inventario</p> 
+		            				<p>Eficiencia</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -362,7 +362,7 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
-		            				<p>Ingresos</p> 
+		            				<p>Ahorro</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -378,7 +378,7 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
-		            				<p>Costos</p> 
+		            				<p>Visibilidad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -393,12 +393,12 @@
 		            			<div class="card-front">
 									<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/entrega.png">
-		            				<p>Entregas</p> 
+		            				<p>Optimizaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Mejorar su planificaci&oacute;n de producci&oacute;n y programaci&oacute;n</p>
-									<label>La planificaci&oacute;n de producci&oacute;n avanzada en SAP S / 4HANA proporciona anal&iacute;ticas potentes para un soporte de decisiones más s&oacute;lido, lo que permite una planificaci&oacute;n y ejecuci&oacute;n m&aacute;s r&aacute;pidas.</label>
+									<label>La planificaci&oacute;n de producci&oacute;n avanzada en SAP S/4 HANA proporciona anal&iacute;ticas potentes para un soporte de decisiones más s&oacute;lido, lo que permite una planificaci&oacute;n y ejecuci&oacute;n m&aacute;s r&aacute;pidas.</label>
 									<button id="verProducto5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -409,7 +409,7 @@
 			<div id="industriaProceso-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Proceso y Manufactura.</strong></h2>
+						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n preferida en la industria de <strong>Proceso y Manufactura.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -417,12 +417,12 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/expandir.png">
-		            				<p>Pipeline</p> 
+		            				<p>Diversificaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Ahorre 38% en hardware y costos de operaci&oacute;n</p>
-									<label>La eliminaci&oacute;n de &iacute;ndices de datos, agregados y redundancias reduce la huella de datos y el costo total de propiedad.</label>
+		            				<p id="title">Ampliar las oportunidades de ventas en un 15-20%</p>
+									<label>SAP S/4 HANA incorpora agilidad a trav&eacute;s de una plataforma simplificada que permite el intercambio de datos en tiempo real entre las ventas, el servicio al cliente y los l&iacute;deres empresariales, una mayor eficiencia debido a la eliminaci&oacute;n de datos duplicados y un an&aacute;lisis de datos simplificado conducen a ventas m&aacute;s efectivas y espec&iacute;ficas.</label>
 									<button id="verProceso1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -432,7 +432,7 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
-		            				<p>Tiempo</p> 
+		            				<p>Optimizaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -454,7 +454,7 @@
 		            			<div class="card-back">
 		            				<p id="title">Reducir los costos de adquisiciones en un 15%</p>
 									<label>La productividad de la cadena de suministro se puede aumentar en un 15% con SAP S/4 HANA aprovechando las opciones de descuento 
-									en los pagos anticipados, reduciendo el tiempo de adquisici&oacute;n de trabajadores en un tercio y maximizando el orden de inventario y 
+									en los pagos anticipados, maximizando el orden de inventario y 
 									el seguimiento de materias primas en tiempo real.</label>
 									<button id="verProceso3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
@@ -465,7 +465,7 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/adquisicion.png">
-		            				<p>Adquisici&oacute;n</p> 
+		            				<p>Agilidad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -481,13 +481,12 @@
 		            			<div class="card-front">
 									<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
-		            				<p>Ahorro</p> 
+		            				<p>Eficacia</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Aumente la eficiencia de la operaci&oacute;n hasta en un 60%</p>
-									<label>Con SAP S/4 HANA comience a experimentar total facilidad en la gesti&oacute;n de las operaciones de negocio. Reduzca sus d&iacute;as de ventas pendientes y entregue 
-									facturas de clientes instant&aacute;neas y precisas. Ahora, sus clientes podr&aacute;n experimentar un servicio excelente y entrega puntual, que permanecer&aacute; sin 
+									<label>Con SAP S/4 HANA comience a experimentar total facilidad en la gesti&oacute;n de las operaciones de negocio. Ahora, sus clientes podr&aacute;n experimentar un servicio excelente y entrega puntual, que permanecer&aacute; sin 
 									modificaciones durante la expansi&oacute;n r&aacute;pida.</label>
 									<button id="verProceso5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
@@ -499,7 +498,7 @@
 			<div id="industriaDistribucion-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Distribuci&oacute;n.</strong></h2>
+						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n preferida en la industria de <strong>Distribuci&oacute;n.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -507,7 +506,7 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/ingresos.png">
-		            				<p>Ingresos</p> 
+		            				<p>Eficiencia</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -522,7 +521,7 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/comportamiento.png">
-		            				<p>Comportamiento</p> 
+		            				<p>Optimizaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -537,12 +536,12 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/reduccion.png">
-		            				<p>Inventario</p> 
+		            				<p>Eficiencia</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">50% de reducci&oacute;n en problemas de cumplimiento de pedidos.</p>
-									<label>SAP S/4HANA proporciona una experiencia de usuario basada en roles, que simplifica y mejora el compromiso y la productividad de los empleados. A trav&eacute;s de un &uacute;nico punto de entrada para identificar f&aacute;cilmente problemas de pedidos y alertas en tiempo real se garantiza que los representantes de ventas internos puedan acceder directamente a sus respectivos documentos y utilizar funciones integradas de colaboraci&oacute;n para resolver problemas r&aacute;pidamente.</label>
+									<label>SAP S/4 HANA proporciona una experiencia de usuario basada en roles, que simplifica y mejora el compromiso y la productividad de los empleados. A trav&eacute;s de un &uacute;nico punto de entrada para identificar f&aacute;cilmente problemas de pedidos y alertas en tiempo real se garantiza que los representantes de ventas internos puedan acceder directamente a sus respectivos documentos y utilizar funciones integradas de colaboraci&oacute;n para resolver problemas r&aacute;pidamente.</label>
 									<button id="verDistribucion3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -552,7 +551,7 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cumplimiento.png">
-		            				<p>Pedidos</p> 
+		            				<p>Predictibilidad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -567,7 +566,7 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
-		            				<p>Tiempo</p> 
+		            				<p>Modernizaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -583,7 +582,7 @@
 			<div id="industriaHighTech-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Alta Tecnolog&iacute;a.</strong></h2>
+						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n preferida en la industria de <strong>Alta Tecnolog&iacute;a.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -591,7 +590,7 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cotizacion.png">
-		            				<p>Cotizaci&oacute;n</p> 
+		            				<p>Agilidad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -606,12 +605,12 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/trabajo.png">
-		            				<p>Procesos</p> 
+		            				<p>Optimizaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduzca los procesos de trabajo radicalmente</p>
-									<label>Con SAP S/4 HANA encuentre ahorros incre&iacute;bles y mu&eacute;vase a un solo sistema para los procesos, desde la compra hasta las finanzas y la contabilidad, hasta el taller de la f&aacute;brica y la administraci&oacute;n de contratos.</label>
+									<label>Con SAP S/4 HANA encuentre ahorros incre&iacute;bles y pase a tener un sistema &uacute;nico para los procesos desde la compra hasta finanzas y contabilidad y desde la fabrica hasta la gesti&oacute;n de contratos</label>
 									<button id="verTech2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>								
 		            		</div>
@@ -621,12 +620,12 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
-		            				<p>Conformidad</p> 
+		            				<p>Evoluci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Acelere sus cotizaciones de soluciones y no solo productos</p>
-									<label>Habilite a sus ejecutivos de cuenta para crear cotizaciones que ofrezcan una soluci&oacute;n completa que se convertir&aacute;n resultados comerciales para sus clientes. No solo productos. Utilice S/4 HANA para tener la visi&oacute;n integral de todas las partes involucradas: software, hardware y servicios asociados.</label>
+		            				<p id="title">Cotice soluciones. No solo productos</p>
+									<label>Habilite a sus ejecutivos de cuenta para crear cotizaciones que ofrezcan una soluci&oacute;n completa que se convertir&aacute;n en resultados de negocio para sus clientes. Utilice SAP S/4 HANA para tener la visi&oacute;n integral de todas las partes involucradas: software, hardware y servicios asociados.</label>
 									<button id="verTech3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -636,7 +635,7 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/inventario.png">
-		            				<p>Inventario</p> 
+		            				<p>Eficiencia</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -651,7 +650,7 @@
 		            			<div class="card-front">
 									<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/fabricacion.png">
-		            				<p>Fabricaci&oacute;n</p> 
+		            				<p>Innovaci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -667,7 +666,7 @@
 			<div id="industriaBanking-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Servicios Financieros.</strong></h2>
+						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n preferida en la industria de <strong>Servicios Financieros.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -675,12 +674,12 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/maquina.png">
-		            				<p>Seguridad</p> 
+		            				<p>Aceleraci&oacute;n</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduce en 30% el tiempo de llegada de nuevos productos.</p>
-									<label>Reducci&oacute;n en el tiempo de llegada al mercado para los nuevos productos por empresas que incorporan procesos de ciclo de vida formales.</label>
+									<label>Con SAP S/4 HANA podr&aacute; reducir el tiempo de llegada al mercado para sus nuevos productos, lo que le permitir&aacute; adelantarse a la competencia y mantener cautivos a sus clientes</label>
 									<button id="verBancking1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -690,7 +689,7 @@
 		            			<div class="card-front">
 		            				<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad_2.png">
-		            				<p>Digital</p> 
+		            				<p>Rentabilidad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -705,12 +704,12 @@
 		            			<div class="card-front">
 		            				<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/expandir.png">
-		            				<p>Clientes</p> 
+		            				<p>Visibilidad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Mayor visibilidad y disponibilidad de datos</p>
-									<label>Con SAP S/4 HANA cuenta con acceso en tiempo real a los datos financieros con la capacidad de desglosarlos en el nivel de cada &iacute;tem; as&iacute; como una fusi&oacute;n de finanzas y control en un Libro Diario universal, que crea una &uacute;nica fuente de verdad; la funci&oacute;n de finanzas centrales elimina la necesidad de agregados y tablas y de acumular costos en los niveles operativos m&aacute;s bajos</label>
+									<label>Con SAP S/4 HANA cuenta con acceso en tiempo real a los datos financieros con la capacidad de desglosarlos en el nivel de cada &iacute;tem. Puede construir y probar situaciones hipot&eacute;ticas y aplicar lo que ha aprendido para tomar mejores decisiones y aumentar la eficiencia.</label>
 									<button id="verBancking3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -720,7 +719,7 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
-		            				<p>Inversiones</p> 
+		            				<p>Predictibilidad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -735,14 +734,12 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
-		            				<p>Tiempo</p> 
+		            				<p>Agilidad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Obtener informaci&oacute;n empresarial en tiempo real</p>
-									<label>SAP S/4HANA le permite obtener informaci&oacute;n sobre cualquier informaci&oacute;n de cualquier lugar en tiempo real. Podr&aacute; acelerar dr&aacute;sticamente 
-									la planificaci&oacute;n, ejecuci&oacute;n, predicci&oacute;n y simulaci&oacute;n al m&aacute;s alto nivel de granularidad, sin la engorrosa consolidaci&oacute;n de datos y otros procesos 
-									manuales. Puede construir y probar situaciones hipot&eacute;ticas y aplicar lo que ha aprendido para tomar mejores decisiones y aumentar la eficiencia.</label>
+									<label>SAP S/4 HANA le permite obtener informaci&oacute;n sobre cualquier informaci&oacute;n de cualquier lugar en tiempo real. Podr&aacute; acelerar dr&aacute;sticamente la planificaci&oacute;n, ejecuci&oacute;n, predicci&oacute;n y simulaci&oacute;n al m&aacute;s alto nivel de granularidad, sin la engorrosa consolidaci&oacute;n de datos y otros procesos manuales.</label>
 									<button id="verBancking5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
