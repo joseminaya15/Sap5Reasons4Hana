@@ -581,7 +581,7 @@
 			<div id="industriaHighTech-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Alta Tecnología.</strong></h2>
+						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Alta Tecnolog&iacute;a.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -593,8 +593,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Proceso de cotizaci&oacute;n 95% m&aacute;s r&aacute;pido</p>
-									<label>Facilitar a los ejecutivos crear una cotizaci&oacute;n para entregar resultados comerciales y no s&oacute;lo productos.</label>
+		            				<p id="title">Reduzca hasta en un 46% las quejas de clientes</p>
+									<label>Haga que el pedido y la facturaci&oacute;n en tiempo real est&eacute;n disponibles para aumentar la entrega puntual, una mayor flexibilidad del modelo comercial y la eficiencia de la gesti&oacute;n de contratos.</label>
 									<button id="verTech1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -608,8 +608,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduzca el trabajo del proceso en un 50%</p>
-									<label>Tenga ahorros incre&iacute;bles con un solo sistema para procesos que van desde la compra hasta las finanzas y contabilidad, desde la f&aacute;brica y la administraci&oacute;n de contactos.</label>
+		            				<p id="title">Reduzca los procesos de trabajo radicalmente</p>
+									<label>Con SAP S/4 HANA encuentre ahorros incre&iacute;bles y mu&eacute;vase a un solo sistema para los procesos, desde la compra hasta las finanzas y la contabilidad, hasta el taller de la f&aacute;brica y la administraci&oacute;n de contratos.</label>
 									<button id="verTech2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>								
 		            		</div>
@@ -623,8 +623,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Mant&eacute;ngase en conformidad con IFRS15</p>
-									<label>Prep&aacute;rese para las nuevas regulaciones de reconocimiento de ingresos IFRS15 para 2018 y tenga una de la soluci&oacute;n m&aacute;s moderna de reconcomiendo de ingresos.</label>
+		            				<p id="title">Acelere sus cotizaciones de soluciones y no solo productos</p>
+									<label>Habilite a sus ejecutivos de cuenta para crear cotizaciones que ofrezcan una soluci&oacute;n completa que se convertir&aacute;n resultados comerciales para sus clientes. No solo productos. Utilice S/4 HANA para tener la visi&oacute;n integral de todas las partes involucradas: software, hardware y servicios asociados.</label>
 									<button id="verTech3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -638,8 +638,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">30% de disminuci&oacute;n en los niveles de inventario</p>
-									<label>Visualizar y optimizar los procesos de ventas desde el prospecto de pago con informaci&oacute;n detallada sobre el ciclo de ventas de principio a fin.</label>
+		            				<p id="title">Optimice su cadena de suministro en un 12%</p>
+									<label>Integre toda su cadena de suministro y obtenga una reducci&oacute;n del 12% en la cantidad de d&iacute;as en el inventario. Logre una reducci&oacute;n de desabastecimiento y un panorama simplificado que genere un ahorro de costos de log&iacute;stica de hasta 10%.</label>
 									<button id="verTech4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -653,8 +653,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduzca los costos de fabricaci&oacute;n en un 10%</p>
-									<label>Obtener mayor flexibilidad de pedidos en funci&oacute;n de las prioridades del cliente y productos individuales.</label>
+		            				<p id="title">Tome acci&oacute;n sobre los datos de IoT en tiempo real</p>
+									<label>La miniaturizaci&oacute;n de sensores, combinada con un mayor ancho de banda de red, est&aacute; creando un tesoro de datos que es m&aacute;s &uacute;til cuando se analiza y se act&uacute;a en tiempo real. Con SAP S/4 HANA tiene el poder para hacerlo.</label>
 									<button id="verTech5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
