@@ -4,7 +4,6 @@ class M_solicitud extends  CI_Model{
     function __construct(){
         parent::__construct();
     }
-
     function insertarDatos($arrayInsert, $tabla){
         $this->db->insert($tabla, $arrayInsert);
         $sol = $this->db->insert_id();
@@ -14,7 +13,6 @@ class M_solicitud extends  CI_Model{
         }
         return array("error" => EXIT_SUCCESS, "msj" => MSJ_INS, "Id" => $sol);
     }
-
     function updateDatos($arrayData, $id, $tabla){
         $this->db->where('Id'  , $id);
         $this->db->update($tabla, $arrayData);
