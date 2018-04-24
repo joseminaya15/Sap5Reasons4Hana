@@ -120,9 +120,9 @@
 						<div id="industriaHighTech" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Alta Tecnología</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/tech.png">
-							<div class="one none">Reducir la p&eacute;rdida de ingresos por falta de stock y d&iacute;as de inventario.</div>
-							<div class="two none">Mejorar el proceso de quote – to – order y reducir las quejas de clientes.</div>
-							<div class="three none">Aumentar la l&iacute;nea de negocio con productos e innovaci&oacute;n.</div>
+							<div class="one none">La velocidad del cambio tecnol&oacute;gico perjudica las perspectivas de crecimiento de su organizaci&oacute;n</div>
+							<div class="two none">La demanda de productos inteligentes conectados, acelera la necesidad de nuevas funcionalidades de cadena de suministro digital</div>
+							<div class="three none">Para seguir siendo competitivo debe ofrecer una atenci&oacute;n y una opci&oacute;n de autoservicio de clase mundial.</div>
 							<div id="dontHave4" class="four none"></div>
 							<div id="dontHave" class="five none"></div>
 						</div>
