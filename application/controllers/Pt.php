@@ -215,7 +215,7 @@ class Pt extends CI_Controller {
        $this->email->initialize($configGmail);
        $this->email->from('info@sap-latam.com');
        $this->email->to($email);
-       $this->email->subject('Obrigado por seu interesse em SAP 5 Reasons S/4 Hana.');
+       $this->email->subject('Obrigado por seu interesse em SAP 5 Motivos S/4 Hana.');
         $texto = '<!DOCTYPE html>
                 <html>
                 <body>
