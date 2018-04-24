@@ -129,9 +129,11 @@
 						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline">Servicios Financieros</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/banking.png">
-							<div class="one none">La transformaci&oacute;n digital es importante o cr&iacute;ticamente importante para su supervivencia.</div>
-							<div class="two none">La industria de servicios financieros se centra cada vez m&aacute;s en blockchain.</div>
-							<div class="three none">La tecnolog&iacute;a permitir&aacute; innovar r&aacute;pidamente y enfrentar mejor los desaf&iacute;os de seguridad.</div>
+							<div class="one none">Adoptar e incorporar con rapidez soluciones m&oacute;viles que sean intuitivas para aplicaciones de servicios, ventas, cajeros y sucursales.</div>
+							<div class="two none">Involucrar a los clientes con una experiencia digital multicanal en tiempo real.</div>
+							<div class="three none">Necesidad de automatizar los procedimientos manuales y agilizar los flujos de trabajo en el servicio al cliente y la gesti&oacute;n de procesos.</div>
+							<div id="dontHave4" class="four none"></div>
+							<div id="dontHave" class="five none"></div>
 						</div>
 					</div>
 				</div>
@@ -677,8 +679,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">El 63% de los bancos y aseguradoras realizan inversiones fuertes en plataformas de seguridad</p>
-									<label>Est&aacute;n dirigiendo sus presupuestos de TI hacia herramientas fundacionales como tecnolog&iacute;a m&oacute;vil, nube y Big Data; cambiando dr&aacute;sticamente los procesos de negocio desde operaciones de back-office hasta interacciones con el cliente.</label>
+		            				<p id="title">Reduce en 30% el tiempo de llegada de nuevos productos.</p>
+									<label>Reducci&oacute;n en el tiempo de llegada al mercado para los nuevos productos por empresas que incorporan procesos de ciclo de vida formales.</label>
 									<button id="verBancking1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -692,8 +694,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">El 54% de los bancos y aseguradoras peque&ntilde;as y medianas est&aacute;n pasando a lo digital</p>
-									<label>La entidad financiera afirma que la transformaci&oacute;n digital es cr&iacute;tica para la supervivencia de su organizaci&oacute;n hoy y 84% dice que lo ser&aacute; en un plazo de cinco a&ntilde;os.</label>
+		            				<p id="title">Aumenta su rentabilidad</p>
+									<label>Organizaciones que adoptan SAP S/4 HANA generan un 23% m&aacute;s de ingresos al usar el poder de  la informaci&oacute;n para identificar ventajas estrat&eacute;gicas y competitivas.</label>
 									<button id="verBancking2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -707,8 +709,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">El 67% de los servicios financieros anticipan un mayor valor de satisfacci&oacute;n y compromiso del cliente</p>
-									<label>Los cuales son factores cr&iacute;ticos para una industria que enfrenta una competencia potencialmente desestabilizadora desde las start-ups hasta los comercios minoristas y los gigantes de la tecnolog&iacute;a.</label>
+		            				<p id="title">Mayor visibilidad y disponibilidad de datos</p>
+									<label>Con SAP S/4 HANA cuenta con acceso en tiempo real a los datos financieros con la capacidad de desglosarlos en el nivel de cada &iacute;tem; as&iacute; como una fusi&oacute;n de finanzas y control en un Libro Diario universal, que crea una &uacute;nica fuente de verdad; la funci&oacute;n de finanzas centrales elimina la necesidad de agregados y tablas y de acumular costos en los niveles operativos m&aacute;s bajos</label>
 									<button id="verBancking3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -722,8 +724,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">El 23% de las entidades financieras invertir&aacute;n en libros de contabilidad digital</p>
-									<label>El rango de innovaciones desde la banca abierta hasta las criptomonedas amenaza con ser disruptivos frente a los modelos de negocio existentes.</label>
+		            				<p id="title">Mayor velocidad, agilidad y precisi&oacute;n de la proyecci&oacute;n</p>
+									<label>Con SAP S/4 HANA los procesos y las funciones de planificaci&oacute;n se integran en el sistema transaccional, permitiendo una planificaci&oacute;n de ciclo cerrado en todos los niveles.  Con esta ventaja, logra una reducci&oacute;n del 25-50% en el tiempo de los ciclos de proyecci&oacute;n e informes financieros.</label>
 									<button id="verBancking4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -737,8 +739,10 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduce el tiempo para cerrar en un 60%</p>
-									<label>Ejecutar en vivo, con informaci&oacute;n en tiempo real basada en una &uacute;nica fuente de verdad. Tome las mejores decisiones y mejore los negocios.</label>
+		            				<p id="title">Obtener informaci&oacute;n empresarial en tiempo real</p>
+									<label>SAP S/4HANA le permite obtener informaci&oacute;n sobre cualquier informaci&oacute;n de cualquier lugar en tiempo real. Podr&aacute; acelerar dr&aacute;sticamente 
+									la planificaci&oacute;n, ejecuci&oacute;n, predicci&oacute;n y simulaci&oacute;n al m&aacute;s alto nivel de granularidad, sin la engorrosa consolidaci&oacute;n de datos y otros procesos 
+									manuales. Puede construir y probar situaciones hipot&eacute;ticas y aplicar lo que ha aprendido para tomar mejores decisiones y aumentar la eficiencia.</label>
 									<button id="verBancking5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
