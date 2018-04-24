@@ -29,7 +29,6 @@ class En extends CI_Controller {
       $this->session->set_userdata($session);
       $this->load->view('v_en', $data);
     }
-
     function solicitarEstimacion(){
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
@@ -193,10 +192,8 @@ class En extends CI_Controller {
     function emailClienteSap($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto){
       $data['error'] = EXIT_ERROR;
       $data['msj']   = null;
-      try {  
-       // cargamos la libreria email de ci
+      try {
        $this->load->library("email");
-
        if($contacto == 3){
           $contact = 'por email y teléfono';
         }else if($contacto == 2){
@@ -204,7 +201,6 @@ class En extends CI_Controller {
         }else if($contacto == 1){
           $contact = 'por Email';
         }
-       //configuracion para gmail
        $configGmail = array(
                             'protocol'  => 'smtp',
                             'smtp_host' => 'smtpout.secureserver.net',
@@ -214,14 +210,11 @@ class En extends CI_Controller {
                             'mailtype'  => 'html',
                             'charset'   => 'utf-8',
                             'newline'   => "\r\n"
-                          );    
-       //cargamos la configuración para enviar con gmail
+                          );
        $this->email->initialize($configGmail);
        $this->email->from('info@sap-latam.com');
-       $this->email->to($email);//EMAIL AL QUIÉN IRÁ DIRIGIDO
+       $this->email->to($email);
        $this->email->subject('I am interested in SAP 5 Reasons S/4 Hana for my business.');
-
-       //CONSTRUIMOS EL HTML
         $texto = '<!DOCTYPE html>
                 <html>
                 <body>
@@ -336,7 +329,7 @@ class En extends CI_Controller {
                         </table>
                       </body>
                 </html>';
-        $this->email->message($texto);//AQUI SE INSERTA EL HTML
+        $this->email->message($texto);
         $this->email->send();
         $data['error'] = EXIT_SUCCESS;
       }catch (Exception $e){

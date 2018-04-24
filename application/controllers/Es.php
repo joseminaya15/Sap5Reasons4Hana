@@ -200,9 +200,7 @@ class Es extends CI_Controller {
       $data['error'] = EXIT_ERROR;
       $data['msj']   = null;
       try {  
-       // cargamos la libreria email de ci
        $this->load->library("email");
-
        if($contacto == 3){
           $contact = 'por email y teléfono';
         }else if($contacto == 2){
@@ -210,7 +208,6 @@ class Es extends CI_Controller {
         }else if($contacto == 1){
           $contact = 'por Email';
         }
-       //configuracion para gmail
        $configGmail = array(
                             'protocol'  => 'smtp',
                             'smtp_host' => 'smtpout.secureserver.net',
@@ -221,13 +218,10 @@ class Es extends CI_Controller {
                             'charset'   => 'utf-8',
                             'newline'   => "\r\n"
                           );    
-       //cargamos la configuración para enviar con gmail
        $this->email->initialize($configGmail);
        $this->email->from('info@sap-latam.com');
-       $this->email->to($email);//EMAIL AL QUIÉN IRÁ DIRIGIDO
+       $this->email->to($email);
        $this->email->subject('Gracias por su interés en SAP 5 Reasons S/4 Hana.');
-
-       //CONSTRUIMOS EL HTML
         $texto = '<!DOCTYPE html>
                 <html>
                 <body>
@@ -342,7 +336,7 @@ class Es extends CI_Controller {
                         </table>
                       </body>
                 </html>';
-        $this->email->message($texto);//AQUI SE INSERTA EL HTML
+        $this->email->message($texto);
         $this->email->send();
         $data['error'] = EXIT_SUCCESS;
       }catch (Exception $e){
