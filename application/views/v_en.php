@@ -66,7 +66,7 @@
 						</div>	
 					</div>
 					<div class="industrias inline">
-						<h2>Seleccione su industria</h2>
+						<h2>Select your industry</h2>
 						<div id="industriaServicio" class="mdl-industrias" onclick="modalIndustria(this.id)">
 							<p class="inline">Servicios Profesionales</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/servicios.png">
