@@ -35,16 +35,15 @@
 	<section id="principal">
 		<div class="header">
 			<div class="header-left">
-				<img class="logo-header" src="<?php echo RUTA_IMG?>logo/logo_favicon.png">
-				<h2>SAP S/4 HANA</h2>
+				<img class="logo-header" src="<?php echo RUTA_IMG?>logo/logo_home.png">
 			</div>
 			<div class="header-right">
 				<button class="mdl-button mdl-js-button mdl-button--icon button-home" onclick="returnHome()"><i class="mdi mdi-home"></i></button>
 				<div class="mdl-idioma">
 					<select class="selectpicker" id="Idioma"  name="Idioma" onchange="cambiarIdioma()">
 						<option value="Portugués">Portugu&ecirc;s</option>
-						<option value="Español" disabled="true">Espanhol</option>
-						<option value="Inglés" disabled="true">Ingl&ecirc;s</option>
+						<option value="Español">Espanhol</option>
+						<option value="Inglés">Ingl&ecirc;s</option>
 					</select>
 				</div>
 				<div class="background1"></div>
