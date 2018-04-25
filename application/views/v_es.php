@@ -863,14 +863,14 @@
 			<div class="mdl-agradecimiento window-center opacity-done">
 				<div class="center-container">
 					<h2>Gracias por su inter&eacute;s</h2>
-					<p>Un especialista de SAP lo contactar&aacute; a la brevedad</p>
+					<p>Estamos seguros que SAP S/4 HANA lo ayudar&aacute; a acelerar su transformaci&oacute;n digital. Un especialista SAP se pondr&aacute; en contacto con usted para dar el primer paso.</p>
 					<div class="subrayado-title">
 						<div class="subrayado one"></div>
 						<div class="subrayado two"></div>
 						<div class="subrayado three"></div>
 						<div class="subrayado four"></div>
 					</div>
-					<small>Mientras tanto <a href="#" onclick="returnCaso()">vea c&oacute;mo</a> empresas del sector de <strong class="nameIndustria"></strong> est&aacute;n teniendo &eacute;xito con SAP.</small>
+					<small>Conozca el Caso de &Eacute;xito de una empresa de nuestra regi&oacute;n en el sector <strong class="nameIndustria"></strong>. Descargue <a id="donwloadCaso" href="#" onclick="returnCaso()">aqu&iacute;</a></small>
 				</div>
 			</div>
 		</div>

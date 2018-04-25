@@ -1022,8 +1022,7 @@ button.button-left{
         padding: 25px;
     }
     .logo-header{
-        max-width: 50px;
-        height: 30px;
+        max-width: 125px;
     }
     .header h2{
         font-size: 15px;
@@ -1040,6 +1039,9 @@ button.button-left{
     .mdl-title strong{
         font-size: 48px;
         line-height: 54px;
+    }
+    .mdl-title{
+        max-width: 360px;
     }
     #formulario .mdl-letras,
     .mdl-letras{

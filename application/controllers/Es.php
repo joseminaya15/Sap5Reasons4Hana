@@ -103,18 +103,18 @@ class Es extends CI_Controller {
             $texto = '<!DOCTYPE html>
                       <html>
                       <body style="font-family: "Open Sans",Arial,Helvetica,sans-serif;">
-                        <table align="center" cellspacing="0" cellpadding="0" border="0" style="max-width: 500px; width: 100%; margin: auto;border: 1px solid #757575;">
+                        <table align="center" width="600px" cellspacing="0" cellpadding="0" border="0" style="margin: auto;border: 1px solid #757575;">
                           <tr>
                             <th>
                               <table cellspacing="0" cellpadding="0" border="0" style="background-color: #000000;">
                                 <tbody>
                                   <tr>
-                                    <th style="width: 425px;text-align: left;padding-left: 20px;">
+                                    <th style="width: 525px;text-align: left;padding-left: 20px;">
                                       <table cellspacing="0" cellpadding="0" border="0">
                                         <tbody>
                                           <tr style="text-align: left;">
                                             <th style="text-align: left;"><img width="100" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
-                                            <h2 style="color: #FFFFFF;">SAP S/4 HANA</h2>
+                                            <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">S/4 HANA - TOP 5 REASONS</font></th>
                                           </tr>
                                         </tbody>
                                       </table>
@@ -137,13 +137,13 @@ class Es extends CI_Controller {
                           </tr>
                           <tr>
                             <td>
-                              <table style="width: 100%;padding: 10px;">
+                              <table align="center" style="width: 100%;padding: 10px;">
                                 <tbody>
                                   <tr style="padding: 25px;margin: 30px;">
                                     <td style="text-align: center;"><h2 style="font-family: arial;">Datos del Cliente</h2></td>
                                   </tr>
                                   <tr>
-                                    <table style="padding: 20px;" cellspacing="0" cellpadding="0" border="0">
+                                    <table align="center" style="padding: 20px;" cellspacing="0" cellpadding="0" border="0">
                                       <tbody>
                                         <tr style="padding: 0 20px;">
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Cliente:</font></td>
@@ -225,10 +225,10 @@ class Es extends CI_Controller {
         $texto = '<!DOCTYPE html>
                 <html>
                 <body>
-                  <table class="body" cellspacing="0" cellpadding="0" border="0">
+                  <table align="center" width="600px" class="body" cellspacing="0" cellpadding="0" border="0">
                     <tr>
                       <td>
-                        <table align="center" cellspacing="0" cellpadding="0" border="0" style="width: 100%;max-width: 600px;margin: 0 auto;background-color: #000000;text-align: center;float: none;">
+                        <table align="center" width="600px" cellspacing="0" cellpadding="0" border="0" style="margin: 0 auto;background-color: #000000;text-align: center;float: none;">
                           <tbody>
                             <tr>
                               <th>
@@ -240,7 +240,7 @@ class Es extends CI_Controller {
                                           <tbody>
                                             <tr style="text-align: left;">
                                               <th style="text-align: left;"><img width="100" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
-                                              <h2 style="color: #FFFFFF;">SAP S/4 HANA</h2>   
+                                              <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">S/4 HANA - TOP 5 REASONS</font></th>   
                                             </tr>
                                           </tbody>
                                         </table>
@@ -285,13 +285,13 @@ class Es extends CI_Controller {
                             </tr>
                             <tr>
                               <td>
-                                <table style="width: 100%;">
+                                <table align="center" style="width: 100%;">
                                   <tbody>
                                     <tr style="padding: 25px;margin: 30px;">
                                       <td style="text-align: center;"><font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">Datos del Cliente</h2></font>
                                     </tr>
                                     <tr>
-                                      <table style="padding: 20px;">
+                                      <table align="center" style="padding: 20px;">
                                         <tbody>
                                           <tr style="padding: 0 20px;">
                                             <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Cliente:</font></td>
