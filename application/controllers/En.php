@@ -350,4 +350,16 @@ class En extends CI_Controller {
       }
       echo json_encode($data);
   }
+  function getDatos(){
+    $data['error'] = EXIT_ERROR;
+    $data['msj']   = null;
+      try {
+        $datos = $this->input->post('datos');
+        $this->session->set_userdata(array('industria' => $datos));
+        $data['error'] = EXIT_SUCCESS;
+      }catch(Exception $e){
+        $data['msj'] = $e->getMessage();
+      }
+      echo json_encode($data);
+  }
 }

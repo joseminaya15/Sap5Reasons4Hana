@@ -311,3 +311,17 @@ function buttonBack(){
 	$('#formulario').addClass('animated fadeOutRight');
 	$('.button-industria').css("display","block");
 }
+function getDatos(datos){
+	$.ajax({
+		data : {datos : datos},
+		url  : 'pt/getDatos',
+		type : 'POST'
+	}).done(function(data){
+		try{
+        data = JSON.parse(data);
+        if(data.error != 0){return;}
+      } catch (err){
+        msj('error',err.message);
+      }
+	});
+}
