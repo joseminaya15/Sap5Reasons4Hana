@@ -56,6 +56,7 @@ class Es extends CI_Controller {
                                  'Terminos'        => $terminos,
                                  'Relacion'        => $relacion,
                                  'Contactado'      => $contacto,
+                                 'industria'       => $this->session->userdata('industria'),
                                  'id_lenguaje'     => 1);
             $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
             $this->sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
@@ -87,11 +88,12 @@ class Es extends CI_Controller {
             }else if($contacto == 1){
               $contact = 'por Email';
             }
+            $industria = $this->session->userdata('industria');
             $configGmail = array('protocol'  => 'smtp',
                                  'smtp_host' => 'smtpout.secureserver.net',
                                  'smtp_port' => 3535,
-                                 'smtp_user' => 'info@sap-latam.com',
-                                 'smtp_pass' => 'sapinfo18',
+                                 'smtp_user' => 'info@marketinghpe.com',
+                                 'smtp_pass' => 'hpeinfo18',
                                  'mailtype'  => 'html',
                                  'charset'   => 'utf-8',
                                  'newline'   => "\r\n");
@@ -145,6 +147,10 @@ class Es extends CI_Controller {
                                   <tr>
                                     <table align="center" style="padding: 20px;" cellspacing="0" cellpadding="0" border="0">
                                       <tbody>
+                                        <tr style="padding: 0 20px;">
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Industria:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$industria.'</font></td>
+                                        </tr>
                                         <tr style="padding: 0 20px;">
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Cliente:</font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$nombre_completo.'</font></td>
@@ -208,12 +214,13 @@ class Es extends CI_Controller {
         }else if($contacto == 1){
           $contact = 'por Email';
         }
+        $industria = $this->session->userdata('industria');
        $configGmail = array(
                             'protocol'  => 'smtp',
                             'smtp_host' => 'smtpout.secureserver.net',
                             'smtp_port' => 3535,
-                            'smtp_user' => 'info@sap-latam.com',
-                            'smtp_pass' => 'sapinfo18',
+                            'smtp_user' => 'info@marketinghpe.com',
+                            'smtp_pass' => 'hpeinfo18',
                             'mailtype'  => 'html',
                             'charset'   => 'utf-8',
                             'newline'   => "\r\n"
@@ -294,6 +301,10 @@ class Es extends CI_Controller {
                                       <table align="center" style="padding: 20px;">
                                         <tbody>
                                           <tr style="padding: 0 20px;">
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Industria:</font></td>
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$industria.'</font></td>
+                                          </tr>
+                                          <tr style="padding: 0 20px;">
                                             <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Cliente:</font></td>
                                             <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$nombre_completo.'</font></td>
                                           </tr>
@@ -370,6 +381,18 @@ class Es extends CI_Controller {
             throw new Exception("Error Processing Request", 1);
         }
         $this->session->set_userdata(array('idIndustria' => $idIndustria));
+        $data['error'] = EXIT_SUCCESS;
+      }catch(Exception $e){
+        $data['msj'] = $e->getMessage();
+      }
+      echo json_encode($data);
+  }
+  function getDatos(){
+    $data['error'] = EXIT_ERROR;
+    $data['msj']   = null;
+      try {
+        $datos = $this->input->post('datos');
+        $this->session->set_userdata(array('industria' => $datos));
         $data['error'] = EXIT_SUCCESS;
       }catch(Exception $e){
         $data['msj'] = $e->getMessage();
