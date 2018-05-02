@@ -12,7 +12,6 @@ class Pt extends CI_Controller {
         $this->output->set_header('Cache-Control: post-check=0, pre-check=0',false);
         $this->output->set_header('Pragma: no-cache');
     }
-
     public function index(){
         $data['pantalla']      = $this->session->userdata('pantalla') == '' ? 0 : $this->session->userdata('pantalla');
         $data['nombre_comple'] = $this->session->userdata('nombre_linke') == null ? '' : $this->session->userdata('nombre_linke');
@@ -29,7 +28,6 @@ class Pt extends CI_Controller {
         $this->session->set_userdata($session);
         $this->load->view('v_pt', $data);
     }
-
     function solicitarEstimacion(){
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
@@ -69,7 +67,6 @@ class Pt extends CI_Controller {
         }
         echo json_encode($data);
     }
-
     function sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto){
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
@@ -197,7 +194,6 @@ class Pt extends CI_Controller {
         }
         return json_encode(array_map('utf8_encode', $data));
     }
-
     function emailClienteSap($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto){
       $data['error'] = EXIT_ERROR;
       $data['msj']   = null;
@@ -343,7 +339,7 @@ class Pt extends CI_Controller {
                         </table>
                       </body>
                 </html>';
-        $this->email->message($texto);//AQUI SE INSERTA EL HTML
+        $this->email->message($texto);
         $this->email->send();
         $data['error'] = EXIT_SUCCESS;
       }catch (Exception $e){
@@ -351,7 +347,6 @@ class Pt extends CI_Controller {
       }
       return json_encode(array_map('utf8_encode', $data));
     }
-
     function cambiarIdioma(){
       $data['error'] = EXIT_ERROR;
       $data['msj']   = null;
