@@ -202,6 +202,9 @@ class En extends CI_Controller {
       $data['msj']   = null;
       try {
        $this->load->library("email");
+       if($contacto == null || $contacto == ''){
+          $contact = '';
+        }
        if($contacto == 3){
           $contact = 'por email y teléfono';
         }else if($contacto == 2){
