@@ -44,7 +44,7 @@ class Es extends CI_Controller {
             $relacion        = $this->input->post('relacion');
             $terminos        = $this->input->post('term_cond');
             $contacto        = $this->input->post('contacto');
-            if($nombre_completo == null || $empresa == null || $email == null || $pais == null || $cargo == null || $telefono == null || $relacion == null || $terminos == null || $contacto == null){
+            if($nombre_completo == null || $empresa == null || $email == null || $pais == null || $cargo == null || $telefono == null || $relacion == null || $terminos == null){
                 throw new Exception("Error Processing Request", 1);
             }
             $arrayInsert = array('nombre_completo' => $nombre_completo,
@@ -61,7 +61,7 @@ class Es extends CI_Controller {
             $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
             $this->sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
             $this->emailClienteSap($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
-            $data['idIndustria']   = $this->session->userdata('idIndustria');
+            $data['idIndustria'] = $this->session->userdata('idIndustria');
             $this->session->unset_userdata('pantalla');
             $this->session->unset_userdata('nombre_linke');
             $this->session->unset_userdata('email_linke');
@@ -81,6 +81,9 @@ class Es extends CI_Controller {
         $data['msj']   = null;
         try {
             $this->load->library('email');
+            if($contacto == null || $contacto == ''){
+              $contact = '';
+            }
             if($contacto == 3){
               $contact = 'por email y teléfono';
             }else if($contacto == 2){

@@ -73,6 +73,9 @@ class En extends CI_Controller {
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
         try {
+            if($contacto == null || $contacto == ''){
+              $contact = '';
+            }
             if($_SESSION['Contacto'] == 3){
               $contact = 'By email and phone';
             }else if($_SESSION['Contacto'] == 2){
