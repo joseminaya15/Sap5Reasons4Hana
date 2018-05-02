@@ -155,7 +155,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Solo hasta un xx% de las empresas tienen la visibilidad en tiempo real requerida</p>
+		            				<p id="title">Solo un xx% de las empresas tienen la visibilidad en tiempo real requerida</p>
 		            				<label>Proporcionar una sola fuente consolidada con toda la informaci&oacute;n relacionada con el proyecto, y obtener un mejor compromiso 
 		            				y productividad de los empleados.</label>
 		            				<button id="verServicio1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
