@@ -737,12 +737,16 @@ button.button-left{
     background-color: #008FCC;
 }
 .button-confirmar{
-    background-color: #008FCC;
-    color: #FFFFFF;
+    background-color: #008FCC !important;
+    color: #FFFFFF !important;
     text-transform: initial;
     font-family: 'RobotoRegular';
     height: 30px;
     line-height: 32px;
+}
+.button-confirmar[disabled]{
+    opacity: .5 !important;
+    cursor: progress !important;
 }
 .mdl-input{
     margin: 5px 0;
