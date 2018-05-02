@@ -131,10 +131,10 @@ function solicitarEstimacion(){
 	}else if(c_ambos == true){
 		contacto = 3;
 	}
-	if(contacto == null || contacto == ''){
+	/*if(contacto == null || contacto == ''){
 		msj('error', 'Selecione os meios pelos quais você deseja entrar em contato');
 		return;
-	}
+	}*/
 	if(terminos == true){
 		term_cond = 1
 	}else {

@@ -132,11 +132,11 @@ function solicitarEstimacion(){
 	}else if(c_ambos == true){
 		contacto = 3;
 	}
-	if(contacto == null || contacto == ''){
+	/*if(contacto == null || contacto == ''){
 		msj('error', 'Seleccione el medio por el que quiere ser contactado');
 		return;
-	}
-	/*if(terminos == true){
+	}*/
+	if(terminos == true){
 		term_cond = 1
 	}else {
 		term_cond = 0;
@@ -144,7 +144,7 @@ function solicitarEstimacion(){
 	if(terminos == false){
 		msj('error', 'Acepte los términos y condiciones');
 		return;
-	}*/
+	}
 	$('.button-confirmar').prop("disabled", true);
 	$.ajax({
 		data : {nombre_completo : nombre_completo,
