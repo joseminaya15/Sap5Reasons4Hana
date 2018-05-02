@@ -155,7 +155,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Solo el 38% de las empresas tienen la visibilidad en tiempo real requerida</p>
+		            				<p id="title">Solo hasta un xx% de las empresas tienen la visibilidad en tiempo real requerida</p>
 		            				<label>Proporcionar una sola fuente consolidada con toda la informaci&oacute;n relacionada con el proyecto, y obtener un mejor compromiso 
 		            				y productividad de los empleados.</label>
 		            				<button id="verServicio1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
@@ -171,7 +171,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Mejorar en un 10% las utilidades</p>
+		            				<p id="title">Mejorar hasta un xx% las utilidades</p>
 									<label>Aumentar la productividad con un an&aacute;lisis sencillo de ofertas versus presupuestos, basados en los proyectos con &eacute;xito 
 									como base para nuevas ofertas.</label>
 									<button id="verServicio2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
@@ -203,7 +203,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Actualmente un 20% del contenido empresarial est&aacute; siendo generado por los sistemas</p>
+		            				<p id="title">Actualmente hasta un xx% del contenido empresarial est&aacute; siendo generado por los sistemas</p>
 									<label>La digitalizaci&oacute;n de los cuatro elementos fundamentales de los servicios (experiencia, talento, prestaci&oacute;n de servicios y compromiso del cliente) obliga a las empresas de servicios profesionales a repensar sus modelos comerciales y centrarse en c&oacute;mo impulsar el crecimiento de los ingresos sin un crecimiento correspondiente en su base de empleados.</label>
 									<button id="verServicio4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
@@ -218,7 +218,7 @@
 		            				<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">El 60% de las empresas de servicios profesionales consideran urgente la transformaci&oacute;n digital</p>
+		            				<p id="title">Hasta un xx% de las empresas de servicios profesionales consideran urgente la transformaci&oacute;n digital</p>
 									<label>Mejorar la satisfacci&oacute;n y compromiso con cliente para poder asegurar futuros ingresos mediante el an&aacute;lisis 
 									permanente del comportamiento y necesidades de sus clientes.</label>
 									<button id="verServicio5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
@@ -260,7 +260,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir en un 35% los requisitos de capital</p>
+		            				<p id="title">Reducir hasta un xx% los requisitos de capital</p>
 									<label>Mejorar la productividad basado en las mejoras en el proceso de facturaci&oacute;n al contar con una &uacute;nica fuente 
 									de verdad y lograr eliminar los errores en las previsiones financieras.</label>
 									<button id="verRetail2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
@@ -292,7 +292,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir un 30% en el tiempo de toma de decisiones</p>
+		            				<p id="title">Reducir hasta un xx% en el tiempo de toma de decisiones</p>
 									<label>Disponer de la informaci&oacute;n en diversos formatos, adem&aacute;s de brindar una gu&iacute;a basada en los elementos 
 								    de acci&oacute;n que requiere inmediata atenci&oacute;n, y con ello, poder reducir el tiempo de la toma de decisiones.</label>
 									<button id="verRetail4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
@@ -308,7 +308,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Mejorar en un 30% la productividad</p>
+		            				<p id="title">Mejorar hasta un xx% la productividad</p>
 									<label>Optimizar los procesos de la cadena de suministro para agilizar el restablecimiento, gestionar el stock 
 									de una manera m&aacute;s precisa y monitorer el inventario de manera minuciosa.</label>
 									<button id="verRetail5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
@@ -333,7 +333,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Aumentar en un 20% la satisfacci&oacute;n del cliente</p>
+		            				<p id="title">Aumentar hasta un xx% la satisfacci&oacute;n del cliente</p>
 									<label>Cuando los consumidores pueden obtener lo que quieren, cuando y donde quieren, la diferenciaci&oacute;n ya no solo resulta de 
 									la calidad, precio, valor o conveniencia, sino de experiencias subjetivas, matizadas e intangibles como alegr&iacute;a, confianza, 
 									control y protecci&oacute;n.</label>
@@ -350,7 +350,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir un 30% los niveles de inventario</p>
+		            				<p id="title">Reducir hasta un xx% los niveles de inventario</p>
 									<label>La planificaci&oacute;n de requisitos de materiales, ejecutada en tiempo real, ofrece resultados de planificaci&oacute;n actualizados 
 									y completos. Se trata de hacer correcciones oportunas del curso y minimizar el inventario disponible.</label>
 									<button id="verProducto2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
@@ -366,7 +366,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir en un 15% la p&eacute;rdida de ingresos debido al desabastecimiento</p>
+		            				<p id="title">Reducir hasta un xx% la p&eacute;rdida de ingresos debido al desabastecimiento</p>
 									<label>Un proceso redise&ntilde;ado por SAP S/4 HANA proporciona visibilidad del inventario en tiempo real con lotes de stock disminuidos, 
 									entrega mejorada a tiempo y capacidad para innovar con servicios innovadores.</label>
 									<button id="verProducto3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
@@ -421,7 +421,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Ampliar las oportunidades de ventas en un 15-20%</p>
+		            				<p id="title">Ampliar las oportunidades de ventas hasta un xx%</p>
 									<label>SAP S/4 HANA incorpora agilidad a trav&eacute;s de una plataforma simplificada que permite el intercambio de datos en tiempo real entre las ventas, el servicio al cliente y los l&iacute;deres empresariales, una mayor eficiencia debido a la eliminaci&oacute;n de datos duplicados y un an&aacute;lisis de datos simplificado conducen a ventas m&aacute;s efectivas y espec&iacute;ficas.</label>
 									<button id="verProceso1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
@@ -436,9 +436,9 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Optimice su cadena de suministro en un 12%</p>
-									<label>SAP S/4 HANA le permite integrar toda su cadena de suministro y obtener una reducci&oacute;n del 12% en la cantidad de d&iacute;as del inventario. 
-									Esto significa una reducci&oacute;n en los desabastecimientos y un panorama simplificado que genera un ahorro de costos log&iacute;sticos de hasta 10%.</label>
+		            				<p id="title">Optimice su cadena de suministro hasta un xx%</p>
+									<label>SAP S/4 HANA le permite integrar toda su cadena de suministro y obtener una reducci&oacute;n hasta del xx% en la cantidad de d&iacute;as del inventario. 
+									Esto significa una reducci&oacute;n en los desabastecimientos y un panorama simplificado que genera un ahorro de costos log&iacute;sticos de hasta xx%.</label>
 									<button id="verProceso2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -452,8 +452,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir los costos de adquisiciones en un 15%</p>
-									<label>La productividad de la cadena de suministro se puede aumentar en un 15% con SAP S/4 HANA aprovechando las opciones de descuento 
+		            				<p id="title">Reducir los costos de adquisiciones hasta en xx%</p>
+									<label>La productividad de la cadena de suministro se puede aumentar hasta en xx% con SAP S/4 HANA aprovechando las opciones de descuento 
 									en los pagos anticipados, maximizando el orden de inventario y 
 									el seguimiento de materias primas en tiempo real.</label>
 									<button id="verProceso3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
@@ -485,7 +485,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Aumente la eficiencia de la operaci&oacute;n hasta en un 60%</p>
+		            				<p id="title">Aumente la eficiencia de la operaci&oacute;n hasta en un xx%</p>
 									<label>Con SAP S/4 HANA comience a experimentar total facilidad en la gesti&oacute;n de las operaciones de negocio. Ahora, sus clientes podr&aacute;n experimentar un servicio excelente y entrega puntual, que permanecer&aacute; sin 
 									modificaciones durante la expansi&oacute;n r&aacute;pida.</label>
 									<button id="verProceso5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
@@ -510,7 +510,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Aumentar la eficiencia de la operaci&oacute;n hasta en un 60%</p>
+		            				<p id="title">Aumentar la eficiencia de la operaci&oacute;n hasta en un xx%</p>
 									<label>Tener toda la informaci&oacute;n requerida en un solo lugar, significa poder gestionar los inventarios en tiempo real, tener el valor de los materiales, planificar las funciones en un sistema, y as&iacute; poder mejorar la productividad como la participaci&oacute;n de los empleados.</label>
 									<button id="verDistribucion1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
@@ -525,7 +525,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir un 30% el inventario</p>
+		            				<p id="title">Reducir hasta un xx% el inventario</p>
 									<label>SAP S/4 HANA proporciona una administraci&oacute;n de inventarios simplificada hasta el detalle m&aacute;s m&iacute;nimo, con una &uacute;nica fuente de informaci&oacute;n certera y consolidada para analizar la rotaci&oacute;n de inventario, realizar un seguimiento del flujo de materiales y transferencias de stock, y tomar las medidas apropiadas.</label>
 									<button id="verDistribucion2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
@@ -540,7 +540,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">50% de reducci&oacute;n en problemas de cumplimiento de pedidos.</p>
+		            				<p id="title">Hasta el xx% de reducci&oacute;n en problemas de cumplimiento de pedidos.</p>
 									<label>SAP S/4 HANA proporciona una experiencia de usuario basada en roles, que simplifica y mejora el compromiso y la productividad de los empleados. A trav&eacute;s de un &uacute;nico punto de entrada para identificar f&aacute;cilmente problemas de pedidos y alertas en tiempo real se garantiza que los representantes de ventas internos puedan acceder directamente a sus respectivos documentos y utilizar funciones integradas de colaboraci&oacute;n para resolver problemas r&aacute;pidamente.</label>
 									<button id="verDistribucion3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
@@ -556,7 +556,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Anticipar la demanda futura del cliente</p>
-									<label>Apenas un 20% de los distribuidores mayoristas est&aacute;n en capacidad de utilizar el an&aacute;lisis predictivo para anticipar el comportamiento del cliente. Con SAP S/4 HANA a trav&eacute;s de una experiencia de usuario simplificada, cuenta con informaci&oacute;n clave para comprender la demanda futura y actuar desde ahora.</label>
+									<label>Apenas un xx% de los distribuidores mayoristas est&aacute;n en capacidad de utilizar el an&aacute;lisis predictivo para anticipar el comportamiento del cliente. Con SAP S/4 HANA a trav&eacute;s de una experiencia de usuario simplificada, cuenta con informaci&oacute;n clave para comprender la demanda futura y actuar desde ahora.</label>
 									<button id="verDistribucion4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -594,7 +594,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduzca hasta en un 46% las quejas de clientes</p>
+		            				<p id="title">Reduzca hasta en un xx% las quejas de clientes</p>
 									<label>Haga que el pedido y la facturaci&oacute;n en tiempo real est&eacute;n disponibles para aumentar la entrega puntual, una mayor flexibilidad del modelo comercial y la eficiencia de la gesti&oacute;n de contratos.</label>
 									<button id="verTech1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
@@ -639,8 +639,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Optimice su cadena de suministro en un 12%</p>
-									<label>Integre toda su cadena de suministro y obtenga una reducci&oacute;n del 12% en la cantidad de d&iacute;as en el inventario. Logre una reducci&oacute;n de desabastecimiento y un panorama simplificado que genere un ahorro de costos de log&iacute;stica de hasta 10%.</label>
+		            				<p id="title">Optimice su cadena de suministro hasta en un xx%</p>
+									<label>Integre toda su cadena de suministro y obtenga una reducci&oacute;n hasta del xx% en la cantidad de d&iacute;as en el inventario. Logre una reducci&oacute;n de desabastecimiento y un panorama simplificado que genere un ahorro de costos de log&iacute;stica de hasta xx%.</label>
 									<button id="verTech4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
@@ -678,7 +678,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduce en 30% el tiempo de llegada de nuevos productos.</p>
+		            				<p id="title">Reduce hasta en xx% el tiempo de llegada de nuevos productos.</p>
 									<label>Con SAP S/4 HANA podr&aacute; reducir el tiempo de llegada al mercado para sus nuevos productos, lo que le permitir&aacute; adelantarse a la competencia y mantener cautivos a sus clientes</label>
 									<button id="verBancking1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
@@ -694,7 +694,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Aumenta su rentabilidad</p>
-									<label>Organizaciones que adoptan SAP S/4 HANA generan un 23% m&aacute;s de ingresos al usar el poder de  la informaci&oacute;n para identificar ventajas estrat&eacute;gicas y competitivas.</label>
+									<label>Organizaciones que adoptan SAP S/4 HANA generan hasta un xx% m&aacute;s de ingresos al usar el poder de  la informaci&oacute;n para identificar ventajas estrat&eacute;gicas y competitivas.</label>
 									<button id="verBancking2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
 		            			</div>
 		            		</div>
