@@ -8,7 +8,7 @@
     <meta name="keywords"               content="SAP Top 5 Reasons S/4 HANA,SAP, S/4 HANA">
     <meta name="robots"                 content="Index,Follow">
     <meta name="date"                   content="Febrero 15, 2018"/>
-    <meta name="language"               content="pt-br">
+    <meta name="language"               content="es">
     <meta name="theme-color"            content="#000000">
 	<title>SAP Top 5 Reasons S/4 HANA</title>
 	<link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/logo_favicon.ico">
@@ -42,8 +42,8 @@
 				<div class="mdl-idioma">
 					<select class="selectpicker" id="Idioma"  name="Idioma" onchange="cambiarIdioma()">
 						<option value="Portugués">Portugu&ecirc;s</option>
-						<option value="Español">Espanhol</option>
-						<option value="Inglés">Ingl&ecirc;s</option>
+						<option value="Español">Espa&ntilde;ol</option>
+						<option value="Inglés">English</option>
 					</select>
 				</div>
 				<div class="background1"></div>
@@ -52,7 +52,7 @@
 			</div>
 		</div>
 		<div class="chat">
-			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Entre em contato conosco</label></a>
+			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Chatea con nosotros</label></a>
 		</div>
 		<div id="home" class="window-center">
 			<div id="window2" class="window-center">
@@ -60,72 +60,78 @@
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>
 						<div class="mdl-letras inline">
-							<p>principais motivos</p>
-							<h2>por que escolher SAP S/4 HANA</h2>
+							<p>razões principais</p>
+							<h2>para escolher SAP S/4 HANA</h2>
+						</div>
+						<div class="subrayado-title">
+							<div class="subrayado one"></div>
+							<div class="subrayado two"></div>
+							<div class="subrayado three"></div>
+							<div class="subrayado four"></div>
 						</div>	
 					</div>
 					<div class="industrias inline">
-						<h2>Seleccione su industria</h2>
+						<h2>Selecione sua indústria</h2>
 						<div id="industriaServicio" class="mdl-industrias" onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Servicios Profesionales')">Servicios Profesionales</p>
+							<p class="inline" onclick="getDatos('Serviços Profissionais')">Serviços Profissionais</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/servicios.png">
-							<div class="one none">Actualizar y reducir los procesos financieros.</div>
-							<div class="two none">Tomar decisiones basadas en datos en tiempo real.</div>
-							<div class="three none">Minimizar el riesgo de sus proyectos.</div>
-							<div class="four none">Aumentar la precisi&oacute;n de sus propuestas.</div>
-							<div class="five none">Dar al cliente un servicio de excelencia.</div>
+							<div class="one none">Atualizar e reduzir os processos financeiros.</div>
+							<div class="two none">Tomar decisões baseadas em dados em tempo real.</div>
+							<div class="three none">Minimizar o risco de seus projetos.</div>
+							<div class="four none">Aumentar a precisão de suas propostas.</div>
+							<div class="five none">Dar ao cliente um serviço de excelênciaa.</div>
 						</div>
 						<div id="industriaRetail" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline" onclick="getDatos('Retail')">Retail</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/retail.png">
-							<div class="one none">Obtener mayores ingresos.</div>
-							<div class="two none">Aumentar rentabilidad.</div>
-							<div class="three none">Reducir la falta de stock.</div>
-							<div class="four none">Mejorar la rotaci&oacute;n de inventario.</div>
-							<div class="five none">Mejorar la experiencia del cliente.</div>
+							<div class="one none">Obter maiores receitas.</div>
+							<div class="two none">Aumentar rentabilidade.</div>
+							<div class="three none">Reduzir a falta de estoque.</div>
+							<div class="four none">Melhorar a rotação de inventário.</div>
+							<div class="five none">Melhorar a experiência do cliente.</div>
 						</div>
 						<div id="industriaProducto" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Productos de Consumo')">Productos de Consumo</p>
+							<p class="inline" onclick="getDatos('Produtos de Consumo')">Produtos de Consumo</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/productos.png">
-							<div class="one none">Trabajar con informaci&oacute;n a tiempo real de inventarios y del flujo de los materiales.</div>
-							<div class="two none">Crear valor en un mundo digital donde el consumidor est&aacute; a cargo.</div>
-							<div class="three none">Los consumidores esperan un nuevo tipo de experiencia de compra. Una que le simplifique la vida.</div>
-							<div class="four none">Entrelazar las estrategias comerciales con las mega tendencias tecnol&oacute;gicas: IoT, Inteligencia artificial, realidad aumentada, movilidad empresarial, entre otros.</div>
+							<div class="one none">Trabalhar com informação em tempo real de inventários e do fluxo dos materiais.</div>
+							<div class="two none">Criar valor em um mundo digital onde o consumidor está a cargo.</div>
+							<div class="three none">Inovar a experiência de compra.</div>
+							<div class="four none">Alinhar as estratégias comerciais com as megatendências tecnológicas.</div>
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaProceso" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Proceso y Manufactura')">Proceso y Manufactura</p>
+							<p class="inline" onclick="getDatos('Processo e Manufatura')">Processo e Manufatura</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/procesos.png">
-							<div class="one none">Mercado din&aacute;mico, variabilidad de la demanda, mayor configuraci&oacute;n de productos, ventas y marketing omnicanal y plazos de entrega ajustados.</div>
-							<div class="two none">Los clientes exigen una entrega r&aacute;pida y, sin embargo, exigen la m&aacute;s alta calidad a precios competitivos.</div>
-							<div class="three none">La necesidad de contar con resultados de negocio m&aacute;s r&aacute;pidos con un menor costo operativo, gracias a los entornos de sistemas simplificados.</div>
-							<div class="four none">La falta de flexibilidad para incluir demandas cambiantes en tiempo real en el proceso de planificaci&oacute;n lleva a una planificaci&oacute;n desactualizada e inexacta.</div>
-							<div class="five none">Entornos de sistemas complejos y costosos con m&uacute;ltiples sistemas de plantas distribuidas que dan como resultado un alto TCO.</div>
+							<div class="one none">Mercado dinâmico, variabilidade da demanda e prazos de entrega ajustados.</div>
+							<div class="two none">Manter a mais alta qualidade a preços competitivos.</div>
+							<div class="three none">Contar com resultados de negócio mais rápidos com um menor custo operacional.</div>
+							<div class="four none">Ambientes de sistemas complexos e custosos com múltiplos sistemas de usinas distribuídas que dão como resultado um alto TCO.</div>
+							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaDistribucion" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Distribución')">Distribuci&oacute;n</p>
+							<p class="inline" onclick="getDatos('Distribuição')">Distribuição</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/distribucion.png">
-							<div class="one none">Mejorar la capacidad y puntualidad en el despacho de pedidos.</div>
-							<div class="two none">Reducir costos de abastecimiento, planificaci&oacute;n y precisi&oacute;n en el inventario.</div>
-							<div class="three none">Usar servicios de valor agregado para crear nuevas fuentes de ingresos.</div>
-							<div class="four none">Abordar la convergencia digital entre B2B y B2C</div>
+							<div class="one none">Melhorar a capacidade e pontualidade no despacho de pedidos.</div>
+							<div class="two none">Reduzir custos de abastecimento, planejamento e precisão no inventário.</div>
+							<div class="three none">Usar serviços de valor agregado para criar novas fontes de receitas.</div>
+							<div id="dontHave4" class="four none"></div>
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaHighTech" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Alta Tecnología')">Alta Tecnología</p>
+							<p class="inline" onclick="getDatos('Alta Tecnologia')">Alta Tecnologia</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/tech.png">
-							<div class="one none">La velocidad del cambio tecnol&oacute;gico perjudica las perspectivas de crecimiento de su organizaci&oacute;n.</div>
-							<div class="two none">La demanda de productos inteligentes conectados, acelera la necesidad de nuevas funcionalidades de cadena de suministro digital.</div>
-							<div class="three none">Para seguir siendo competitivo debe ofrecer una atenci&oacute;n y una opci&oacute;n de autoservicio de clase mundial.</div>
+							<div class="one none">A velocidade da mudança tecnológica prejudica as perspectivas de crescimento de sua organização.</div>
+							<div class="two none">A demanda de produtos inteligentes conectados, acelera a necessidade de novas funcionalidades de cadeia de fornecimento digital.</div>
+							<div class="three none">Para continuar sendo competitivo você deve oferecer um atendimento e uma opção de autosserviço de classe mundial.</div>
 							<div id="dontHave4" class="four none"></div>
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Servicios Financieros')">Servicios Financieros</p>
+							<p class="inline" onclick="getDatos('Serviços Financeiros')">Serviços Financeiros</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/banking.png">
-							<div class="one none">Adoptar e incorporar con rapidez soluciones m&oacute;viles que sean intuitivas para aplicaciones de servicios, ventas, cajeros y sucursales.</div>
-							<div class="two none">Involucrar a los clientes con una experiencia digital multicanal en tiempo real.</div>
-							<div class="three none">Necesidad de automatizar los procedimientos manuales y agilizar los flujos de trabajo en el servicio al cliente y la gesti&oacute;n de procesos.</div>
+							<div class="one none">Adotar e incorporar com rapidez soluções móveis que sejam intuitivas para aplicações de serviços, vendas, caixas e sucursais.</div>
+							<div class="two none">Envolver os clientes com uma experiência digital multicanal em tempo real.</div>
+							<div class="three none">Necessidade de automatizar os procedimentos manuais e agilizar os fluxos de trabalho no serviço ao cliente e a gestão de processos.</div>
 							<div id="dontHave4" class="four none"></div>
 							<div id="dontHave" class="five none"></div>
 						</div>
@@ -137,7 +143,7 @@
 			<div id="industriaServicio-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Servicios Profesionales.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Serviços Profissionais.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 		            	<div class="mdl-card-industria">
@@ -145,14 +151,13 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
-		            				<p>Visibilidad</p> 
+		            				<p>Visibilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Solo el 38% de las empresas tienen la visibilidad en tiempo real requerida</p>
-		            				<label>Proporcionar una sola fuente consolidada con toda la informaci&oacute;n relacionada con el proyecto, y obtener un mejor compromiso 
-		            				y productividad de los empleados.</label>
-		            				<button id="verServicio1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Só 38% das empresas têm a visibilidade em tempo real requerida</p>
+		            				<label>Proporcionar uma única fonte consolidada com toda a informação relacionada ao projeto, e obter um melhor compromisso e produtividade dos funcionários.</label>
+		            				<button id="verServicio1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -161,14 +166,13 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/ganancia.png">
-		            				<p>Productividad</p> 
+		            				<p>Eficiência</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Mejorar en un 10% las utilidades</p>
-									<label>Aumentar la productividad con un an&aacute;lisis sencillo de ofertas versus presupuestos, basados en los proyectos con &eacute;xito 
-									como base para nuevas ofertas.</label>
-									<button id="verServicio2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Melhorar até 10% as utilidades</p>
+									<label>Aumentar a produtividade com uma análise simples de ofertas versus orçamentos, baseados nos projetos com sucesso como base para novas ofertas.</label>
+									<button id="verServicio2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -177,14 +181,13 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Aumentar la rentabilidad del proyecto</p>
-									<label>Obtener procesos comerciales simplificados y redise&ntilde;ados que generan importantes beneficios, manejar informaci&oacute;n procesable, 
-								    acelerar el flujo de efectivo y proteger la rentabilidad del proyecto.</label>
-									<button id="verServicio3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Aumentar a rentabilidade do projeto</p>
+									<label>Obter processos comerciais simplificados e reprojetados que geram importantes benefícios, operar informação processável, acelerar o fluxo de efetivo e proteger a rentabilidade do projeto.</label>
+									<button id="verServicio3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -193,13 +196,13 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
-		            				<p>Tiempo</p> 
+		            				<p>Atomização</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir en un 60% el tiempo de cierre de los servicios</p>
-									<label>Acelerar la toma de decisiones de negocios basadas en informaci&oacute;n en tiempo real y en una &uacute;nica fuente de verdad.</label>
-									<button id="verServicio4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Atualmente até 20% do conteúdo empresarial está sendo gerado pelos sistemas</p>
+									<label>A digitalização dos quatro elementos fundamentais dos serviços (experiência, talento, prestação de serviços e compromisso do cliente) obriga às empresas de serviços profissionais a repensarem seus modelos comerciais e se centrarem em como impulsionar o crescimento das receitas sem um crescimento correspondente em sua base de funcionários.</label>
+									<button id="verServicio4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -208,14 +211,13 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad_2.png">
-		            				<p>Innovaci&oacute;n</p> 
+		            				<p>Inovação</p> 
 		            				<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">El 60% de las empresas de servicios profesionales consideran urgente la transformaci&oacute;n digital</p>
-									<label>Mejorar la satisfacci&oacute;n y compromiso con cliente para poder asegurar futuros ingresos mediante el an&aacute;lisis 
-									permanente del comportamiento y necesidades de sus clientes.</label>
-									<button id="verServicio5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">60% das empresas de serviços profissionais consideram urgente a transformação digital</p>
+									<label>Melhorar a satisfação e compromisso com o cliente para poder garantir futuras receitas por meio da análise permanente do comportamento e necessidades de seus clientes.</label>
+									<button id="verServicio5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -225,7 +227,7 @@
 			<div id="industriaRetail-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Retail.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Retail.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -233,15 +235,13 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/venta.png">
-		            				<p>Productos</p> 
+		            				<p>Modernização</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Atender la demanda del consumidor en cualquier lugar y momento</p>
-									<label>Cumplir las expectativas del cliente con una buena experiencia de compra a trav&eacute;s de un proceso 
-									optimizado para la gesti&oacute;n de la mercader&iacute;a y de los canales de distribuci&oacute;n, basado 
-								    en toma de decisiones en tiempo real.</label>
-									<button id="verRetail1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Atender a demanda do consumidor em qualquer lugar e momento</p>
+									<label>Cumprir com as expectativas do cliente com uma boa experiência de compra através de um processo otimizado para a gestão da mercadoria e dos canais de distribuição, baseado na tomada de decisões em tempo real.</label>
+									<button id="verRetail1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -250,14 +250,13 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/capital.png">
-		            				<p>Capital</p> 
+		            				<p>Eficiência</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir en un 35% los requisitos de capital</p>
-									<label>Mejorar la productividad basado en las mejoras en el proceso de facturaci&oacute;n al contar con una &uacute;nica fuente 
-									de verdad y lograr eliminar los errores en las previsiones financieras.</label>
-									<button id="verRetail2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Reduzir até 35% os requisitos de capital</p>
+									<label>Melhorar a produtividade baseado nas melhorias no processo de faturamento ao contar com uma única fonte de verdade e conseguir eliminar os erros nas previsões financeiras.</label>
+									<button id="verRetail2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -266,14 +265,13 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad_2.png">
-		            				<p>Rentabilidad</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Aumentar la rentabilidad</p>
-									<label>Reducir la rotaci&oacute;n del inventario a trav&eacute;s de procesos comerciales simplificados y redise&ntilde;ados, 
-									manejo de informaci&oacute;n procesable y una optimizaci&oacute;n de la gesti&oacute;n del flujo de efectivo.</label>
-									<button id="verRetail3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Aumentar a rentabilidade</p>
+									<label>Reduzir a rotação do inventário através de processos comerciais simplificados e reprojetados, operação de informação processável e uma otimização da gestão do fluxo de efetivo.</label>
+									<button id="verRetail3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -282,14 +280,13 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/decision.png">
-		            				<p>Decisiones</p> 
+		            				<p>Inteligência</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir un 30% en el tiempo de toma de decisiones</p>
-									<label>Disponer de la informaci&oacute;n en diversos formatos, adem&aacute;s de brindar una gu&iacute;a basada en los elementos 
-								    de acci&oacute;n que requiere inmediata atenci&oacute;n, y con ello, poder reducir el tiempo de la toma de decisiones.</label>
-									<button id="verRetail4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Reduzir até 30% no tempo de tomada de decisões</p>
+									<label>Dispor da informação em diversos formatos, além de oferecer um guia baseado nos elementos de ação que requerem atenção imediata, e com isso, poder reduzir o tempo da tomada de decisões.</label>
+									<button id="verRetail4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -298,14 +295,13 @@
 		            			<div class="card-front">
 									<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cloud.png">
-		            				<p>Productividad</p> 
+		            				<p>Produtividade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Mejorar en un 30% la productividad</p>
-									<label>Optimizar los procesos de la cadena de suministro para agilizar el restablecimiento, gestionar el stock 
-									de una manera m&aacute;s precisa y monitorer el inventario de manera minuciosa.</label>
-									<button id="verRetail5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Melhorar até 30% a produtividade</p>
+									<label>Otimizar os processos da cadeia de fornecimento para agilizar o restabelecimento, gerenciar o estoque de uma maneira mais precisa e monitorar o inventário de maneira minuciosa.</label>
+									<button id="verRetail5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -315,7 +311,7 @@
 			<div id="industriaProducto-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Productos de Consumo.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Produtos de Consumo.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -323,15 +319,13 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/ganancia.png">
-		            				<p>Satisfacci&oacute;n</p> 
+		            				<p>Fidelização</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Aumentar en un 20% la satisfacci&oacute;n del cliente</p>
-									<label>Cuando los consumidores pueden obtener lo que quieren, cuando y donde quieren, la diferenciaci&oacute;n ya no solo resulta de 
-									la calidad, precio, valor o conveniencia, sino de experiencias subjetivas, matizadas e intangibles como alegr&iacute;a, confianza, 
-									control y protecci&oacute;n.</label>
-									<button id="verProducto1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Aumentar em até 20% a satisfação do cliente</p>
+									<label>Quando os consumidores podem obter o que querem, quando e onde querem, a diferenciação já não só resulta da qualidade, preço, valor ou conveniência, como também de experiências subjetivas, matizadas e intangíveis como alegria, confiança, controle e proteção.</label>
+									<button id="verProducto1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>								
 		            		</div>
 		            	</div>
@@ -340,14 +334,13 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/inventario.png">
-		            				<p>Inventario</p> 
+		            				<p>Eficiência</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir un 30% los niveles de inventario</p>
-									<label>La planificaci&oacute;n de requisitos de materiales, ejecutada en tiempo real, ofrece resultados de planificaci&oacute;n actualizados 
-									y completos. Se trata de hacer correcciones oportunas del curso y minimizar el inventario disponible.</label>
-									<button id="verProducto2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Reduzir em até 30% os níveis de inventário</p>
+									<label>O planejamento de requisitos de materiais, executado em tempo real, oferece resultados de planejamento atualizados e completos. Trata-se de fazer correções oportunas do curso e minimizar o inventário disponível.</label>
+									<button id="verProducto2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -356,14 +349,13 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
-		            				<p>Ingresos</p> 
+		            				<p>Economia</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir en un 15% la p&eacute;rdida de ingresos debido al desabastecimiento</p>
-									<label>Un proceso redise&ntilde;ado por SAP S/4 HANA proporciona visibilidad del inventario en tiempo real con lotes de stock disminuidos, 
-									entrega mejorada a tiempo y capacidad para innovar con servicios innovadores.</label>
-									<button id="verProducto3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Reduzir em até 15% a perda de receitas devido ao desabastecimento</p>
+									<label>Um processo reprojetado por SAP S/4 HANA proporciona visibilidade do inventário em tempo real com lotes de estoque diminuídos, entrega melhorada a tempo e capacidade para inovar com serviços inovadores.</label>
+									<button id="verProducto3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>								
 		            		</div>
 		            	</div>
@@ -372,13 +364,12 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
-		            				<p>Costos</p> 
+		            				<p>Visibilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Un sistema en tiempo real con informes operativos en vivo</p>
-									<label>Con SAP S / 4HANA, los informes de an&aacute;lisis se pueden generar instant&aacute;neamente para obtener una visi&oacute;n inmediata de los niveles de stock de inventario, ventas de productos, marketing y finanzas. El resultado es una imagen de 360 grados de lo que sucede en su organizaci&oacute;n.</label>
-									<button id="verProducto4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Com SAP S / 4HANA, os relatórios de análise podem ser gerados instantaneamente para obter uma visão imediata dos níveis de estoque de inventário, vendas de produtos, marketing e finanças. O resultado é uma imagem de 360 graus do que ocorre em sua organização.</label>
+									<button id="verProducto4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -387,13 +378,13 @@
 		            			<div class="card-front">
 									<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/entrega.png">
-		            				<p>Entregas</p> 
+		            				<p>Otimização</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Mejorar su planificaci&oacute;n de producci&oacute;n y programaci&oacute;n</p>
-									<label>La planificaci&oacute;n de producci&oacute;n avanzada en SAP S / 4HANA proporciona anal&iacute;ticas potentes para un soporte de decisiones más s&oacute;lido, lo que permite una planificaci&oacute;n y ejecuci&oacute;n m&aacute;s r&aacute;pidas.</label>
-									<button id="verProducto5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Melhorar seu planejamento de produção e programação</p>
+									<label>O planejamento de produção avançado em SAP S/4 HANA proporciona analíticas potentes para um suporte de decisões mais sólido, o que permite um planejamento e execução mais rápidos.</label>
+									<button id="verProducto5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -403,7 +394,7 @@
 			<div id="industriaProceso-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Proceso y Manufactura.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Processo e Manufatura.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -411,13 +402,13 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/expandir.png">
-		            				<p>Pipeline</p> 
+		            				<p>Diversificação</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Ahorre 38% en hardware y costos de operaci&oacute;n</p>
-									<label>La eliminaci&oacute;n de &iacute;ndices de datos, agregados y redundancias reduce la huella de datos y el costo total de propiedad.</label>
-									<button id="verProceso1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Ampliar as oportunidades de vendas em até 15-20%</p>
+									<label>SAP S/4 HANA incorpora agilidade através de uma plataforma simplificada que permite a troca de dados em tempo real entre as vendas, o serviço ao cliente e os líderes empresariais, uma maior eficiência devido à eliminação de dados duplicados e uma análise de dados simplificada conduzem a vendas mais efetivas e específicas.</label>
+									<button id="verProceso1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -426,14 +417,13 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
-		            				<p>Tiempo</p> 
+		            				<p>Otimização</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Optimice su cadena de suministro en un 12%</p>
-									<label>SAP S/4 HANA le permite integrar toda su cadena de suministro y obtener una reducci&oacute;n del 12% en la cantidad de d&iacute;as del inventario. 
-									Esto significa una reducci&oacute;n en los desabastecimientos y un panorama simplificado que genera un ahorro de costos log&iacute;sticos de hasta 10%.</label>
-									<button id="verProceso2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Otimizar sua cadeia de fornecimento em até 12%</p>
+									<label>SAP S/4 HANA lhe permite integrar toda a sua cadeia de fornecimento e obter uma redução de até 12% na quantidade de dias do inventário. Isto significa uma redução nos desabastecimentos e um panorama simplificado que gera uma economia de custos de logística de 10%.</label>
+									<button id="verProceso2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -442,15 +432,13 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/eficiencia.png">
-		            				<p>Eficiencia</p> 
+		            				<p>Eficiência</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir los costos de adquisiciones en un 15%</p>
-									<label>La productividad de la cadena de suministro se puede aumentar en un 15% con SAP S/4 HANA aprovechando las opciones de descuento 
-									en los pagos anticipados, reduciendo el tiempo de adquisici&oacute;n de trabajadores en un tercio y maximizando el orden de inventario y 
-									el seguimiento de materias primas en tiempo real.</label>
-									<button id="verProceso3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Reduzir os custos de aquisições em até 15%</p>
+									<label>A produtividade da cadeia de fornecimento pode ser aumentada em até 15% com SAP S/4 HANA aproveitando as opções de desconto nos pagamentos antecipados, maximizando a ordem de inventário e o acompanhamento de matérias primas em tempo real.</label>
+									<button id="verProceso3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -459,14 +447,13 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/adquisicion.png">
-		            				<p>Adquisici&oacute;n</p> 
+		            				<p>Agilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Aumentar la capacidad de respuesta de las ventas</p>
-									<label>Ad&aacute;ptese r&aacute;pidamente a los cambios en los resultados de producci&oacute;n en el mundo de las ventas hechas a medida. Dirija los 
-									pedidos de los clientes directamente a la f&aacute;brica como pedidos de producci&oacute;n. Alinee la cadena de suministro y la planificaci&oacute;n de ventas.</label>
-									<button id="verProceso4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Aumentar a capacidade de resposta das vendas</p>
+									<label>Adapte-se rapidamente às mudanças nos resultados de produção no mundo das vendas feitas sob medida. Dirija os pedidos dos clientes diretamente para a fábrica como pedidos de produção. Alinhe a cadeia de fornecimento e o planejamento de vendas.</label>
+									<button id="verProceso4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -475,15 +462,13 @@
 		            			<div class="card-front">
 									<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/costo.png">
-		            				<p>Ahorro</p> 
+		            				<p>Eficácia</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Aumente la eficiencia de la operaci&oacute;n hasta en un 60%</p>
-									<label>Con SAP S/4 HANA comience a experimentar total facilidad en la gesti&oacute;n de las operaciones de negocio. Reduzca sus d&iacute;as de ventas pendientes y entregue 
-									facturas de clientes instant&aacute;neas y precisas. Ahora, sus clientes podr&aacute;n experimentar un servicio excelente y entrega puntual, que permanecer&aacute; sin 
-									modificaciones durante la expansi&oacute;n r&aacute;pida.</label>
-									<button id="verProceso5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Aumente a eficiência da operação em até 60%</p>
+									<label>Com SAP S/4 HANA comece a experimentar total facilidade na gestão das operações de negócio. Agora, seus clientes poderão experimentar um serviço excelente e entrega pontual, que permanecerá sem modificações durante a expansão rápida.</label>
+									<button id="verProceso5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -493,7 +478,7 @@
 			<div id="industriaDistribucion-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Distribuci&oacute;n.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Distribuição.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -501,13 +486,13 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/ingresos.png">
-		            				<p>Ingresos</p> 
+		            				<p>Eficiência</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Aumentar la eficiencia de la operaci&oacute;n hasta en un 60%</p>
-									<label>Tener toda la informaci&oacute;n requerida en un solo lugar, significa poder gestionar los inventarios en tiempo real, tener el valor de los materiales, planificar las funciones en un sistema, y as&iacute; poder mejorar la productividad como la participaci&oacute;n de los empleados.</label>
-									<button id="verDistribucion1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Aumentar a eficiência da operação em até 60%</p>
+									<label>Ter toda a informação requerida em um só lugar, significa poder gerenciar os inventários em tempo real, ter o valor dos materiais, planejar as funções em um sistema, e assim poder melhorar a produtividade como a participação dos empregados.</label>
+									<button id="verDistribucion1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -516,13 +501,13 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/comportamiento.png">
-		            				<p>Comportamiento</p> 
+		            				<p>Otimização</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reducir un 30% el inventario</p>
-									<label>SAP S/4 HANA proporciona una administraci&oacute;n de inventarios simplificada hasta el detalle m&aacute;s m&iacute;nimo, con una &uacute;nica fuente de informaci&oacute;n certera y consolidada para analizar la rotaci&oacute;n de inventario, realizar un seguimiento del flujo de materiales y transferencias de stock, y tomar las medidas apropiadas.</label>
-									<button id="verDistribucion2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Reduzir em até 30% o inventário</p>
+									<label>SAP S/4 HANA proporciona uma administração de inventários simplificada até o menor detalhe, com uma única fonte de informação certeira e consolidada para analisar a rotação de inventário, realizar um acompanhamento do fluxo de materiais e transferências de estoque, e tomar as medidas apropriadas.</label>
+									<button id="verDistribucion2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -531,13 +516,13 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/reduccion.png">
-		            				<p>Inventario</p> 
+		            				<p>Eficiência</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">50% de reducci&oacute;n en problemas de cumplimiento de pedidos.</p>
-									<label>SAP S/4HANA proporciona una experiencia de usuario basada en roles, que simplifica y mejora el compromiso y la productividad de los empleados. A trav&eacute;s de un &uacute;nico punto de entrada para identificar f&aacute;cilmente problemas de pedidos y alertas en tiempo real se garantiza que los representantes de ventas internos puedan acceder directamente a sus respectivos documentos y utilizar funciones integradas de colaboraci&oacute;n para resolver problemas r&aacute;pidamente.</label>
-									<button id="verDistribucion3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Reduzir em até 50% problemas de cumprimento de pedidos.</p>
+									<label>SAP S/4 HANA proporciona uma administração de inventários simplificada até o menor detalhe, com uma única fonte de informação certeira e consolidada para analisar a rotação de inventário, realizar um acompanhamento do fluxo de materiais e transferências de estoque, e tomar as medidas apropriadas.</label>
+									<button id="verDistribucion3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -546,13 +531,13 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cumplimiento.png">
-		            				<p>Pedidos</p> 
+		            				<p>Previsão</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Anticipar la demanda futura del cliente</p>
-									<label>Apenas un 20% de los distribuidores mayoristas est&aacute;n en capacidad de utilizar el an&aacute;lisis predictivo para anticipar el comportamiento del cliente. Con SAP S/4 HANA a trav&eacute;s de una experiencia de usuario simplificada, cuenta con informaci&oacute;n clave para comprender la demanda futura y actuar desde ahora.</label>
-									<button id="verDistribucion4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Antecipar a demanda futura do cliente</p>
+									<label>Só 20% dos distribuidores atacadistas estão em condições de utilizar a análise preditiva para antecipar o comportamento do cliente. Com SAP S/4 HANA através de uma experiência de usuário simplificada, conta com informação chave para compreender a demanda futura e atuar a partir de agora.</label>
+									<button id="verDistribucion4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -561,13 +546,13 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
-		            				<p>Tiempo</p> 
+		            				<p>Modernização</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Convertirse en un distribuidor en "tiempo real"</p>
-									<label>Con SAP S/4 HANA, ver&aacute; c&oacute;mo reinventa su negocio pasando de ser un almac&eacute;n de productos que satisfacen la demanda a convertirse en una empresa centrada en la informaci&oacute;n y que la utiliza para abordar ineficiencias operativas de manera proactiva e impactando los resultados finales.</label>
-									<button id="verDistribucion5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Converter-se em um distribuidor em "tempo real"</p>
+									<label>Com SAP S/4 HANA, você verá como reinventar seu negócio passando de um armazém de produtos que satisfaz a demanda para se transformar em uma empresa centrada na informação e que a utiliza para abordar ineficiências operacionais de maneira proativa e impactando nos resultados finais.</label>
+									<button id="verDistribucion5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -577,7 +562,7 @@
 			<div id="industriaHighTech-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Alta Tecnolog&iacute;a.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Alta Tecnologia.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -585,13 +570,13 @@
 		            			<div class="card-front">
 									<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/cotizacion.png">
-		            				<p>Cotizaci&oacute;n</p> 
+		            				<p>Agilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduzca hasta en un 46% las quejas de clientes</p>
-									<label>Haga que el pedido y la facturaci&oacute;n en tiempo real est&eacute;n disponibles para aumentar la entrega puntual, una mayor flexibilidad del modelo comercial y la eficiencia de la gesti&oacute;n de contratos.</label>
-									<button id="verTech1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Reduzir em até 46% as reclamações de clientes</p>
+									<label>Faça com que o pedido e o faturamento em tempo real estejam disponíveis para aumentar a entrega pontual, uma maior flexibilidade do modelo comercial e a eficiência da gestão de contratos.</label>
+									<button id="verTech1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -600,13 +585,13 @@
 		            			<div class="card-front">
 									<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/trabajo.png">
-		            				<p>Procesos</p> 
+		            				<p>Otimização</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduzca los procesos de trabajo radicalmente</p>
-									<label>Con SAP S/4 HANA encuentre ahorros incre&iacute;bles y mu&eacute;vase a un solo sistema para los procesos, desde la compra hasta las finanzas y la contabilidad, hasta el taller de la f&aacute;brica y la administraci&oacute;n de contratos.</label>
-									<button id="verTech2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Reduzir os processos de trabalho radicalmente</p>
+									<label>Com SAP S/4 HANA encontre economias incríveis e passe a ter um sistema único para os processos, da compra até finanças e contabilidade e da fábrica até a gestão de contratos</label>
+									<button id="verTech2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>								
 		            		</div>
 		            	</div>
@@ -615,13 +600,13 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
-		            				<p>Conformidad</p> 
+		            				<p>Evolução</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Acelere sus cotizaciones de soluciones y no solo productos</p>
-									<label>Habilite a sus ejecutivos de cuenta para crear cotizaciones que ofrezcan una soluci&oacute;n completa que se convertir&aacute;n resultados comerciales para sus clientes. No solo productos. Utilice S/4 HANA para tener la visi&oacute;n integral de todas las partes involucradas: software, hardware y servicios asociados.</label>
-									<button id="verTech3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Cotar soluções. Não só produtos</p>
+									<label>Habilite seus executivos de conta para criar cotações que ofereçam uma solução completa, que serão convertidas em resultados de negócio para seus clientes. Utilize SAP S/4 HANA para ter a visão integral de todas as partes envolvidas: software, hardware e serviços associados.</label>
+									<button id="verTech3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -630,13 +615,13 @@
 		            			<div class="card-front">
 									<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/inventario.png">
-		            				<p>Inventario</p> 
+		            				<p>Eficiência</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Optimice su cadena de suministro en un 12%</p>
-									<label>Integre toda su cadena de suministro y obtenga una reducci&oacute;n del 12% en la cantidad de d&iacute;as en el inventario. Logre una reducci&oacute;n de desabastecimiento y un panorama simplificado que genere un ahorro de costos de log&iacute;stica de hasta 10%.</label>
-									<button id="verTech4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Otimizar sua cadeia de fornecimento em até 12%</p>
+									<label>Integre toda a sua cadeia de fornecimento e reduza em até 12% a quantidade de dias no inventário. Alcance uma redução de desabastecimento e um panorama simplificado que gere uma economia de custos de logística de 10%.</label>
+									<button id="verTech4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -645,13 +630,13 @@
 		            			<div class="card-front">
 									<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/fabricacion.png">
-		            				<p>Fabricaci&oacute;n</p> 
+		            				<p>Inovação</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Tome acci&oacute;n sobre los datos de IoT en tiempo real</p>
-									<label>La miniaturizaci&oacute;n de sensores, combinada con un mayor ancho de banda de red, est&aacute; creando un tesoro de datos que es m&aacute;s &uacute;til cuando se analiza y se act&uacute;a en tiempo real. Con SAP S/4 HANA tiene el poder para hacerlo.</label>
-									<button id="verTech5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Tomar ação sobre os dados de IoT em tempo real</p>
+									<label>A miniaturização de sensores, combinada com uma maior banda larga de rede, está criando um tesouro de dados que é mais útil quando analisado e desempenhado em tempo real. Com SAP S/4 HANA você tem o poder para fazê-lo.</label>
+									<button id="verTech5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -661,7 +646,7 @@
 			<div id="industriaBanking-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas son las 5 razones por las que SAP S/4 HANA es la soluci&oacute;n para la industria de <strong>Servicios Financieros.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Serviços Financeiros.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -669,13 +654,13 @@
 		            			<div class="card-front">
 		            				<strong>1</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/maquina.png">
-		            				<p>Seguridad</p> 
+		            				<p>Aceleração</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduce en 30% el tiempo de llegada de nuevos productos.</p>
-									<label>Reducci&oacute;n en el tiempo de llegada al mercado para los nuevos productos por empresas que incorporan procesos de ciclo de vida formales.</label>
-									<button id="verBancking1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Reduzir em até 30% o tempo de chegada de novos produtos.</p>
+									<label>Com SAP S/4 HANA você poderá reduzir o tempo de chegada ao mercado para seus novos produtos, o que lhe permitirá antecipar-se à concorrência e manter seus clientes cativos</label>
+									<button id="verBancking1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -684,13 +669,13 @@
 		            			<div class="card-front">
 		            				<strong>2</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad_2.png">
-		            				<p>Digital</p> 
+		            				<p>Rentabilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Aumenta su rentabilidad</p>
-									<label>Organizaciones que adoptan SAP S/4 HANA generan un 23% m&aacute;s de ingresos al usar el poder de  la informaci&oacute;n para identificar ventajas estrat&eacute;gicas y competitivas.</label>
-									<button id="verBancking2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Aumentar sua rentabilidade</p>
+									<label>Organizações que adotam SAP S/4 HANA geram até 23% mais de receitas ao usar o poder da informação para identificar vantagens estratégicas e competitivas.</label>
+									<button id="verBancking2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -699,13 +684,13 @@
 		            			<div class="card-front">
 		            				<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/expandir.png">
-		            				<p>Clientes</p> 
+		            				<p>Visibilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Mayor visibilidad y disponibilidad de datos</p>
-									<label>Con SAP S/4 HANA cuenta con acceso en tiempo real a los datos financieros con la capacidad de desglosarlos en el nivel de cada &iacute;tem; as&iacute; como una fusi&oacute;n de finanzas y control en un Libro Diario universal, que crea una &uacute;nica fuente de verdad; la funci&oacute;n de finanzas centrales elimina la necesidad de agregados y tablas y de acumular costos en los niveles operativos m&aacute;s bajos</label>
-									<button id="verBancking3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Maior visibilidade e disponibilidade de dados</p>
+									<label>Com SAP S/4 HANA você conta com acesso em tempo real aos dados financeiros com a capacidade de desmembrá-los no nível de cada item. Pode construir e testar situações hipotéticas e aplicar o que aprendeu para tomar melhores decisões e aumentar a eficiência.</label>
+									<button id="verBancking3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -714,13 +699,13 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/rentabilidad.png">
-		            				<p>Inversiones</p> 
+		            				<p>Previsão</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Mayor velocidad, agilidad y precisi&oacute;n de la proyecci&oacute;n</p>
-									<label>Con SAP S/4 HANA los procesos y las funciones de planificaci&oacute;n se integran en el sistema transaccional, permitiendo una planificaci&oacute;n de ciclo cerrado en todos los niveles.  Con esta ventaja, logra una reducci&oacute;n del 25-50% en el tiempo de los ciclos de proyecci&oacute;n e informes financieros.</label>
-									<button id="verBancking4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Maior velocidade, agilidade e precisão da projeção</p>
+									<label>Com SAP S/4 HANA os processos e as funções de planejamento se integram no sistema transacional, permitindo um planejamento de ciclo fechado em todos os níveis. Com esta vantagem, alcança uma redução de 25-50% no tempo dos ciclos de projeção e relatórios financeiros.</label>
+									<button id="verBancking4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -729,15 +714,13 @@
 		            			<div class="card-front">
 		            				<strong>5</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
-		            				<p>Tiempo</p> 
+		            				<p>Agilidade</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Obtener informaci&oacute;n empresarial en tiempo real</p>
-									<label>SAP S/4HANA le permite obtener informaci&oacute;n sobre cualquier informaci&oacute;n de cualquier lugar en tiempo real. Podr&aacute; acelerar dr&aacute;sticamente 
-									la planificaci&oacute;n, ejecuci&oacute;n, predicci&oacute;n y simulaci&oacute;n al m&aacute;s alto nivel de granularidad, sin la engorrosa consolidaci&oacute;n de datos y otros procesos 
-									manuales. Puede construir y probar situaciones hipot&eacute;ticas y aplicar lo que ha aprendido para tomar mejores decisiones y aumentar la eficiencia.</label>
-									<button id="verBancking5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver m&aacute;s</button>
+		            				<p id="title">Obter informação empresarial em tempo real</p>
+									<label>SAP S/4 HANA lhe permite obter informação sobre qualquer informação de qualquer lugar em tempo real. Poderá acelerar drasticamente o planejamento, execução, predição e simulação ao mais alto nível de granularidade, sem a chata consolidação de dados e outros processos manuais.</label>
+									<button id="verBancking5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
 		            	</div>
@@ -749,32 +732,39 @@
 		</div>
 		<div id="window4">
 			<div id="formulario" class="window-center opacity-done">
+				<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-next button-industria button-left button-back" onclick="buttonBack()"><i class="mdi-keyboard_arrow_left"></i></button>
 				<div class="center-container">
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>
 						<div class="mdl-letras inline">
-							<p>principais motivos</p>
-							<h2>por que escolher SAP S/4 HANA</h2>
+							<p>5 razões principais</p>
+							<h2>para escolher SAP S/4 HANA</h2>
 						</div>	
+						<div class="subrayado-title">
+							<div class="subrayado one"></div>
+							<div class="subrayado two"></div>
+							<div class="subrayado three"></div>
+							<div class="subrayado four"></div>
+						</div>
 					</div>
 					<div class="formulario inline">
-						<h2>Temos mais informa&ccedil;&otilde;es para compartilhar com voc&ecirc;.</h2>
-						<p>Complete o formul&aacute;rio para baix&aacute;-lo</p>
+						<h2>Conheça um caso de sucesso em <label class="nameIndustria"></label></h2>
+						<p class="descarga">Preencha o formulário para baixá-lo</p>
 						<form class="mdl-formulario text-left">
 		        			<div class="content-datos">
 		        				<div class="content-personal">
-		        					<p><i class="mdi mdi-arrow_downward"></i>Insira seus dados aqui</p>
+		        					<p><i class="mdi mdi-arrow_downward"></i>•	Introduza aqui seus dados</p>
 		        				</div>
 		        				<div class="content-separacion">
 		        					<p>o</p>
 		        				</div>
 		        				<div class="content-linkedin">
-		        					<a class="button-linkedin" href="<?php  echo "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id={$client_id}&redirect_uri={$redirect_uri}&state={$csrf_token}&scope={$scopes}"; ?>"><i class="fa fa-linkedin" aria-hidden="true"></i>Conectar via LinkedIn</a>
+		        					<a class="button-linkedin" href="<?php  echo "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id={$client_id}&redirect_uri={$redirect_uri}&state={$csrf_token}&scope={$scopes}"; ?>"><i class="fa fa-linkedin" aria-hidden="true"></i>Conecte-se via LinkedIn</a>
 		        				</div>
 		        			</div>
 		    				<div class="col-sm-6">
 		    					<div class="mdl-input">
-								    <input type="text" class="form-control" id="nombre_completo" maxlength="50" onkeypress="return soloLetras(event);" onchange="validarCampos()" placeholder="Nome completo">
+								    <input type="text" class="form-control" id="nombre_completo" maxlength="50" onkeypress="return soloLetras(event);" onchange="validarCampos()" placeholder="Nome Completo">
 								</div>
 		    				</div>
 		    				<div class="col-sm-6">
@@ -799,15 +789,15 @@
 		    				</div>
 		    				<div class="col-sm-6">
 		    					<div class="mdl-select mdl-standar">
-									<select class="selectpicker" id="relacion" name="relacion" title="Relación con SAP">
+									<select class="selectpicker" id="relacion" name="relacion" title="Relação com SAP">
 										<option value="Cliente">Cliente</option>
-										<option value="Cliente em potencial">Cliente em potencial</option>
-										<option value="Consultor">Consultor</option>
-										<option value="Funcionário da SAP">Funcion&aacute;rio da SAP</option>
-										<option value="Estudante">Estudante</option>
-										<option value="Parceiro">Parceiro</option>
-										<option value="Parceiro em potencial">Parceiro em potencial</option>
-										<option value="Imprensa/Analista">Imprensa/Analista</option>
+											<option value="Cliente em potencial">Cliente em potencial</option>
+											<option value="Consultor">Consultor</option>
+											<option value="Funcionário da SAP">Funcion&aacute;rio da SAP</option>
+											<option value="Estudante">Estudante</option>
+											<option value="Parceiro">Parceiro</option>
+											<option value="Parceiro em potencial">Parceiro em potencial</option>
+											<option value="Imprensa/Analista">Imprensa/Analista</option>
 									</select>
 								</div>
 		    				</div>
@@ -821,7 +811,7 @@
 		    					<div class="mdl-input-label">
 		    						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c-email">
 										<input type="radio" id="c-email" class="mdl-radio__button" name="options" value="1">
-										<span class="mdl-radio__label">Por e-mail</span>
+										<span class="mdl-radio__label">Por E-mail</span>
 									</label>
 		    					</div>
 		    					<div class="mdl-input-label">
@@ -840,26 +830,28 @@
 		    				<div class="col-xs-12 mdl-label m-t-10">
 								<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
 									<input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-									<span class="mdl-checkbox__label f-s-14" style="">Li e aceito os <a class="FONDO_TERMINOS" href="https://www.sap.com/corporate/en/legal/terms-of-use.html" target="_blank" style="">termos e condi&ccedil;&otilde;es da SAP</a></span>
+									<span class="mdl-checkbox__label f-s-14" style="">•	Li e aceito os <a class="FONDO_TERMINOS" href="https://www.sap.com/corporate/en/legal/terms-of-use.html" target="_blank" style="">Termos e condições de SAP</a></span>
 								</label>
 		    				</div>
 		    				<div class="col-xs-12 text-right m-t-25">
-								<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-confirmar" onclick="solicitarEstimacion();">Enviar informa&ccedil;&otilde;es</button>
+								<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-confirmar" onclick="solicitarEstimacion();">Enviar Informação</button>
 		    				</div>
 		        		</form>
 					</div>
 				</div>
 			</div>
 			<div class="mdl-agradecimiento window-center opacity-done">
-				<h2>Obrigado por seu interesse</h2>
-				<p>Um representante da SAP entrar&aacute; em contato com voc&ecirc; para ajud&aacute;-lo a dar o primeiro passo.</p>
-				<div class="subrayado-title">
-					<div class="subrayado one"></div>
-					<div class="subrayado two"></div>
-					<div class="subrayado three"></div>
-					<div class="subrayado four"></div>
+				<div class="center-container">
+					<h2>Agradecemos seu interesse</h2>
+					<p>Estamos certos de que SAP S/4 HANA lhe ajudará a acelerar sua transformação digital. Um especialista SAP entrará em contato com você para dar o primeiro passo.</p>
+					<div class="subrayado-title">
+						<div class="subrayado one"></div>
+						<div class="subrayado two"></div>
+						<div class="subrayado three"></div>
+						<div class="subrayado four"></div>
+					</div>
+					<small>Conheça o Caso de Sucesso de uma empresa de nossa região no setor <strong class="nameIndustria"></strong>. Baixa <a id="donwloadCaso" href="#" onclick="returnCaso()">aqui</a></small>
 				</div>
-				<small>Mientras tanto <a href="#" onclick="returnCaso()">vea c&oacute;mo</a> empresas del sector de <strong class="nameIndustria"></strong> est&aacute;n teniendo &eacute;xito con SAP.</small>
 			</div>
 		</div>
 	</section>
@@ -873,7 +865,7 @@
 						<img alt="" src="">
 					</div>
 				    <div class="mdl-card__supporting-text text-left">
-                        <p>Os desafios que enfrentam s&atilde;o</p>
+                        <p>Os desafios que enfrentam são:</p>
                         <ul>
                         	<li class="one"></li>
                         	<li class="two"></li>
@@ -884,7 +876,7 @@
 					</div> 
     				<div class="mdl-card__actions text-right">       				    
                         <button class="mdl-button mdl-js-button mdl-js-ripple-effect" onclick="closeModal()">Fechar</button>        				    
-                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised" onclick="selectIndustria()">Selecione</button>
+                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised" onclick="selectIndustria()">Avançar</button>
                     </div>
                 </div>
             </div>
@@ -916,15 +908,15 @@
 	<script src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>toaster/toastr.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
-    <script src="<?php echo RUTA_JS?>index_pt.js?v=<?php echo time();?>"></script>
+    <script src="<?php echo RUTA_JS?>index_es.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
     	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
         	$('select').selectpicker('mobile');
         } else {
             $('select').selectpicker();
         }
-        $(window).load(function() {
-        	if(<?php echo $pantalla ?> == 5){
+        $(window).load(function(){
+        	if(<?php echo $pantalla ?> == 5) {
         		var formulario = $('#formulario');
 	        	var homePage   = $('#home');
 			    $('.opacity-done').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
@@ -942,6 +934,7 @@
 				$('#empresa').val("<?php echo $comp ?>");
 				$('#pais').val("<?php echo $pais_link ?>");
 				$('#telefono').css('border-color','red');
+				nameIndustria("<?php echo $idIndustria ?>");
         	}
         });
     </script>
