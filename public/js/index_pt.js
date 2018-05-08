@@ -318,7 +318,7 @@ function nameIndustria(idIndustria){
 	casoIndustria = $('#'+idIndustria).find('p').text();
 }
 function returnHome(){
-	location.href = 'es';
+	location.href = 'pt';
 }
 function buttonBack(){
 	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');

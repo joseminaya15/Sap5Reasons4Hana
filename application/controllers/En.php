@@ -231,123 +231,87 @@ class En extends CI_Controller {
        $this->email->to($email);
        $this->email->subject('I am interested in SAP 5 Reasons S/4 Hana for my business.');
         $texto = '<!DOCTYPE html>
-                <html>
-                <body>
-                  <table class="body" cellspacing="0" cellpadding="0" border="0">
-                    <tr>
-                      <td>
-                        <table align="center" cellspacing="0" cellpadding="0" border="0" style="width: 100%;max-width: 600px;margin: 0 auto;background-color: #000000;text-align: center;float: none;">
-                          <tbody>
-                            <tr>
-                              <th>
-                                <table cellspacing="0" cellpadding="0" border="0">
-                                  <tbody>
-                                    <tr>
-                                      <th style="width: 525px;text-align: left;padding-left: 20px;">
-                                        <table cellspacing="0" cellpadding="0" border="0">
-                                          <tbody>
-                                            <tr style="text-align: left;">
-                                              <th style="text-align: left;"><img width="100" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
-                                              <h2 style="color: #FFFFFF;">SAP S/4 HANA</h2>   
-                                            </tr>
-                                          </tbody>
-                                        </table>
-                                      </th>
-                                      <th style="width: 75px;">
-                                        <table cellspacing="0" cellpadding="0" border="0">
-                                          <tbody>
-                                            <tr>
-                                              <td style="height: 100px;width: 25px;background-color: #54442E;"></td>
-                                              <td style="height: 100px;width: 25px;background-color: #8D6832;"></td>
-                                              <td style="height: 100px;width: 25px;background-color: #E29D2E;"></td>
-                                            </tr>
-                                          </tbody>
-                                        </table>
-                                      </th>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </th>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <table align="center" style="width: 100%;border:1px solid #000000;max-width: 600px;margin: 5px auto;;text-align: center;float: none;background-color: #FFFFFF;">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <table align="center" cellspacing="0" cellpadding="0" style="text-align: center;margin: auto;">
-                                  <tbody>
-                                    <tr>
-                                      <td style="padding: 20px 40px 10px 40px;">
-                                        <font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">Thank you for your interest</font>
-                                      </td>
-                                    </tr>
-                                    <tr>
-                                      <td style="padding:10px 40px 20px 40px;">
-                                        <font style="color: #000000;font-size:14px;font-family: arial;">A SAP representative will contact you shortly.</font>
-                                      </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <table style="width: 100%;">
-                                  <tbody>
-                                    <tr style="padding: 25px;margin: 30px;">
-                                      <td style="text-align: center;"><font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">Customer Information</h2></font>
-                                    </tr>
-                                    <tr>
-                                      <table style="padding: 20px;">
+                    <html>
+                      <body>
+                        <table align="center" width="600px" class="body" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td>
+                              <table align="center" width="600px" cellspacing="0" cellpadding="0" border="0" style="margin: 0 auto;background-color: #000000;text-align: center;float: none;">
+                                <tbody>
+                                  <tr>
+                                    <th>
+                                      <table cellspacing="0" cellpadding="0" border="0">
                                         <tbody>
-                                          <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Industry:</font></td>
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$industria.'</font></td>
+                                          <tr>
+                                            <th style="width: 525px;text-align: left;padding-left: 20px;">
+                                              <table cellspacing="0" cellpadding="0" border="0">
+                                                <tbody>
+                                                  <tr style="text-align: left;">
+                                                    <th style="text-align: left;"><img width="100" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
+                                                    <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">S/4 HANA - TOP 5 REASONS</font></th>   
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </th>
+                                            <th style="width: 75px;">
+                                              <table cellspacing="0" cellpadding="0" border="0">
+                                                <tbody>
+                                                  <tr>
+                                                    <td style="height: 100px;width: 25px;background-color: #54442E;"></td>
+                                                    <td style="height: 100px;width: 25px;background-color: #8D6832;"></td>
+                                                    <td style="height: 100px;width: 25px;background-color: #E29D2E;"></td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </th>
                                           </tr>
-                                          <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Customer:</font></td>
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$nombre_completo.'</font></td>
+                                        </tbody>
+                                      </table>
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <table align="center" style="width: 100%;border:1px solid #000000;max-width: 600px;margin: 5px auto;;text-align: center;float: none;background-color: #FFFFFF;">
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <table align="center" cellspacing="0" cellpadding="0" style="text-align: center;margin: auto;">
+                                        <tbody>
+                                          <tr>
+                                            <td style="padding: 20px 40px 10px 40px;">
+                                              <font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">Thanks for your participation</font>
+                                            </td>
                                           </tr>
-                                          <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Position:</font></td>
-                                            <td style="text-align: left;"><font  style="margin: 3px 0;font-family: arial;">'.$cargo.'</font></td>
+                                          <tr>
+                                            <td style="padding:10px 40px 20px 40px;">
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">We are confident that our SAP S/4 HANA solution will help you accelerate the benefits of digital transformation in your company.</font>
+                                            </td>
                                           </tr>
-                                          <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Company:</font></td>
-                                            <td style="text-align: left;"><font style="font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$empresa.'</font></td>
+                                          <tr>
+                                            <td style="padding:10px 40px 20px 40px;">
+                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">We invite you to download a recent study by <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/pt/'.$industria.'.pdf">Oxford Economics</a> for your industry.</font>
+                                            </td>
                                           </tr>
-                                          <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Phone:</font></td>
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$telefono.'</font></td>
+                                          <tr>
+                                            <td style="padding:10px 40px 20px 40px;">
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">Very soon a SAP specialist will contact you to deepen your requirement.</font>
+                                            </td>
                                           </tr>
-                                          <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Email:</font></td>
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$email.'</font></td>
-                                          </tr>
-                                          <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Relationship with SAP:</font></td>
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$relacion.'</font></td>
-                                          </tr>
-                                          <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Country:</font></td>
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$pais.'</font></td>
-                                          </tr>
-                                          <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Please contact me:</font></td>
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$contact.'</font></td>
+                                          <tr>
+                                            <td style="padding:10px 40px 20px 40px;">
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">SAP Latinoamérica</font>
+                                            </td>
                                           </tr>
                                         </tbody>
                                       </table>
                                     </td>
                                   </tr>
-                                </tbody>
                               </table>
                             </td>
                           </tr>
                         </table>
                       </body>
-                </html>';
+                    </html>';
         $this->email->message($texto);
         $this->email->send();
         $data['error'] = EXIT_SUCCESS;

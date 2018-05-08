@@ -1,7 +1,8 @@
 /*FRONT*/
-var modal       = $('#ModalIndustria');
-var modalMas    = $('#ModalMasIndustria');
-var idIndustria = null;
+var modal         = $('#ModalIndustria');
+var modalMas      = $('#ModalMasIndustria');
+var idIndustria   = null;
+var casoIndustria = null;
 function modalIndustria(id){
 	var cardIndustria  = $('#'+id);
 	var img_modal      = cardIndustria.find('img');
@@ -282,28 +283,42 @@ function openIndustria(id){
     modalMas.modal('toggle');
 }
 function returnCaso(){
+	var nameCaso = casoIndustria;
+	var linkCaso = $('#donwloadCaso');
+	linkCaso.attr({
+		href: 'http://www.sap-latam.com/5reasons_hana/public/casos/'+nameCaso+'.zip'
+	});
 	setTimeout(function(){ 
 		location.reload();
 	}, 4000);
 }
 function nameIndustria(idIndustria){
-	if(idIndustria == 'industriaServicio')
+	if(idIndustria == 'industriaServicio'){
 		$('.nameIndustria').text('Professional services');
-	else if(idIndustria == 'industriaRetail')
+		// $('.nameCompany').text('Ripley');
+	}else if(idIndustria == 'industriaRetail'){
 		$('.nameIndustria').text('Retail');
-	else if(idIndustria == 'industriaProducto')
+		// $('.nameCompany').text('Ripley');
+	}else if(idIndustria == 'industriaProducto'){
 		$('.nameIndustria').text('Consumer products');
-	else if(idIndustria == 'industriaProceso')
+		// $('.nameCompany').text('Ripley');
+	}else if(idIndustria == 'industriaProceso'){
 		$('.nameIndustria').text('Process and Manufacturing');
-	else if(idIndustria == 'industriaDistribucion')
+		// $('.nameCompany').text('Ripley');
+	}else if(idIndustria == 'industriaDistribucion'){
 		$('.nameIndustria').text('Distribution');
-	else if(idIndustria == 'industriaHighTech')
+		// $('.nameCompany').text('Ripley');
+	}else if(idIndustria == 'industriaHighTech'){
 		$('.nameIndustria').text('High Tech');
-	else
+		// $('.nameCompany').text('Ripley');
+	}else{
 		$('.nameIndustria').text('Banking');
+		// $('.nameCompany').text('Ripley');
+	}
+	casoIndustria = $('#'+idIndustria).find('p').text();
 }
 function returnHome(){
-	location.href = 'es';
+	location.href = 'en';
 }
 function buttonBack(){
 	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');

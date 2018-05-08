@@ -852,6 +852,7 @@
 						<div class="subrayado four"></div>
 					</div>
 					<small>Learn about the success of a company in our region in the Professional Services sector. <strong class="nameIndustria"></strong> Download <a id="donwloadCaso" href="#" onclick="returnCaso()">here</a></small>
+					<!-- <small>Learn about the success of <strong class="nameCompany"></strong> in the Professional Services sector. <strong class="nameIndustria"></strong> Download <a id="donwloadCaso" href="#" onclick="returnCaso()">here</a></small> -->
 				</div>
 			</div>
 		</div>
