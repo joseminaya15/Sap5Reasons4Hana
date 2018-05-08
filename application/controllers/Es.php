@@ -317,7 +317,7 @@ class Es extends CI_Controller {
                           </tr>
                         </table>
                       </body>
-                    </html>';
+                    </html>'; 
         $this->email->message($texto);
         $this->email->send();
         $data['error'] = EXIT_SUCCESS;
