@@ -293,20 +293,28 @@ function returnCaso(){
 	}, 4000);
 }
 function nameIndustria(idIndustria){
-	if(idIndustria == 'industriaServicio')
+	if(idIndustria == 'industriaServicio'){
 		$('.nameIndustria').text('Servicios Profesionales');
-	else if(idIndustria == 'industriaRetail')
+		// $('.nameCompany').text('Ripley');
+	}else if(idIndustria == 'industriaRetail'){
 		$('.nameIndustria').text('Retail');
-	else if(idIndustria == 'industriaProducto')
+		// $('.nameCompany').text('Saga');
+	}else if(idIndustria == 'industriaProducto'){
 		$('.nameIndustria').text('Productos de Consumo');
-	else if(idIndustria == 'industriaProceso')
+		// $('.nameCompany').text('Cineplanet');
+	}else if(idIndustria == 'industriaProceso'){
 		$('.nameIndustria').text('Proceso y Manufactura');
-	else if(idIndustria == 'industriaDistribucion')
+		// $('.nameCompany').text('Merino');
+	}else if(idIndustria == 'industriaDistribucion'){
 		$('.nameIndustria').text('Distribución');
-	else if(idIndustria == 'industriaHighTech')
+		// $('.nameCompany').text('BrainRed');
+	}else if(idIndustria == 'industriaHighTech'){
 		$('.nameIndustria').text('Alta tecnología');
-	else
+		// $('.nameCompany').text('BrainBlue');
+	}else{
 		$('.nameIndustria').text('Servicios Financieros');
+		// $('.nameCompany').text('Imagente');
+	}
 	casoIndustria = $('#'+idIndustria).find('p').text();
 }
 function returnHome(){
