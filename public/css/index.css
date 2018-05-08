@@ -78,19 +78,19 @@ p{
     width: 100%;
     background-color: #000000;
     z-index: 10;
+    display: flex;
+    align-items: center;
 }
 .header-left{
     padding: 20px 0 19px 25px;
-    float: left;
 }
 .header-right{
-    float: right;
     height: 68px;
-    max-width: 175px;
     width: 100%;
     display: flex;
     display: -webkit-flex;
     align-items: center;
+    justify-content: flex-end;
 }
 .header-right .mdl-idioma{
 	float: left;
@@ -1033,7 +1033,6 @@ button.button-left{
         padding: 0;
     }
     .header-right{
-        max-width: 142px;
         height: 62px;
     }
     .header-right .background1, .header-right .background2, .header-right .background3{
