@@ -22,7 +22,7 @@ class En extends CI_Controller {
       $data['pais_link']     = $this->session->userdata('pais_linke') == null ? '' : $this->session->userdata('pais_linke');
       $data['idIndustria']   = '';
       $data['client_id']     = "789et516nyl9vy";
-      $data['client_secret'] = "uN8FzWMngIBxxssc";
+      $data['client_secret'] = "uN8FzWMngIBxxssc"; 
       $data['redirect_uri']  = "http://www.sap-latam.com/5reasons_hana/callback";
       $data['csrf_token']    = random_int(22222222, 99999999);
       $data['scopes']        = "r_basicprofile%20r_emailaddress";

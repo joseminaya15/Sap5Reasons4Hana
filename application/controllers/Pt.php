@@ -78,7 +78,7 @@ class Pt extends CI_Controller {
             if($contacto == 3){
               $contact = 'por email y teléfono';
             }else if($contacto == 2){
-              $contact = 'por teléfono';
+              $contact = 'por teléfono'; 
             }else if($contacto == 1){
               $contact = 'por Email';
             }
