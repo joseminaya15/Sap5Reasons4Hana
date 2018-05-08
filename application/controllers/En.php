@@ -85,17 +85,19 @@ class En extends CI_Controller {
             }
             $industria = $this->session->userdata('industria');
             $this->load->library('email');
-            $configGmail = array('protocol'  => 'smtp',
-                                 'smtp_host' => 'smtpout.secureserver.net',
-                                 'smtp_port' => 3535,
-                                 'smtp_user' => 'info@sap-latam.com',
-                                 'smtp_pass' => 'sapinfo18',
-                                 'mailtype'  => 'html',
-                                 'charset'   => 'utf-8',
-                                 'newline'   => "\r\n");
-            $this->email->initialice($configGmail);
+            $configGmail = array(
+                                  'protocol'  => 'smtp',
+                                  'smtp_host' => 'smtpout.secureserver.net',
+                                  'smtp_port' => 3535,
+                                  'smtp_user' => 'info@marketinghpe.com',
+                                  'smtp_pass' => 'hpeinfo18',
+                                  'mailtype'  => 'html',
+                                  'charset'   => 'utf-8',
+                                  'newline'   => "\r\n"
+                                );    
+            $this->email->initialize($configGmail);
             $this->email->from('info@sap-latam.com');
-            $this->email->to('jhonatanibericom@gmail.com');//Giovanna.bergamo@sap.com,anali.vidal@sap.com,alejandra.hamelink@sap.com
+            $this->email->to($email);
             $this->email->subject("I'm interested in SAP 5 Reasons 4 Hana");
             $texto = '<!DOCTYPE html>
                       <html>
