@@ -141,7 +141,7 @@ class Pt extends CI_Controller {
                                     <table style="padding: 20px;" cellspacing="0" cellpadding="0" border="0">
                                       <tbody>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Industria:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Indústria:</font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$industria.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
@@ -161,7 +161,7 @@ class Pt extends CI_Controller {
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$telefono.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Email:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">E-mail:</font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$email.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
@@ -173,7 +173,7 @@ class Pt extends CI_Controller {
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$pais.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Quero ser contatado:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Quero que entrem em contato comigo:</font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$contact.'</font></td>
                                         </tr>
                                       </tbody>
@@ -278,7 +278,7 @@ class Pt extends CI_Controller {
                                     </tr>
                                     <tr>
                                       <td style="padding:10px 40px 20px 40px;">
-                                        <font style="color: #000000;font-size:14px;font-family: arial;">Um representante da SAP entrar&aacute; em contato com voc&ecirc; para ajud&aacute;-lo a dar o primeiro passo.</font>
+                                        <font style="color: #000000;font-size:14px;font-family: arial;">Um representante de SAP entrará em contato com você em breve.</font>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -296,7 +296,7 @@ class Pt extends CI_Controller {
                                       <table style="padding: 20px;">
                                         <tbody>
                                           <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Industria:</font></td>
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Indústria:</font></td>
                                             <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$industria.'</font></td>
                                           </tr>
                                           <tr style="padding: 0 20px;">
@@ -316,7 +316,7 @@ class Pt extends CI_Controller {
                                             <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$telefono.'</font></td>
                                           </tr>
                                           <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Email:</font></td>
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">E-mail:</font></td>
                                             <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$email.'</font></td>
                                           </tr>
                                           <tr style="padding: 0 20px;">
@@ -328,7 +328,7 @@ class Pt extends CI_Controller {
                                             <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$pais.'</font></td>
                                           </tr>
                                           <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Quero ser contatado:</font></td>
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Quero que entrem em contato comigo:</font></td>
                                             <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$contact.'</font></td>
                                           </tr>
                                         </tbody>

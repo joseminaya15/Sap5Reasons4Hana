@@ -221,6 +221,7 @@ class Es extends CI_Controller {
           $contact = 'por Email';
         }
         $industria = $this->session->userdata('industria');
+       $this->load->library('email');
        $configGmail = array(
                             'protocol'  => 'smtp',
                             'smtp_host' => 'smtpout.secureserver.net',

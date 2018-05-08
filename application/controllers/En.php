@@ -76,12 +76,12 @@ class En extends CI_Controller {
             if($contacto == null || $contacto == ''){
               $contact = '';
             }
-            if($_SESSION['Contacto'] == 3){
-              $contact = 'By email and phone';
-            }else if($_SESSION['Contacto'] == 2){
-              $contact = 'By phone';
-            }else if($_SESSION['Contacto'] == 1){
-              $contact = 'By email';
+            if($contacto == 3){
+              $contact = 'por email y teléfono';
+            }else if($contacto == 2){
+              $contact = 'por teléfono';
+            }else if($contacto == 1){
+              $contact = 'por Email';
             }
             $industria = $this->session->userdata('industria');
             $this->load->library('email');
@@ -143,11 +143,11 @@ class En extends CI_Controller {
                                     <table style="padding: 20px;" cellspacing="0" cellpadding="0" border="0">
                                       <tbody>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Industria:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Industry:</font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$industria.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Client:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Customer:</font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$nombre_completo.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
@@ -175,7 +175,7 @@ class En extends CI_Controller {
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$pais.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">I’d like to be contacted:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Please contact me:</font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$contact.'</font></td>
                                         </tr>
                                       </tbody>
@@ -276,12 +276,12 @@ class En extends CI_Controller {
                                   <tbody>
                                     <tr>
                                       <td style="padding: 20px 40px 10px 40px;">
-                                        <font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">Gracias por su interés</font>
+                                        <font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">Thank you for your interest</font>
                                       </td>
                                     </tr>
                                     <tr>
                                       <td style="padding:10px 40px 20px 40px;">
-                                        <font style="color: #000000;font-size:14px;font-family: arial;">A SAP representative will contact you to help you take the first step.</font>
+                                        <font style="color: #000000;font-size:14px;font-family: arial;">A SAP representative will contact you shortly.</font>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -299,11 +299,11 @@ class En extends CI_Controller {
                                       <table style="padding: 20px;">
                                         <tbody>
                                           <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Industria:</font></td>
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Industry:</font></td>
                                             <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$industria.'</font></td>
                                           </tr>
                                           <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Client:</font></td>
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Customer:</font></td>
                                             <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$nombre_completo.'</font></td>
                                           </tr>
                                           <tr style="padding: 0 20px;">
@@ -331,7 +331,7 @@ class En extends CI_Controller {
                                             <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$pais.'</font></td>
                                           </tr>
                                           <tr style="padding: 0 20px;">
-                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">I’d like to be contacted:</font></td>
+                                            <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Please contact me:</font></td>
                                             <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$contact.'</font></td>
                                           </tr>
                                         </tbody>
@@ -372,6 +372,21 @@ class En extends CI_Controller {
       try {
         $datos = $this->input->post('datos');
         $this->session->set_userdata(array('industria' => $datos));
+        $data['error'] = EXIT_SUCCESS;
+      }catch(Exception $e){
+        $data['msj'] = $e->getMessage();
+      }
+      echo json_encode($data);
+  }
+  function selectIndustria(){
+    $data['error'] = EXIT_ERROR;
+    $data['msj']   = null;
+      try {
+        $idIndustria = $this->input->post('idIndustria');
+        if($idIndustria == null || $idIndustria == ''){
+            throw new Exception("Error Processing Request", 1);
+        }
+        $this->session->set_userdata(array('idIndustria' => $idIndustria));
         $data['error'] = EXIT_SUCCESS;
       }catch(Exception $e){
         $data['msj'] = $e->getMessage();
