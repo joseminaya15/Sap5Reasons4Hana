@@ -74,24 +74,26 @@ class Pt extends CI_Controller {
             if($contacto == null || $contacto == ''){
               $contact = '';
             }
-            if($_SESSION['Contacto'] == 3){
-              $contact = 'By email and phone';
-            }else if($_SESSION['Contacto'] == 2){
-              $contact = 'By phone';
-            }else if($_SESSION['Contacto'] == 1){
-              $contact = 'By email';
+            if($contacto == 3){
+              $contact = 'por email y teléfono';
+            }else if($contacto == 2){
+              $contact = 'por teléfono';
+            }else if($contacto == 1){
+              $contact = 'por Email';
             }
             $industria = $this->session->userdata('industria');
             $this->load->library('email');
-            $configGmail = array('protocol'  => 'smtp',
-                                 'smtp_host' => 'smtpout.secureserver.net',
-                                 'smtp_port' => 3535,
-                                 'smtp_user' => 'info@sap-latam.com',
-                                 'smtp_pass' => 'sapinfo18',
-                                 'mailtype'  => 'html',
-                                 'charset'   => 'utf-8',
-                                 'newline'   => "\r\n");
-            $this->email->initialice($configGmail);
+            $configGmail = array(
+                                  'protocol'  => 'smtp',
+                                  'smtp_host' => 'smtpout.secureserver.net',
+                                  'smtp_port' => 3535,
+                                  'smtp_user' => 'info@marketinghpe.com',
+                                  'smtp_pass' => 'hpeinfo18',
+                                  'mailtype'  => 'html',
+                                  'charset'   => 'utf-8',
+                                  'newline'   => "\r\n"
+                                );    
+            $this->email->initialize($configGmail);
             $this->email->from('info@sap-latam.com');
             $this->email->to('jhonatanibericom@gmail.com');
             $this->email->subject('Estou interessado no SAP 5 Razões 4 Hana para o minha empresa.');

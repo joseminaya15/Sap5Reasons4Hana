@@ -753,7 +753,7 @@
 						<form class="mdl-formulario text-left">
 		        			<div class="content-datos">
 		        				<div class="content-personal">
-		        					<p><i class="mdi mdi-arrow_downward"></i>•	Introduza aqui seus dados</p>
+		        					<p><i class="mdi mdi-arrow_downward"></i>Introduza aqui seus dados</p>
 		        				</div>
 		        				<div class="content-separacion">
 		        					<p>o</p>
@@ -830,7 +830,7 @@
 		    				<div class="col-xs-12 mdl-label m-t-10">
 								<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
 									<input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-									<span class="mdl-checkbox__label f-s-14" style="">•	Li e aceito os <a class="FONDO_TERMINOS" href="https://www.sap.com/corporate/en/legal/terms-of-use.html" target="_blank" style="">Termos e condições de SAP</a></span>
+									<span class="mdl-checkbox__label f-s-14" style="">Li e aceito os <a class="FONDO_TERMINOS" href="https://www.sap.com/corporate/en/legal/terms-of-use.html" target="_blank" style="">Termos e condições de SAP</a></span>
 								</label>
 		    				</div>
 		    				<div class="col-xs-12 text-right m-t-25">
