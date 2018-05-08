@@ -20,6 +20,7 @@ class En extends CI_Controller {
       $data['comp']          = $this->session->userdata('compania') == null ? '' : $this->session->userdata('compania');
       $data['tit']           = $this->session->userdata('titulo') == null ? '' : $this->session->userdata('titulo');
       $data['pais_link']     = $this->session->userdata('pais_linke') == null ? '' : $this->session->userdata('pais_linke');
+      $data['idIndustria']   = '';
       $data['client_id']     = "789et516nyl9vy";
       $data['client_secret'] = "uN8FzWMngIBxxssc";
       $data['redirect_uri']  = "http://www.sap-latam.com/5reasons_hana/callback";
