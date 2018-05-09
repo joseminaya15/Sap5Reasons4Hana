@@ -286,7 +286,7 @@ class Pt extends CI_Controller {
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">Convidamos você a baixar um estudo recente da <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/pt/'.$industria.'.pdf">Oxford Economics</a> para o seu setor.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">Convidamos você a baixar um estudo recente da <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/pt/'.$this->session->userdata('industriaPdf').'.pdf">Oxford Economics</a> para o seu setor.</font>
                                             </td>
                                           </tr>
                                           <tr>
@@ -333,8 +333,24 @@ class Pt extends CI_Controller {
     $data['error'] = EXIT_ERROR;
     $data['msj']   = null;
       try {
-        $datos = $this->input->post('datos');
-        $this->session->set_userdata(array('industria' => $datos));
+        $datos    = $this->input->post('datos');
+        $datosPdf = $this->input->post('datosPdf');
+        $this->session->set_userdata(array('industria' => $datos,'industriaPdf' => $datosPdf));
+        $data['error'] = EXIT_SUCCESS;
+      }catch(Exception $e){
+        $data['msj'] = $e->getMessage();
+      }
+      echo json_encode($data);
+  }
+  function selectIndustria(){
+    $data['error'] = EXIT_ERROR;
+    $data['msj']   = null;
+      try {
+        $idIndustria = $this->input->post('idIndustria');
+        if($idIndustria == null || $idIndustria == ''){
+            throw new Exception("Error Processing Request", 1);
+        }
+        $this->session->set_userdata(array('idIndustria' => $idIndustria));
         $data['error'] = EXIT_SUCCESS;
       }catch(Exception $e){
         $data['msj'] = $e->getMessage();

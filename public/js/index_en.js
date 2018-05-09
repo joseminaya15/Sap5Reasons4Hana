@@ -294,13 +294,13 @@ function returnCaso(){
 }
 function nameIndustria(idIndustria){
 	if(idIndustria == 'industriaServicio'){
-		$('.nameIndustria').text('Professional services');
+		$('.nameIndustria').text('Professional Services');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaRetail'){
 		$('.nameIndustria').text('Retail');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaProducto'){
-		$('.nameIndustria').text('Consumer products');
+		$('.nameIndustria').text('Consumer Products');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaProceso'){
 		$('.nameIndustria').text('Process and Manufacturing');
@@ -309,10 +309,10 @@ function nameIndustria(idIndustria){
 		$('.nameIndustria').text('Distribution');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaHighTech'){
-		$('.nameIndustria').text('High Tech');
+		$('.nameIndustria').text('High Technology');
 		// $('.nameCompany').text('Ripley');
 	}else{
-		$('.nameIndustria').text('Banking');
+		$('.nameIndustria').text('Financial Services');
 		// $('.nameCompany').text('Ripley');
 	}
 	casoIndustria = $('#'+idIndustria).find('p').text();
@@ -341,10 +341,13 @@ function buttonBack(){
 	$('#formulario').addClass('animated fadeOutRight');
 	$('.button-industria').css("display","block");
 }
-function getDatos(datos){
+function getDatos(datos,datosPdf){
 	$.ajax({
-		data : {datos : datos},
-		url  : 'en/getDatos',
+		data : {
+			datos    : datos,
+			datosPdf : datosPdf
+		},
+		url  : 'es/getDatos',
 		type : 'POST'
 	}).done(function(data){
 		try{

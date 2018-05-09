@@ -309,7 +309,7 @@ function nameIndustria(idIndustria){
 		$('.nameIndustria').text('Distribución');
 		// $('.nameCompany').text('BrainRed');
 	}else if(idIndustria == 'industriaHighTech'){
-		$('.nameIndustria').text('Alta tecnología');
+		$('.nameIndustria').text('Alta Tecnología');
 		// $('.nameCompany').text('BrainBlue');
 	}else{
 		$('.nameIndustria').text('Servicios Financieros');
@@ -341,9 +341,12 @@ function buttonBack(){
 	$('#formulario').addClass('animated fadeOutRight');
 	$('.button-industria').css("display","block");
 }
-function getDatos(datos){
+function getDatos(datos,datosPdf){
 	$.ajax({
-		data : {datos : datos},
+		data : {
+			datos    : datos,
+			datosPdf : datosPdf
+		},
 		url  : 'es/getDatos',
 		type : 'POST'
 	}).done(function(data){

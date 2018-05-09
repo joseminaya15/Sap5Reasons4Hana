@@ -294,19 +294,19 @@ function returnCaso(){
 }
 function nameIndustria(idIndustria){
 	if(idIndustria == 'industriaServicio'){
-		$('.nameIndustria').text('Serviços profissionais');
+		$('.nameIndustria').text('Serviços Profissionais');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaRetail'){
 		$('.nameIndustria').text('Retail');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaProducto'){
-		$('.nameIndustria').text('Produtos de consumo');
+		$('.nameIndustria').text('Produtos de Consumo');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaProceso'){
-		$('.nameIndustria').text('Processo e fabricação');
+		$('.nameIndustria').text('Processo e Manufatura');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaDistribucion'){
-		$('.nameIndustria').text('Distribuiçáo');
+		$('.nameIndustria').text('Distribuição');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaHighTech'){
 		$('.nameIndustria').text('Alta tecnologia');
@@ -341,10 +341,13 @@ function buttonBack(){
 	$('#formulario').addClass('animated fadeOutRight');
 	$('.button-industria').css("display","block");
 }
-function getDatos(datos){
+function getDatos(datos,datosPdf){
 	$.ajax({
-		data : {datos : datos},
-		url  : 'pt/getDatos',
+		data : {
+			datos    : datos,
+			datosPdf : datosPdf
+		},
+		url  : 'es/getDatos',
 		type : 'POST'
 	}).done(function(data){
 		try{

@@ -73,7 +73,7 @@
 					<div class="industrias inline">
 						<h2>Seleccione su industria</h2>
 						<div id="industriaServicio" class="mdl-industrias" onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Servicios Profesionales')">Servicios Profesionales</p>
+							<p class="inline" onclick="getDatos('Servicios Profesionales','ServiciosProfesionales')">Servicios Profesionales</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/servicios.png">
 							<div class="one none">Actualizar y reducir los procesos financieros.</div>
 							<div class="two none">Tomar decisiones basadas en datos en tiempo real.</div>
@@ -91,7 +91,7 @@
 							<div class="five none">Mejorar la experiencia del cliente.</div>
 						</div>
 						<div id="industriaProducto" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Productos de Consumo')">Productos de Consumo</p>
+							<p class="inline" onclick="getDatos('Productos de Consumo','ProductosConsumo')">Productos de Consumo</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/productos.png">
 							<div class="one none">Trabajar con informaci&oacute;n en tiempo real de inventarios y del flujo de los materiales.</div>
 							<div class="two none">Crear valor en un mundo digital donde el consumidor est&aacute; a cargo.</div>
@@ -100,7 +100,7 @@
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaProceso" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Proceso y Manufactura')">Proceso y Manufactura</p>
+							<p class="inline" onclick="getDatos('Proceso y Manufactura','ProcesoManufactura')">Proceso y Manufactura</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/procesos.png">
 							<div class="one none">Mercado din&aacute;mico, variabilidad de la demanda y plazos de entrega ajustados.</div>
 							<div class="two none">Mantener la m&aacute;s alta calidad a precios competitivos.</div>
@@ -109,7 +109,7 @@
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaDistribucion" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Distribución')">Distribuci&oacute;n</p>
+							<p class="inline" onclick="getDatos('Distribución','Distribucion')">Distribuci&oacute;n</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/distribucion.png">
 							<div class="one none">Mejorar la capacidad y puntualidad en el despacho de pedidos.</div>
 							<div class="two none">Reducir costos de abastecimiento, planificaci&oacute;n y precisi&oacute;n en el inventario.</div>
@@ -118,7 +118,7 @@
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaHighTech" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Alta Tecnología')">Alta Tecnología</p>
+							<p class="inline" onclick="getDatos('Alta Tecnología','AltaTecnologia')">Alta Tecnología</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/tech.png">
 							<div class="one none">La velocidad del cambio tecnol&oacute;gico perjudica las perspectivas de crecimiento de su organizaci&oacute;n.</div>
 							<div class="two none">La demanda de productos inteligentes conectados, acelera la necesidad de nuevas funcionalidades de cadena de suministro digital.</div>
@@ -127,7 +127,7 @@
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Servicios Financieros')">Servicios Financieros</p>
+							<p class="inline" onclick="getDatos('Servicios Financieros','ServiciosFinancieros')">Servicios Financieros</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/banking.png">
 							<div class="one none">Adoptar e incorporar con rapidez soluciones m&oacute;viles que sean intuitivas para aplicaciones de servicios, ventas, cajeros y sucursales.</div>
 							<div class="two none">Involucrar a los clientes con una experiencia digital multicanal en tiempo real.</div>

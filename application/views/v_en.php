@@ -73,7 +73,7 @@
 					<div class="industrias inline">
 						<h2>Select an industry</h2>
 						<div id="industriaServicio" class="mdl-industrias" onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Professional Services')">Professional Services</p>
+							<p class="inline" onclick="getDatos('Professional Services','ProfessionalServices')">Professional Services</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/servicios.png">
 							<div class="one none">Update and reduce financial processes.</div>
 							<div class="two none">Make decisions based on data in real time.</div>
@@ -82,7 +82,7 @@
 							<div class="five none">Offer the customer a service of excellence.</div>
 						</div>
 						<div id="industriaRetail" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Retail')">Retail</p>
+							<p class="inline" onclick="getDatos('Retail','Retail')">Retail</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/retail.png">
 							<div class="one none">Get more income.</div>
 							<div class="two none">Increase profitability.</div>
@@ -91,7 +91,7 @@
 							<div class="five none">Improve customer experience.</div>
 						</div>
 						<div id="industriaProducto" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Consumer products')">Consumer products</p>
+							<p class="inline" onclick="getDatos('Consumer Products','ConsumerProducts')">Consumer Products</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/productos.png">
 							<div class="one none">Work with information in real time of inventories and the flow of materials.</div>
 							<div class="two none">Create value in a digital world where the consumer is in charge.</div>
@@ -100,7 +100,7 @@
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaProceso" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Process and Manufacturing')">Process and Manufacturing</p>
+							<p class="inline" onclick="getDatos('Process and Manufacturing','ProcessManufacturing')">Process and Manufacturing</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/procesos.png">
 							<div class="one none">Dynamic market, demand variability and adjusted delivery times.</div>
 							<div class="two none">Maintain the highest quality at competitive prices.</div>
@@ -109,7 +109,7 @@
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaDistribucion" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Distribution')">Distribution</p>
+							<p class="inline" onclick="getDatos('Distribution','Distribution')">Distribution</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/distribucion.png">
 							<div class="one none">Improve the capacity and punctuality in the dispatch of orders.</div>
 							<div class="two none">Reduce supply costs, planning and precision in the inventory.</div>
@@ -118,7 +118,7 @@
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaHighTech" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('High technology')">High technology</p>
+							<p class="inline" onclick="getDatos('High Technology','HighTechnology')">High Technology</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/tech.png">
 							<div class="one none">The speed of technological change harms the growth prospects of your organization.</div>
 							<div class="two none">The demand for connected smart products accelerates the need for new digital supply chain functionalities.</div>
@@ -127,7 +127,7 @@
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Servicios Financieros')">Financial services</p>
+							<p class="inline" onclick="getDatos('Financial Services','FinancialServices')">Financial Services</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/banking.png">
 							<div class="one none">Adopt and quickly incorporate mobile solutions that are intuitive for service, sales, terminal and branch applications.</div>
 							<div class="two none">Involve customers with a multichannel digital experience in real time.</div>
