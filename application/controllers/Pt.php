@@ -333,8 +333,24 @@ class Pt extends CI_Controller {
     $data['error'] = EXIT_ERROR;
     $data['msj']   = null;
       try {
-        $datos = $this->input->post('datos');
-        $this->session->set_userdata(array('industria' => $datos));
+        $datos    = $this->input->post('datos');
+        $datosPdf = $this->input->post('datosPdf');
+        $this->session->set_userdata(array('industria' => $datos,'industriaPdf' => $datosPdf));
+        $data['error'] = EXIT_SUCCESS;
+      }catch(Exception $e){
+        $data['msj'] = $e->getMessage();
+      }
+      echo json_encode($data);
+  }
+  function selectIndustria(){
+    $data['error'] = EXIT_ERROR;
+    $data['msj']   = null;
+      try {
+        $idIndustria = $this->input->post('idIndustria');
+        if($idIndustria == null || $idIndustria == ''){
+            throw new Exception("Error Processing Request", 1);
+        }
+        $this->session->set_userdata(array('idIndustria' => $idIndustria));
         $data['error'] = EXIT_SUCCESS;
       }catch(Exception $e){
         $data['msj'] = $e->getMessage();

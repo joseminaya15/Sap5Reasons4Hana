@@ -289,7 +289,7 @@ class En extends CI_Controller {
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">We invite you to download a recent study by <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/pt/'.$industria.'.pdf">Oxford Economics</a> for your industry.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">We invite you to download a recent study by <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/en/'.$industria.'.pdf">Oxford Economics</a> for your industry.</font>
                                             </td>
                                           </tr>
                                           <tr>
@@ -337,8 +337,9 @@ class En extends CI_Controller {
     $data['error'] = EXIT_ERROR;
     $data['msj']   = null;
       try {
-        $datos = $this->input->post('datos');
-        $this->session->set_userdata(array('industria' => $datos));
+        $datos    = $this->input->post('datos');
+        $datosPdf = $this->input->post('datosPdf');
+        $this->session->set_userdata(array('industria' => $datos,'industriaPdf' => $datosPdf));
         $data['error'] = EXIT_SUCCESS;
       }catch(Exception $e){
         $data['msj'] = $e->getMessage();

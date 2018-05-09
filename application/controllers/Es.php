@@ -295,7 +295,7 @@ class Es extends CI_Controller {
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">Lo invitamos a descargar un estudio reciente de <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/pt/'.$industria.'.pdf">Oxford Economics</a> para su industria.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">Lo invitamos a descargar un estudio reciente de <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/es/'.$this->session->userdata('industriaPdf').'.pdf">Oxford Economics</a> para su industria.</font>
                                             </td>
                                           </tr>
                                           <tr>
@@ -342,7 +342,19 @@ class Es extends CI_Controller {
       }
       echo json_encode($data);
   }
-
+  function getDatos(){
+    $data['error'] = EXIT_ERROR;
+    $data['msj']   = null;
+      try {
+        $datos    = $this->input->post('datos');
+        $datosPdf = $this->input->post('datosPdf');
+        $this->session->set_userdata(array('industria' => $datos,'industriaPdf' => $datosPdf));
+        $data['error'] = EXIT_SUCCESS;
+      }catch(Exception $e){
+        $data['msj'] = $e->getMessage();
+      }
+      echo json_encode($data);
+  }
   function selectIndustria(){
     $data['error'] = EXIT_ERROR;
     $data['msj']   = null;
@@ -352,18 +364,6 @@ class Es extends CI_Controller {
             throw new Exception("Error Processing Request", 1);
         }
         $this->session->set_userdata(array('idIndustria' => $idIndustria));
-        $data['error'] = EXIT_SUCCESS;
-      }catch(Exception $e){
-        $data['msj'] = $e->getMessage();
-      }
-      echo json_encode($data);
-  }
-  function getDatos(){
-    $data['error'] = EXIT_ERROR;
-    $data['msj']   = null;
-      try {
-        $datos = $this->input->post('datos');
-        $this->session->set_userdata(array('industria' => $datos));
         $data['error'] = EXIT_SUCCESS;
       }catch(Exception $e){
         $data['msj'] = $e->getMessage();

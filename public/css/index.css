@@ -1016,7 +1016,7 @@ button.button-left{
     .center-container{
         overflow-y: scroll;
         height: 100%;
-        padding: 90px 35px 50px 35px;
+        padding: 90px 25px 50px 25px;
     }
     .mdl-formulario{
         padding: 15px;
@@ -1085,7 +1085,7 @@ button.button-left{
     }
     .mdl-industrias p{
         font-size: 16px;
-        padding: 10px 15px;
+        padding: 10px 8px 10px 12px;
     }
     .contenido-industria h2{
         font-size: 22px;

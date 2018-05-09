@@ -73,7 +73,7 @@
 					<div class="industrias inline">
 						<h2>Selecione sua indústria</h2>
 						<div id="industriaServicio" class="mdl-industrias" onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Serviços Profissionais')">Serviços Profissionais</p>
+							<p class="inline" onclick="getDatos('Serviços Profissionais','ServiçosProfissionais')">Serviços Profissionais</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/servicios.png">
 							<div class="one none">Atualizar e reduzir os processos financeiros.</div>
 							<div class="two none">Tomar decisões baseadas em dados em tempo real.</div>
@@ -82,7 +82,7 @@
 							<div class="five none">Dar ao cliente um serviço de excelênciaa.</div>
 						</div>
 						<div id="industriaRetail" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Retail')">Retail</p>
+							<p class="inline" onclick="getDatos('Retail','Retail')">Retail</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/retail.png">
 							<div class="one none">Obter maiores receitas.</div>
 							<div class="two none">Aumentar rentabilidade.</div>
@@ -91,7 +91,7 @@
 							<div class="five none">Melhorar a experiência do cliente.</div>
 						</div>
 						<div id="industriaProducto" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Produtos de Consumo')">Produtos de Consumo</p>
+							<p class="inline" onclick="getDatos('Produtos de Consumo','ProdutosConsumo')">Produtos de Consumo</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/productos.png">
 							<div class="one none">Trabalhar com informação em tempo real de inventários e do fluxo dos materiais.</div>
 							<div class="two none">Criar valor em um mundo digital onde o consumidor está a cargo.</div>
@@ -100,7 +100,7 @@
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaProceso" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Processo e Manufatura')">Processo e Manufatura</p>
+							<p class="inline" onclick="getDatos('Processo e Manufatura','ProcessoManufatura')">Processo e Manufatura</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/procesos.png">
 							<div class="one none">Mercado dinâmico, variabilidade da demanda e prazos de entrega ajustados.</div>
 							<div class="two none">Manter a mais alta qualidade a preços competitivos.</div>
@@ -109,7 +109,7 @@
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaDistribucion" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Distribuição')">Distribuição</p>
+							<p class="inline" onclick="getDatos('Distribuição','Distribuição')">Distribuição</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/distribucion.png">
 							<div class="one none">Melhorar a capacidade e pontualidade no despacho de pedidos.</div>
 							<div class="two none">Reduzir custos de abastecimento, planejamento e precisão no inventário.</div>
@@ -118,7 +118,7 @@
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaHighTech" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Alta Tecnologia')">Alta Tecnologia</p>
+							<p class="inline" onclick="getDatos('Alta Tecnologia','AltaTecnologia')">Alta Tecnologia</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/tech.png">
 							<div class="one none">A velocidade da mudança tecnológica prejudica as perspectivas de crescimento de sua organização.</div>
 							<div class="two none">A demanda de produtos inteligentes conectados, acelera a necessidade de novas funcionalidades de cadeia de fornecimento digital.</div>
@@ -127,7 +127,7 @@
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Serviços Financeiros')">Serviços Financeiros</p>
+							<p class="inline" onclick="getDatos('Serviços Financeiros','ServiçosFinanceiros')">Serviços Financeiros</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/banking.png">
 							<div class="one none">Adotar e incorporar com rapidez soluções móveis que sejam intuitivas para aplicações de serviços, vendas, caixas e sucursais.</div>
 							<div class="two none">Envolver os clientes com uma experiência digital multicanal em tempo real.</div>
