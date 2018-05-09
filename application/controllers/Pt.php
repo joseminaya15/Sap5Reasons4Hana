@@ -286,7 +286,7 @@ class Pt extends CI_Controller {
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">Convidamos você a baixar um estudo recente da <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/pt/'.$industria.'.pdf">Oxford Economics</a> para o seu setor.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">Convidamos você a baixar um estudo recente da <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/pt/'.$this->session->userdata('industriaPdf').'.pdf">Oxford Economics</a> para o seu setor.</font>
                                             </td>
                                           </tr>
                                           <tr>
