@@ -318,7 +318,22 @@ function nameIndustria(idIndustria){
 	casoIndustria = $('#'+idIndustria).find('p').text();
 }
 function returnHome(){
-	location.href = 'en';
+	global_datos = null;
+	$.ajax({
+		url  : 'en/returnHome',
+		type : 'POST'
+	}).done(function(data){
+		try{
+        data = JSON.parse(data);
+        if(data.error == 0){
+        	location.href = 'en';
+        }else{
+        	return;
+        }
+      } catch (err){
+        msj('error',err.message);
+      }
+	});
 }
 function buttonBack(){
 	$('.window-center').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');

@@ -44,9 +44,6 @@ class Es extends CI_Controller {
             $relacion        = $this->input->post('relacion');
             $terminos        = $this->input->post('term_cond');
             $contacto        = $this->input->post('contacto');
-            if($nombre_completo == null || $empresa == null || $email == null || $pais == null || $cargo == null || $telefono == null || $relacion == null || $terminos == null){
-                throw new Exception("Error Processing Request", 1);
-            }
             $arrayInsert = array('nombre_completo' => $nombre_completo,
                                  'Empresa'         => $empresa,
                                  'Email'           => $email,
@@ -369,5 +366,17 @@ class Es extends CI_Controller {
         $data['msj'] = $e->getMessage();
       }
       echo json_encode($data);
+  }
+  function returnHome(){
+    $data['error'] = EXIT_ERROR;
+    $data['msj'] = null;
+    try {
+      $session = array('pantalla' => 0);
+      $this->session->set_userdata($session);
+      $data['error'] = EXIT_SUCCESS;
+    }catch(Exception $e) {
+      $data['msj'] = $e->getMessage();
+    }
+    echo json_encode($data);
   }
 }
