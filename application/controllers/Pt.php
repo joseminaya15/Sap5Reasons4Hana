@@ -291,7 +291,7 @@ class Pt extends CI_Controller {
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;">Muito em breve, um especialista da SAP entrará em contato com você para aprofundar sua exigência.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">Agradecemos o seu interesse, um representante da SAP da SAP entrará em contato com você para aprofundar sua exigência.</font>
                                             </td>
                                           </tr>
                                           <tr>

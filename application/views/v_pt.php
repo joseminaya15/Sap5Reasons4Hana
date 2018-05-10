@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible"  content="IE=edge">
     <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="description"            content="5 Razones principalesp por qué elegir SAP S/4 HANA">
+    <meta name="description"            content="5 Razones principalesp por qué elegir SAP S/4HANA">
     <meta name="keywords"               content="SAP Top 5 Reasons S/4 HANA,SAP, S/4 HANA">
     <meta name="robots"                 content="Index,Follow">
     <meta name="date"                   content="Febrero 15, 2018"/>
@@ -61,7 +61,7 @@
 						<strong class="inline">5</strong>
 						<div class="mdl-letras inline">
 							<p>razões principais</p>
-							<h2>para escolher SAP S/4 HANA</h2>
+							<h2>para escolher o SAP S/4HANA</h2>
 						</div>
 						<div class="subrayado-title">
 							<div class="subrayado one"></div>
@@ -82,19 +82,19 @@
 							<div class="five none">Dar ao cliente um serviço de excelênciaa.</div>
 						</div>
 						<div id="industriaRetail" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Retail','Retail')">Retail</p>
+							<p class="inline" onclick="getDatos('Varejo','Retail')">Varejo</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/retail.png">
 							<div class="one none">Obter maiores receitas.</div>
-							<div class="two none">Aumentar rentabilidade.</div>
+							<div class="two none">Aumentar a rentabilidade.</div>
 							<div class="three none">Reduzir a falta de estoque.</div>
 							<div class="four none">Melhorar a rotação de inventário.</div>
 							<div class="five none">Melhorar a experiência do cliente.</div>
 						</div>
 						<div id="industriaProducto" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Produtos de Consumo','ProdutosConsumo')">Produtos de Consumo</p>
+							<p class="inline" onclick="getDatos('Bens de Consumo','ProdutosConsumo')">Bens de Consumo</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/productos.png">
-							<div class="one none">Trabalhar com informação em tempo real de inventários e do fluxo dos materiais.</div>
-							<div class="two none">Criar valor em um mundo digital onde o consumidor está a cargo.</div>
+							<div class="one none">Trabalhar com informação em tempo real de inventários e do fluxo de materiais.</div>
+							<div class="two none">Criar valor em um mundo digital onde o consumidor está no comando.</div>
 							<div class="three none">Inovar a experiência de compra.</div>
 							<div class="four none">Alinhar as estratégias comerciais com as megatendências tecnológicas.</div>
 							<div id="dontHave" class="five none"></div>
@@ -105,11 +105,11 @@
 							<div class="one none">Mercado dinâmico, variabilidade da demanda e prazos de entrega ajustados.</div>
 							<div class="two none">Manter a mais alta qualidade a preços competitivos.</div>
 							<div class="three none">Contar com resultados de negócio mais rápidos com um menor custo operacional.</div>
-							<div class="four none">Ambientes de sistemas complexos e custosos com múltiplos sistemas de usinas distribuídas que dão como resultado um alto TCO.</div>
+							<div class="four none">Ambientes de sistemas complexos e caros com múltiplos sistemas de instalações distribuídas que dão como resultado um alto TCO.</div>
 							<div id="dontHave" class="five none"></div>
 						</div>
 						<div id="industriaDistribucion" class="mdl-industrias"  onclick="modalIndustria(this.id)">
-							<p class="inline" onclick="getDatos('Distribuição','Distribuição')">Distribuição</p>
+							<p class="inline" onclick="getDatos('Distribuição Atacadista','Distribuição')">Distribuição Atacadista</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/distribucion.png">
 							<div class="one none">Melhorar a capacidade e pontualidade no despacho de pedidos.</div>
 							<div class="two none">Reduzir custos de abastecimento, planejamento e precisão no inventário.</div>
@@ -129,9 +129,9 @@
 						<div id="industriaBanking" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline" onclick="getDatos('Serviços Financeiros','ServiçosFinanceiros')">Serviços Financeiros</p>
 							<img class="inline" src="<?php echo RUTA_IMG?>industrias/banking.png">
-							<div class="one none">Adotar e incorporar com rapidez soluções móveis que sejam intuitivas para aplicações de serviços, vendas, caixas e sucursais.</div>
+							<div class="one none">Adotar e incorporar com rapidez soluções móveis que sejam intuitivas para aplicações de serviços, vendas, caixas e filiais.</div>
 							<div class="two none">Envolver os clientes com uma experiência digital multicanal em tempo real.</div>
-							<div class="three none">Necessidade de automatizar os procedimentos manuais e agilizar os fluxos de trabalho no serviço ao cliente e a gestão de processos.</div>
+							<div class="three none">Necessidade de automatizar os procedimentos manuais e agilizar os fluxos de trabalho no serviço ao cliente e na gestão de processos.</div>
 							<div id="dontHave4" class="four none"></div>
 							<div id="dontHave" class="five none"></div>
 						</div>
@@ -143,7 +143,7 @@
 			<div id="industriaServicio-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Serviços Profissionais.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA é a solução preferida na indústria de <strong>Serviços Profissionais.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 		            	<div class="mdl-card-industria">
@@ -155,8 +155,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Só 38% das empresas têm a visibilidade em tempo real requerida</p>
-		            				<label>Proporcionar uma única fonte consolidada com toda a informação relacionada ao projeto, e obter um melhor compromisso e produtividade dos funcionários.</label>
+		            				<p id="title">Só 38% das empresas têm a visibilidade necessária em tempo real</p>
+		            				<label>Proporcionar uma única fonte consolidada com toda a informação relacionada ao projeto, e obter um melhor compromisso e produtividade dos colaboradores.</label>
 		            				<button id="verServicio1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -170,8 +170,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Melhorar até 10% as utilidades</p>
-									<label>Aumentar a produtividade com uma análise simples de ofertas versus orçamentos, baseados nos projetos com sucesso como base para novas ofertas.</label>
+		            				<p id="title">Melhorar em até 10% os lucros</p>
+									<label>Aumentar a produtividade com uma análise simples de ofertas versus orçamentos, baseado em projetos de sucesso para novas ofertas.</label>
 									<button id="verServicio2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -201,7 +201,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Atualmente até 20% do conteúdo empresarial está sendo gerado pelos sistemas</p>
-									<label>A digitalização dos quatro elementos fundamentais dos serviços (experiência, talento, prestação de serviços e compromisso do cliente) obriga às empresas de serviços profissionais a repensarem seus modelos comerciais e se centrarem em como impulsionar o crescimento das receitas sem um crescimento correspondente em sua base de funcionários.</label>
+									<label>A digitalização dos quatro elementos fundamentais dos serviços (experiência, talento, prestação de serviços e compromisso do cliente) obriga às empresas de serviços profissionais a repensarem seus modelos comerciais e se concentrarem em como impulsionar o crescimento das receitas sem um crescimento correspondente em sua base de colaboradores.</label>
 									<button id="verServicio4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -227,7 +227,7 @@
 			<div id="industriaRetail-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Retail.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA é a solução preferida na indústria de <strong>Retail.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -255,7 +255,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduzir até 35% os requisitos de capital</p>
-									<label>Melhorar a produtividade baseado nas melhorias no processo de faturamento ao contar com uma única fonte de verdade e conseguir eliminar os erros nas previsões financeiras.</label>
+									<label>Melhorar a produtividade com base nas melhorias do processo de faturamento, tendo uma única fonte de verdade e conseguindo eliminar os erros nas previsões financeiras.</label>
 									<button id="verRetail2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -270,7 +270,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Aumentar a rentabilidade</p>
-									<label>Reduzir a rotação do inventário através de processos comerciais simplificados e reprojetados, operação de informação processável e uma otimização da gestão do fluxo de efetivo.</label>
+									<label>Reduzir a rotação de inventário através de processos comerciais simplificados e reprojetados, operação de informação processável e uma otimização da gestão do fluxo de efetivo.</label>
 									<button id="verRetail3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -284,7 +284,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduzir até 30% no tempo de tomada de decisões</p>
+		            				<p id="title">Reduzir até 30% o tempo de tomada de decisões</p>
 									<label>Dispor da informação em diversos formatos, além de oferecer um guia baseado nos elementos de ação que requerem atenção imediata, e com isso, poder reduzir o tempo da tomada de decisões.</label>
 									<button id="verRetail4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
@@ -311,7 +311,7 @@
 			<div id="industriaProducto-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Produtos de Consumo.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA é a solução preferida na indústria de <strong>Produtos de Consumo.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -324,7 +324,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Aumentar em até 20% a satisfação do cliente</p>
-									<label>Quando os consumidores podem obter o que querem, quando e onde querem, a diferenciação já não só resulta da qualidade, preço, valor ou conveniência, como também de experiências subjetivas, matizadas e intangíveis como alegria, confiança, controle e proteção.</label>
+									<label>Quando os consumidores conseguem obter o que querem, quando e onde querem. A diferenciação não só resulta da qualidade, preço, valor ou conveniência, como também de experiências subjetivas, matizadas e intangíveis como alegria, confiança, controle e proteção.</label>
 									<button id="verProducto1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>								
 		            		</div>
@@ -354,7 +354,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduzir em até 15% a perda de receitas devido ao desabastecimento</p>
-									<label>Um processo reprojetado por SAP S/4 HANA proporciona visibilidade do inventário em tempo real com lotes de estoque diminuídos, entrega melhorada a tempo e capacidade para inovar com serviços inovadores.</label>
+									<label>Um processo reprojetado pelo SAP S/4 HANA proporciona visibilidade do inventário em tempo real com lotes de estoque diminuídos, entrega melhorada e capacidade de inovar com serviços inovadores.</label>
 									<button id="verProducto3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>								
 		            		</div>
@@ -368,7 +368,7 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Com SAP S / 4HANA, os relatórios de análise podem ser gerados instantaneamente para obter uma visão imediata dos níveis de estoque de inventário, vendas de produtos, marketing e finanças. O resultado é uma imagem de 360 graus do que ocorre em sua organização.</label>
+		            				<p id="title">Com o SAP S/4HANA, os relatórios de análise podem ser gerados instantaneamente para obter uma visão imediata dos níveis de estoque de inventário, vendas de produtos, marketing e finanças. O resultado é uma imagem de 360 graus do que ocorre em sua organização.</label>
 									<button id="verProducto4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -383,7 +383,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Melhorar seu planejamento de produção e programação</p>
-									<label>O planejamento de produção avançado em SAP S/4 HANA proporciona analíticas potentes para um suporte de decisões mais sólido, o que permite um planejamento e execução mais rápidos.</label>
+									<label>O planejamento de produção avançado no SAP S/4HANA proporciona analíticas potentes para um suporte de decisões mais sólido, o que permite uma rapidez maior no planejamento e execução.</label>
 									<button id="verProducto5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -394,7 +394,7 @@
 			<div id="industriaProceso-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Processo e Manufatura.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA é a solução preferida na indústria de <strong>Processo e Manufatura.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -407,7 +407,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Ampliar as oportunidades de vendas em até 15-20%</p>
-									<label>SAP S/4 HANA incorpora agilidade através de uma plataforma simplificada que permite a troca de dados em tempo real entre as vendas, o serviço ao cliente e os líderes empresariais, uma maior eficiência devido à eliminação de dados duplicados e uma análise de dados simplificada conduzem a vendas mais efetivas e específicas.</label>
+									<label>O SAP S/4HANA incorpora agilidade através de uma plataforma simplificada que permite a troca de dados em tempo real entre vendas, serviço ao cliente e líderes empresariais, uma maior eficiência devido à eliminação de dados duplicados e uma análise de dados simplificada que conduzem a vendas mais efetivas e específicas.</label>
 									<button id="verProceso1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -422,7 +422,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Otimizar sua cadeia de fornecimento em até 12%</p>
-									<label>SAP S/4 HANA lhe permite integrar toda a sua cadeia de fornecimento e obter uma redução de até 12% na quantidade de dias do inventário. Isto significa uma redução nos desabastecimentos e um panorama simplificado que gera uma economia de custos de logística de 10%.</label>
+									<label>O SAP S/4HANA lhe permite integrar toda a sua cadeia de fornecimento e obter uma redução de até 12% na quantidade de dias do inventário. Isto significa uma redução nos desabastecimentos e um panorama simplificado que gera uma economia de custos de logística de 10%.</label>
 									<button id="verProceso2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -437,7 +437,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduzir os custos de aquisições em até 15%</p>
-									<label>A produtividade da cadeia de fornecimento pode ser aumentada em até 15% com SAP S/4 HANA aproveitando as opções de desconto nos pagamentos antecipados, maximizando a ordem de inventário e o acompanhamento de matérias primas em tempo real.</label>
+									<label>A produtividade da cadeia de fornecimento pode ser aumentada em até 15% com o SAP S/4HANA aproveitando as opções de desconto nos pagamentos antecipados, maximizando a ordem de inventário e o acompanhamento de matérias primas em tempo real.</label>
 									<button id="verProceso3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -452,7 +452,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Aumentar a capacidade de resposta das vendas</p>
-									<label>Adapte-se rapidamente às mudanças nos resultados de produção no mundo das vendas feitas sob medida. Dirija os pedidos dos clientes diretamente para a fábrica como pedidos de produção. Alinhe a cadeia de fornecimento e o planejamento de vendas.</label>
+									<label>Adapte-se rapidamente com as mudanças nos resultados de produção das vendas sob medida. Direcione os pedidos dos clientes diretamente para a fábrica como ordens de produção. Alinhe a cadeia de fornecimento e o planejamento de vendas.</label>
 									<button id="verProceso4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -467,7 +467,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Aumente a eficiência da operação em até 60%</p>
-									<label>Com SAP S/4 HANA comece a experimentar total facilidade na gestão das operações de negócio. Agora, seus clientes poderão experimentar um serviço excelente e entrega pontual, que permanecerá sem modificações durante a expansão rápida.</label>
+									<label>Com o SAP S/4HANA comece a experimentar total facilidade na gestão das operações de negócio. Agora, seus clientes poderão experimentar um serviço excelente e entrega pontual, que permanecerá sem modificações durante a rápida expansão.</label>
 									<button id="verProceso5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -478,7 +478,7 @@
 			<div id="industriaDistribucion-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Distribuição.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA é a solução preferida na indústria de <strong>Distribuição Atacadista.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -491,7 +491,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Aumentar a eficiência da operação em até 60%</p>
-									<label>Ter toda a informação requerida em um só lugar, significa poder gerenciar os inventários em tempo real, ter o valor dos materiais, planejar as funções em um sistema, e assim poder melhorar a produtividade como a participação dos empregados.</label>
+									<label>Ter toda a informação necessária em um só lugar, significa poder gerenciar os inventários em tempo real, ter o valor dos materiais, planejar as funções em um sistema, e assim poder melhorar a produtividade como a produtividade como a participação dos colaboradores.</label>
 									<button id="verDistribucion1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -506,7 +506,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduzir em até 30% o inventário</p>
-									<label>SAP S/4 HANA proporciona uma administração de inventários simplificada até o menor detalhe, com uma única fonte de informação certeira e consolidada para analisar a rotação de inventário, realizar um acompanhamento do fluxo de materiais e transferências de estoque, e tomar as medidas apropriadas.</label>
+									<label>O SAP S/4HANA proporciona uma administração de inventários simplificada nos mínimos detalhes, com uma única fonte de informação precisa e consolidada para analisar a rotação de inventário, realizar um acompanhamento do fluxo de materiais e transferências de estoque e tomar as medidas apropriadas.</label>
 									<button id="verDistribucion2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -520,8 +520,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Reduzir em até 50% problemas de cumprimento de pedidos.</p>
-									<label>SAP S/4 HANA proporciona uma administração de inventários simplificada até o menor detalhe, com uma única fonte de informação certeira e consolidada para analisar a rotação de inventário, realizar um acompanhamento do fluxo de materiais e transferências de estoque, e tomar as medidas apropriadas.</label>
+		            				<p id="title">Reduzir em até 50% problemas de atendimento de pedidos.</p>
+									<label>O SAP S/4HANA proporciona uma experiência de usuário baseada em funções, que simplifica e melhora o compromisso e a produtividade dos colaboradores. Através de um único ponto de entrada para identificar facilmente problemas de pedidos e alertas em tempo real, garante que os representantes de vendas internos possam ter acesso direto a seus respectivos documentos e utilizar funções integradas de colaboração para resolver problemas rapidamente.</label>
 									<button id="verDistribucion3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -536,7 +536,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Antecipar a demanda futura do cliente</p>
-									<label>Só 20% dos distribuidores atacadistas estão em condições de utilizar a análise preditiva para antecipar o comportamento do cliente. Com SAP S/4 HANA através de uma experiência de usuário simplificada, conta com informação chave para compreender a demanda futura e atuar a partir de agora.</label>
+									<label>Só 20% dos distribuidores atacadistas estão em condições de utilizar a análise preditiva para antecipar o comportamento do cliente. Com o SAP S/4HANA é possível uma experiência de usuário simplificada, além de possuir informações importantes para compreender a demanda futura e atuar no momento.</label>
 									<button id="verDistribucion4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -550,8 +550,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Converter-se em um distribuidor em "tempo real"</p>
-									<label>Com SAP S/4 HANA, você verá como reinventar seu negócio passando de um armazém de produtos que satisfaz a demanda para se transformar em uma empresa centrada na informação e que a utiliza para abordar ineficiências operacionais de maneira proativa e impactando nos resultados finais.</label>
+		            				<p id="title">Torne-se um distribuidor em "tempo real"</p>
+									<label>Com o SAP S/4HANA, você irá ver como reinventar seu negócio passando de um armazém de produtos que satisfaz a demanda para se transformar em uma empresa centrada na informação e que a utiliza para abordar ineficiências operacionais de maneira proativa e impactando nos resultados finais.</label>
 									<button id="verDistribucion5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -562,7 +562,7 @@
 			<div id="industriaHighTech-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Alta Tecnologia.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA é a solução preferida na indústria de <strong>Alta Tecnologia.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -590,7 +590,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduzir os processos de trabalho radicalmente</p>
-									<label>Com SAP S/4 HANA encontre economias incríveis e passe a ter um sistema único para os processos, da compra até finanças e contabilidade e da fábrica até a gestão de contratos</label>
+									<label>Com o SAP S/4HANA encontre economias incríveis e passe a ter um sistema único para os processos, da compra até finanças e contabilidade e da fábrica até a gestão de contratos</label>
 									<button id="verTech2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>								
 		            		</div>
@@ -605,7 +605,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Cotar soluções. Não só produtos</p>
-									<label>Habilite seus executivos de conta para criar cotações que ofereçam uma solução completa, que serão convertidas em resultados de negócio para seus clientes. Utilize SAP S/4 HANA para ter a visão integral de todas as partes envolvidas: software, hardware e serviços associados.</label>
+									<label>Capacite seus executivos de conta para criar cotações que ofereçam uma solução completa, que serão convertidas em resultados de negócio para seus clientes. Utilize o SAP S/4HANA para ter a visão integral de todas as partes envolvidas: software, hardware e serviços associados.</label>
 									<button id="verTech3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -635,7 +635,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Tomar ação sobre os dados de IoT em tempo real</p>
-									<label>A miniaturização de sensores, combinada com uma maior banda larga de rede, está criando um tesouro de dados que é mais útil quando analisado e desempenhado em tempo real. Com SAP S/4 HANA você tem o poder para fazê-lo.</label>
+									<label>A miniaturização de sensores, combinada com uma maior banda larga de rede, está criando um tesouro de dados que é mais útil quando analisado e desempenhado em tempo real. Com o SAP S/4HANA você tem o poder para fazê-lo.</label>
 									<button id="verTech5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -646,7 +646,7 @@
 			<div id="industriaBanking-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4 HANA é a solução preferida na indústria de <strong>Serviços Financeiros.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA é a solução preferida na indústria de <strong>Serviços Financeiros.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -659,7 +659,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduzir em até 30% o tempo de chegada de novos produtos.</p>
-									<label>Com SAP S/4 HANA você poderá reduzir o tempo de chegada ao mercado para seus novos produtos, o que lhe permitirá antecipar-se à concorrência e manter seus clientes cativos</label>
+									<label>Com o SAP S/4HANA você poderá reduzir o tempo de chegada ao mercado para seus novos produtos, o que lhe permitirá ficar à frente da concorrência e manter seus clientes cativos.</label>
 									<button id="verBancking1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -674,7 +674,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Aumentar sua rentabilidade</p>
-									<label>Organizações que adotam SAP S/4 HANA geram até 23% mais de receitas ao usar o poder da informação para identificar vantagens estratégicas e competitivas.</label>
+									<label>Organizações que adotam o SAP S/4HANA geram até 23% mais de receitas ao usar o poder da informação para identificar vantagens estratégicas e competitivas.</label>
 									<button id="verBancking2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -689,7 +689,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Maior visibilidade e disponibilidade de dados</p>
-									<label>Com SAP S/4 HANA você conta com acesso em tempo real aos dados financeiros com a capacidade de desmembrá-los no nível de cada item. Pode construir e testar situações hipotéticas e aplicar o que aprendeu para tomar melhores decisões e aumentar a eficiência.</label>
+									<label>Com o SAP S/4HANA você conta com acesso em tempo real aos dados financeiros com a capacidade de dividi-los ao nível de cada item. Pode construir e testar situações hipotéticas e aplicar o que aprendeu para tomar melhores decisões e aumentar a eficiência.</label>
 									<button id="verBancking3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -704,7 +704,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Maior velocidade, agilidade e precisão da projeção</p>
-									<label>Com SAP S/4 HANA os processos e as funções de planejamento se integram no sistema transacional, permitindo um planejamento de ciclo fechado em todos os níveis. Com esta vantagem, alcança uma redução de 25-50% no tempo dos ciclos de projeção e relatórios financeiros.</label>
+									<label>Com SAP S/4HANA os processos e as funções de planejamento se integram no sistema transacional, permitindo um planejamento de ciclo fechado em todos os níveis. Com esta vantagem, alcança uma redução de 25-50% no tempo dos ciclos de projeção e relatórios financeiros.</label>
 									<button id="verBancking4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -719,7 +719,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Obter informação empresarial em tempo real</p>
-									<label>SAP S/4 HANA lhe permite obter informação sobre qualquer informação de qualquer lugar em tempo real. Poderá acelerar drasticamente o planejamento, execução, predição e simulação ao mais alto nível de granularidade, sem a chata consolidação de dados e outros processos manuais.</label>
+									<label>O SAP S/4HANA lhe permite obter conhecimento sobre qualquer informação de qualquer lugar em tempo real. Poderá acelerar drasticamente o planejamento, execução, predição e simulação ao mais alto nível de granularidade, sem a consolidação de dados e outros processos manuais.</label>
 									<button id="verBancking5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -738,7 +738,7 @@
 						<strong class="inline">5</strong>
 						<div class="mdl-letras inline">
 							<p>5 razões principais</p>
-							<h2>para escolher SAP S/4 HANA</h2>
+							<h2>para escolher SAP S/4HANA</h2>
 						</div>	
 						<div class="subrayado-title">
 							<div class="subrayado one"></div>
@@ -749,11 +749,11 @@
 					</div>
 					<div class="formulario inline">
 						<h2>Conheça um caso de sucesso em <label class="nameIndustria"></label></h2>
-						<p class="descarga">Preencha o formulário para baixá-lo</p>
+						<p class="descarga">Preencha o formulário para fazer o download</p>
 						<form class="mdl-formulario text-left">
 		        			<div class="content-datos">
 		        				<div class="content-personal">
-		        					<p><i class="mdi mdi-arrow_downward"></i>Introduza aqui seus dados</p>
+		        					<p><i class="mdi mdi-arrow_downward"></i>Insira seus dados aqui </p>
 		        				</div>
 		        				<div class="content-separacion">
 		        					<p>o</p>
@@ -830,7 +830,7 @@
 		    				<div class="col-xs-12 mdl-label m-t-10">
 								<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
 									<input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-									<span class="mdl-checkbox__label f-s-14" style="">Li e aceito os <a class="FONDO_TERMINOS" href="https://www.sap.com/corporate/en/legal/terms-of-use.html" target="_blank" style="">Termos e condições de SAP</a></span>
+									<span class="mdl-checkbox__label f-s-14" style="">Li e aceito os <a class="FONDO_TERMINOS" href="https://www.sap.com/corporate/en/legal/terms-of-use.html" target="_blank" style="">Termos e Condições da SAP</a></span>
 								</label>
 		    				</div>
 		    				<div class="col-xs-12 text-right m-t-25">
@@ -842,15 +842,15 @@
 			</div>
 			<div class="mdl-agradecimiento window-center opacity-done">
 				<div class="center-container">
-					<h2>Agradecemos seu interesse</h2>
-					<p>Estamos certos de que SAP S/4 HANA lhe ajudará a acelerar sua transformação digital. Um especialista SAP entrará em contato com você para dar o primeiro passo.</p>
+					<h2>Agradecemos o seu interesse</h2>
+					<p>Estamos certos de que o SAP S/4HANA lhe ajudará a acelerar sua transformação digital. Um especialista da SAP entrará em contato com você para dar o primeiro passo.</p>
 					<div class="subrayado-title">
 						<div class="subrayado one"></div>
 						<div class="subrayado two"></div>
 						<div class="subrayado three"></div>
 						<div class="subrayado four"></div>
 					</div>
-					<small>Conheça o Caso de Sucesso de uma empresa de nossa região no setor <strong class="nameIndustria"></strong>. Baixa <a id="donwloadCaso" href="#" onclick="returnCaso()">aqui</a></small>
+					<small>Conheça o Caso de Sucesso de uma empresa de nossa região no setor <strong class="nameIndustria"></strong>. <a id="donwloadCaso" href="#" onclick="returnCaso()">Realizar o download</a></small>
 					<!-- <small>Conheça o Caso de Sucesso de <strong class="nameCompany"></strong> no setor <strong class="nameIndustria"></strong>. Baixa <a id="donwloadCaso" href="#" onclick="returnCaso()">aqu&iacute;</a></small> -->
 				</div>
 			</div>
