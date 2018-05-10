@@ -282,17 +282,17 @@ class Es extends CI_Controller {
                                         <tbody>
                                           <tr>
                                             <td style="padding: 20px 40px 10px 40px;">
-                                              <font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">Gracias por su participación</font>
+                                              <font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">¡Gracias por su participación!</font>
                                             </td>
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;">Estamos seguros que nuestra solución SAP S/4HANA lo ayudará a acelerar los beneficios de la transformación digital en su empresa.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">Estamos seguros que SAP S/4HANA lo ayudará a acelerar la transformación digital en su empresa.</font>
                                             </td>
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">Lo invitamos a descargar un estudio reciente de <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/es/'.$this->session->userdata('industriaPdf').'.pdf">Oxford Economics</a> para su industria.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">Lo invitamos a descargar un estudio reciente de <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/es/'.$this->session->userdata('industriaPdf').'.pdf">Oxford Economics</a> sobre la transformación digital para su industria.</font>
                                             </td>
                                           </tr>
                                           <tr>
