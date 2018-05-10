@@ -116,7 +116,7 @@ class Es extends CI_Controller {
                                         <tbody>
                                           <tr style="text-align: left;">
                                             <th style="text-align: left;"><img width="100" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
-                                            <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">S/4 HANA - TOP 5 REASONS</font></th>
+                                            <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">S/4HANA - TOP 5 REASONS</font></th>
                                           </tr>
                                         </tbody>
                                       </table>
