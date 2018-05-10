@@ -279,17 +279,17 @@ class En extends CI_Controller {
                                         <tbody>
                                           <tr>
                                             <td style="padding: 20px 40px 10px 40px;">
-                                              <font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">Thanks for your participation</font>
+                                              <font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">Thanks for your participation!</font>
                                             </td>
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;">We are confident that our SAP S/4HANA solution will help you accelerate the benefits of digital transformation in your company.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">We are confident that SAP S / 4HANA will help you accelerate the digital transformation in your company.</font>
                                             </td>
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">We invite you to download a recent study by <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/en/'.$this->session->userdata('industriaPdf').'.pdf">Oxford Economics</a> for your industry.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">We invite you to download a recent study by <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/en/'.$this->session->userdata('industriaPdf').'.pdf">Oxford Economics</a> about digital transformation for your industry.</font>
                                             </td>
                                           </tr>
                                           <tr>
@@ -299,7 +299,7 @@ class En extends CI_Controller {
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;">SAP Latinoamérica</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">SAP Latin America</font>
                                             </td>
                                           </tr>
                                         </tbody>

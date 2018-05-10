@@ -276,27 +276,27 @@ class Pt extends CI_Controller {
                                         <tbody>
                                           <tr>
                                             <td style="padding: 20px 40px 10px 40px;">
-                                              <font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">Obrigado pela sua participação</font>
+                                              <font style="color: #000000;font-size:22px;font-weight:600;font-family: arial;">Obrigado pela sua participação!</font>
                                             </td>
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;">Estamos confiantes de que nossa solução SAP S/4HANA ajudará você a acelerar os benefícios da transformação digital em sua empresa.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">Estamos confiantes de que o SAP S / 4HANA ajudará você a acelerar a transformação digital em sua empresa.</font>
                                             </td>
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">Convidamos você a baixar um estudo recente da <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/pt/'.$this->session->userdata('industriaPdf').'.pdf">Oxford Economics</a> para o seu setor.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">Nós convidamos você a baixar um estudo recente da <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/pt/'.$this->session->userdata('industriaPdf').'.pdf">Oxford Economics</a> sobre transformação digital para sua indústria.</font>
                                             </td>
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;">Agradecemos o seu interesse, um representante da SAP da SAP entrará em contato com você para aprofundar sua exigência.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">Muito em breve, um especialista da SAP entrará em contato com você para aprofundar sua exigência.</font>
                                             </td>
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;">SAP Latinoamérica</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">SAP Latin America</font>
                                             </td>
                                           </tr>
                                         </tbody>
