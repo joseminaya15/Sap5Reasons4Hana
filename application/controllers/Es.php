@@ -251,7 +251,7 @@ class Es extends CI_Controller {
                                                 <tbody>
                                                   <tr style="text-align: left;">
                                                     <th style="text-align: left;"><img width="100" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
-                                                    <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">S/4 HANA - TOP 5 REASONS</font></th>   
+                                                    <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">S/4HANA - TOP 5 REASONS</font></th>   
                                                   </tr>
                                                 </tbody>
                                               </table>
@@ -287,7 +287,7 @@ class Es extends CI_Controller {
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;">Estamos seguros que nuestra solución SAP S/4 HANA lo ayudará a acelerar los beneficios de la transformación digital en su empresa.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">Estamos seguros que nuestra solución SAP S/4HANA lo ayudará a acelerar los beneficios de la transformación digital en su empresa.</font>
                                             </td>
                                           </tr>
                                           <tr>

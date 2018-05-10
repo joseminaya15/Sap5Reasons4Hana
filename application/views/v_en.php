@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible"  content="IE=edge">
     <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="description"            content="5 Razones principalesp por qué elegir SAP S/4 HANA">
+    <meta name="description"            content="5 Razones principalesp por qué elegir SAP S/4HANA">
     <meta name="keywords"               content="SAP Top 5 Reasons S/4 HANA,SAP, S/4 HANA">
     <meta name="robots"                 content="Index,Follow">
     <meta name="date"                   content="Febrero 15, 2018"/>
@@ -61,7 +61,7 @@
 						<strong class="inline">5</strong>
 						<div class="mdl-letras inline">
 							<p>main reasons</p>
-							<h2>to choose SAP S/4 HANA</h2>
+							<h2>to choose SAP S/4HANA</h2>
 						</div>
 						<div class="subrayado-title">
 							<div class="subrayado one"></div>
@@ -143,7 +143,7 @@
 			<div id="industriaServicio-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>These are the 5 reasons why SAP S/4 HANA is the preferred solution in the <strong>Professional Services</strong> industry.</h2>
+						<h2>These are the 5 reasons why SAP S/4HANA is the preferred solution in the <strong>Professional Services</strong> industry.</h2>
 					</div>
 					<div class="card-industria inline">
 		            	<div class="mdl-card-industria">
@@ -227,7 +227,7 @@
 			<div id="industriaRetail-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>These are the 5 reasons why SAP S/4 HANA is the preferred solution in the <strong>Retail.</strong> industry</h2>
+						<h2>These are the 5 reasons why SAP S/4HANA is the preferred solution in the <strong>Retail.</strong> industry</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -311,7 +311,7 @@
 			<div id="industriaProducto-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>These are the 5 reasons why SAP S/4 HANA is the preferred solution in the <strong>Consumer products</strong> industry.</h2>
+						<h2>These are the 5 reasons why SAP S/4HANA is the preferred solution in the <strong>Consumer products</strong> industry.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -354,7 +354,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduce up to 15% the loss of income due to shortages</p>
-									<label>A process redesigned by SAP S/4 HANA provides inventory visibility in real time with reduced stock lots, improved on-time delivery and ability to innovate with innovative services.</label>
+									<label>A process redesigned by SAP S/4HANA provides inventory visibility in real time with reduced stock lots, improved on-time delivery and ability to innovate with innovative services.</label>
 									<button id="verProducto3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>								
 		            		</div>
@@ -369,7 +369,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">A real-time system with live operational reports</p>
-									<label>With SAP S/4 HANA, analysis reports can be instantly generated to get an immediate view of stock levels of inventory, product sales, marketing and finance. The result is a 360-degree image of what happens in your organization.</label>
+									<label>With SAP S/4HANA, analysis reports can be instantly generated to get an immediate view of stock levels of inventory, product sales, marketing and finance. The result is a 360-degree image of what happens in your organization.</label>
 									<button id="verProducto4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -384,7 +384,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Improve your production and programming planning</p>
-									<label>Advanced production planning in SAP S/4 HANA provides powerful analytics for more robust decision support, allowing for faster planning and execution.</label>
+									<label>Advanced production planning in SAP S/4HANA provides powerful analytics for more robust decision support, allowing for faster planning and execution.</label>
 									<button id="verProducto5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -395,7 +395,7 @@
 			<div id="industriaProceso-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>These are the 5 reasons why SAP S/4 HANA is the preferred solution in the <strong>Process and Manufacturing</strong> industry.</h2>
+						<h2>These are the 5 reasons why SAP S/4HANA is the preferred solution in the <strong>Process and Manufacturing</strong> industry.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -408,7 +408,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Expand sales opportunities up to 15-20%</p>
-									<label>SAP S/4 HANA incorporates agility through a simplified platform that allows the exchange of data in real time between sales, customer service and business leaders, greater efficiency due to the elimination of duplicate data and a data analysis simplified lead to more effective and specific sales.</label>
+									<label>SAP S/4HANA incorporates agility through a simplified platform that allows the exchange of data in real time between sales, customer service and business leaders, greater efficiency due to the elimination of duplicate data and a data analysis simplified lead to more effective and specific sales.</label>
 									<button id="verProceso1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -423,7 +423,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Optimize your supply chain up to 12%</p>
-									<label>SAP S/4 HANA allows you to integrate your entire supply chain and obtain a reduction of up to 12% in the number of inventory days. This means a reduction in shortages and a simplified scenario that generates a logistics cost savings of 10%.</label>
+									<label>SAP S/4HANA allows you to integrate your entire supply chain and obtain a reduction of up to 12% in the number of inventory days. This means a reduction in shortages and a simplified scenario that generates a logistics cost savings of 10%.</label>
 									<button id="verProceso2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -438,7 +438,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduce procurement costs up to 15%</p>
-									<label>The productivity of the supply chain can be increased up to 15% with SAP S/4 HANA taking advantage of discount options in advance payments, maximizing the order of inventory and the tracking of raw materials in real time.</label>
+									<label>The productivity of the supply chain can be increased up to 15% with SAP S/4HANA taking advantage of discount options in advance payments, maximizing the order of inventory and the tracking of raw materials in real time.</label>
 									<button id="verProceso3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -468,7 +468,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Increase the efficiency of the operation up to 60%</p>
-									<label>With SAP S/4 HANA start experiencing full smooth management of business operations. Now, your customers will be able to experience excellent service and on-time delivery, which will remain unchanged during rapid expansion.</label>
+									<label>With SAP S/4HANA start experiencing full smooth management of business operations. Now, your customers will be able to experience excellent service and on-time delivery, which will remain unchanged during rapid expansion.</label>
 									<button id="verProceso5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -479,7 +479,7 @@
 			<div id="industriaDistribucion-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>These are the 5 reasons why SAP S/4 HANA is the preferred solution in the <strong>Distribution</strong> industry.</h2>
+						<h2>These are the 5 reasons why SAP S/4HANA is the preferred solution in the <strong>Distribution</strong> industry.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -507,7 +507,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduce inventory by up to 30%</p>
-									<label>SAP S/4 HANA provides simplified inventory management down to the smallest detail, with a single source of accurate and consolidated information to analyze inventory turnover, track material flow and stock transfers, and take appropriate action.</label>
+									<label>SAP S/4HANA provides simplified inventory management down to the smallest detail, with a single source of accurate and consolidated information to analyze inventory turnover, track material flow and stock transfers, and take appropriate action.</label>
 									<button id="verDistribucion2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -522,7 +522,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduce up to 50% in order fulfillment problems.</p>
-									<label>SAP S/4 HANA provides a role-based user experience that simplifies and improves employee engagement and productivity. Through a single-entry point to easily identify order problems and alerts in real time, it is guaranteed that internal sales representatives can directly access your respective documents and use integrated collaboration functions to solve problems quickly.</label>
+									<label>SAP S/4HANA provides a role-based user experience that simplifies and improves employee engagement and productivity. Through a single-entry point to easily identify order problems and alerts in real time, it is guaranteed that internal sales representatives can directly access your respective documents and use integrated collaboration functions to solve problems quickly.</label>
 									<button id="verDistribucion3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -537,7 +537,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Advance the customer's future demand</p>
-									<label>Only 20% of wholesale distributors are able to use predictive analytics to anticipate customer behavior. With SAP S/4 HANA through a simplified user experience, you have key information to understand future demand and act now.</label>
+									<label>Only 20% of wholesale distributors are able to use predictive analytics to anticipate customer behavior. With SAP S/4HANA through a simplified user experience, you have key information to understand future demand and act now.</label>
 									<button id="verDistribucion4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -552,7 +552,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Become a distributor in "real time"</p>
-									<label>With SAP S/4 HANA, you will see how you reinvent your business from being a warehouse of products that meets the demand to becoming an information-based company that uses it to address operational inefficiencies proactively and impacting the final results.</label>
+									<label>With SAP S/4HANA, you will see how you reinvent your business from being a warehouse of products that meets the demand to becoming an information-based company that uses it to address operational inefficiencies proactively and impacting the final results.</label>
 									<button id="verDistribucion5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -563,7 +563,7 @@
 			<div id="industriaHighTech-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>These are the 5 reasons why SAP S/4 HANA is the preferred solution in the <strong>High technology</strong> industry.</h2>
+						<h2>These are the 5 reasons why SAP S/4HANA is the preferred solution in the <strong>High technology</strong> industry.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -591,7 +591,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduce work processes radically</p>
-									<label>With SAP S/4 HANA find incredible savings by having a unique system for processes from purchase to finance and accounting and from factory to contract management</label>
+									<label>With SAP S/4HANA find incredible savings by having a unique system for processes from purchase to finance and accounting and from factory to contract management</label>
 									<button id="verTech2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>								
 		            		</div>
@@ -606,7 +606,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Quote solutions. Not only products</p>
-									<label>Enable your account executives to create quotes that offer a complete solution that will turn into business results for your clients. Use SAP S/4 HANA to have the integral vision of all the parties involved: software, hardware and associated services.</label>
+									<label>Enable your account executives to create quotes that offer a complete solution that will turn into business results for your clients. Use SAP S/4HANA to have the integral vision of all the parties involved: software, hardware and associated services.</label>
 									<button id="verTech3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -636,7 +636,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Take action on IoT data in real time</p>
-									<label>The miniaturization of sensors, combined with increased network bandwidth, is creating a treasure trove of data that is most useful when analyzed and acted on in real time. With SAP S/4 HANA has the power to do so.</label>
+									<label>The miniaturization of sensors, combined with increased network bandwidth, is creating a treasure trove of data that is most useful when analyzed and acted on in real time. With SAP S/4HANA has the power to do so.</label>
 									<button id="verTech5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -647,7 +647,7 @@
 			<div id="industriaBanking-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>These are the 5 reasons why SAP S/4 HANA is the preferred solution in the  <strong>Financial services</strong> industry.</h2>
+						<h2>These are the 5 reasons why SAP S/4HANA is the preferred solution in the  <strong>Financial services</strong> industry.</h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -660,7 +660,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduce up to 30% the time of arrival of new products.</p>
-									<label>With SAP S/4 HANA you can reduce the time of arrival to the market for your new products, which will allow you to stay ahead of the competition and keep your customers captive</label>
+									<label>With SAP S/4HANA you can reduce the time of arrival to the market for your new products, which will allow you to stay ahead of the competition and keep your customers captive</label>
 									<button id="verBancking1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -675,7 +675,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Increase your profitability</p>
-									<label>Organizations that adopt SAP S/4 HANA generate up to 23% more revenue by using the power of information to identify strategic and competitive advantages.</label>
+									<label>Organizations that adopt SAP S/4HANA generate up to 23% more revenue by using the power of information to identify strategic and competitive advantages.</label>
 									<button id="verBancking2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -690,7 +690,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Greater visibility and availability of data</p>
-									<label>With SAP S/4 HANA you can have real-time access to financial data with the ability to break them down at the level of each item. You can build and test hypothetical situations and apply what you have learned to make better decisions and increase efficiency.</label>
+									<label>With SAP S/4HANA you can have real-time access to financial data with the ability to break them down at the level of each item. You can build and test hypothetical situations and apply what you have learned to make better decisions and increase efficiency.</label>
 									<button id="verBancking3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -705,7 +705,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Greater speed, agility and precision of the projection</p>
-									<label>With SAP S/4 HANA processes and planning functions are integrated into the transactional system, allowing a closed cycle planning at all levels. With this advantage, you can achieves a reduction of 25% to 50% in the time of the projection cycles and financial reports.</label>
+									<label>With SAP S/4HANA processes and planning functions are integrated into the transactional system, allowing a closed cycle planning at all levels. With this advantage, you can achieves a reduction of 25% to 50% in the time of the projection cycles and financial reports.</label>
 									<button id="verBancking4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -720,7 +720,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Get business information in real time</p>
-									<label>SAP S/4 HANA allows you to obtain information about any information from anywhere in real time. You can drastically accelerate planning, execution, prediction and simulation at the highest level of granularity, without the cumbersome consolidation of data and other manual processes.</label>
+									<label>SAP S/4HANA allows you to obtain information about any information from anywhere in real time. You can drastically accelerate planning, execution, prediction and simulation at the highest level of granularity, without the cumbersome consolidation of data and other manual processes.</label>
 									<button id="verBancking5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">see more</button>
 		            			</div>
 		            		</div>
@@ -739,7 +739,7 @@
 						<strong class="inline">5</strong>
 						<div class="mdl-letras inline">
 							<p>main reasons</p>
-							<h2>to choose SAP S/4 HANA</h2>
+							<h2>to choose SAP S/4HANA</h2>
 						</div>	
 						<div class="subrayado-title">
 							<div class="subrayado one"></div>
@@ -844,7 +844,7 @@
 			<div class="mdl-agradecimiento window-center opacity-done">
 				<div class="center-container">
 					<h2>Thank you for your interest</h2>
-					<p>We are confident that SAP S/4 HANA will help you accelerate your digital transformation. An SAP specialist will contact you to take the first step.</p>
+					<p>We are confident that SAP S/4HANA will help you accelerate your digital transformation. An SAP specialist will contact you to take the first step.</p>
 					<div class="subrayado-title">
 						<div class="subrayado one"></div>
 						<div class="subrayado two"></div>

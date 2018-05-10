@@ -114,7 +114,7 @@ class En extends CI_Controller {
                                         <tbody>
                                           <tr style="text-align: left;">
                                             <th style="text-align: left;"><img width="100" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
-                                            <h2 style="color: #FFFFFF;">SAP S/4 HANA</h2>
+                                            <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">S/4HANA - TOP 5 REASONS</font></th>
                                           </tr>
                                         </tbody>
                                       </table>
@@ -284,7 +284,7 @@ class En extends CI_Controller {
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;">We are confident that our SAP S/4 HANA solution will help you accelerate the benefits of digital transformation in your company.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">We are confident that our SAP S/4HANA solution will help you accelerate the benefits of digital transformation in your company.</font>
                                             </td>
                                           </tr>
                                           <tr>
