@@ -850,7 +850,7 @@
 						<div class="subrayado three"></div>
 						<div class="subrayado four"></div>
 					</div>
-					<small>Conheça o Caso de Sucesso de uma empresa de nossa região no setor de <strong class="nameIndustria"></strong>. <a id="donwloadCaso" href="#" onclick="returnCaso()">Realizar o download.</a></small>
+					<small>Conheça o Caso de Sucesso de uma empresa de nossa região no setor de <strong class="nameIndustria"></strong>. Realizar o <a id="donwloadCaso" href="#" onclick="returnCaso()">download.</a></small>
 					<!-- <small>Conheça o Caso de Sucesso de <strong class="nameCompany"></strong> no setor <strong class="nameIndustria"></strong>. Baixa <a id="donwloadCaso" href="#" onclick="returnCaso()">aqu&iacute;</a></small> -->
 				</div>
 			</div>
