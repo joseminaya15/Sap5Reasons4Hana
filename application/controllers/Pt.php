@@ -112,7 +112,7 @@ class Pt extends CI_Controller {
                                         <tbody>
                                           <tr style="text-align: left;">
                                             <th style="text-align: left;"><img width="100" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
-                                            <h2 style="color: #FFFFFF;">SAP S/4 HANA</h2>
+                                            <h2 style="color: #FFFFFF;">SAP S/4HANA</h2>
                                           </tr>
                                         </tbody>
                                       </table>
@@ -245,7 +245,7 @@ class Pt extends CI_Controller {
                                                 <tbody>
                                                   <tr style="text-align: left;">
                                                     <th style="text-align: left;"><img width="100" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
-                                                    <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">S/4HANA - TOP 5 REASONS</font></th>   
+                                                    <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">SAP S/4HANA - TOP 5 REASONS</font></th>   
                                                   </tr>
                                                 </tbody>
                                               </table>
@@ -291,7 +291,7 @@ class Pt extends CI_Controller {
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;">Em breve, um especialista da SAP entrará em contato com você.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">Um representante da SAP entrará em contato com você em breve.</font>
                                             </td>
                                           </tr>
                                           <tr>
