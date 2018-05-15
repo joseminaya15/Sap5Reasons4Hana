@@ -52,7 +52,7 @@
 			</div>
 		</div>
 		<div class="chat">
-			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Chatea con nosotros</label></a>
+			<a href="https://z1.liveper.sn/api/account/81933160/route/campaign/194741814/engagement/250005114" target="_blank"><img src="<?php echo RUTA_IMG?>logo/chat.png"><label>Fale conosco pelo chat</label></a>
 		</div>
 		<div id="home" class="window-center">
 			<div id="window2" class="window-center">
@@ -79,7 +79,7 @@
 							<div class="two none">Tomar decisões baseadas em dados em tempo real.</div>
 							<div class="three none">Minimizar o risco de seus projetos.</div>
 							<div class="four none">Aumentar a precisão de suas propostas.</div>
-							<div class="five none">Dar ao cliente um serviço de excelênciaa.</div>
+							<div class="five none">Dar ao cliente um serviço de excelência.</div>
 						</div>
 						<div id="industriaRetail" class="mdl-industrias"  onclick="modalIndustria(this.id)">
 							<p class="inline" onclick="getDatos('Varejo','Retail')">Varejo</p>
@@ -143,7 +143,7 @@
 			<div id="industriaServicio-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4HANA é a solução preferida na indústria de <strong>Serviços Profissionais.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA é a solução preferida na indústria de <strong>Serviços Profissionais.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 		            	<div class="mdl-card-industria">
@@ -196,7 +196,7 @@
 		            			<div class="card-front">
 		            				<strong>4</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/tiempo.png">
-		            				<p>Atomização</p> 
+		            				<p>Automatização</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -227,7 +227,7 @@
 			<div id="industriaRetail-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4HANA é a solução preferida na indústria de <strong>Retail.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA é a solução preferida na indústria de <strong>Varejo.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -311,7 +311,7 @@
 			<div id="industriaProducto-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4HANA é a solução preferida na indústria de <strong>Produtos de Consumo.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA é a solução preferida na indústria de <strong>Bens de Consumo.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -354,7 +354,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduzir em até 15% a perda de receitas devido ao desabastecimento</p>
-									<label>Um processo reprojetado pelo SAP S/4 HANA proporciona visibilidade do inventário em tempo real com lotes de estoque diminuídos, entrega melhorada e capacidade de inovar com serviços inovadores.</label>
+									<label>Um processo reprojetado pelo SAP S/4HANA proporciona visibilidade do inventário em tempo real com lotes de estoque diminuídos, entrega melhorada e capacidade de modernizar com serviços inovadores.</label>
 									<button id="verProducto3" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>								
 		            		</div>
