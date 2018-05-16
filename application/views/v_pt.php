@@ -368,7 +368,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Com o SAP S/4HANA, os relatórios de análise podem ser gerados instantaneamente para obter uma visão imediata dos níveis de estoque de inventário, vendas de produtos, marketing e finanças. O resultado é uma imagem de 360 graus do que ocorre em sua organização.</label>
+		            				<p id="title">Um sistema em tempo real com relatórios operacionais ao vivo</p>
+		            				<label>Com o SAP S/4HANA, os relatórios de análise podem ser gerados instantaneamente para obter uma visão imediata dos níveis de estoque de inventário, vendas de produtos, marketing e finanças. O resultado é uma imagem de 360 graus do que ocorre em sua organização.</label>
 									<button id="verProducto4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -478,7 +479,7 @@
 			<div id="industriaDistribucion-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4HANA é a solução preferida na indústria de <strong>Distribuição Atacadista.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA é a solução preferida na indústria de <strong>Distribuição Atacadista.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -516,7 +517,7 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/reduccion.png">
-		            				<p>Eficiência</p> 
+		            				<p>Encomendas</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
@@ -536,7 +537,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Antecipar a demanda futura do cliente</p>
-									<label>Só 20% dos distribuidores atacadistas estão em condições de utilizar a análise preditiva para antecipar o comportamento do cliente. Com o SAP S/4HANA é possível uma experiência de usuário simplificada, além de possuir informações importantes para compreender a demanda futura e atuar no momento.</label>
+									<label>Só 20% dos distribuidores atacadistas estão em condições de utilizar a análise preditiva para antecipar o comportamento do cliente. Com o SAP S/4HANA é possível uma experiência de usuário simplificada, além de possuir informações importantes para compreender as próximas demandas e atuar no momento.</label>
 									<button id="verDistribucion4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -551,7 +552,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Torne-se um distribuidor em "tempo real"</p>
-									<label>Com o SAP S/4HANA, você irá ver como reinventar seu negócio passando de um armazém de produtos que satisfaz a demanda para se transformar em uma empresa centrada na informação e que a utiliza para abordar ineficiências operacionais de maneira proativa e impactando nos resultados finais.</label>
+									<label>Com o SAP S/4HANA, você irá ver como reinventar seu negócio passando de um armazém de produtos que satisfaz a demanda para se transformar em uma empresa centrada na informação e que a utiliza para abordar ineficiências operacionais de maneira proativa e que podem impactar nos resultados finais.</label>
 									<button id="verDistribucion5" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -562,7 +563,7 @@
 			<div id="industriaHighTech-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4HANA é a solução preferida na indústria de <strong>Alta Tecnologia.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA é a solução preferida na indústria de <strong>Alta Tecnologia.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -575,7 +576,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Reduzir em até 46% as reclamações de clientes</p>
-									<label>Faça com que o pedido e o faturamento em tempo real estejam disponíveis para aumentar a entrega pontual, uma maior flexibilidade do modelo comercial e a eficiência da gestão de contratos.</label>
+									<label>Faça com que o pedido e o faturamento em tempo real estejam disponíveis para aumentar a entrega pontual, gerar uma maior flexibilidade do modelo comercial e maior eficiência da gestão de contratos.</label>
 									<button id="verTech1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
@@ -646,7 +647,7 @@
 			<div id="industriaBanking-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4HANA é a solução preferida na indústria de <strong>Serviços Financeiros.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA é a solução preferida na indústria de <strong>Serviços Financeiros.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
