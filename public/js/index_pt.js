@@ -297,16 +297,16 @@ function nameIndustria(idIndustria){
 		$('.nameIndustria').text('Serviços Profissionais');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaRetail'){
-		$('.nameIndustria').text('Retail');
+		$('.nameIndustria').text('Varejo');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaProducto'){
-		$('.nameIndustria').text('Produtos de Consumo');
+		$('.nameIndustria').text('Bens de Consumo');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaProceso'){
 		$('.nameIndustria').text('Processo e Manufatura');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaDistribucion'){
-		$('.nameIndustria').text('Distribuição');
+		$('.nameIndustria').text('Distribuição Atacadista');
 		// $('.nameCompany').text('Ripley');
 	}else if(idIndustria == 'industriaHighTech'){
 		$('.nameIndustria').text('Alta tecnologia');

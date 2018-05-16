@@ -368,7 +368,8 @@
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
-		            				<p id="title">Com o SAP S/4HANA, os relatórios de análise podem ser gerados instantaneamente para obter uma visão imediata dos níveis de estoque de inventário, vendas de produtos, marketing e finanças. O resultado é uma imagem de 360 graus do que ocorre em sua organização.</label>
+		            				<p id="title">Um sistema em tempo real com relatórios operacionais ao vivo</p>
+		            				<label>Com o SAP S/4HANA, os relatórios de análise podem ser gerados instantaneamente para obter uma visão imediata dos níveis de estoque de inventário, vendas de produtos, marketing e finanças. O resultado é uma imagem de 360 graus do que ocorre em sua organização.</label>
 									<button id="verProducto4" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
