@@ -394,7 +394,7 @@
 			<div id="industriaProceso-contenido" class="window-center opacity-done">
 				<div class="center-container">
 					<div class="contenido-industria inline">
-						<h2>Estas são as 5 razões pelas quais SAP S/4HANA é a solução preferida na indústria de <strong>Processo e Manufatura.</strong></h2>
+						<h2>Estas são as 5 razões pelas quais o SAP S/4HANA Cloud é a solução preferida na indústria de <strong>Processo e Manufatura.</strong></h2>
 					</div>
 					<div class="card-industria inline">
 						<div class="mdl-card-industria">
@@ -407,7 +407,7 @@
 		            			</div>
 		            			<div class="card-back">
 		            				<p id="title">Ampliar as oportunidades de vendas em até 15-20%</p>
-									<label>O SAP S/4HANA incorpora agilidade através de uma plataforma simplificada que permite a troca de dados em tempo real entre vendas, serviço ao cliente e líderes empresariais, uma maior eficiência devido à eliminação de dados duplicados e uma análise de dados simplificada que conduzem a vendas mais efetivas e específicas.</label>
+									<label>O SAP S/4HANA incorpora agilidade através de uma plataforma simplificada que permite a troca de dados em tempo real entre vendas, serviço ao cliente e líderes empresariais.</label>
 									<button id="verProceso1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="openIndustria(this.id)">Ver mais</button>
 		            			</div>
 		            		</div>
