@@ -286,7 +286,7 @@ function returnCaso(){
 	var nameCaso = casoIndustria;
 	var linkCaso = $('#donwloadCaso');
 	linkCaso.attr({
-		href: 'http://www.sap-latam.com/5reasons_hana/public/casos/'+nameCaso+'.zip'
+		href: 'http://www.sap-latam.com/5reasons_hana/public/casos/pt/'+nameCaso+'.zip'
 	});
 	setTimeout(function(){ 
 		location.reload();
