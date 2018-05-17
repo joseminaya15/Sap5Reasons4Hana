@@ -295,25 +295,25 @@ function returnCaso(){
 function nameIndustria(idIndustria){
 	if(idIndustria == 'industriaServicio'){
 		$('.nameIndustria').text('Serviços Profissionais');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('uma empresa');
 	}else if(idIndustria == 'industriaRetail'){
 		$('.nameIndustria').text('Varejo');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('uma empresa');
 	}else if(idIndustria == 'industriaProducto'){
 		$('.nameIndustria').text('Bens de Consumo');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('uma empresa');
 	}else if(idIndustria == 'industriaProceso'){
 		$('.nameIndustria').text('Processo e Manufatura');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('uma empresa');
 	}else if(idIndustria == 'industriaDistribucion'){
 		$('.nameIndustria').text('Distribuição Atacadista');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('uma empresa');
 	}else if(idIndustria == 'industriaHighTech'){
 		$('.nameIndustria').text('Alta tecnologia');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('LIQ');
 	}else{
 		$('.nameIndustria').text('Serviços Financeiros');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('uma empresa');
 	}
 	casoIndustria = $('#'+idIndustria).find('p').text();
 }

@@ -870,9 +870,8 @@
 						<div class="subrayado three"></div>
 						<div class="subrayado four"></div>
 					</div>
-					<small>Conozca el Caso de &Eacute;xito de una empresa de nuestra regi&oacute;n en el sector <strong class="nameIndustria"></strong>. Descargue <a id="donwloadCaso" href="#" onclick="returnCaso()">aqu&iacute;</a></small>
-					<!-- <small>Conozca el Caso de &Eacute;xito de <strong class="nameCompany"></strong> en el sector <strong class="nameIndustria"></strong>. Descargue <a id="donwloadCaso" href="#" onclick="returnCaso()">aqu&iacute;</a></small> -->
-
+					<!-- <small>Conozca el Caso de &Eacute;xito de una empresa de nuestra regi&oacute;n en el sector <strong class="nameIndustria"></strong>. Descargue <a id="donwloadCaso" href="#" onclick="returnCaso()">aqu&iacute;</a></small> -->
+					<small>Conozca el Caso de &Eacute;xito de <strong class="nameCompany"></strong> en el sector de <strong class="nameIndustria"></strong>. Descargue <a id="donwloadCaso" href="#" onclick="returnCaso()">aqu&iacute;</a></small>
 				</div>
 			</div>
 		</div>

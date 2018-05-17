@@ -295,25 +295,25 @@ function returnCaso(){
 function nameIndustria(idIndustria){
 	if(idIndustria == 'industriaServicio'){
 		$('.nameIndustria').text('Professional Services');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('a company');
 	}else if(idIndustria == 'industriaRetail'){
 		$('.nameIndustria').text('Retail');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('Grupo Monge');
 	}else if(idIndustria == 'industriaProducto'){
 		$('.nameIndustria').text('Consumer Products');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('Jyothy ');
 	}else if(idIndustria == 'industriaProceso'){
 		$('.nameIndustria').text('Process and Manufacturing');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('a company');
 	}else if(idIndustria == 'industriaDistribucion'){
 		$('.nameIndustria').text('Distribution');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('a company');
 	}else if(idIndustria == 'industriaHighTech'){
 		$('.nameIndustria').text('High Technology');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('a company');
 	}else{
 		$('.nameIndustria').text('Financial Services');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('a company');
 	}
 	casoIndustria = $('#'+idIndustria).find('p').text();
 }

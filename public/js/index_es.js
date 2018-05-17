@@ -295,25 +295,25 @@ function returnCaso(){
 function nameIndustria(idIndustria){
 	if(idIndustria == 'industriaServicio'){
 		$('.nameIndustria').text('Servicios Profesionales');
-		// $('.nameCompany').text('Ripley');
+		$('.nameCompany').text('una empresa');
 	}else if(idIndustria == 'industriaRetail'){
 		$('.nameIndustria').text('Retail');
-		// $('.nameCompany').text('Saga');
+		$('.nameCompany').text('una empresa');
 	}else if(idIndustria == 'industriaProducto'){
 		$('.nameIndustria').text('Productos de Consumo');
-		// $('.nameCompany').text('Cineplanet');
+		$('.nameCompany').text('una empresa');
 	}else if(idIndustria == 'industriaProceso'){
 		$('.nameIndustria').text('Proceso y Manufactura');
-		// $('.nameCompany').text('Merino');
+		$('.nameCompany').text('Andreu World');
 	}else if(idIndustria == 'industriaDistribucion'){
 		$('.nameIndustria').text('Distribución');
-		// $('.nameCompany').text('BrainRed');
+		$('.nameCompany').text('TGW');
 	}else if(idIndustria == 'industriaHighTech'){
 		$('.nameIndustria').text('Alta Tecnología');
-		// $('.nameCompany').text('BrainBlue');
+		$('.nameCompany').text('una empresa');
 	}else{
 		$('.nameIndustria').text('Servicios Financieros');
-		// $('.nameCompany').text('Imagente');
+		$('.nameCompany').text('COMFENALCO');
 	}
 	casoIndustria = $('#'+idIndustria).find('p').text();
 }
