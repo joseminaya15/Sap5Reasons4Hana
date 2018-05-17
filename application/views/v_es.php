@@ -536,7 +536,7 @@
 		            			<div class="card-front">
 									<strong>3</strong>
 		            				<img src="<?php echo RUTA_IMG?>cards/reduccion.png">
-		            				<p>Eficiencia</p> 
+		            				<p>Productividad</p> 
 									<i class="mdi mdi-add"></i>
 		            			</div>
 		            			<div class="card-back">
