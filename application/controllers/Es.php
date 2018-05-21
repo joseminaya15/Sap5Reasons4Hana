@@ -11,7 +11,7 @@ class Es extends CI_Controller {
         $this->output->set_header('Cache-Control: no-store, no-cache, must-revalidate');
         $this->output->set_header('Cache-Control: post-check=0, pre-check=0',false);
         $this->output->set_header('Pragma: no-cache');
-    }
+  }
 
 	public function index(){
     $data['pantalla']      = $this->session->userdata('pantalla') == '' ? 0 : $this->session->userdata('pantalla');
@@ -30,49 +30,47 @@ class Es extends CI_Controller {
     $this->session->set_userdata($session);
 		$this->load->view('v_es', $data);
 	}
-
-    function solicitarEstimacion() {
-        $data['error'] = EXIT_ERROR;
-        $data['msj']   = null;
-        try {
-            $nombre_completo = $this->input->post('nombre_completo');
-            $empresa         = $this->input->post('empresa');
-            $email           = $this->input->post('email');
-            $pais            = $this->input->post('pais');
-            $cargo           = $this->input->post('cargo');
-            $telefono        = $this->input->post('telefono');
-            $relacion        = $this->input->post('relacion');
-            $terminos        = $this->input->post('term_cond');
-            $contacto        = $this->input->post('contacto');
-            $arrayInsert = array('nombre_completo' => $nombre_completo,
-                                 'Empresa'         => $empresa,
-                                 'Email'           => $email,
-                                 'Pais'            => $pais,
-                                 'Cargo'           => $cargo,
-                                 'Telefono'        => $telefono,
-                                 'Terminos'        => $terminos,
-                                 'Relacion'        => $relacion,
-                                 'Contactado'      => $contacto,
-                                 'industria'       => $this->session->userdata('industria'),
-                                 'id_lenguaje'     => 1);
-            $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
-            $this->sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
-            $this->emailClienteSap($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
-            $data['idIndustria'] = $this->session->userdata('idIndustria');
-            $this->session->unset_userdata('pantalla');
-            $this->session->unset_userdata('nombre_linke');
-            $this->session->unset_userdata('email_linke');
-            $this->session->unset_userdata('compania');
-            $this->session->unset_userdata('titulo');
-            $this->session->unset_userdata('pais_linke');
-            $data['msj']   = $datoInsert['msj'];
-            $data['error'] = $datoInsert['error'];
-        }catch(Exception $e){
-            $data['msj'] = $e->getMessage();
-        }
-        echo json_encode($data);
+  function solicitarEstimacion() {
+      $data['error'] = EXIT_ERROR;
+      $data['msj']   = null;
+      try {
+          $nombre_completo = $this->input->post('nombre_completo');
+          $empresa         = $this->input->post('empresa');
+          $email           = $this->input->post('email');
+          $pais            = $this->input->post('pais');
+          $cargo           = $this->input->post('cargo');
+          $telefono        = $this->input->post('telefono');
+          $relacion        = $this->input->post('relacion');
+          $terminos        = $this->input->post('term_cond');
+          $contacto        = $this->input->post('contacto');
+          $arrayInsert = array('nombre_completo' => $nombre_completo,
+                               'Empresa'         => $empresa,
+                               'Email'           => $email,
+                               'Pais'            => $pais,
+                               'Cargo'           => $cargo,
+                               'Telefono'        => $telefono,
+                               'Terminos'        => $terminos,
+                               'Relacion'        => $relacion,
+                               'Contactado'      => $contacto,
+                               'industria'       => $this->session->userdata('industria'),
+                               'id_lenguaje'     => 1);
+          $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
+          $this->sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
+          $this->emailClienteSap($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
+          $data['idIndustria'] = $this->session->userdata('idIndustria');
+          $this->session->unset_userdata('pantalla');
+          $this->session->unset_userdata('nombre_linke');
+          $this->session->unset_userdata('email_linke');
+          $this->session->unset_userdata('compania');
+          $this->session->unset_userdata('titulo');
+          $this->session->unset_userdata('pais_linke');
+          $data['msj']   = $datoInsert['msj'];
+          $data['error'] = $datoInsert['error'];
+      }catch(Exception $e){
+          $data['msj'] = $e->getMessage();
+      }
+      echo json_encode($data);
     }
-
     function sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto){
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
@@ -201,7 +199,6 @@ class Es extends CI_Controller {
         }
         return json_encode(array_map('utf8_encode', $data));
     }
-
     function emailClienteSap($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto){
       $data['error'] = EXIT_ERROR;
       $data['msj']   = null;
@@ -323,7 +320,6 @@ class Es extends CI_Controller {
       }
       return json_encode(array_map('utf8_encode', $data));
     }
-
     function cambiarIdioma(){
       $data['error'] = EXIT_ERROR;
       $data['msj']   = null;
