@@ -297,7 +297,7 @@ class Es extends CI_Controller {
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;">Muy pronto un especialista SAP se pondrá en contacto con usted para profundizar en su requerimiento.font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">Muy pronto un especialista SAP se pondrá en contacto con usted para profundizar en su requerimiento.</font>
                                             </td>
                                           </tr>
                                           <tr>
