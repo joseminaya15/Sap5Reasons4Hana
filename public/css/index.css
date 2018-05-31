@@ -727,7 +727,6 @@ button.button-left{
     font-family: 'RobotoBold';
     text-decoration: underline;
     line-height: 26px;
-    pointer-events: none;
 }
 .title-formulario{
     font-size: 20px;
