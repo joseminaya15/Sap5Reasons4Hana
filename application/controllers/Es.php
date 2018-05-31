@@ -43,6 +43,7 @@ class Es extends CI_Controller {
           $relacion        = $this->input->post('relacion');
           $terminos        = $this->input->post('term_cond');
           $contacto        = $this->input->post('contacto');
+          $checks          = $this->input->post('checks');
           $arrayInsert = array('nombre_completo' => $nombre_completo,
                                'Empresa'         => $empresa,
                                'Email'           => $email,
@@ -53,7 +54,8 @@ class Es extends CI_Controller {
                                'Relacion'        => $relacion,
                                'Contactado'      => $contacto,
                                'industria'       => $this->session->userdata('industria'),
-                               'id_lenguaje'     => 1);
+                               'id_lenguaje'     => 1,
+                               'checks'          => $checks);
           $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
           $this->sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
           $this->emailClienteSap($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
