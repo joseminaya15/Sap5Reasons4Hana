@@ -668,6 +668,7 @@ button.button-left{
 #ModalPoliticas .mdl-card__title h2{
     color: #000000;
     font-size: 24px;
+    line-height: 26px;
     margin: 5px 0;
 }
 #ModalPoliticas .mdl-card__suppoerting-text{

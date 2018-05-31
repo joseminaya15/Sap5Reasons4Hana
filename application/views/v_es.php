@@ -850,7 +850,7 @@
 		    				<div class="col-xs-12 mdl-label m-t-10">
 								<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
 									<input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-									<span class="mdl-checkbox__label f-s-14" style="">He le&iacute;do y acepto los <a class="FONDO_TERMINOS" href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Marketing_Configurator_Portals_Privacy_Policy.pdf" target="_blank" style="">T&eacute;rminos y condiciones de SAP</a></span>
+									<span class="mdl-checkbox__label f-s-14" style="">He le&iacute;do y acepto los <a class="FONDO_TERMINOS" href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Marketing_Configurator_Portals_Privacy_Policy.pdf" target="_blank">T&eacute;rminos y condiciones de SAP</a></span>
 								</label>
 		    				</div>
 		    				<div class="col-xs-12 text-right m-t-25">
