@@ -367,7 +367,7 @@ class Es extends CI_Controller {
   }
   function returnHome(){
     $data['error'] = EXIT_ERROR;
-    $data['msj'] = null;
+    $data['msj']   = null;
     try {
       $session = array('pantalla' => 0);
       $this->session->set_userdata($session);
