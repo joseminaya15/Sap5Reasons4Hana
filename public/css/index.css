@@ -928,6 +928,17 @@ button.button-left{
 .js-terminos a{
     color: #008FD3;
 }
+.js-button{
+    background-color: #F0AB00 !important;
+    color: #000000;
+    margin: 0 5px;
+}
+.js-button--default{
+    background-color: transparent;
+    color: #000000;
+    margin: 0 5px;
+    box-shadow: none;
+}
 /*TOASTR*/
 #toast-container{
     transform: translateY(20px);

@@ -22,14 +22,8 @@
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>animate.css?v=<?php echo time();?>">
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
-	<script type="text/javascript">
-		/*(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-114404560-1', 'auto');
-			ga('send', 'pageview');*/
-	</script>
+	<!--Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P W9PLW6');</script><!--End Google Tag Manager -->
+	<!--Google Tag Manager  (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P W9PLW6"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!--End Google Tag Manager  (noscript) -->
 </head>
 <body>
 	<section id="principal">
@@ -854,14 +848,8 @@
                                     </label>
                                     <span onclick="openModal()">He le&iacute;do y acepto los</span>
                                 </div>
-                                <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_eng" target="_blank">Términos y condiciones de SAP</a>
+                                <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_eng.pdf" target="_blank">Términos y condiciones de SAP</a>
                             </div>
-		    				<!-- <div class="col-xs-12 mdl-label m-t-10">
-								<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
-									<input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-									<span class="mdl-checkbox__label f-s-14" style="">He le&iacute;do y acepto los <a class="FONDO_TERMINOS" href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Marketing_Configurator_Portals_Privacy_Policy.pdf" target="_blank">T&eacute;rminos y condiciones de SAP</a></span>
-								</label>
-		    				</div> -->
 		    				<div class="col-xs-12 text-right m-t-25">
 								<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-confirmar" onclick="solicitarEstimacion();">Enviar informaci&oacute;n</button>
 		    				</div>
@@ -948,8 +936,8 @@
 						</label>
 					</div>
 					<div class="mdl-card__actions">
-						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="acceptPoliticas()">Aceptar</button>
-						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="closePoliticas()">Cerrar</button>
+						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button--default" onclick="closePoliticas()">Cerrar</button>
+						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="acceptPoliticas()">Aceptar</button>
 					</div>
                 </div>
             </div>
