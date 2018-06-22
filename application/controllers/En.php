@@ -53,6 +53,7 @@ class En extends CI_Controller {
                                      'Terminos'        => $terminos,
                                      'Relacion'        => $relacion,
                                      'Contactado'      => $contacto,
+                                     'industria'       => $this->session->userdata('industria'),
                                      'id_lenguaje'     => 2,
                                      'checks'          => $checks);
             $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
