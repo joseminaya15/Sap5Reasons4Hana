@@ -791,14 +791,14 @@
 		    				<div class="col-sm-6">
 		    					<div class="mdl-select mdl-standar">
 									<select class="selectpicker" id="relacion" name="relacion" title="Relationship with SAP">
-										<option value="Cliente">Cliente</option>
-										<option value="Cliente potencial">Cliente potencial</option>
-										<option value="Consultor">Consultor</option>
-										<option value="Empleado SAP">Empleado SAP</option>
-										<option value="Estudiante">Estudiante</option>
+										<option value="Customer">Customer</option>
+										<option value="Potential customer">Potential customer</option>
+										<option value="Consultant">Consultant</option>
+										<option value="SAP employee">SAP employee</option>
+										<option value="Student">Student</option>
 										<option value="Partner">Partner</option>
-										<option value="Partner potencial">Partner potencial</option>
-										<option value="Prensa/Analista">Prensa/Analista</option>
+										<option value="Potential partner">Potential partner</option>
+										<option value="Press/Analyst">Press/Analyst</option>
 									</select>
 								</div>
 		    				</div>
