@@ -911,6 +911,23 @@ button.button-left{
     font-family: 'RobotoRegular';
     font-weight: 100;
 }
+.js-flex--left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.js-flex--left .mdl-checkbox{
+    max-width: 25px !important;
+}
+.js-checkbox .mdl-checkbox__box-outline {
+    border: 2px solid #fff;
+}
+.js-terminos span{
+    cursor: pointer;
+}
+.js-terminos a{
+    color: #008FD3;
+}
 /*TOASTR*/
 #toast-container{
     transform: translateY(20px);
