@@ -53,7 +53,7 @@ class Es extends CI_Controller {
                                'Terminos'        => $terminos,
                                'Relacion'        => $relacion,
                                'Contactado'      => $contacto,
-                               'industria'       => $this->session->userdata('industria'),
+                               // 'industria'       => $this->session->userdata('industria'),
                                'id_lenguaje'     => 1,
                                'checks'          => $checks);
           $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
@@ -115,7 +115,7 @@ class Es extends CI_Controller {
                                       <table cellspacing="0" cellpadding="0" border="0">
                                         <tbody>
                                           <tr style="text-align: left;">
-                                            <th style="text-align: left;"><img width="100" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
+                                            <th style="text-align: left;"><img width="85" height="53" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
                                             <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">S/4HANA - LAS 5 PRINCIPALES RAZONES</font></th>
                                           </tr>
                                         </tbody>
@@ -249,7 +249,7 @@ class Es extends CI_Controller {
                                               <table cellspacing="0" cellpadding="0" border="0">
                                                 <tbody>
                                                   <tr style="text-align: left;">
-                                                    <th style="text-align: left;"><img width="100" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
+                                                    <th style="text-align: left;"><img width="85" height="53" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
                                                     <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">S/4HANA - LAS 5 PRINCIPALES RAZONES</font></th>   
                                                   </tr>
                                                 </tbody>
