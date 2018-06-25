@@ -4,13 +4,13 @@
 	<meta charset="ISO-8859-1">
     <meta http-equiv="X-UA-Compatible"  content="IE=edge">
     <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="description"            content="Proyecto de desarrollo de un producto wizard online que tenga un quiz y con una unica solucion que es SAP Business One">
-    <meta name="keywords"               content="SAP,producto wizard">
+    <meta name="description"            content="SAP 5 Reasons S/4 HANA">
+    <meta name="keywords"               content="SAP 5 Reasons S/4 HANA">
     <meta name="robots"                 content="Index,Follow">
     <meta name="date"                   content="January 25, 2018"/>
     <meta name="language"               content="es">
     <meta name="theme-color"            content="#000000">
-	<title>SAP Business One</title>
+	<title>SAP 5 Reasons S/4 HANA</title>
     <link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/logo_favicon.png">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap/bootstrap.min.css?v=<?php echo time();?>">
