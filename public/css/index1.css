@@ -390,10 +390,15 @@ table thead tr{
 	-o-transition: opacity .5s ease-in-out .2s;
 	transition: opacity .5s ease-in-out .2s;
     opacity: 0;
+    display: flex;
+    align-items: center;
 }
 .header-left{
-    padding: 18px 0 18px 25px;
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 20px;
 }
 .header-right.admin{
 	max-width: 240px;
@@ -405,13 +410,13 @@ table thead tr{
 	margin-right: 10px;
 }
 .header-right{
-    float: right;
     height: 68px;
     max-width: 215px;
     width: 100%;
     display: flex;
     display: -webkit-flex;
-    align-items: center
+    align-items: center;
+    justify-content: flex-end;
 }
 .header-right .mdl-idioma{
 	float: left;
@@ -468,7 +473,7 @@ table thead tr{
     font-size: 21px;
 }
 .logo-header{
-	max-width: 140px;
+	max-width: 85px;
 	margin-right: 20px;
 }
 .logo-partner{
