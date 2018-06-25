@@ -10,7 +10,7 @@
     <meta name="date"                   content="January 25, 2018"/>
     <meta name="language"               content="es">
     <meta name="theme-color"            content="#000000">
-	<title>SAP 5 Reasons S/4 HANA</title>
+	<title>SAP 5 Reasons S/4HANA</title>
     <link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/logo_favicon.png">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap/bootstrap.min.css?v=<?php echo time();?>">

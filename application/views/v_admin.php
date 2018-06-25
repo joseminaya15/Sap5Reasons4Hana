@@ -4,13 +4,13 @@
 	  <meta charset="ISO-8859-1">
     <meta http-equiv="X-UA-Compatible"  content="IE=edge">
     <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="description"            content="SAP 5 Reasons S/4 HANA">
-    <meta name="keywords"               content="SAP 5 Reasons S/4 HANA">
+    <meta name="description"            content="SAP 5 REASONS S/4HANA">
+    <meta name="keywords"               content="SAP 5 REASONS S/4HANA">
     <meta name="robots"                 content="Index,Follow">
     <meta name="date"                   content="January 25, 2018"/>
     <meta name="language"               content="es">
     <meta name="theme-color"            content="#000000">
-	  <title>SAP 5 Reasons S/4 HANA</title>
+	  <title>SAP 5 REASONS S/4HANA</title>
     <link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/logo_favicon.png">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap-select/css/bootstrap-select.min.css?v=<?php echo time();?>">
@@ -35,7 +35,7 @@
             <div class="header" style="opacity: 1;">
                 <div class="header-left">
                     <img class="logo-header" src="<?php echo RUTA_IMG?>logo/logo_favicon.png" style="max-width: 80px !important;">
-                    <h2 style="font-size: 20px !important;">SAP 5 REASONS S/4 HANA</h2>
+                    <h2 style="font-size: 20px !important;">SAP 5 REASONS S/4HANA</h2>
                 </div>
                 <div class="header-right admin">
                      <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect admin-logout m-r-25" onclick="cerrarCesion()">Logout</a>
