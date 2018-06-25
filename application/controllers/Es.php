@@ -291,12 +291,9 @@ class Es extends CI_Controller {
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;font-weight: bold;">Lo invitamos a descargar un estudio reciente de <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/es/'.$this->session->userdata('industriaPdf').'.pdf">Oxford Economics</a> sobre la transformación digital para su industria.</font>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;">Muy pronto un especialista SAP se pondrá en contacto con usted para profundizar en su requerimiento.</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">Muy pronto un especialista SAP se pondrá en contacto con usted para profundizar en su requerimiento.
+                                              <strong style="color: #000000;font-size:14px;font-family: arial;">Mientras tanto lo invitamos a descargar un estudio reciente de <a href="http://www.sap-latam.com/5reasons_hana/public/oxford/es/'.$this->session->userdata('industriaPdf').'.pdf">Oxford Economics</a> sobre su industria.</strong>
+                                              </font>
                                             </td>
                                           </tr>
                                           <tr>
@@ -306,7 +303,7 @@ class Es extends CI_Controller {
                                           </tr>
                                           <tr>
                                             <td style="padding:10px 40px 20px 40px;">
-                                              <font style="color: #000000;font-size:14px;font-family: arial;">SAP Latinoamérica</font>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;"><strong>SAP Latinoamérica</strong></font>
                                             </td>
                                           </tr>
                                         </tbody>
