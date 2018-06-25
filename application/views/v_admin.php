@@ -34,7 +34,8 @@
         <div id="content" class="mdl-container">
             <div class="header" style="opacity: 1;">
                 <div class="header-left">
-                    <img class="logo-header" src="<?php echo RUTA_IMG?>logo/logo_home.png">
+                    <img class="logo-header" src="<?php echo RUTA_IMG?>logo/logo_favicon.png" style="max-width: 80px !important;">
+                    <h2 style="font-size: 20px !important;">SAP 5 REASONS S/4 HANA</h2>
                 </div>
                 <div class="header-right admin">
                      <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect admin-logout m-r-25" onclick="cerrarCesion()">Logout</a>
