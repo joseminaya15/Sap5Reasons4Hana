@@ -300,6 +300,11 @@ class Es extends CI_Controller {
                                             </td>
                                           </tr>
                                           <tr>
+                                            <td>
+                                              <font style="color: #000000;font-size:14px;font-family: arial;">Conozca el Caso de &Eacute;xito de <strong class="nameCompany"></strong> en el sector de '.$industria.'</strong>. Descargue <a id="donwloadCaso" href="http://www.sap-latam.com/5reasons_hana/public/casos/es/'.$industria.'.zip">aqu&iacute;</a></font>
+                                            </td>
+                                          </tr>
+                                          <tr>
                                             <td style="padding:10px 40px 20px 40px;">
                                               <font style="color: #000000;font-size:14px;font-family: arial;">SAP Latinoamérica</font>
                                             </td>
