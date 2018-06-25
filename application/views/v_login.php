@@ -19,7 +19,8 @@
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>material-icons.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>roboto.css?v=<?php echo time();?>">
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
-    <link rel="stylesheet"    href="<?php echo RUTA_CSS?>login.min.css?v=<?php echo time();?>">
+    <link rel="stylesheet"    href="<?php echo RUTA_CSS?>login.css?v=<?php echo time();?>">
+    <link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
 </head>
 <body>
     <section id="principal">
@@ -28,8 +29,19 @@
                 <img src="<?php echo RUTA_IMG?>logo/logo_home.png">
             </div>
             <div class="contenido">
-                <img class="logo-home" src="<?php echo RUTA_IMG?>logo/logo_favicon.png">
-                <h2>SAP 5 Reasons S/4 Hana</h2>
+                <div class="mdl-title inline">
+                    <strong class="inline">5</strong>
+                    <div class="mdl-letras inline">
+                        <p>razones principales</p>
+                        <h2>por qu&eacute; elegir SAP S/4HANA</h2>
+                    </div>
+                    <div class="subrayado-title">
+                        <div class="subrayado one"></div>
+                        <div class="subrayado two"></div>
+                        <div class="subrayado three"></div>
+                        <div class="subrayado four"></div>
+                    </div>  
+                </div>
             </div>
             <div class="contenido-bottom">
                 <!-- <img src="<?php echo RUTA_IMG?>fondo-home.jpg"> -->

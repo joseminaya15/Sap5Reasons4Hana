@@ -34,9 +34,14 @@ body{
     transition: max-width .3s linear;
 }
 .card-content .contenido{
-	position: absolute;
+	/*position: absolute;
 	top: 50%;
-	transform: translate(0, -50%);
+	transform: translate(0, -50%);*/
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
 }
 .card-content .contenido h2{
 	color: #FFFFFF;
