@@ -22,14 +22,8 @@
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>animate.css?v=<?php echo time();?>">
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
-	<script type="text/javascript">
-		/*(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-114404560-1', 'auto');
-			ga('send', 'pageview');*/
-	</script>
+	<!--Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P W9PLW6');</script><!--End Google Tag Manager -->
+	<!--Google Tag Manager  (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P W9PLW6"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!--End Google Tag Manager  (noscript) -->
 </head>
 <body>
 	<section id="principal">
@@ -791,14 +785,14 @@
 		    				<div class="col-sm-6">
 		    					<div class="mdl-select mdl-standar">
 									<select class="selectpicker" id="relacion" name="relacion" title="Relationship with SAP">
-										<option value="Cliente">Cliente</option>
-										<option value="Cliente potencial">Cliente potencial</option>
-										<option value="Consultor">Consultor</option>
-										<option value="Empleado SAP">Empleado SAP</option>
-										<option value="Estudiante">Estudiante</option>
+										<option value="Customer">Customer</option>
+										<option value="Potential customer">Potential customer</option>
+										<option value="Consultant">Consultant</option>
+										<option value="SAP employee">SAP employee</option>
+										<option value="Student">Student</option>
 										<option value="Partner">Partner</option>
-										<option value="Partner potencial">Partner potencial</option>
-										<option value="Prensa/Analista">Prensa/Analista</option>
+										<option value="Potential partner">Potential partner</option>
+										<option value="Press/Analyst">Press/Analyst</option>
 									</select>
 								</div>
 		    				</div>
@@ -828,12 +822,15 @@
 									</label>
 		    					</div>
 		    				</div>
-		    				<div class="col-xs-12 mdl-label m-t-10">
-								<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
-									<input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-									<span class="mdl-checkbox__label f-s-14" style="">I have read and accept the <a class="FONDO_TERMINOS" href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Marketing_Configurator_Portals_Privacy_Policy.pdf" target="_blank">SAP Terms and Conditions</a></span>
-								</label>
-		    				</div>
+		    				<div class="col-xs-12 js-checkbox m-t-10 js-flex js-terminos">
+                                <div class="js-flex--left">
+                                    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+                                        <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
+                                    </label>
+                                    <span onclick="openModal()">I have read and accept the</span>
+                                </div>
+                                <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_eng.pdf" target="_blank">SAP Terms and Conditions</a>
+                            </div>
 		    				<div class="col-xs-12 text-right m-t-25">
 								<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-confirmar" onclick="solicitarEstimacion();">Send information</button>
 		    				</div>
@@ -912,7 +909,7 @@
 				    <div class="mdl-card__supporting-text p-t-0">
                     	<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect js-label" for="checkbox-3">
 							<input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
-							<span class="mdl-checkbox__label f-s-14">Would you like to receive additional information on SAP products and services along with information related to this inquiry? By checking this box, you agree that your contact details will be used by SAP Marketing in accordance with the <a href="https://www.sap.com/dam/site/corporate/legal/consent-resource-center.pdf" target="_blank">SAP Marketing Consent Statement</a>.</span>
+							<span class="mdl-checkbox__label f-s-14">Would you like to receive additional information on SAP products and services along with information related to this inquiry? By checking this box, you agree that your contact details will be used by SAP Marketing in accordance with the <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Consent_Statement_Jan_18.pdf" target="_blank" target="_blank">SAP Marketing Consent Statement</a>.</span>
 						</label>
 						<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect js-label" for="checkbox-2">
 							<input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
@@ -920,8 +917,8 @@
 						</label>
 					</div>
 					<div class="mdl-card__actions">
-						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="acceptPoliticas()">Aceptar</button>
-						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="closePoliticas()">Cerrar</button>
+						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button--default" onclick="closePoliticas()">Cerrar</button>
+						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="acceptPoliticas()">Aceptar</button>
 					</div>
                 </div>
             </div>
