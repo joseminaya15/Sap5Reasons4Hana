@@ -148,31 +148,31 @@ class Es extends CI_Controller {
                                     <table align="center" style="padding: 20px;" cellspacing="0" cellpadding="0" border="0">
                                       <tbody>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Industria:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;"><strong>Industria:</strong></font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$industria.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Cliente:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;"><strong>Cliente:</strong></font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$nombre_completo.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Cargo:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;"><strong>Cargo:</strong></font></td>
                                           <td style="text-align: left;"><font  style="margin: 3px 0;font-family: arial;">'.$cargo.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Empresa:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;"><strong>Empresa:</strong></font></td>
                                           <td style="text-align: left;"><font style="font-family: arial;">'.$empresa.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Teléfono:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;"><strong>Teléfono:</strong></font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$telefono.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Email:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;"><strong>Email:</strong></font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$email.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Relación con SAP:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;"><strong>Relación con SAP:</strong></font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$relacion.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
@@ -180,7 +180,7 @@ class Es extends CI_Controller {
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$pais.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Quiero que me contacten:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;"><strong>Quiero que me contacten:</strong></font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$contact.'</font></td>
                                         </tr>
                                       </tbody>
