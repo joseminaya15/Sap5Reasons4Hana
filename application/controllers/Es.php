@@ -180,7 +180,7 @@ class Es extends CI_Controller {
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$pais.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;"><strong>Quiero que me contacten:</strong></font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;"><strong>Forma de contacto:</strong></font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$contact.'</font></td>
                                         </tr>
                                       </tbody>
