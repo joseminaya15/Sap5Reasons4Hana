@@ -115,7 +115,7 @@ class Pt extends CI_Controller {
                                         <tbody>
                                           <tr style="text-align: left;">
                                             <th style="text-align: left;"><img width="85" height="53" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
-                                            <h2 style="color: #FFFFFF;">SAP S/4HANA</h2>
+                                            <h2 style="color: #FFFFFF;">SAP S/4HANA – 5 PRINCIPAIS RAZÕES</h2>
                                           </tr>
                                         </tbody>
                                       </table>
@@ -171,7 +171,7 @@ class Pt extends CI_Controller {
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$email.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Relacionamento com SAP:</font></td>
+                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Relacionamento com a SAP:</font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$relacion.'</font></td>
                                         </tr>
                                         <tr style="padding: 0 20px;">
@@ -248,7 +248,7 @@ class Pt extends CI_Controller {
                                                 <tbody>
                                                   <tr style="text-align: left;">
                                                     <th style="text-align: left;"><img width="85" height="53" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
-                                                    <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">SAP S/4HANA - TOP 5 REASONS</font></th>   
+                                                    <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">SAP S/4HANA – 5 PRINCIPAIS RAZÕES</font></th>   
                                                   </tr>
                                                 </tbody>
                                               </table>

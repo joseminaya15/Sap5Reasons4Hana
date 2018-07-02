@@ -54,8 +54,8 @@
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>
 						<div class="mdl-letras inline">
-							<p>razões principais</p>
-							<h2>para escolher o SAP S/4HANA</h2>
+							<p>principais razões para </p>
+							<h2>escolher o SAP S/4HANA</h2>
 						</div>
 						<div class="subrayado-title">
 							<div class="subrayado one"></div>
@@ -732,8 +732,8 @@
 					<div class="mdl-title inline">
 						<strong class="inline">5</strong>
 						<div class="mdl-letras inline">
-							<p>razões principais</p>
-							<h2>para escolher o SAP S/4 HANA</h2>
+							<p>principais razões para</p>
+							<h2>escolher o SAP S/4HANA</h2>
 						</div>	
 						<div class="subrayado-title">
 							<div class="subrayado one"></div>
@@ -849,7 +849,7 @@
 						<div class="subrayado four"></div>
 					</div>
 					<!-- <small>Conheça o Caso de Sucesso de uma empresa de nossa região no setor de <strong class="nameIndustria"></strong>. Realizar o <a id="donwloadCaso" href="#" onclick="returnCaso()">download.</a></small> -->
-					<small>Conheça o Caso de Sucesso de <strong class="nameCompany"></strong> no setor <strong class="nameIndustria"></strong>. Baixa <a id="donwloadCaso" href="#" onclick="returnCaso()">aqu&iacute;</a></small>
+					<small>Conheça o Caso de Sucesso de uma empresa <strong class="nameCompany"></strong> no setor de <strong class="nameIndustria"></strong>. Faça o download <a id="donwloadCaso" href="#" onclick="returnCaso()">aqu&iacute;</a></small>
 				</div>
 			</div>
 		</div>
@@ -917,8 +917,8 @@
 						</label>
 					</div>
 					<div class="mdl-card__actions">
-						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button--default" onclick="closePoliticas()">Cerrar</button>
-						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="acceptPoliticas()">Aceptar</button>
+						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button--default" onclick="closePoliticas()">Fechar</button>
+						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="acceptPoliticas()">Aceitar</button>
 					</div>
                 </div>
             </div>
