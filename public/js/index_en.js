@@ -285,10 +285,20 @@ function openIndustria(id){
 }
 function returnCaso(){
 	var nameCaso = casoIndustria;
-	var linkCaso = $('#donwloadCaso');
-	linkCaso.attr({
-		href: 'http://www.sap-latam.com/5reasons_hana/public/casos/en/'+nameCaso+'.zip'
-	});
+	if(nameCaso == 'Professional Services')
+		$('#donwloadCaso').attr('href','');
+	else if(nameCaso == 'Retail')
+		$('#donwloadCaso').attr('href','');
+	else if(nameCaso == 'Consumer Products')
+		$('#donwloadCaso').attr('href','');
+	else if(nameCaso == 'Process and Manufacturing')
+		$('#donwloadCaso').attr('href','');
+	else if(nameCaso == 'Distribution')
+		$('#donwloadCaso').attr('href','');
+	else if(nameCaso == 'High Technology')
+		$('#donwloadCaso').attr('href','');
+	else
+		$('#donwloadCaso').attr('href','');
 	setTimeout(function(){ 
 		location.reload();
 	}, 4000);

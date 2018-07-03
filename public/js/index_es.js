@@ -285,10 +285,36 @@ function openIndustria(id){
 }
 function returnCaso(){
 	var nameCaso = casoIndustria;
-	var linkCaso = $('#donwloadCaso');
-	linkCaso.attr({
-		href: 'http://www.sap-latam.com/5reasons_hana/public/casos/es/'+nameCaso+'.zip'
-	});
+	if(nameCaso == 'Servicios Profesionales'){
+		$('#donwloadCaso').attr({
+			href: 'https://www.sap.com/latinamerica/assetdetail/2018/06/8a0ddb6d-0b7d-0010-87a3-c30de2ffd8ff.html',
+			target: '_blank'
+		});
+	}
+	else if(nameCaso == 'Retail'){
+		$('#donwloadCaso').attr('href','');
+	}
+	else if(nameCaso == 'Productos de Consumo'){
+		$('#donwloadCaso').attr('href','');
+	}
+	else if(nameCaso == 'Proceso y Manufactura'){
+		$('#donwloadCaso').attr('href','');
+	}
+	else if(nameCaso == 'Distribución'){
+		$('#donwloadCaso').attr({
+			href: 'https://www.sap.com/latinamerica/documents/2017/07/20c02a34-c67c-0010-82c7-eda71af511fa.html',
+			target: '_blank'
+		});
+	}
+	else if(nameCaso == 'Alta Tecnología'){
+		$('#donwloadCaso').attr({
+			href: 'https://www.sap.com/latinamerica/documents/2018/06/46be4da7-0b7d-0010-87a3-c30de2ffd8ff.html',
+			target: '_blank'
+		});
+	}
+	else{
+		$('#donwloadCaso').attr('href','');
+	}
 	setTimeout(function(){ 
 		location.reload();
 	}, 4000);

@@ -284,10 +284,26 @@ function openIndustria(id){
 }
 function returnCaso(){
 	var nameCaso = casoIndustria;
-	var linkCaso = $('#donwloadCaso');
-	linkCaso.attr({
-		href: 'http://www.sap-latam.com/5reasons_hana/public/casos/pt/'+nameCaso+'.zip'
-	});
+	if(nameCaso == 'Serviços Profissionais')
+		$('#donwloadCaso').attr('href','');
+	else if(nameCaso == 'Varejo')
+		$('#donwloadCaso').attr('href','');
+	else if(nameCaso == 'Bens de Consumo')
+		$('#donwloadCaso').attr('href','');
+	else if(nameCaso == 'Processo e Manufatura')
+		$('#donwloadCaso').attr('href','');
+	else if(nameCaso == 'Distribuição Atacadista')
+		$('#donwloadCaso').attr({
+			href: 'https://www.sap.com/latinamerica/documents/2018/06/983ceb44-0a7d-0010-87a3-c30de2ffd8ff.html',
+			target: '_blank'
+		});
+	else if(nameCaso == 'Alta tecnologia')
+		$('#donwloadCaso').attr({
+			href: 'https://www.sap.com/brazil/documents/2018/06/1c2c17d1-0b7d-0010-87a3-c30de2ffd8ff.html',
+			target: '_blank'
+		});
+	else
+		$('#donwloadCaso').attr('href','');
 	setTimeout(function(){ 
 		location.reload();
 	}, 4000);
