@@ -100,22 +100,22 @@ class Pt extends CI_Controller {
             $this->email->initialize($configGmail);
             $this->email->from('info@sap-latam.com');
             $this->email->to('jhonatanibericom@gmail.com');
-            $this->email->subject('Estou interessado no SAP 5 Razões 4 Hana para o minha empresa.');
+            $this->email->subject('Estou interessado no SAP S/4HANA');
             $texto = '<!DOCTYPE html>
                       <html>
                       <body style="font-family: "Open Sans",Arial,Helvetica,sans-serif;">
-                        <table align="center" cellspacing="0" cellpadding="0" border="0" style="max-width: 500px; width: 100%; margin: auto;border: 1px solid #757575;">
+                        <table align="center" width="600px" cellspacing="0" cellpadding="0" border="0" style="margin: auto;border: 1px solid #757575;">
                           <tr>
-                            <th>
-                              <table cellspacing="0" cellpadding="0" border="0" style="background-color: #000000;">
+                            <td>
+                              <table align="center" width="600px" cellspacing="0" cellpadding="0" border="0" style="background-color: #000000;">
                                 <tbody>
                                   <tr>
-                                    <th style="width: 425px;text-align: left;padding-left: 20px;">
+                                    <th style="width: 525px;text-align: left;padding-left: 20px;">
                                       <table cellspacing="0" cellpadding="0" border="0">
                                         <tbody>
                                           <tr style="text-align: left;">
                                             <th style="text-align: left;"><img width="85" height="53" src="http://www.sap-latam.com/5reasons_hana/public/img/logo/logo_favicon.png"></th>
-                                            <h2 style="color: #FFFFFF;">SAP S/4HANA – 5 PRINCIPAIS RAZÕES</h2>
+                                            <th><font style="color: #FFFFFF;font-family: arial;font-size:18px">SAP S/4HANA – 5 PRINCIPAIS RAZÕES</font></th> 
                                           </tr>
                                         </tbody>
                                       </table>
@@ -134,7 +134,7 @@ class Pt extends CI_Controller {
                                   </tr>
                                 </tbody>
                               </table>
-                            </th>
+                            </td>
                           </tr>
                           <tr>
                             <td>
@@ -229,7 +229,7 @@ class Pt extends CI_Controller {
        $this->email->initialize($configGmail);
        $this->email->from('info@sap-latam.com');
        $this->email->to($email);
-       $this->email->subject('Obrigado por seu interesse em SAP 5 Motivos S/4 Hana.');
+       $this->email->subject('Agradecemos o seu interesse no SAP S/4HANA');
         $texto = '<!DOCTYPE html>
                     <html>
                       <body>
