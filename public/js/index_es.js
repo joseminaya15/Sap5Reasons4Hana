@@ -292,13 +292,22 @@ function returnCaso(){
 		});
 	}
 	else if(nameCaso == 'Retail'){
-		$('#donwloadCaso').attr('href','');
+		$('#donwloadCaso').attr({
+			href : 'https://www.sap.com/latinamerica/documents/2018/07/7aef3a11-0e7d-0010-87a3-c30de2ffd8ff.html',
+			target: '_blank'
+		});
 	}
 	else if(nameCaso == 'Productos de Consumo'){
-		$('#donwloadCaso').attr('href','');
+		$('#donwloadCaso').attr({
+			href : 'https://www.sap.com/latinamerica/documents/2018/07/263c7893-0f7d-0010-87a3-c30de2ffd8ff.html',
+			target: '_blank'
+		});
 	}
 	else if(nameCaso == 'Proceso y Manufactura'){
-		$('#donwloadCaso').attr('href','');
+		$('#donwloadCaso').attr({
+			href : 'https://www.sap.com/latinamerica/documents/2018/02/6e123aa9-f17c-0010-82c7-eda71af511fa.html',
+			target: '_blank'
+		});
 	}
 	else if(nameCaso == 'Distribución'){
 		$('#donwloadCaso').attr({
