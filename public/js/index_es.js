@@ -322,7 +322,10 @@ function returnCaso(){
 		});
 	}
 	else{
-		$('#donwloadCaso').attr('href','');
+		$('#donwloadCaso').attr({
+			href : 'https://www.sap.com/latinamerica/assetdetail/2018/07/442887e8-0f7d-0010-87a3-c30de2ffd8ff.html',
+			target: '_blank'
+		});
 	}
 	setTimeout(function(){ 
 		location.reload();
