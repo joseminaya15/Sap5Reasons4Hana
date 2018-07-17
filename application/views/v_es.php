@@ -961,9 +961,9 @@
             $('select').selectpicker();
         }
         var URLactual = window.location;
-        if(URLactual['href'] != 'http://www.sap-latam.com/5reasons_hana/es'){
-            location.href = 'http://www.sap-latam.com/5reasons_hana/es';
-        }
+        // if(URLactual['href'] != 'http://www.sap-latam.com/5reasons_hana/es'){
+        //     location.href = 'http://www.sap-latam.com/5reasons_hana/es';
+        // }
         $(window).load(function(){
         	if(<?php echo $pantalla ?> == 5) {
         		var formulario = $('#formulario');

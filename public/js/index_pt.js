@@ -155,7 +155,8 @@ function solicitarEstimacion(){
 				telefono 		: telefono,
 				relacion 		: relacion,
 				contacto 		: contacto,
-				term_cond       : term_cond},
+				term_cond       : term_cond,
+				checks          : checks},
 		url  : 'pt/solicitarEstimacion',
 		type : 'POST'
 	}).done(function(data){
@@ -284,26 +285,53 @@ function openIndustria(id){
 }
 function returnCaso(){
 	var nameCaso = casoIndustria;
-	if(nameCaso == 'Serviços Profissionais')
-		$('#donwloadCaso').attr('href','');
-	else if(nameCaso == 'Varejo')
-		$('#donwloadCaso').attr('href','');
-	else if(nameCaso == 'Bens de Consumo')
-		$('#donwloadCaso').attr('href','');
-	else if(nameCaso == 'Processo e Manufatura')
-		$('#donwloadCaso').attr('href','');
-	else if(nameCaso == 'Distribuição Atacadista')
+	if(nameCaso == 'Serviços Profissionais'){
+		$('#donwloadCaso').attr({
+			href : 'https://www.sap.com/brazil/assetdetail/2017/12/c60e6472-e67c-0010-82c7-eda71af511fa.html',
+			target: '_blank'
+		});
+	}
+	else if(nameCaso == 'Varejo'){
+		$('#donwloadCaso').attr({
+			href : 'https://www.sap.com/brazil/documents/2018/07/ec4a3b11-0e7d-0010-87a3-c30de2ffd8ff.html',
+			target:'_blank'
+		});
+	}
+	else if(nameCaso == 'Bens de Consumo'){
+		$('#donwloadCaso').attr({
+			href : 'https://www.sap.com/brazil/documents/2018/07/fa9f7793-0f7d-0010-87a3-c30de2ffd8ff.html',
+			target:'_blank'
+		});
+	}
+	else if(nameCaso == 'Processo e Manufatura'){
+		$('#donwloadCaso').attr({
+			href : 'https://www.sap.com/brazil/documents/2018/07/da3f2de0-0f7d-0010-87a3-c30de2ffd8ff.html',
+			target:'_blank'
+		});
+	}
+	else if(nameCaso == 'Distribuição Atacadista'){
 		$('#donwloadCaso').attr({
 			href: 'https://www.sap.com/latinamerica/documents/2018/06/983ceb44-0a7d-0010-87a3-c30de2ffd8ff.html',
 			target: '_blank'
 		});
-	else if(nameCaso == 'Alta tecnologia')
+	}
+	else if(nameCaso == 'Alta tecnologia'){
 		$('#donwloadCaso').attr({
 			href: 'https://www.sap.com/brazil/documents/2018/06/1c2c17d1-0b7d-0010-87a3-c30de2ffd8ff.html',
 			target: '_blank'
 		});
-	else
-		$('#donwloadCaso').attr('href','');
+	}
+	else if(nameCaso == 'Serviços Financeiros'){
+		$('#donwloadCaso').attr({
+			href: 'https://www.sap.com/brazil/assetdetail/2018/07/22c744a8-107d-0010-87a3-c30de2ffd8ff.html',
+			target: '_blank'
+		});
+	} else {
+		$('#donwloadCaso').attr({
+			href: 'https://www.sap.com/brazil/documents/2018/06/869a6979-0b7d-0010-87a3-c30de2ffd8ff.html',
+			target: '_blank'
+		});
+	}
 	setTimeout(function(){ 
 		location.reload();
 	}, 4000);
