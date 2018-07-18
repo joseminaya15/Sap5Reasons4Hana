@@ -89,16 +89,14 @@ class En extends CI_Controller {
             }
             $industria = $this->session->userdata('industria');
             $this->load->library('email');
-            $configGmail = array(
-                                  'protocol'  => 'smtp',
-                                  'smtp_host' => 'smtpout.secureserver.net',
-                                  'smtp_port' => 3535,
-                                  'smtp_user' => 'info@marketinghpe.com',
-                                  'smtp_pass' => 'hpEmSac$18',
-                                  'mailtype'  => 'html',
-                                  'charset'   => 'utf-8',
-                                  'newline'   => "\r\n"
-                                );    
+            $configGmail = array('protocol'  => 'smtp',
+                                 'smtp_host' => 'smtpout.secureserver.net',
+                                 'smtp_port' => 3535,
+                                 'smtp_user' => 'info@marketinghpe.com',
+                                 'smtp_pass' => 'hpEmSac$18',
+                                 'mailtype'  => 'html',
+                                 'charset'   => 'utf-8',
+                                 'newline'   => "\r\n");    
             $this->email->initialize($configGmail);
             $this->email->from('info@sap-latam.com');
             $this->email->to('jhonatanibericom@gmail.com');
@@ -219,16 +217,14 @@ class En extends CI_Controller {
           $contact = 'por Email';
         }
         $industria = $this->session->userdata('industria');
-       $configGmail = array(
-                            'protocol'  => 'smtp',
+       $configGmail = array('protocol'  => 'smtp',
                             'smtp_host' => 'smtpout.secureserver.net',
                             'smtp_port' => 3535,
-                            'smtp_user' => 'info@sap-latam.com',
+                            'smtp_user' => 'info@marketinghpe.com',
                             'smtp_pass' => 'hpEmSac$18',
                             'mailtype'  => 'html',
                             'charset'   => 'utf-8',
-                            'newline'   => "\r\n"
-                          );
+                            'newline'   => "\r\n");
        $this->email->initialize($configGmail);
        $this->email->from('info@sap-latam.com');
        $this->email->to($email);
