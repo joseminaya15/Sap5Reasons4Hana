@@ -850,7 +850,7 @@
                                     </label>
                                     <span onclick="openModal()">He le&iacute;do y acepto los</span>
                                 </div>
-                                <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_eng.pdf" target="_blank">Términos y condiciones de SAP</a>
+                                <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_Es.pdf" target="_blank">Términos y condiciones de SAP</a>
                             </div>
 		    				<div class="col-xs-12 text-right m-t-25">
 								<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-confirmar" onclick="solicitarEstimacion();">Enviar informaci&oacute;n</button>

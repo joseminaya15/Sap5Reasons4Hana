@@ -829,7 +829,7 @@
                                     </label>
                                     <span onclick="openModal()">I have read and accept the</span>
                                 </div>
-                                <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_eng.pdf" target="_blank">SAP Terms and Conditions</a>
+                                <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_En.pdf" target="_blank">SAP Terms and Conditions</a>
                             </div>
 		    				<div class="col-xs-12 text-right m-t-25">
 								<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-confirmar" onclick="solicitarEstimacion();">Send information</button>
