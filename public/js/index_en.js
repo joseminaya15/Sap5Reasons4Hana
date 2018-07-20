@@ -371,8 +371,6 @@ function getDatos(datos,datosPdf){
 	});
 }
 function closePoliticas(){
-	$('#checkbox-1').prop('checked', false);
-	$('#checkbox-1').parent().removeClass('is-checked');
 	$('#ModalPoliticas').modal('hide');
 }
 var checks = '';
@@ -404,4 +402,14 @@ function acceptPoliticas(){
 }
 $('#checkbox-1').change(function(){
 	$('#ModalPoliticas').modal('show');
+})
+$('#checkbox-3').change(function(){
+	var share   = $('#checkbox-3').is(':checked');
+	if(share == true){
+		$('.js-modal').find('.mdl-card__supporting-text').find('p').css('display','block');
+		$('.js-modal').find('.js-contact-label').css('display','flex');
+	}else{
+		$('.js-modal').find('.mdl-card__supporting-text').find('p').css('display','none');
+		$('.js-modal').find('.js-contact-label').css('display','none');
+	}
 })
