@@ -986,6 +986,65 @@ button.button-left{
     font-size: 18px;
     vertical-align: middle;
 }
+.js-modal .mdl-card__title {
+  padding: 16px 16px 10px 16px;
+}
+.js-modal .mdl-card__title h2 {
+  margin: 5px 0;
+  font-size: 22px;
+  font-family: 'RobotoRegular';
+}
+.js-modal .mdl-card__supporting-text{
+    width: 100%;
+}
+.js-modal .mdl-card__supporting-text p {
+  color: #000;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+.js-modal .mdl-card__supporting-text .mdl-radio__outer-circle {
+  border-radius: 0;
+}
+.js-modal .mdl-card__supporting-text .mdl-checkbox {
+  height: 100%;
+}
+.js-modal .mdl-card__supporting-text .mdl-radio__label {
+  font-weight: 100;
+  font-size: 14px;
+  color: #000;
+}
+.js-modal .mdl-card__actions .js-button {
+  background-color: #008fd3;
+  color: #fff;
+}
+.js-modal .mdl-card__actions .js-default {
+  background-color: transparent;
+  box-shadow: none;
+}
+.js-contact-label {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.js-contact-label .js-input-label {
+  width: 100%;
+  max-width: 120px;
+}
+.js-checkbox .mdl-checkbox {
+  max-width: 250px;
+}
+.js-checkbox .mdl-checkbox__label {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 100;
+}
+.js-checkbox .mdl-checkbox__box-outline {
+  border: 2px solid #fff;
+}
+.mdl-formulario .js-checkbox {
+  padding: 8px 5px;
+}
 /*BARRA SCROLL*/
 ::-webkit-scrollbar {
     width: 4px;
