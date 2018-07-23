@@ -59,6 +59,7 @@
                                 <th class="text-left">Consent Statement</th>
                                 <th class="text-left">Country</th>
                                 <th class="text-center">Industry</th>
+                                <th class="text-left">Application date</th>
                             </tr>
                         </thead>
                       <tbody>

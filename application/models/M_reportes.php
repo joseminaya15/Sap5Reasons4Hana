@@ -6,7 +6,8 @@ class M_reportes extends  CI_Model{
     }
 
     function getDatosTabla(){
-        $sql = "SELECT u.*
+        $sql = "SELECT u.*,
+                      COALESCE(DATE_FORMAT(u.fecha_sol, '%d/%m/%Y %H:%i %p'), '-') AS fecha_sol
                 FROM usuario u
                WHERE id_lenguaje = 1;";
         $result = $this->db->query($sql, array());

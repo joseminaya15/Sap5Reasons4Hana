@@ -25,11 +25,17 @@ class Admin extends CI_Controller {
         $datos = $this->M_reportes->getDatosTabla();
 		$html  = '';
 		$cont  = 1;
+        $fecha = '';
         if(count($datos) == 0) {
             $html = '';
             return $html;
         }else {
             foreach ($datos as $key){
+                if($key->fecha_sol == '-'){
+                    $fecha = '';
+                }else {
+                    $fecha = 'pe';
+                }
                 $contactado = null;
                 if($key->Contactado == 1){
                     $contactado = 'Por Email';
@@ -49,6 +55,7 @@ class Admin extends CI_Controller {
                             <td class="text-left">'.$key->checks.'</td>
                             <td class="text-left">'.$key->Pais.'</td>
                             <td class="text-center">'.$key->industria.'</td>
+                            <td class="text-center">'.$key->fecha_sol.' '.$fecha.'</td>
                         </tr>';
                 $cont++;
             }
