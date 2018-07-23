@@ -50,6 +50,7 @@ class Pt extends CI_Controller {
                                      'Cargo'           => $cargo,
                                      'Telefono'        => $telefono,
                                      'Terminos'        => $terminos,
+                                     'fecha_sol'       => date('Y-m-d H:i:s'),
                                      'Relacion'        => $relacion,
                                      'Contactado'      => $contacto,
                                      'industria'       => $this->session->userdata('industria'),

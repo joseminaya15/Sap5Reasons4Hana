@@ -53,6 +53,7 @@ class Es extends CI_Controller {
                                'Terminos'        => $terminos,
                                'Relacion'        => $relacion,
                                'Contactado'      => $contacto,
+                               'fecha_sol'       => date('Y-m-d H:i:s'),
                                'industria'       => $this->session->userdata('industria'),
                                'id_lenguaje'     => 1,
                                'checks'          => $checks);
