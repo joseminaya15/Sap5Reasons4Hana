@@ -94,6 +94,7 @@
             $('#example').DataTable( {
                 searching : false,
                 dom: 'Bfrtip',
+                order: [[10, "desc"]],
                 language:{
                     "emptyTable": "No data found",
                     "info" : "Mostrando _END_ de _TOTAL_ resultados",
