@@ -1006,7 +1006,7 @@ button.button-left{
   border-radius: 0;
 }
 .js-modal .mdl-card__supporting-text .mdl-checkbox {
-  height: 100%;
+  height: initial;
 }
 .js-modal .mdl-card__supporting-text .mdl-radio__label {
   font-weight: 100;
