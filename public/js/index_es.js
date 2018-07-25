@@ -83,9 +83,9 @@ function solicitarEstimacion(){
 	var cargo 	 		= $('#cargo').val();
 	var telefono 		= $('#telefono').val();
 	var relacion		= $('#relacion').val();
-	/*var c_email    		= $('#c-email').is(':checked');
+	var c_email    		= $('#c-email').is(':checked');
 	var c_telefono    	= $('#c-telefono').is(':checked');
-	var c_ambos    		= $('#c-ambos').is(':checked');*/
+	var c_ambos    		= $('#c-ambos').is(':checked');
 	var terminos		= $('#checkbox-1').is(':checked');
 	var idioma 			= $('#Idioma').val();
 	var term_cond		= null;
@@ -125,13 +125,13 @@ function solicitarEstimacion(){
 		msj('error', 'Seleccione cuál es su relación con SAP');
 		return;
 	}
-	/*if(c_email == true){
+	if(c_email == true){
 		contacto = 1;
 	}else if(c_telefono == true){
 		contacto = 2;
 	}else if(c_ambos == true){
 		contacto = 3;
-	}*/
+	}
 	/*if(contacto == null || contacto == ''){
 		msj('error', 'Seleccione el medio por el que quiere ser contactado');
 		return;
