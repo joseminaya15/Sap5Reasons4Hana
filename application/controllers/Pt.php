@@ -41,7 +41,6 @@ class Pt extends CI_Controller {
             $telefono        = $this->input->post('telefono');
             $relacion        = $this->input->post('relacion');
             $terminos        = $this->input->post('term_cond');
-            $contacto        = $this->input->post('contacto');
             $checks          = $this->input->post('checks');
             $arrayInsert     = array('nombre_completo' => $nombre_completo,
                                      'Empresa'         => $empresa,
@@ -52,13 +51,12 @@ class Pt extends CI_Controller {
                                      'Terminos'        => $terminos,
                                      'fecha_sol'       => date('Y-m-d H:i:s'),
                                      'Relacion'        => $relacion,
-                                     'Contactado'      => $contacto,
                                      'industria'       => $this->session->userdata('industria'),
                                      'id_lenguaje'     => 3,
                                      'checks'          => $checks);
             $datoInsert = $this->M_solicitud->insertarDatos($arrayInsert, 'usuario');
-            $this->sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
-            $this->emailClienteSap($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto);
+            $this->sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion);
+            $this->emailClienteSap($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion);
             $this->session->unset_userdata('pantalla');
             $this->session->unset_userdata('nombre_linke');
             $this->session->unset_userdata('email_linke');
@@ -72,20 +70,10 @@ class Pt extends CI_Controller {
         }
         echo json_encode($data);
     }
-    function sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto){
+    function sendEmail($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion){
         $data['error'] = EXIT_ERROR;
         $data['msj']   = null;
         try {
-            if($contacto == null || $contacto == ''){
-              $contact = '';
-            }
-            if($contacto == 3){
-              $contact = 'por email y teléfono';
-            }else if($contacto == 2){
-              $contact = 'por teléfono'; 
-            }else if($contacto == 1){
-              $contact = 'por Email';
-            }
             $industria = $this->session->userdata('industria');
             $this->load->library('email');
             $configGmail = array('protocol'  => 'smtp',
@@ -177,10 +165,6 @@ class Pt extends CI_Controller {
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Pa&iacute;s:</font></td>
                                           <td style="text-align: left;"><font style="margin: 3px 0;font-family: "Open Sans",Arial,Helvetica,sans-serif;">'.$pais.'</font></td>
                                         </tr>
-                                        <tr style="padding: 0 20px;">
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-size: 16px;font-family: arial;">Quero que entrem em contato comigo:</font></td>
-                                          <td style="text-align: left;"><font style="margin: 3px 0;font-family: arial;">'.$contact.'</font></td>
-                                        </tr>
                                       </tbody>
                                     </table>
                                   </tr>
@@ -199,22 +183,12 @@ class Pt extends CI_Controller {
         }
         return json_encode(array_map('utf8_encode', $data));
     }
-    function emailClienteSap($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion, $contacto){
+    function emailClienteSap($nombre_completo, $empresa, $email, $pais, $cargo, $telefono, $relacion){
       $data['error'] = EXIT_ERROR;
       $data['msj']   = null;
       try {  
        $this->load->library("email");
-       if($contacto == null || $contacto == ''){
-          $contact = '';
-        }
-       if($contacto == 3){
-          $contact = 'por email y teléfono';
-        }else if($contacto == 2){
-          $contact = 'por teléfono';
-        }else if($contacto == 1){
-          $contact = 'por Email';
-        }
-        $industria = $this->session->userdata('industria');
+       $industria = $this->session->userdata('industria');
        $configGmail = array('protocol'  => 'smtp',
                             'smtp_host' => 'smtpout.secureserver.net',
                             'smtp_port' => 3535,

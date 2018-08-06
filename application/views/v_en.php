@@ -804,8 +804,18 @@
 		    				<div class="col-sm-6 js-checkbox js-terminos">
                                 <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
                                     <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-                                    <span class="mdl-checkbox__label" style="">I have read and agree to the <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_En.pdf" target="_blank">SAP terms and conditions</a></span>
+                                    <span class="mdl-checkbox__label" style=""> <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_En.pdf" target="_blank">SAP terms and conditions</a></span>
                                 </label>
+                                <div class="col-sm-6 js-terminos">
+                                	<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect js-label" for="checkbox-3" id="label-check3">
+			                            <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
+			                            <span class="mdl-checkbox__label">Would you like to receive additional information on SAP products and services along with information related to this inquiry? ...By checking this box, you agree that your contact details will be used by SAP Marketing in accordance with the <a href="http://www.sap-latam.com/configurators/cloud/public/pdf/SAP_Consent_Statement_Jan_18.pdf" target="_blank">SAP Marketing Consent Statement</a>.</span>
+			                        </label>
+			                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect js-label" for="checkbox-2" id="label-check4">
+			                            <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+			                            <span class="mdl-checkbox__label">I agree that SAP may share the information I have provided hereunder with the SAP group in order that that they also may send additional marketing-related communications to me.</span>
+			                        </label>
+                                </div>
                             </div>
 		    				<div class="col-xs-12 text-right m-t-25">
 								<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-confirmar" onclick="solicitarEstimacion();">Send information</button>
@@ -875,7 +885,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="ModalPoliticas" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <!-- <div class="modal fade" id="ModalPoliticas" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="mdl-card js-modal">
@@ -920,7 +930,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 	<script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_JS?>jquery-1.11.2.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_PLUGINS?>bootstrap/js/bootstrap.min.js?v=<?php echo time();?>"></script>

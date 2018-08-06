@@ -804,8 +804,18 @@
 		    				<div class="col-sm-6 js-checkbox js-terminos">
                                 <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
                                     <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-                                    <span class="mdl-checkbox__label" style="">Li e aceito os <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_Pt.pdf" target="_blank">termos e condi&ccedil;&otilde;es da SAP</a></span>
+                                    <span class="mdl-checkbox__label" style=""> <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_Pt.pdf" target="_blank">Termos e condi&ccedil;&otilde;es da SAP</a></span>
                                 </label>
+                            </div>
+                            <div class="col-sm-6 js-terminos">
+                            	<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect js-label" for="checkbox-3" id="label-check3">
+	                                <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
+	                                <span class="mdl-checkbox__label">Deseja receber informações adicionais sobre os produtos e serviços da SAP, juntamente com as informações relacionadas a essa consulta? Ao marcar essa caixa, você concorda que seus detalhes de contato serão usados pela SAP Brazil de acordo com a <a href="http://www.sap-latam.com/configurators/cloud/public/pdf/SAP_Consent_Statement_Jan_18.pdf" target="_blank">Declaração de Consentimento de Marketing da SAP.</a></span>
+	                            </label>
+	                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect js-label" for="checkbox-2" id="label-check4">
+	                                <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+	                                <span class="mdl-checkbox__label">Eu concordo com o compartilhamento das minhas informações com a SAP e outras áreas da SAP para que eu possa receber informações relacionadas a marketing.</span>
+	                            </label>
                             </div>
 		    				<div class="col-xs-12 text-right m-t-25">
 								<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-confirmar" onclick="solicitarEstimacion();">Enviar Informação</button>
