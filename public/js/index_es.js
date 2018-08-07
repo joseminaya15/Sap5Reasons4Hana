@@ -120,8 +120,9 @@ function solicitarEstimacion(){
 		return;
 	}
 	if(telefono == null || telefono == ''){
-		msj('error', 'Ingrese su teléfono');
-		return;
+		/*msj('error', 'Ingrese su teléfono');
+		return;*/
+		telefono = '-';
 	}
 	if(relacion == null || relacion == ''){
 		msj('error', 'Seleccione cuál es su relación con SAP');
@@ -144,10 +145,10 @@ function solicitarEstimacion(){
 	}else {
 		term_cond = 0;
 	}
-	if(terminos == false){
+	/*if(terminos == false){
 		msj('error', 'Acepte los términos y condiciones');
 		return;
-	}
+	}*/
 	if(check_2 == true){
 		checks = 'General Marketing';
 	}
