@@ -807,17 +807,19 @@
                                     <span class="mdl-checkbox__label" style=""> <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_Pt.pdf" target="_blank">Termos e condi&ccedil;&otilde;es da SAP</a></span>
                                 </label>
                             </div>
-                            <div class="col-sm-6 js-terminos">
+                            <div class="col-xs-12 js-checkbox js-terminos">
                             	<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect js-label" for="checkbox-3" id="label-check3">
 	                                <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
 	                                <span class="mdl-checkbox__label">Deseja receber informações adicionais sobre os produtos e serviços da SAP, juntamente com as informações relacionadas a essa consulta? Ao marcar essa caixa, você concorda que seus detalhes de contato serão usados pela SAP Brazil de acordo com a <a href="http://www.sap-latam.com/configurators/cloud/public/pdf/SAP_Consent_Statement_Jan_18.pdf" target="_blank">Declaração de Consentimento de Marketing da SAP.</a></span>
 	                            </label>
+	                        </div>
+	                        <div class="col-xs-12 js-checkbox js-terminos">
 	                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect js-label" for="checkbox-2" id="label-check4">
 	                                <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
 	                                <span class="mdl-checkbox__label">Eu concordo que a SAP pode compartilhar as informações que forneci aqui com o <a href="https://www.sap.com/dam/site/corporate/legal/sap-legal-entities.pdf" target="_blank">Grupo SAP</a> para que elas também possam enviar comunicações adicionais relacionadas a marketing para mim.</span>
 	                            </label>
                             </div>
-		    				<div class="col-xs-12 text-right m-t-25">
+		    				<div class="col-xs-12 text-right m-t-10">
 								<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-confirmar" onclick="solicitarEstimacion();">Enviar Informação</button>
 		    				</div>
 		        		</form>
@@ -885,52 +887,52 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="ModalPoliticas" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
-            <div class="modal-dialog modal-sm">
-                <div class="modal-content">
-                    <div class="mdl-card js-modal">
-                        <div class="mdl-card__title">
-                            <h2>SAP Marketing Consent Statement</h2>
-                        </div>
-                        <div class="mdl-card__supporting-text p-t-0">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect js-label" for="checkbox-3" id="label-check3">
-                                <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input" checked>
-                                <span class="mdl-checkbox__label">Deseja receber informações adicionais sobre os produtos e serviços da SAP, juntamente com as informações relacionadas a essa consulta? Ao marcar essa caixa, você concorda que seus detalhes de contato serão usados pela SAP Brazil de acordo com a <a href="http://www.sap-latam.com/configurators/cloud/public/pdf/SAP_Consent_Statement_Jan_18.pdf" target="_blank">Declaração de Consentimento de Marketing da SAP.</a></span>
-                            </label>
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect js-label" for="checkbox-2" id="label-check4">
-                                <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input" checked>
-                                <span class="mdl-checkbox__label">Eu concordo com o compartilhamento das minhas informações com a SAP e outras áreas da SAP para que eu possa receber informações relacionadas a marketing.</span>
-                            </label>
-                            <p>Como você gostaria de receber essas comunicações&#63;</p>
-                            <div class="js-contact-label">
-                                <div class="js-input-label">
-                                    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c-email">
-                                        <input type="radio" id="c-email" class="mdl-radio__button" name="options" value="1">
-                                        <span class="mdl-radio__label">Por Email</span>
-                                    </label>
-                                </div>
-                                <div class="js-input-label">
-                                    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c-telefono">
-                                        <input type="radio" id="c-telefono" class="mdl-radio__button" name="options" value="2">
-                                        <span class="mdl-radio__label">Por Telefone</span>
-                                    </label>
-                                </div>
-                                <div class="js-input-label">
-                                    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c-ambos">
-                                        <input type="radio" id="c-ambos" class="mdl-radio__button" name="options" value="3" checked>
-                                        <span class="mdl-radio__label">Ambos</span>
-                                    </label>
-                                </div>
+   <!--  <div class="modal fade" id="ModalPoliticas" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="mdl-card js-modal">
+                    <div class="mdl-card__title">
+                        <h2>SAP Marketing Consent Statement</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text p-t-0">
+                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect js-label" for="checkbox-3" id="label-check3">
+                            <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input" checked>
+                            <span class="mdl-checkbox__label">Deseja receber informações adicionais sobre os produtos e serviços da SAP, juntamente com as informações relacionadas a essa consulta? Ao marcar essa caixa, você concorda que seus detalhes de contato serão usados pela SAP Brazil de acordo com a <a href="http://www.sap-latam.com/configurators/cloud/public/pdf/SAP_Consent_Statement_Jan_18.pdf" target="_blank">Declaração de Consentimento de Marketing da SAP.</a></span>
+                        </label>
+                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect js-label" for="checkbox-2" id="label-check4">
+                            <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input" checked>
+                            <span class="mdl-checkbox__label">Eu concordo com o compartilhamento das minhas informações com a SAP e outras áreas da SAP para que eu possa receber informações relacionadas a marketing.</span>
+                        </label>
+                        <p>Como você gostaria de receber essas comunicações&#63;</p>
+                        <div class="js-contact-label">
+                            <div class="js-input-label">
+                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c-email">
+                                    <input type="radio" id="c-email" class="mdl-radio__button" name="options" value="1">
+                                    <span class="mdl-radio__label">Por Email</span>
+                                </label>
+                            </div>
+                            <div class="js-input-label">
+                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c-telefono">
+                                    <input type="radio" id="c-telefono" class="mdl-radio__button" name="options" value="2">
+                                    <span class="mdl-radio__label">Por Telefone</span>
+                                </label>
+                            </div>
+                            <div class="js-input-label">
+                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c-ambos">
+                                    <input type="radio" id="c-ambos" class="mdl-radio__button" name="options" value="3" checked>
+                                    <span class="mdl-radio__label">Ambos</span>
+                                </label>
                             </div>
                         </div>
-                        <div class="mdl-card__actions text-right">
-                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-default" onclick="closePoliticas()">Fechar</button>
-                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="acceptPoliticas()">Aceitar</button>
-                        </div>
+                    </div>
+                    <div class="mdl-card__actions text-right">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-default" onclick="closePoliticas()">Fechar</button>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="acceptPoliticas()">Aceitar</button>
                     </div>
                 </div>
             </div>
         </div>
+    </div> -->
 	<script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_JS?>jquery-1.11.2.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_PLUGINS?>bootstrap/js/bootstrap.min.js?v=<?php echo time();?>"></script>

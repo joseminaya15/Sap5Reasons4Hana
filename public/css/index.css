@@ -895,8 +895,7 @@ button.button-left{
     margin: 5px 0;
 }
 .js-label{
-    height: 145px;
-    margin: 5px 0;
+    height: inherit;
 }
 .js-label span{
     font-family: 'RobotoBold';
@@ -906,7 +905,7 @@ button.button-left{
 }
 .js-label .mdl-checkbox__label{
     font-size: 14px;
-    color: #000000;
+    color: #FFFFFF;
     line-height: 18px;
     font-family: 'RobotoRegular';
     font-weight: 100;
@@ -1030,9 +1029,6 @@ button.button-left{
 .js-contact-label .js-input-label {
   width: 100%;
   max-width: 120px;
-}
-.js-checkbox .mdl-checkbox {
-  max-width: 250px;
 }
 .js-checkbox .mdl-checkbox__label {
   font-size: 15px;
