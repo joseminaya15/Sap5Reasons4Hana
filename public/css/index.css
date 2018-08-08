@@ -896,6 +896,7 @@ button.button-left{
 }
 .js-label{
     height: inherit;
+    line-height: 16px;
 }
 .js-label span{
     font-family: 'RobotoBold';
@@ -904,9 +905,9 @@ button.button-left{
     color: #008FD3 !important;
 }
 .js-label .mdl-checkbox__label{
-    font-size: 14px;
+    font-size: 13px !important;
     color: #FFFFFF;
-    line-height: 18px;
+    line-height: 16px !important;
     font-family: 'RobotoRegular';
     font-weight: 100;
 }
