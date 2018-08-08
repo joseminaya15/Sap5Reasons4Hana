@@ -120,9 +120,8 @@ function solicitarEstimacion(){
 		return;
 	}
 	if(telefono == null || telefono == ''){
-		/*msj('error', 'Enter your phone');
-		return;*/
-		telefono = '-';
+		msj('error', 'Enter your phone');
+		return;
 	}
 	if(relacion == null || relacion == ''){
 		msj('error', 'Enter your relationship with SAP');

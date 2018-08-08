@@ -802,7 +802,7 @@
 								</div>
 		    				</div>
 		    				<div class="col-sm-6 js-checkbox js-terminos">
-                                <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_En.pdf" target="_blank">SAP terms and conditions</a>
+                                <a href="http://www.sap-latam.com/5reasons_hana/public/pdf/SAP_Privacy_Statement_Top5_Reasons_En.pdf" target="_blank">See SAP terms and conditions</a>
                             </div>
                             <div class="col-xs-12 js-checkbox js-terminos">
                             	<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect js-label" for="checkbox-3" id="label-check3">
