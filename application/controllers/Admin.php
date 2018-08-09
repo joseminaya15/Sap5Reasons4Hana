@@ -36,6 +36,16 @@ class Admin extends CI_Controller {
                 }else {
                     $fecha = 'pe';
                 }
+                $contactado = null;
+                if($key->Contactado == 1){
+                    $contactado = 'Por Email';
+                }else if($key->Contactado == 2){
+                    $contactado = 'Por Teléfono';
+                }else if($key->Contactado == 3){
+                    $contactado = 'Por Email y teléfono';
+                } else {
+                    $contactado = '-';
+                }
                 $html .= '<tr class="tr-cursor-pointer tr-ver-info-solicitud" data-idSolicitud="'.$cont.'">
                             <td class="text-left">'.$key->nombre_completo.'</td>
                             <td class="text-left">'.$key->Empresa.'</td>
@@ -43,7 +53,8 @@ class Admin extends CI_Controller {
                             <td class="text-left">'.$key->Telefono.'</td>
                             <td class="text-left">'.$key->Relacion.'</td>
                             <td class="text-left">'.$key->Cargo.'</td>
-                            <td class="text-left">'.$key->checks.'</td>
+                            <td class="text-left">'.$contactado.'</td>
+                            <td class="text-left">'.(($key->checks == '') ? '-': $key->checks).'</td>
                             <td class="text-left">'.$key->Pais.'</td>
                             <td class="text-center">'.$key->industria.'</td>
                             <td class="text-center">'.$key->fecha_sol.' '.$fecha.'</td>
