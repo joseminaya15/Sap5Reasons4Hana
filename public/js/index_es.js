@@ -109,6 +109,7 @@ function solicitarEstimacion(){
 	}
 	if (!validateEmail(email)){
 		$('#email').css('border-color','red');
+		msj('error', 'Ingrese un correo valido');
 		return;
 	}
 	if(pais == null || pais == ''){
