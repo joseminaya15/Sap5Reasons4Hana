@@ -39,9 +39,9 @@
                 </div>
                 <div class="header-right admin">
                      <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect admin-logout m-r-25" onclick="cerrarCesion()">Logout</a>
-                    <div class="background1"></div>
+                    <!--<div class="background1"></div>
                     <div class="background2"></div>
-                    <div class="background3"></div>
+                    <div class="background3"></div>-->
                 </div>
             </div>
             <div class="mdl-card mdl-card-table contenido-admin">

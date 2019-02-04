@@ -42,9 +42,9 @@
 					</select>
 				</div>
 				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PW9PLW6"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-				<div class="background1"></div>
+				<!--<div class="background1"></div>
 				<div class="background2"></div>
-				<div class="background3"></div>
+				<div class="background3"></div>-->
 			</div>
 		</div>
 		<div class="chat">

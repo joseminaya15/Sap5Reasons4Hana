@@ -9,7 +9,7 @@ class M_reportes extends  CI_Model{
         $sql = "SELECT u.*,
                       COALESCE(DATE_FORMAT(u.fecha_sol, '%d/%m/%Y %H:%i %p'), '-') AS fecha_sol
                 FROM usuario u
-               WHERE id_lenguaje = 1;";
+                ORDER BY u.fecha_sol DESC;";
         $result = $this->db->query($sql, array());
         return $result->result();
     }

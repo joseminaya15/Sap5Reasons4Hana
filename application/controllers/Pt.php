@@ -111,9 +111,9 @@ class Pt extends CI_Controller {
                                       <table cellspacing="0" cellpadding="0" border="0">
                                         <tbody>
                                           <tr>
-                                            <td style="height: 100px;width: 25px;background-color: #54442E;"></td>
-                                            <td style="height: 100px;width: 25px;background-color: #8D6832;"></td>
-                                            <td style="height: 100px;width: 25px;background-color: #E29D2E;"></td>
+                                            <td style="height: 100px;width: 25px;background-color: #000000;"></td>
+                                            <td style="height: 100px;width: 25px;background-color: #000000;"></td>
+                                            <td style="height: 100px;width: 25px;background-color: #000000;"></td>
                                           </tr>
                                         </tbody>
                                       </table>
@@ -228,9 +228,9 @@ class Pt extends CI_Controller {
                                               <table cellspacing="0" cellpadding="0" border="0">
                                                 <tbody>
                                                   <tr>
-                                                    <td style="height: 100px;width: 25px;background-color: #54442E;"></td>
-                                                    <td style="height: 100px;width: 25px;background-color: #8D6832;"></td>
-                                                    <td style="height: 100px;width: 25px;background-color: #E29D2E;"></td>
+                                                    <td style="height: 100px;width: 25px;background-color: #000000;"></td>
+                                                    <td style="height: 100px;width: 25px;background-color: #000000;"></td>
+                                                    <td style="height: 100px;width: 25px;background-color: #000000;"></td>
                                                   </tr>
                                                 </tbody>
                                               </table>

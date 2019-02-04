@@ -88,7 +88,7 @@ class Es extends CI_Controller {
                                  'newline'   => "\r\n");
             $this->email->initialize($configGmail);
             $this->email->from('info@sap-latam.com');
-            $this->email->to('jhonatanibericom@gmail.com');//Giovanna.bergamo@sap.com,anali.vidal@sap.com,alejandra.hamelink@sap.com
+            $this->email->to('pyf136@gmail.com');//Giovanna.bergamo@sap.com,anali.vidal@sap.com,alejandra.hamelink@sap.com
             $this->email->subject('Estoy interesado en SAP 5 Reasons S/4 Hana');
             //CONSTRUIMOS EL HTML
             $texto = '<!DOCTYPE html>
@@ -114,9 +114,9 @@ class Es extends CI_Controller {
                                       <table cellspacing="0" cellpadding="0" border="0">
                                         <tbody>
                                           <tr>
-                                            <td style="height: 100px;width: 25px;background-color: #54442E;"></td>
-                                            <td style="height: 100px;width: 25px;background-color: #8D6832;"></td>
-                                            <td style="height: 100px;width: 25px;background-color: #E29D2E;"></td>
+                                            <td style="height: 100px;width: 25px;background-color: #000000;"></td>
+                                            <td style="height: 100px;width: 25px;background-color: #000000;"></td>
+                                            <td style="height: 100px;width: 25px;background-color: #000000;"></td>
                                           </tr>
                                         </tbody>
                                       </table>
@@ -232,9 +232,9 @@ class Es extends CI_Controller {
                                               <table cellspacing="0" cellpadding="0" border="0">
                                                 <tbody>
                                                   <tr>
-                                                    <td style="height: 100px;width: 25px;background-color: #54442E;"></td>
-                                                    <td style="height: 100px;width: 25px;background-color: #8D6832;"></td>
-                                                    <td style="height: 100px;width: 25px;background-color: #E29D2E;"></td>
+                                                    <td style="height: 100px;width: 25px;background-color: #000000;"></td>
+                                                    <td style="height: 100px;width: 25px;background-color: #000000;"></td>
+                                                    <td style="height: 100px;width: 25px;background-color: #000000;"></td>
                                                   </tr>
                                                 </tbody>
                                               </table>
