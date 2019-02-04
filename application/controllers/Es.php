@@ -47,7 +47,7 @@ class Es extends CI_Controller {
                                'Empresa'         => $empresa,
                                'Email'           => $email,
                                'Pais'            => $pais,
-                               'Cargo'           => $cargo,
+                               'Cargo'           => $cargo, 
                                'Telefono'        => $telefono,
                                'Terminos'        => $terminos,
                                'Relacion'        => $relacion,
