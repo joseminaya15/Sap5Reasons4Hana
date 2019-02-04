@@ -30,8 +30,8 @@ function ingresar(){
         	$('#usuario').val("");
         	$('#password').val("");
         }else {
-				$('#usuario').parent().addClass('is-invalid');
-				$('#password').parent().addClass('is-invalid');
+  				$('#usuario').parent().addClass('is-invalid');
+  				$('#password').parent().addClass('is-invalid');
         	return;
         }
       }catch(err){
