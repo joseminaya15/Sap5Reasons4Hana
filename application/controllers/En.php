@@ -88,7 +88,7 @@ class En extends CI_Controller {
                                  'newline'   => "\r\n");    
             $this->email->initialize($configGmail);
             $this->email->from('info@sap-latam.com');
-            $this->email->to('jhonatanibericom@gmail.com');
+            $this->email->to('jiberico@brainblue.com');
             $this->email->subject("I'm interested in SAP 5 Reasons 4 Hana");
             $texto = '<!DOCTYPE html>
                       <html>

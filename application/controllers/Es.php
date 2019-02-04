@@ -88,7 +88,7 @@ class Es extends CI_Controller {
                                  'newline'   => "\r\n");
             $this->email->initialize($configGmail);
             $this->email->from('info@sap-latam.com');
-            $this->email->to('pyf136@gmail.com');//Giovanna.bergamo@sap.com,anali.vidal@sap.com,alejandra.hamelink@sap.com
+            $this->email->to('jiberico@brainblue.com');//Giovanna.bergamo@sap.com,anali.vidal@sap.com,alejandra.hamelink@sap.com
             $this->email->subject('Estoy interesado en SAP 5 Reasons S/4 Hana');
             //CONSTRUIMOS EL HTML
             $texto = '<!DOCTYPE html>
