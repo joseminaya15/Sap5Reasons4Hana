@@ -366,10 +366,8 @@ function buttonBack(){
 }
 function getDatos(datos,datosPdf){
 	$.ajax({
-		data : {
-			datos    : datos,
-			datosPdf : datosPdf
-		},
+		data : { datos    : datos,
+				 datosPdf : datosPdf },
 		url  : 'es/getDatos',
 		type : 'POST'
 	}).done(function(data){
@@ -386,8 +384,8 @@ function closePoliticas(){
 }
 var checks = '';
 function acceptPoliticas(){
-	var check_2 = $('#checkbox-2').is(':checked');
-	var share   = $('#checkbox-3').is(':checked');
+	var check_2    = $('#checkbox-2').is(':checked');
+	var share      = $('#checkbox-3').is(':checked');
 	var c_email    = $('#c-email').is(':checked');
 	var c_telefono = $('#c-telefono').is(':checked');
 	var c_ambos    = $('#c-ambos').is(':checked');
