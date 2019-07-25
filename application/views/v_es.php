@@ -22,6 +22,9 @@
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>animate.css?v=<?php echo time();?>">
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
+	<script src="https://cdn.rawgit.com/oauth-io/oauth-js/c5af4519/dist/oauth.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css">
 	<!--Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PW9PLW6');</script><!--End Google Tag Manager -->
 	<!--Google Tag Manager  (noscript) --><!--End Google Tag Manager  (noscript) -->
@@ -774,9 +777,12 @@
 		        				<div class="content-separacion">
 		        					<p>o</p>
 		        				</div>
-		        				<div class="content-linkedin">
+		        					<!--<div class="content-linkedin">
 		        					<a class="button-linkedin" href="<?php  echo "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id={$client_id}&redirect_uri={$redirect_uri}&state={$csrf_token}&scope={$scopes}"; ?>"><i class="fa fa-linkedin" aria-hidden="true"></i>Con&eacute;ctese v&iacute;a LinkedIn</a>
-		        				</div>
+		        				</div>-->
+			        				<a id="linkedin-button" class="btn btn-block btn-social btn-linkedin">
+								      <i class="fa fa-linkedin"></i> Sign in with Linkedin
+								    </a>
 		        			</div>
 		    				<div class="col-sm-6">
 		    					<div class="mdl-input">
@@ -971,27 +977,77 @@
         //     location.href = 'http://www.sap-latam.com/5reasons_hana/es';
         // }
         $(window).load(function(){
-        	if(<?php echo $pantalla ?> == 5) {
-        		var formulario = $('#formulario');
-	        	var homePage   = $('#home');
-			    $('.opacity-done').removeClass('animated fadeInRight fadeOutLeft fadeInLeft fadeOutRight');
-			    homePage.css("display","none");
-				formulario.addClass('animated fadeInLeft');
-				$('#email').val("<?php echo $email_link ?>");
-				$('#nombre_completo').val("<?php echo $nombre_comple ?>");
-				if("<?php echo $comp ?>" == ''){
-					$('#empresa').css('border-color','red');
-				}
-				if("<?php echo $tit ?>" == ''){
-					$('#cargo').css('border-color','red');
-				}
-				$('#cargo').val("<?php echo $tit ?>");
-				$('#empresa').val("<?php echo $comp ?>");
-				$('#pais').val("<?php echo $pais_link ?>");
-				$('#telefono').css('border-color','red');
-				nameIndustria("<?php echo $idIndustria ?>");
-        	}
+
         });
+    </script>
+    <script>
+    	$('#linkedin-button').on('click', function() {
+		// Initialize with your OAuth.io app public key
+		OAuth.initialize('txp2rKYpuKZXaaYC5kB-m13KnVE');
+		  OAuth.popup('linkedin2').then(linkedin => {
+		    // Get your linkedin profile id:
+		    linkedin.me().then(data => {
+		      let id = data.id;
+		      console.log(data.name);
+		      $('#nombre_completo').val(data.name);
+		      $('#email').val(data.email);
+		      // Share a post
+		      linkedin.post({
+		      	url: "/v2/ugcPosts",
+		      	data: JSON.stringify({
+		    			"author": `urn:li:person:${id}`,
+		    			"lifecycleState": "PUBLISHED",
+		    			"specificContent": {
+		        		"com.linkedin.ugc.ShareContent": {
+		            	"shareCommentary": {
+		                "text": "This post is shared using OAuth.io!"
+		            	},
+		            	"shareMediaCategory": "NONE"
+		        		}
+		    			},
+		    			"visibility": {
+		        		"com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"
+		    		}
+		      }),
+		      headers: {
+		         "x-li-format": "json",
+		         "X-Restli-Protocol-Version": "2.0.0",
+		         "Content-Type": "application/json"
+		      }
+		    }).then(data => {
+		      console.log("success:", data);
+		      }).fail(err => { console.log("err:",err) });
+		  })
+		});
+		    
+		})
+     /* $('#linkedin-button').on('click', function() {
+        // Initialize with your OAuth.io app public key
+        OAuth.initialize('cFrZ72qI4FCS0TBAUll2WI76Ha8');
+        OAuth.popup('linkedin2').done(function(result) {
+		    console.log(result)
+		    // do some stuff with result
+		    result.me().done(function(data) {
+			    // do something with `data`, e.g. print data.name
+			    console.log(data);
+			})
+		})*/
+        // Use popup for oauth
+       /* OAuth.popup('linkedin2').then(linkedin => {
+          console.log('linkedin:',linkedin);
+          // Prompts 'welcome' message with User's email on successful login
+          // #me() is a convenient method to retrieve user data without requiring you
+          // to know which OAuth provider url to call
+          linkedin.me().then(data => {
+            console.log('me data:', data);
+            alert('Linkedin says your email is:' + data.email + ".\nView browser 'Console Log' for more details");
+          })
+          // Retrieves user data from OAuth provider by using #get() and
+          // OAuth provider url
+          linkedin.get('/v2/me').then(data => {
+            console.log('self data:', data);
+          })
+        });*/
     </script>
 </body>
 </html>
